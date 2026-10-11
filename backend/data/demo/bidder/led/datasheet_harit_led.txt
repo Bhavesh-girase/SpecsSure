@@ -1,0 +1,14 @@
+PRODUCT DATASHEET (FICTIONAL MANUFACTURER — SOFTWARE DEMO SAMPLE)
+Harit Lighting Udyog (Udyam-registered Micro Enterprise) — HL-9 Pro Self-Ballasted LED Lamp
+Conforming to: IS 16102 (Part 1):2026 and IS 16102 (Part 2):2017
+Cap: B22d   Rated voltage: 230 V AC, 50 Hz
+Made in India — local content 64 %
+
+TECHNICAL DATA
+| Parameter | Declared value | Test method |
+| Rated power | 9 W | IS 16106 |
+| Luminous efficacy | 110 lm/W | IS 16106 |
+| Power factor | 0.92 | IS 16106 |
+| Colour rendering index | 80 | IS 16106 |
+| Correlated colour temperature | 6500 K | IS 16106 |
+| BEE star rating | 5 star | BEE |

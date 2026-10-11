@@ -1,0 +1,1052 @@
+{
+  "_comment": "Canonical technical-parameter ontology used by the Tender Compiler. Synonyms are regex fragments (case-insensitive). 'unit' is the canonical unit every value is normalised to (pint syntax). 'test' links a parameter to the Indian Standard test method that measures it, the lab discipline, and the typical turnaround in days (curated engineering estimates, not official BIS data).",
+  "parameters": {
+    "yield_strength": {
+      "label": "Yield / 0.2% Proof Stress",
+      "category": "mechanical",
+      "unit": "MPa",
+      "synonyms": [
+        "0\\.2\\s?% proof stress",
+        "proof stress",
+        "yield stress",
+        "yield strength",
+        "\\bys\\b"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 1608 (Part 1)",
+        "name": "Tensile test (metallic materials)",
+        "discipline": "Mechanical",
+        "days": 3,
+        "group": "tensile"
+      }
+    },
+    "tensile_strength": {
+      "label": "Ultimate Tensile Strength",
+      "category": "mechanical",
+      "unit": "MPa",
+      "synonyms": [
+        "ultimate tensile strength",
+        "\\buts\\b",
+        "tensile strength"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 1608 (Part 1)",
+        "name": "Tensile test (metallic materials)",
+        "discipline": "Mechanical",
+        "days": 3,
+        "group": "tensile"
+      }
+    },
+    "ts_ys_ratio": {
+      "label": "Tensile / Yield Strength Ratio",
+      "category": "mechanical",
+      "unit": "dimensionless",
+      "synonyms": [
+        "ts\\s?/\\s?ys(?: ratio)?",
+        "tensile to yield(?: strength)? ratio",
+        "ratio of tensile strength to (?:0\\.2% proof|yield) stress"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 1608 (Part 1)",
+        "name": "Tensile test (metallic materials)",
+        "discipline": "Mechanical",
+        "days": 3,
+        "group": "tensile"
+      }
+    },
+    "elongation": {
+      "label": "Percentage Elongation",
+      "category": "mechanical",
+      "unit": "percent",
+      "synonyms": [
+        "percentage elongation",
+        "elongation(?! at maximum force)"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 1608 (Part 1)",
+        "name": "Tensile test (metallic materials)",
+        "discipline": "Mechanical",
+        "days": 3,
+        "group": "tensile"
+      }
+    },
+    "total_elongation_max_force": {
+      "label": "Total Elongation at Maximum Force (Agt)",
+      "category": "mechanical",
+      "unit": "percent",
+      "synonyms": [
+        "total elongation at maximum force",
+        "elongation at maximum force",
+        "\\bagt\\b"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 1608 (Part 1)",
+        "name": "Tensile test (metallic materials)",
+        "discipline": "Mechanical",
+        "days": 3,
+        "group": "tensile"
+      }
+    },
+    "carbon": {
+      "label": "Carbon Content",
+      "category": "chemical",
+      "unit": "percent",
+      "synonyms": [
+        "carbon content",
+        "carbon(?! equivalent)",
+        "\\bc content\\b"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 228",
+        "name": "Chemical analysis of steel",
+        "discipline": "Chemical",
+        "days": 4,
+        "group": "steel_chem"
+      }
+    },
+    "sulphur": {
+      "label": "Sulphur Content",
+      "category": "chemical",
+      "unit": "percent",
+      "synonyms": [
+        "sulphur(?! and phosphorus| \\+)",
+        "sulfur(?! and phosphorus| \\+)"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 228",
+        "name": "Chemical analysis of steel",
+        "discipline": "Chemical",
+        "days": 4,
+        "group": "steel_chem"
+      }
+    },
+    "phosphorus": {
+      "label": "Phosphorus Content",
+      "category": "chemical",
+      "unit": "percent",
+      "synonyms": [
+        "(?<!sulphur and )(?<!sulphur \\+ )phosphorus"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 228",
+        "name": "Chemical analysis of steel",
+        "discipline": "Chemical",
+        "days": 4,
+        "group": "steel_chem"
+      }
+    },
+    "sulphur_phosphorus": {
+      "label": "Sulphur + Phosphorus",
+      "category": "chemical",
+      "unit": "percent",
+      "synonyms": [
+        "sulphur\\s?(?:\\+|and)\\s?phosphorus",
+        "s\\s?\\+\\s?p"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 228",
+        "name": "Chemical analysis of steel",
+        "discipline": "Chemical",
+        "days": 4,
+        "group": "steel_chem"
+      }
+    },
+    "carbon_equivalent": {
+      "label": "Carbon Equivalent",
+      "category": "chemical",
+      "unit": "percent",
+      "synonyms": [
+        "carbon equivalent",
+        "\\bceq?\\b"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 228",
+        "name": "Chemical analysis of steel",
+        "discipline": "Chemical",
+        "days": 4,
+        "group": "steel_chem"
+      }
+    },
+    "nominal_diameter": {
+      "label": "Nominal Diameter",
+      "category": "physical",
+      "unit": "mm",
+      "needs_tolerance": true,
+      "enumerable": true,
+      "synonyms": [
+        "nominal diameters?",
+        "diameters?",
+        "\\bdia\\b"
+      ],
+      "domains": [
+        "steel",
+        "pipes",
+        "general"
+      ],
+      "test": {
+        "standard": "IS 1786",
+        "name": "Dimensional & mass check",
+        "discipline": "Mechanical",
+        "days": 1,
+        "group": "dimensional"
+      }
+    },
+    "mass_per_metre": {
+      "label": "Mass per Metre Run",
+      "category": "physical",
+      "unit": "kg/m",
+      "needs_tolerance": true,
+      "synonyms": [
+        "mass per met(?:re|er)(?: run)?",
+        "weight per met(?:re|er)"
+      ],
+      "domains": [
+        "steel"
+      ],
+      "test": {
+        "standard": "IS 1786",
+        "name": "Dimensional & mass check",
+        "discipline": "Mechanical",
+        "days": 1,
+        "group": "dimensional"
+      }
+    },
+    "compressive_strength_3d": {
+      "label": "Compressive Strength (3 days)",
+      "category": "mechanical",
+      "unit": "MPa",
+      "synonyms": [
+        "3[ -]days? compressive strength",
+        "compressive strength (?:at|after) 3 days"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 6)",
+        "name": "Compressive strength of cement mortar cubes",
+        "discipline": "Mechanical",
+        "days": 4,
+        "group": "cement_cube"
+      }
+    },
+    "compressive_strength_7d": {
+      "label": "Compressive Strength (7 days)",
+      "category": "mechanical",
+      "unit": "MPa",
+      "synonyms": [
+        "7[ -]days? compressive strength",
+        "compressive strength (?:at|after) 7 days"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 6)",
+        "name": "Compressive strength of cement mortar cubes",
+        "discipline": "Mechanical",
+        "days": 8,
+        "group": "cement_cube"
+      }
+    },
+    "compressive_strength_28d": {
+      "label": "Compressive Strength (28 days)",
+      "category": "mechanical",
+      "unit": "MPa",
+      "synonyms": [
+        "28[ -]days? compressive strength",
+        "compressive strength (?:at|after) 28 days",
+        "compressive strength"
+      ],
+      "domains": [
+        "cement",
+        "concrete"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 6)",
+        "name": "Compressive strength of cement mortar cubes",
+        "discipline": "Mechanical",
+        "days": 29,
+        "group": "cement_cube"
+      }
+    },
+    "fineness": {
+      "label": "Fineness (Blaine specific surface)",
+      "category": "physical",
+      "unit": "m**2/kg",
+      "synonyms": [
+        "fineness",
+        "specific surface(?: area)?",
+        "blaine"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 2)",
+        "name": "Fineness by Blaine air permeability",
+        "discipline": "Physical",
+        "days": 1,
+        "group": "cement_phys"
+      }
+    },
+    "initial_setting_time": {
+      "label": "Initial Setting Time",
+      "category": "physical",
+      "unit": "minute",
+      "synonyms": [
+        "initial setting time"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 5)",
+        "name": "Setting time (Vicat)",
+        "discipline": "Physical",
+        "days": 1,
+        "group": "cement_phys"
+      }
+    },
+    "final_setting_time": {
+      "label": "Final Setting Time",
+      "category": "physical",
+      "unit": "minute",
+      "synonyms": [
+        "final setting time"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 5)",
+        "name": "Setting time (Vicat)",
+        "discipline": "Physical",
+        "days": 1,
+        "group": "cement_phys"
+      }
+    },
+    "soundness_le_chatelier": {
+      "label": "Soundness (Le Chatelier expansion)",
+      "category": "physical",
+      "unit": "mm",
+      "synonyms": [
+        "le[- ]chatelier(?: expansion)?",
+        "soundness(?! by autoclave| \\(autoclave)"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 3)",
+        "name": "Soundness",
+        "discipline": "Physical",
+        "days": 2,
+        "group": "cement_phys"
+      }
+    },
+    "soundness_autoclave": {
+      "label": "Soundness (Autoclave expansion)",
+      "category": "physical",
+      "unit": "percent",
+      "synonyms": [
+        "autoclave(?: expansion)?",
+        "soundness by autoclave"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": {
+        "standard": "IS 4031 (Part 3)",
+        "name": "Soundness",
+        "discipline": "Physical",
+        "days": 2,
+        "group": "cement_phys"
+      }
+    },
+    "bag_mass": {
+      "label": "Bag Net Mass",
+      "category": "packaging",
+      "unit": "kg",
+      "synonyms": [
+        "bags? of",
+        "packed in",
+        "packaged in",
+        "net mass per bag",
+        "bag weight"
+      ],
+      "domains": [
+        "cement"
+      ],
+      "test": null
+    },
+    "voltage_grade": {
+      "label": "Voltage Grade",
+      "category": "electrical",
+      "unit": "V",
+      "synonyms": [
+        "voltage grade",
+        "rated voltage",
+        "working voltage",
+        "grade"
+      ],
+      "domains": [
+        "cables"
+      ],
+      "test": {
+        "standard": "IS 10810 (Part 45)",
+        "name": "High voltage test",
+        "discipline": "Electrical",
+        "days": 2,
+        "group": "cable_elec"
+      }
+    },
+    "conductor_area": {
+      "label": "Nominal Conductor Area",
+      "category": "physical",
+      "unit": "mm**2",
+      "enumerable": true,
+      "synonyms": [
+        "conductor (?:cross[- ]sectional )?area",
+        "cross[- ]section(?:al area)?",
+        "size"
+      ],
+      "domains": [
+        "cables"
+      ],
+      "test": {
+        "standard": "IS 10810 (Part 5)",
+        "name": "Conductor resistance test",
+        "discipline": "Electrical",
+        "days": 2,
+        "group": "cable_elec"
+      }
+    },
+    "conductor_resistance": {
+      "label": "Max Conductor Resistance at 20 °C",
+      "category": "electrical",
+      "unit": "ohm/km",
+      "synonyms": [
+        "conductor resistance"
+      ],
+      "domains": [
+        "cables"
+      ],
+      "test": {
+        "standard": "IS 10810 (Part 5)",
+        "name": "Conductor resistance test",
+        "discipline": "Electrical",
+        "days": 2,
+        "group": "cable_elec"
+      }
+    },
+    "insulation_thickness": {
+      "label": "Insulation Thickness",
+      "category": "physical",
+      "unit": "mm",
+      "needs_tolerance": true,
+      "synonyms": [
+        "insulation thickness",
+        "thickness of insulation"
+      ],
+      "domains": [
+        "cables"
+      ],
+      "test": {
+        "standard": "IS 10810 (Part 6)",
+        "name": "Thickness of insulation & sheath",
+        "discipline": "Physical",
+        "days": 1,
+        "group": "cable_phys"
+      }
+    },
+    "oxygen_index": {
+      "label": "Oxygen Index",
+      "category": "performance",
+      "unit": "percent",
+      "synonyms": [
+        "oxygen index"
+      ],
+      "domains": [
+        "cables"
+      ],
+      "test": {
+        "standard": "IS 10810 (Part 58)",
+        "name": "Oxygen index test",
+        "discipline": "Chemical",
+        "days": 3,
+        "group": "cable_fire"
+      }
+    },
+    "smoke_density": {
+      "label": "Smoke Density (light transmittance)",
+      "category": "performance",
+      "unit": "percent",
+      "synonyms": [
+        "smoke density"
+      ],
+      "domains": [
+        "cables"
+      ],
+      "test": {
+        "standard": "IS 10810 (Part 63)",
+        "name": "Smoke density test",
+        "discipline": "Chemical",
+        "days": 3,
+        "group": "cable_fire"
+      }
+    },
+    "ph": {
+      "label": "pH",
+      "category": "chemical",
+      "unit": "dimensionless",
+      "synonyms": [
+        "\\bph\\b"
+      ],
+      "domains": [
+        "water"
+      ],
+      "test": {
+        "standard": "IS 3025 (Part 11)",
+        "name": "pH value",
+        "discipline": "Chemical",
+        "days": 1,
+        "group": "water_chem"
+      }
+    },
+    "tds": {
+      "label": "Total Dissolved Solids",
+      "category": "chemical",
+      "unit": "mg/L",
+      "synonyms": [
+        "total dissolved solids",
+        "\\btds\\b"
+      ],
+      "domains": [
+        "water"
+      ],
+      "test": {
+        "standard": "IS 3025 (Part 16)",
+        "name": "Filterable residue (TDS)",
+        "discipline": "Chemical",
+        "days": 2,
+        "group": "water_chem"
+      }
+    },
+    "total_hardness": {
+      "label": "Total Hardness (as CaCO3)",
+      "category": "chemical",
+      "unit": "mg/L",
+      "synonyms": [
+        "total hardness"
+      ],
+      "domains": [
+        "water"
+      ],
+      "test": {
+        "standard": "IS 3025 (Part 21)",
+        "name": "Total hardness",
+        "discipline": "Chemical",
+        "days": 2,
+        "group": "water_chem"
+      }
+    },
+    "rated_power": {
+      "label": "Rated Power",
+      "category": "electrical",
+      "unit": "W",
+      "synonyms": [
+        "rated power",
+        "wattage",
+        "power rating",
+        "system power"
+      ],
+      "domains": [
+        "lighting"
+      ],
+      "test": {
+        "standard": "IS 16106",
+        "name": "Photometric & electrical measurement",
+        "discipline": "Electrical",
+        "days": 3,
+        "group": "led_photo"
+      }
+    },
+    "luminous_efficacy": {
+      "label": "Luminous Efficacy",
+      "category": "performance",
+      "unit": "lm/W",
+      "synonyms": [
+        "luminous efficacy",
+        "system efficacy",
+        "efficacy"
+      ],
+      "domains": [
+        "lighting"
+      ],
+      "test": {
+        "standard": "IS 16106",
+        "name": "Photometric & electrical measurement",
+        "discipline": "Electrical",
+        "days": 3,
+        "group": "led_photo"
+      }
+    },
+    "ip_rating": {
+      "label": "Ingress Protection (IP) code",
+      "category": "safety",
+      "unit": "dimensionless",
+      "synonyms": [
+        "\\bip\\s?rating",
+        "ingress protection",
+        "\\bip(?=\\s?\\d{2})"
+      ],
+      "domains": [
+        "lighting",
+        "electrical"
+      ],
+      "test": {
+        "standard": "IS/IEC 60529",
+        "name": "Ingress protection test",
+        "discipline": "Electrical",
+        "days": 3,
+        "group": "ip"
+      }
+    },
+    "power_factor": {
+      "label": "Power Factor",
+      "category": "electrical",
+      "unit": "dimensionless",
+      "synonyms": [
+        "power factor",
+        "\\bpf\\b"
+      ],
+      "domains": [
+        "lighting"
+      ],
+      "test": {
+        "standard": "IS 16106",
+        "name": "Photometric & electrical measurement",
+        "discipline": "Electrical",
+        "days": 3,
+        "group": "led_photo"
+      }
+    },
+    "surge_protection": {
+      "label": "Surge Protection",
+      "category": "safety",
+      "unit": "kV",
+      "synonyms": [
+        "surge protection",
+        "surge withstand"
+      ],
+      "domains": [
+        "lighting"
+      ],
+      "test": {
+        "standard": "IS 14700 (Part 4/Sec 5)",
+        "name": "Surge immunity test (EMC)",
+        "discipline": "Electrical",
+        "days": 2,
+        "group": "led_emc"
+      }
+    },
+    "mass_per_area": {
+      "label": "Mass per Unit Area",
+      "category": "physical",
+      "unit": "g/m**2",
+      "synonyms": [
+        "mass per unit area",
+        "\\bmass\\b(?= \\d)",
+        "gsm"
+      ],
+      "domains": [
+        "geotextile"
+      ],
+      "test": {
+        "standard": "IS 14716",
+        "name": "Mass per unit area of geotextiles",
+        "discipline": "Physical",
+        "days": 1,
+        "group": "geo"
+      }
+    },
+    "cbr_puncture": {
+      "label": "CBR Static Puncture Resistance",
+      "category": "mechanical",
+      "unit": "N",
+      "synonyms": [
+        "cbr (?:static )?puncture(?: resistance)?",
+        "puncture resistance"
+      ],
+      "domains": [
+        "geotextile"
+      ],
+      "test": {
+        "standard": "IS 16078",
+        "name": "CBR puncture test",
+        "discipline": "Mechanical",
+        "days": 2,
+        "group": "geo"
+      }
+    },
+    "delivery_period": {
+      "label": "Delivery Period",
+      "category": "delivery",
+      "unit": "day",
+      "synonyms": [
+        "delivery period",
+        "delivered(?= within| in )",
+        "delivery(?= (?:shall be )?(?:completed )?within)",
+        "supplied(?= within)"
+      ],
+      "domains": [
+        "general"
+      ],
+      "test": null
+    },
+    "warranty_period": {
+      "label": "Warranty Period",
+      "category": "warranty",
+      "unit": "month",
+      "synonyms": [
+        "warranty(?: period)?",
+        "guarantee(?: period)?",
+        "defect liability period"
+      ],
+      "domains": [
+        "general"
+      ],
+      "test": null
+    },
+    "thickness": {
+      "label": "Thickness",
+      "category": "physical",
+      "unit": "mm",
+      "needs_tolerance": true,
+      "synonyms": [
+        "thickness"
+      ],
+      "domains": [
+        "general"
+      ],
+      "test": {
+        "standard": "IS 3073",
+        "name": "Dimensional measurement",
+        "discipline": "Physical",
+        "days": 1,
+        "group": "dimensional"
+      }
+    },
+    "colour_rendering_index": {
+      "label": "Colour Rendering Index (Ra)",
+      "category": "performance",
+      "unit": "dimensionless",
+      "synonyms": [
+        "colou?r rendering index",
+        "\\bcri\\b"
+      ],
+      "domains": [
+        "lighting"
+      ],
+      "test": {
+        "standard": "IS 16106",
+        "name": "Photometric & colorimetric measurement",
+        "discipline": "Electrical",
+        "days": 3,
+        "group": "led_photo"
+      }
+    },
+    "cct": {
+      "label": "Correlated Colour Temperature",
+      "category": "performance",
+      "unit": "K",
+      "synonyms": [
+        "correlated colou?r temperature",
+        "\\bcct\\b",
+        "colou?r temperature"
+      ],
+      "domains": [
+        "lighting"
+      ],
+      "test": {
+        "standard": "IS 16106",
+        "name": "Photometric & colorimetric measurement",
+        "discipline": "Electrical",
+        "days": 3,
+        "group": "led_photo"
+      }
+    },
+    "sweep": {
+      "label": "Sweep",
+      "category": "physical",
+      "unit": "mm",
+      "synonyms": [
+        "sweep(?: size)?"
+      ],
+      "domains": [
+        "fans"
+      ],
+      "test": {
+        "standard": "IS 374",
+        "name": "Dimensional check",
+        "discipline": "Physical",
+        "days": 1,
+        "group": "fan_perf"
+      }
+    },
+    "air_delivery": {
+      "label": "Air Delivery",
+      "category": "performance",
+      "unit": "m**3/min",
+      "synonyms": [
+        "air delivery"
+      ],
+      "domains": [
+        "fans"
+      ],
+      "test": {
+        "standard": "IS 374",
+        "name": "Air delivery & service value test",
+        "discipline": "Electrical",
+        "days": 4,
+        "group": "fan_perf"
+      }
+    },
+    "service_value": {
+      "label": "Service Value",
+      "category": "performance",
+      "unit": "m**3/min/W",
+      "synonyms": [
+        "service value"
+      ],
+      "domains": [
+        "fans"
+      ],
+      "test": {
+        "standard": "IS 374",
+        "name": "Air delivery & service value test",
+        "discipline": "Electrical",
+        "days": 4,
+        "group": "fan_perf"
+      }
+    },
+    "star_rating": {
+      "label": "BEE Star Rating",
+      "category": "performance",
+      "unit": "dimensionless",
+      "synonyms": [
+        "bee star rating",
+        "star rating",
+        "star label"
+      ],
+      "domains": [
+        "fans",
+        "lighting"
+      ],
+      "test": null
+    },
+    "fan_input_power": {
+      "label": "Input Power (fan)",
+      "category": "electrical",
+      "unit": "W",
+      "synonyms": [
+        "input power",
+        "power input"
+      ],
+      "domains": [
+        "fans"
+      ],
+      "test": {
+        "standard": "IS 374",
+        "name": "Air delivery & service value test",
+        "discipline": "Electrical",
+        "days": 4,
+        "group": "fan_perf"
+      }
+    },
+    "rated_current": {
+      "label": "Rated Current",
+      "category": "electrical",
+      "unit": "A",
+      "synonyms": [
+        "rated current",
+        "current rating"
+      ],
+      "domains": [
+        "electrical"
+      ],
+      "test": {
+        "standard": "IS/IEC 60898",
+        "name": "Tripping characteristic & short-circuit tests",
+        "discipline": "Electrical",
+        "days": 5,
+        "group": "mcb"
+      }
+    },
+    "breaking_capacity": {
+      "label": "Rated Short-circuit (Breaking) Capacity",
+      "category": "safety",
+      "unit": "kA",
+      "synonyms": [
+        "(?:rated )?short[- ]circuit (?:breaking )?capacity",
+        "breaking capacity"
+      ],
+      "domains": [
+        "electrical"
+      ],
+      "test": {
+        "standard": "IS/IEC 60898",
+        "name": "Tripping characteristic & short-circuit tests",
+        "discipline": "Electrical",
+        "days": 5,
+        "group": "mcb"
+      }
+    },
+    "module_power": {
+      "label": "Module Rated Peak Power",
+      "category": "electrical",
+      "unit": "W",
+      "synonyms": [
+        "(?:rated )?peak power",
+        "module (?:rated )?power",
+        "maximum power \\(?pmax\\)?"
+      ],
+      "domains": [
+        "solar"
+      ],
+      "test": {
+        "standard": "IS 14286 (Part 2)",
+        "name": "Performance at STC (design qualification)",
+        "discipline": "Electrical",
+        "days": 10,
+        "group": "pv"
+      }
+    },
+    "module_efficiency": {
+      "label": "Module Efficiency",
+      "category": "performance",
+      "unit": "percent",
+      "synonyms": [
+        "module efficiency",
+        "conversion efficiency"
+      ],
+      "domains": [
+        "solar"
+      ],
+      "test": {
+        "standard": "IS 14286 (Part 2)",
+        "name": "Performance at STC (design qualification)",
+        "discipline": "Electrical",
+        "days": 10,
+        "group": "pv"
+      }
+    },
+    "cores": {
+      "label": "Number of Cores",
+      "category": "physical",
+      "unit": "dimensionless",
+      "synonyms": [
+        "number of cores",
+        "\\bcores?\\b"
+      ],
+      "domains": [
+        "cables"
+      ],
+      "test": null
+    }
+  },
+  "derived_relations": [
+    {
+      "id": "tsys",
+      "description": "Tensile strength must be at least TS/YS ratio x yield strength",
+      "expr": "tensile_strength >= ts_ys_ratio * yield_strength",
+      "requires": [
+        "tensile_strength",
+        "ts_ys_ratio",
+        "yield_strength"
+      ]
+    },
+    {
+      "id": "setting",
+      "description": "Final setting time must exceed initial setting time",
+      "expr": "final_setting_time >= initial_setting_time",
+      "requires": [
+        "final_setting_time",
+        "initial_setting_time"
+      ]
+    },
+    {
+      "id": "cement_gain",
+      "description": "Cement strength does not decrease with age (3d <= 7d <= 28d)",
+      "expr": "compressive_strength_3d <= compressive_strength_7d",
+      "requires": [
+        "compressive_strength_3d",
+        "compressive_strength_7d"
+      ]
+    },
+    {
+      "id": "cement_gain2",
+      "description": "Cement strength does not decrease with age (7d <= 28d)",
+      "expr": "compressive_strength_7d <= compressive_strength_28d",
+      "requires": [
+        "compressive_strength_7d",
+        "compressive_strength_28d"
+      ]
+    },
+    {
+      "id": "sp_sum",
+      "description": "Sulphur + Phosphorus limit cannot be below each individual minimum",
+      "expr": "sulphur_phosphorus >= sulphur",
+      "requires": [
+        "sulphur_phosphorus",
+        "sulphur"
+      ]
+    },
+    {
+      "id": "tu_gt_ys",
+      "description": "Ultimate tensile strength must exceed yield strength",
+      "expr": "tensile_strength >= yield_strength",
+      "requires": [
+        "tensile_strength",
+        "yield_strength"
+      ]
+    },
+    {
+      "id": "physical_nonneg",
+      "description": "Physical quantities are non-negative",
+      "expr": "NONNEG",
+      "requires": []
+    }
+  ]
+}

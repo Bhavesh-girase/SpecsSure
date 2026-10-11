@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SpecSure</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="mark">IS</span><div><b>SpecSure</b><small>Indian Standards assistant · prototype</small></div></div>
+    <button id="gear" class="icon" title="Settings" aria-label="Settings">⚙</button>
+  </header>
+  <section id="settings" hidden>
+    <label>SpecSure API<input id="api" placeholder="http://localhost:8000/api/v1" /></label>
+    <button id="saveApi" class="btn">Save</button>
+    <span id="apiState" class="muted"></span>
+  </section>
+
+  <section class="card" id="pageCard">
+    <div class="kicker">This tab</div>
+    <div id="pageInfo" class="muted">Reading the current tab…</div>
+    <div id="pageSummary"></div>
+    <button id="analyse" class="btn primary" hidden>Analyse this bid document</button>
+  </section>
+
+  <section class="card">
+    <div class="kicker">Find standards</div>
+    <form id="searchForm"><input id="q" placeholder="e.g. LED street light 90 W, सरिया, ceiling fan" /><button class="btn primary">Search</button></form>
+  </section>
+
+  <main id="out"></main>
+
+  <footer>Recommendations are decision support with sources — confirm the edition in force on the BIS portal before publishing. Not affiliated with GeM or BIS.</footer>
+  <script src="sidepanel.js"></script>
+</body>
+</html>

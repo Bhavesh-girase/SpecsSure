@@ -1,0 +1,17 @@
+--- Page 1 ---
+SAMPLE TEST REPORT — FICTIONAL LABORATORY, FOR SOFTWARE DEMONSTRATION ONLY
+Laboratory: Demo Photometry & Electrical Test Centre, Pune
+Accreditation: NABL (ISO/IEC 17025) Certificate No. TC-DEMO-0717
+Report No.: DPETC/2026/09/1182
+Date of Report: 04-09-2026
+Customer: Harit Lighting Udyog
+Sample: Self-ballasted LED lamp HL-9 Pro, 9 W, B22d
+
+TEST RESULTS
+| Parameter | Result | Test method |
+| Rated power | 8.9 W | IS 16106 |
+| Luminous efficacy | 111 lm/W | IS 16106 |
+| Power factor | 0.93 | IS 16106 |
+| Colour rendering index | 81 | IS 16106 |
+
+Remarks: The sample conforms to the requirements of IS 16102 (Part 2):2017 for the parameters tested.

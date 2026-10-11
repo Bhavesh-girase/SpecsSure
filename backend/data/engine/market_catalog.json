@@ -1,0 +1,3998 @@
+{
+ "_comment": "SYNTHETIC market catalogue (fictional manufacturers) for feasibility analysis demos. Replace with GeM / BIS licence data in production.",
+ "products": [
+  {
+   "id": "STL-011",
+   "category": "steel",
+   "manufacturer": "Arya Rebar Ltd",
+   "model": "Arya TMT Fe550D",
+   "grade": "Fe 550D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 564.5,
+    "tensile_strength": 665.8,
+    "ts_ys_ratio": 1.179,
+    "elongation": 17.2,
+    "total_elongation_max_force": 9.4,
+    "carbon": 0.229,
+    "sulphur": 0.026,
+    "phosphorus": 0.039,
+    "sulphur_phosphorus": 0.066,
+    "carbon_equivalent": 0.359
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32
+   ],
+   "region": "North",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-021",
+   "category": "steel",
+   "manufacturer": "Bharat Ispat Works",
+   "model": "Bharat TMT Fe500",
+   "grade": "Fe 500",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 515.9,
+    "tensile_strength": 567.1,
+    "ts_ys_ratio": 1.099,
+    "elongation": 15.4,
+    "total_elongation_max_force": 5.8,
+    "carbon": 0.249,
+    "sulphur": 0.027,
+    "phosphorus": 0.032,
+    "sulphur_phosphorus": 0.058,
+    "carbon_equivalent": 0.395
+   },
+   "sizes_mm": [
+    8,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    40
+   ],
+   "region": "South",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-022",
+   "category": "steel",
+   "manufacturer": "Bharat Ispat Works",
+   "model": "Bharat TMT Fe500D-B",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 566.5,
+    "tensile_strength": 656.4,
+    "ts_ys_ratio": 1.159,
+    "elongation": 21.3,
+    "total_elongation_max_force": 6.1,
+    "carbon": 0.249,
+    "sulphur": 0.039,
+    "phosphorus": 0.029,
+    "sulphur_phosphorus": 0.068,
+    "carbon_equivalent": 0.367
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    28,
+    32,
+    36,
+    40
+   ],
+   "region": "East",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-031",
+   "category": "steel",
+   "manufacturer": "Coastal TMT Pvt Ltd",
+   "model": "Coastal TMT Fe500D",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 535.9,
+    "tensile_strength": 601.0,
+    "ts_ys_ratio": 1.121,
+    "elongation": 16.8,
+    "total_elongation_max_force": 9.0,
+    "carbon": 0.2,
+    "sulphur": 0.031,
+    "phosphorus": 0.029,
+    "sulphur_phosphorus": 0.059,
+    "carbon_equivalent": 0.335
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    32
+   ],
+   "region": "East",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-041",
+   "category": "steel",
+   "manufacturer": "Deccan Steel Rolling",
+   "model": "Deccan TMT Fe500D",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 568.9,
+    "tensile_strength": 678.5,
+    "ts_ys_ratio": 1.193,
+    "elongation": 18.0,
+    "total_elongation_max_force": 7.0,
+    "carbon": 0.206,
+    "sulphur": 0.027,
+    "phosphorus": 0.019,
+    "sulphur_phosphorus": 0.046,
+    "carbon_equivalent": 0.379
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    40
+   ],
+   "region": "North",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-042",
+   "category": "steel",
+   "manufacturer": "Deccan Steel Rolling",
+   "model": "Deccan TMT Fe500D-B",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 522.3,
+    "tensile_strength": 585.3,
+    "ts_ys_ratio": 1.121,
+    "elongation": 16.4,
+    "total_elongation_max_force": 10.6,
+    "carbon": 0.221,
+    "sulphur": 0.039,
+    "phosphorus": 0.031,
+    "sulphur_phosphorus": 0.07,
+    "carbon_equivalent": 0.359
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28
+   ],
+   "region": "West",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-051",
+   "category": "steel",
+   "manufacturer": "Eastern Alloys",
+   "model": "Eastern TMT Fe500D",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 519.8,
+    "tensile_strength": 611.1,
+    "ts_ys_ratio": 1.176,
+    "elongation": 21.0,
+    "total_elongation_max_force": 10.0,
+    "carbon": 0.187,
+    "sulphur": 0.03,
+    "phosphorus": 0.035,
+    "sulphur_phosphorus": 0.066,
+    "carbon_equivalent": 0.398
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    40
+   ],
+   "region": "East",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-061",
+   "category": "steel",
+   "manufacturer": "Ganga Metallics",
+   "model": "Ganga TMT Fe550D",
+   "grade": "Fe 550D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 611.6,
+    "tensile_strength": 732.3,
+    "ts_ys_ratio": 1.197,
+    "elongation": 17.1,
+    "total_elongation_max_force": 7.8,
+    "carbon": 0.221,
+    "sulphur": 0.028,
+    "phosphorus": 0.04,
+    "sulphur_phosphorus": 0.067,
+    "carbon_equivalent": 0.416
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25
+   ],
+   "region": "North",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-071",
+   "category": "steel",
+   "manufacturer": "Himgiri Steels",
+   "model": "Himgiri TMT Fe550D",
+   "grade": "Fe 550D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 612.8,
+    "tensile_strength": 688.2,
+    "ts_ys_ratio": 1.123,
+    "elongation": 16.9,
+    "total_elongation_max_force": 8.8,
+    "carbon": 0.19,
+    "sulphur": 0.027,
+    "phosphorus": 0.032,
+    "sulphur_phosphorus": 0.059,
+    "carbon_equivalent": 0.38
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    36,
+    40
+   ],
+   "region": "South",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-072",
+   "category": "steel",
+   "manufacturer": "Himgiri Steels",
+   "model": "Himgiri TMT Fe500D-B",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 562.4,
+    "tensile_strength": 685.2,
+    "ts_ys_ratio": 1.218,
+    "elongation": 20.1,
+    "total_elongation_max_force": 7.0,
+    "carbon": 0.221,
+    "sulphur": 0.038,
+    "phosphorus": 0.026,
+    "sulphur_phosphorus": 0.064,
+    "carbon_equivalent": 0.407
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    36,
+    40
+   ],
+   "region": "North",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-081",
+   "category": "steel",
+   "manufacturer": "Indus Rebar Co",
+   "model": "Indus TMT Fe500D",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 510.8,
+    "tensile_strength": 604.4,
+    "ts_ys_ratio": 1.183,
+    "elongation": 20.9,
+    "total_elongation_max_force": 11.0,
+    "carbon": 0.248,
+    "sulphur": 0.034,
+    "phosphorus": 0.038,
+    "sulphur_phosphorus": 0.071,
+    "carbon_equivalent": 0.404
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    40
+   ],
+   "region": "Central",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-082",
+   "category": "steel",
+   "manufacturer": "Indus Rebar Co",
+   "model": "Indus TMT Fe500D-B",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 528.1,
+    "tensile_strength": 583.4,
+    "ts_ys_ratio": 1.105,
+    "elongation": 21.9,
+    "total_elongation_max_force": 10.5,
+    "carbon": 0.235,
+    "sulphur": 0.031,
+    "phosphorus": 0.021,
+    "sulphur_phosphorus": 0.052,
+    "carbon_equivalent": 0.331
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    40
+   ],
+   "region": "West",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-091",
+   "category": "steel",
+   "manufacturer": "Jwala Ispat",
+   "model": "Jwala TMT Fe500D",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 537.2,
+    "tensile_strength": 652.6,
+    "ts_ys_ratio": 1.215,
+    "elongation": 21.6,
+    "total_elongation_max_force": 10.7,
+    "carbon": 0.205,
+    "sulphur": 0.039,
+    "phosphorus": 0.035,
+    "sulphur_phosphorus": 0.074,
+    "carbon_equivalent": 0.341
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    32,
+    40
+   ],
+   "region": "North",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-092",
+   "category": "steel",
+   "manufacturer": "Jwala Ispat",
+   "model": "Jwala TMT Fe500D-B",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 557.8,
+    "tensile_strength": 671.0,
+    "ts_ys_ratio": 1.203,
+    "elongation": 18.3,
+    "total_elongation_max_force": 8.5,
+    "carbon": 0.206,
+    "sulphur": 0.035,
+    "phosphorus": 0.028,
+    "sulphur_phosphorus": 0.062,
+    "carbon_equivalent": 0.371
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    40
+   ],
+   "region": "Central",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-101",
+   "category": "steel",
+   "manufacturer": "Kaveri Metals",
+   "model": "Kaveri TMT Fe500D",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 563.3,
+    "tensile_strength": 683.8,
+    "ts_ys_ratio": 1.214,
+    "elongation": 20.5,
+    "total_elongation_max_force": 8.9,
+    "carbon": 0.156,
+    "sulphur": 0.024,
+    "phosphorus": 0.036,
+    "sulphur_phosphorus": 0.06,
+    "carbon_equivalent": 0.375
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32,
+    36,
+    40
+   ],
+   "region": "Central",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-102",
+   "category": "steel",
+   "manufacturer": "Kaveri Metals",
+   "model": "Kaveri TMT Fe550D-B",
+   "grade": "Fe 550D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 616.5,
+    "tensile_strength": 723.2,
+    "ts_ys_ratio": 1.173,
+    "elongation": 21.8,
+    "total_elongation_max_force": 6.2,
+    "carbon": 0.165,
+    "sulphur": 0.036,
+    "phosphorus": 0.039,
+    "sulphur_phosphorus": 0.075,
+    "carbon_equivalent": 0.402
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    32,
+    36,
+    40
+   ],
+   "region": "East",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-111",
+   "category": "steel",
+   "manufacturer": "Lakshya TMT",
+   "model": "Lakshya TMT Fe500D",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": false,
+   "attributes": {
+    "yield_strength": 528.3,
+    "tensile_strength": 597.6,
+    "ts_ys_ratio": 1.131,
+    "elongation": 21.4,
+    "total_elongation_max_force": 8.2,
+    "carbon": 0.202,
+    "sulphur": 0.025,
+    "phosphorus": 0.022,
+    "sulphur_phosphorus": 0.047,
+    "carbon_equivalent": 0.355
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    28,
+    32
+   ],
+   "region": "North",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-112",
+   "category": "steel",
+   "manufacturer": "Lakshya TMT",
+   "model": "Lakshya TMT Fe550D-B",
+   "grade": "Fe 550D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 581.2,
+    "tensile_strength": 640.9,
+    "ts_ys_ratio": 1.103,
+    "elongation": 17.0,
+    "total_elongation_max_force": 9.2,
+    "carbon": 0.248,
+    "sulphur": 0.024,
+    "phosphorus": 0.038,
+    "sulphur_phosphorus": 0.062,
+    "carbon_equivalent": 0.345
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    36,
+    40
+   ],
+   "region": "South",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-121",
+   "category": "steel",
+   "manufacturer": "Malwa Steel Industries",
+   "model": "Malwa TMT Fe550D",
+   "grade": "Fe 550D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 566.0,
+    "tensile_strength": 653.9,
+    "ts_ys_ratio": 1.155,
+    "elongation": 16.5,
+    "total_elongation_max_force": 8.4,
+    "carbon": 0.193,
+    "sulphur": 0.024,
+    "phosphorus": 0.034,
+    "sulphur_phosphorus": 0.058,
+    "carbon_equivalent": 0.414
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    25,
+    28,
+    32
+   ],
+   "region": "West",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "STL-122",
+   "category": "steel",
+   "manufacturer": "Malwa Steel Industries",
+   "model": "Malwa TMT Fe500D-B",
+   "grade": "Fe 500D",
+   "standard": "IS 1786:2008",
+   "bis_licence": true,
+   "attributes": {
+    "yield_strength": 569.9,
+    "tensile_strength": 657.3,
+    "ts_ys_ratio": 1.153,
+    "elongation": 17.6,
+    "total_elongation_max_force": 9.9,
+    "carbon": 0.192,
+    "sulphur": 0.038,
+    "phosphorus": 0.026,
+    "sulphur_phosphorus": 0.065,
+    "carbon_equivalent": 0.38
+   },
+   "sizes_mm": [
+    8,
+    10,
+    12,
+    16,
+    20,
+    28,
+    32,
+    40
+   ],
+   "region": "East",
+   "item": "tmt_steel"
+  },
+  {
+   "id": "CEM-0143",
+   "category": "cement",
+   "manufacturer": "Adarsh Cements",
+   "model": "Adarsh OPC 43",
+   "grade": "43",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 25.4,
+    "compressive_strength_7d": 37.8,
+    "compressive_strength_28d": 52.6,
+    "fineness": 333.0,
+    "initial_setting_time": 178.0,
+    "final_setting_time": 284.0,
+    "soundness_le_chatelier": 1.6,
+    "soundness_autoclave": 0.29
+   },
+   "region": "South",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0153",
+   "category": "cement",
+   "manufacturer": "Adarsh Cements",
+   "model": "Adarsh OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 34.9,
+    "compressive_strength_7d": 46.7,
+    "compressive_strength_28d": 57.8,
+    "fineness": 376.0,
+    "initial_setting_time": 110.0,
+    "final_setting_time": 179.0,
+    "soundness_le_chatelier": 0.6,
+    "soundness_autoclave": 0.1
+   },
+   "region": "East",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0253",
+   "category": "cement",
+   "manufacturer": "Bhoomi Cement Works",
+   "model": "Bhoomi OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 34.5,
+    "compressive_strength_7d": 46.5,
+    "compressive_strength_28d": 61.5,
+    "fineness": 314.0,
+    "initial_setting_time": 69.0,
+    "final_setting_time": 307.0,
+    "soundness_le_chatelier": 1.3,
+    "soundness_autoclave": 0.27
+   },
+   "region": "North",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0353",
+   "category": "cement",
+   "manufacturer": "Chambal Cements",
+   "model": "Chambal OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 30.5,
+    "compressive_strength_7d": 45.8,
+    "compressive_strength_28d": 63.4,
+    "fineness": 351.0,
+    "initial_setting_time": 163.0,
+    "final_setting_time": 209.0,
+    "soundness_le_chatelier": 1.6,
+    "soundness_autoclave": 0.24
+   },
+   "region": "West",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0443",
+   "category": "cement",
+   "manufacturer": "Dhara Cement Ltd",
+   "model": "Dhara OPC 43",
+   "grade": "43",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 26.3,
+    "compressive_strength_7d": 34.7,
+    "compressive_strength_28d": 55.7,
+    "fineness": 294.0,
+    "initial_setting_time": 183.0,
+    "final_setting_time": 312.0,
+    "soundness_le_chatelier": 1.4,
+    "soundness_autoclave": 0.26
+   },
+   "region": "South",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0543",
+   "category": "cement",
+   "manufacturer": "Everest Clinker",
+   "model": "Everest OPC 43",
+   "grade": "43",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 26.6,
+    "compressive_strength_7d": 37.1,
+    "compressive_strength_28d": 54.1,
+    "fineness": 332.0,
+    "initial_setting_time": 158.0,
+    "final_setting_time": 272.0,
+    "soundness_le_chatelier": 1.9,
+    "soundness_autoclave": 0.07
+   },
+   "region": "East",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0553",
+   "category": "cement",
+   "manufacturer": "Everest Clinker",
+   "model": "Everest OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 35.9,
+    "compressive_strength_7d": 41.9,
+    "compressive_strength_28d": 59.9,
+    "fineness": 301.0,
+    "initial_setting_time": 131.0,
+    "final_setting_time": 222.0,
+    "soundness_le_chatelier": 1.2,
+    "soundness_autoclave": 0.07
+   },
+   "region": "East",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0653",
+   "category": "cement",
+   "manufacturer": "Freedom Cements",
+   "model": "Freedom OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 31.4,
+    "compressive_strength_7d": 45.8,
+    "compressive_strength_28d": 59.1,
+    "fineness": 326.0,
+    "initial_setting_time": 164.0,
+    "final_setting_time": 261.0,
+    "soundness_le_chatelier": 2.8,
+    "soundness_autoclave": 0.05
+   },
+   "region": "Central",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0643",
+   "category": "cement",
+   "manufacturer": "Freedom Cements",
+   "model": "Freedom OPC 43",
+   "grade": "43",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 28.8,
+    "compressive_strength_7d": 34.7,
+    "compressive_strength_28d": 52.8,
+    "fineness": 281.0,
+    "initial_setting_time": 189.0,
+    "final_setting_time": 236.0,
+    "soundness_le_chatelier": 2.9,
+    "soundness_autoclave": 0.25
+   },
+   "region": "East",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0743",
+   "category": "cement",
+   "manufacturer": "Girnar Cement Co",
+   "model": "Girnar OPC 43",
+   "grade": "43",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 25.6,
+    "compressive_strength_7d": 38.5,
+    "compressive_strength_28d": 55.9,
+    "fineness": 325.0,
+    "initial_setting_time": 146.0,
+    "final_setting_time": 209.0,
+    "soundness_le_chatelier": 1.2,
+    "soundness_autoclave": 0.12
+   },
+   "region": "East",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0753",
+   "category": "cement",
+   "manufacturer": "Girnar Cement Co",
+   "model": "Girnar OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 37.3,
+    "compressive_strength_7d": 44.7,
+    "compressive_strength_28d": 64.0,
+    "fineness": 296.0,
+    "initial_setting_time": 77.0,
+    "final_setting_time": 274.0,
+    "soundness_le_chatelier": 0.8,
+    "soundness_autoclave": 0.13
+   },
+   "region": "East",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0853",
+   "category": "cement",
+   "manufacturer": "Himadri Cements",
+   "model": "Himadri OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 30.5,
+    "compressive_strength_7d": 46.4,
+    "compressive_strength_28d": 60.1,
+    "fineness": 293.0,
+    "initial_setting_time": 191.0,
+    "final_setting_time": 200.0,
+    "soundness_le_chatelier": 2.6,
+    "soundness_autoclave": 0.21
+   },
+   "region": "South",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-0953",
+   "category": "cement",
+   "manufacturer": "Indrayani Cement",
+   "model": "Indrayani OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 34.0,
+    "compressive_strength_7d": 44.5,
+    "compressive_strength_28d": 58.5,
+    "fineness": 310.0,
+    "initial_setting_time": 148.0,
+    "final_setting_time": 324.0,
+    "soundness_le_chatelier": 1.6,
+    "soundness_autoclave": 0.1
+   },
+   "region": "East",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-1053",
+   "category": "cement",
+   "manufacturer": "Jyoti Cement Ltd",
+   "model": "Jyoti OPC 53",
+   "grade": "53",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 30.3,
+    "compressive_strength_7d": 43.6,
+    "compressive_strength_28d": 60.4,
+    "fineness": 336.0,
+    "initial_setting_time": 169.0,
+    "final_setting_time": 268.0,
+    "soundness_le_chatelier": 2.4,
+    "soundness_autoclave": 0.14
+   },
+   "region": "Central",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CEM-1043",
+   "category": "cement",
+   "manufacturer": "Jyoti Cement Ltd",
+   "model": "Jyoti OPC 43",
+   "grade": "43",
+   "standard": "IS 269:2015",
+   "bis_licence": true,
+   "attributes": {
+    "compressive_strength_3d": 24.7,
+    "compressive_strength_7d": 34.4,
+    "compressive_strength_28d": 50.9,
+    "fineness": 342.0,
+    "initial_setting_time": 107.0,
+    "final_setting_time": 197.0,
+    "soundness_le_chatelier": 1.9,
+    "soundness_autoclave": 0.26
+   },
+   "region": "Central",
+   "item": "opc_cement"
+  },
+  {
+   "id": "CBL-01",
+   "category": "cables",
+   "manufacturer": "Anant Cables",
+   "model": "Anant FR 1100V",
+   "grade": "1100 V",
+   "standard": "IS 694:2010",
+   "bis_licence": true,
+   "attributes": {
+    "voltage_grade": 1100,
+    "oxygen_index": 32.6,
+    "smoke_density": 45.0,
+    "insulation_thickness": 0.88
+   },
+   "sizes_mm2": [
+    1.5,
+    2.5,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "region": "South",
+   "item": "pvc_cable"
+  },
+  {
+   "id": "CBL-02",
+   "category": "cables",
+   "manufacturer": "Bijli Wires",
+   "model": "Bijli FR 1100V",
+   "grade": "1100 V",
+   "standard": "IS 694:2010",
+   "bis_licence": true,
+   "attributes": {
+    "voltage_grade": 1100,
+    "oxygen_index": 33.4,
+    "smoke_density": 58.0,
+    "insulation_thickness": 0.78
+   },
+   "sizes_mm2": [
+    1.5,
+    2.5,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "region": "West",
+   "item": "pvc_cable"
+  },
+  {
+   "id": "CBL-03",
+   "category": "cables",
+   "manufacturer": "Chetak Conductors",
+   "model": "Chetak FR 1100V",
+   "grade": "1100 V",
+   "standard": "IS 694:2010",
+   "bis_licence": true,
+   "attributes": {
+    "voltage_grade": 1100,
+    "oxygen_index": 29.5,
+    "smoke_density": 44.0,
+    "insulation_thickness": 0.81
+   },
+   "sizes_mm2": [
+    1.5,
+    2.5,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "region": "South",
+   "item": "pvc_cable"
+  },
+  {
+   "id": "CBL-04",
+   "category": "cables",
+   "manufacturer": "Dhruv Cables",
+   "model": "Dhruv FR 1100V",
+   "grade": "1100 V",
+   "standard": "IS 694:2010",
+   "bis_licence": true,
+   "attributes": {
+    "voltage_grade": 1100,
+    "oxygen_index": 35.0,
+    "smoke_density": 68.0,
+    "insulation_thickness": 0.81
+   },
+   "sizes_mm2": [
+    1.5,
+    2.5,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "region": "East",
+   "item": "pvc_cable"
+  },
+  {
+   "id": "CBL-05",
+   "category": "cables",
+   "manufacturer": "Ekta Wires",
+   "model": "Ekta FR 1100V",
+   "grade": "1100 V",
+   "standard": "IS 694:2010",
+   "bis_licence": true,
+   "attributes": {
+    "voltage_grade": 1100,
+    "oxygen_index": 34.2,
+    "smoke_density": 63.0,
+    "insulation_thickness": 0.87
+   },
+   "sizes_mm2": [
+    1.5,
+    2.5,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "region": "North",
+   "item": "pvc_cable"
+  },
+  {
+   "id": "CBL-06",
+   "category": "cables",
+   "manufacturer": "Flame-Safe Cables",
+   "model": "Flame-Safe FR 1100V",
+   "grade": "1100 V",
+   "standard": "IS 694:2010",
+   "bis_licence": true,
+   "attributes": {
+    "voltage_grade": 1100,
+    "oxygen_index": 32.3,
+    "smoke_density": 47.0,
+    "insulation_thickness": 0.9
+   },
+   "sizes_mm2": [
+    1.5,
+    2.5,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "region": "North",
+   "item": "pvc_cable"
+  },
+  {
+   "id": "LMP-0107",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 99.5,
+    "power_factor": 0.88,
+    "colour_rendering_index": 90.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0109",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 97.6,
+    "power_factor": 0.92,
+    "colour_rendering_index": 82.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0110",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 96.2,
+    "power_factor": 0.93,
+    "colour_rendering_index": 80.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "LMP-0112",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 101.5,
+    "power_factor": 0.87,
+    "colour_rendering_index": 90.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0115",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 100.4,
+    "power_factor": 0.91,
+    "colour_rendering_index": 80.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0120",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 97.2,
+    "power_factor": 0.89,
+    "colour_rendering_index": 90.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0207",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 110.6,
+    "power_factor": 0.94,
+    "colour_rendering_index": 80.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0209",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 106.7,
+    "power_factor": 0.91,
+    "colour_rendering_index": 80.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0210",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 109.9,
+    "power_factor": 0.95,
+    "colour_rendering_index": 82.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0212",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 109.0,
+    "power_factor": 0.94,
+    "colour_rendering_index": 90.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0215",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 100.0,
+    "power_factor": 0.9,
+    "colour_rendering_index": 90.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0220",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 102.7,
+    "power_factor": 0.94,
+    "colour_rendering_index": 90.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0307",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 120.7,
+    "power_factor": 0.98,
+    "colour_rendering_index": 82.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0309",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 122.4,
+    "power_factor": 0.95,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0310",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 113.3,
+    "power_factor": 0.98,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0312",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 116.9,
+    "power_factor": 0.96,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0315",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 119.3,
+    "power_factor": 0.97,
+    "colour_rendering_index": 82.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0320",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 115.0,
+    "power_factor": 0.96,
+    "colour_rendering_index": 90.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0407",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 116.4,
+    "power_factor": 0.95,
+    "colour_rendering_index": 82.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0409",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 110.6,
+    "power_factor": 0.92,
+    "colour_rendering_index": 80.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0410",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 104.0,
+    "power_factor": 0.92,
+    "colour_rendering_index": 82.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0415",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": false,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 109.9,
+    "power_factor": 0.94,
+    "colour_rendering_index": 90.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0420",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 109.8,
+    "power_factor": 0.94,
+    "colour_rendering_index": 80.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "LMP-0507",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": false,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 102.9,
+    "power_factor": 0.89,
+    "colour_rendering_index": 90.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0509",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 104.4,
+    "power_factor": 0.89,
+    "colour_rendering_index": 70.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "LMP-0510",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 106.2,
+    "power_factor": 0.93,
+    "colour_rendering_index": 80.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0512",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 99.8,
+    "power_factor": 0.9,
+    "colour_rendering_index": 70.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0515",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 97.5,
+    "power_factor": 0.91,
+    "colour_rendering_index": 82.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0520",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 100.5,
+    "power_factor": 0.88,
+    "colour_rendering_index": 90.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0607",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 119.4,
+    "power_factor": 0.98,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0610",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 116.7,
+    "power_factor": 0.97,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0612",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 119.7,
+    "power_factor": 0.94,
+    "colour_rendering_index": 82.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "LMP-0620",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 122.7,
+    "power_factor": 0.93,
+    "colour_rendering_index": 90.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0707",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 111.5,
+    "power_factor": 0.94,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0709",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 109.5,
+    "power_factor": 0.93,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0710",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 117.3,
+    "power_factor": 0.98,
+    "colour_rendering_index": 82.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0712",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 118.4,
+    "power_factor": 0.96,
+    "colour_rendering_index": 90.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0715",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 115.2,
+    "power_factor": 0.96,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "LMP-0720",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 122.2,
+    "power_factor": 0.94,
+    "colour_rendering_index": 82.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-0807",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 118.4,
+    "power_factor": 0.97,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0810",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 113.4,
+    "power_factor": 0.99,
+    "colour_rendering_index": 80.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-0812",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": false,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 119.9,
+    "power_factor": 0.97,
+    "colour_rendering_index": 82.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "LMP-0815",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 118.4,
+    "power_factor": 0.95,
+    "colour_rendering_index": 90.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0820",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 113.0,
+    "power_factor": 0.97,
+    "colour_rendering_index": 90.0,
+    "star_rating": 5.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0909",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Ishaan Opto",
+   "model": "Ishaan LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 98.8,
+    "power_factor": 0.93,
+    "colour_rendering_index": 90.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0910",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Ishaan Opto",
+   "model": "Ishaan LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 103.5,
+    "power_factor": 0.94,
+    "colour_rendering_index": 90.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-0912",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Ishaan Opto",
+   "model": "Ishaan LED 12W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 12.0,
+    "luminous_efficacy": 105.0,
+    "power_factor": 0.9,
+    "colour_rendering_index": 70.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "LMP-0915",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Ishaan Opto",
+   "model": "Ishaan LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 108.0,
+    "power_factor": 0.92,
+    "colour_rendering_index": 80.0,
+    "star_rating": 3.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "LMP-1007",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Jugnu LED Pvt Ltd",
+   "model": "Jugnu LED 7W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 7.0,
+    "luminous_efficacy": 114.2,
+    "power_factor": 0.94,
+    "colour_rendering_index": 90.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "LMP-1009",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Jugnu LED Pvt Ltd",
+   "model": "Jugnu LED 9W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 9.0,
+    "luminous_efficacy": 110.0,
+    "power_factor": 0.94,
+    "colour_rendering_index": 90.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "LMP-1010",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Jugnu LED Pvt Ltd",
+   "model": "Jugnu LED 10W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 10.0,
+    "luminous_efficacy": 119.5,
+    "power_factor": 0.96,
+    "colour_rendering_index": 80.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-1015",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Jugnu LED Pvt Ltd",
+   "model": "Jugnu LED 15W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 15.0,
+    "luminous_efficacy": 115.5,
+    "power_factor": 0.93,
+    "colour_rendering_index": 80.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "LMP-1020",
+   "category": "lighting",
+   "item": "led_lamp",
+   "manufacturer": "Jugnu LED Pvt Ltd",
+   "model": "Jugnu LED 20W",
+   "grade": "General",
+   "standard": "IS 16102 (Part 2):2017",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 20.0,
+    "luminous_efficacy": 119.7,
+    "power_factor": 0.96,
+    "colour_rendering_index": 82.0,
+    "star_rating": 4.0
+   },
+   "caps": [
+    "B22d",
+    "E27"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-01030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 139.6,
+    "power_factor": 0.99,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-01045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 148.2,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-01060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 134.1,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-01090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 138.7,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-01120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 146.7,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "STR-01150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Aalok Lighting",
+   "model": "Aalok Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 135.2,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-02030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 137.7,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-02045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 135.8,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-02060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 148.9,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-02090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 139.1,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-02120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 135.4,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "STR-02150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Bharat LED Works",
+   "model": "Bharat Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 138.3,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-03030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 124.4,
+    "power_factor": 0.93,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-03045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 123.8,
+    "power_factor": 0.9,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-03060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 115.0,
+    "power_factor": 0.91,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-03090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 115.5,
+    "power_factor": 0.91,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-03120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 118.8,
+    "power_factor": 0.94,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-03150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Chandni Lamps",
+   "model": "Chandni Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 117.3,
+    "power_factor": 0.93,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-04030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 139.0,
+    "power_factor": 0.99,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-04045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 143.1,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-04060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 145.7,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-04090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 138.9,
+    "power_factor": 0.95,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-04120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 148.2,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-04150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Deepak Illumination",
+   "model": "Deepak Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 147.1,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-05030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 140.7,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-05045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 150.1,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-05060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 140.1,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-05090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 136.4,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-05120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 147.2,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-05150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Elixir Lights",
+   "model": "Elixir Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 139.6,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-06030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 145.1,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-06045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 138.6,
+    "power_factor": 0.95,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-06060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 148.8,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "STR-06090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 142.9,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-06120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 151.4,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-06150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Frontier LED",
+   "model": "Frontier Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 137.4,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-07030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 117.6,
+    "power_factor": 0.93,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-07045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 121.4,
+    "power_factor": 0.92,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-07060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 124.7,
+    "power_factor": 0.94,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-07090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 119.2,
+    "power_factor": 0.92,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-07120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 112.8,
+    "power_factor": 0.92,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "STR-07150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Gyan Jyoti Electricals",
+   "model": "Gyan Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 112.1,
+    "power_factor": 0.93,
+    "surge_protection": 6.0
+   },
+   "ip_codes": [
+    "IP65"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-08030",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit Road 30W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 30.0,
+    "luminous_efficacy": 134.6,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "Central"
+  },
+  {
+   "id": "STR-08045",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit Road 45W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 45.0,
+    "luminous_efficacy": 140.3,
+    "power_factor": 0.98,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "STR-08060",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit Road 60W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 60.0,
+    "luminous_efficacy": 149.0,
+    "power_factor": 0.97,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-08090",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit Road 90W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 90.0,
+    "luminous_efficacy": 132.7,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "STR-08120",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit Road 120W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 120.0,
+    "luminous_efficacy": 145.2,
+    "power_factor": 0.99,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "STR-08150",
+   "category": "lighting",
+   "item": "led_streetlight",
+   "manufacturer": "Harit Lighting",
+   "model": "Harit Road 150W",
+   "grade": "General",
+   "standard": "IS 10322 (Part 5/Sec 3):2012",
+   "bis_licence": true,
+   "attributes": {
+    "rated_power": 150.0,
+    "luminous_efficacy": 132.4,
+    "power_factor": 0.96,
+    "surge_protection": 10.0
+   },
+   "ip_codes": [
+    "IP65",
+    "IP66"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "FAN-011200",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Aerowind Fans",
+   "model": "Aerowind 1200 mm 5-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1200.0,
+    "air_delivery": 244.0,
+    "service_value": 6.01,
+    "star_rating": 5.0
+   },
+   "region": "South"
+  },
+  {
+   "id": "FAN-01900",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Aerowind Fans",
+   "model": "Aerowind 900 mm 4-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 900.0,
+    "air_delivery": 174.0,
+    "service_value": 5.68,
+    "star_rating": 4.0
+   },
+   "region": "North"
+  },
+  {
+   "id": "FAN-011400",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Aerowind Fans",
+   "model": "Aerowind 1400 mm 5-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1400.0,
+    "air_delivery": 268.0,
+    "service_value": 6.19,
+    "star_rating": 5.0
+   },
+   "region": "South"
+  },
+  {
+   "id": "FAN-02900",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Breeze India",
+   "model": "Breeze 900 mm 4-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": false,
+   "attributes": {
+    "sweep": 900.0,
+    "air_delivery": 169.0,
+    "service_value": 5.61,
+    "star_rating": 4.0
+   },
+   "region": "South"
+  },
+  {
+   "id": "FAN-021050",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Breeze India",
+   "model": "Breeze 1050 mm 4-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1050.0,
+    "air_delivery": 192.0,
+    "service_value": 5.54,
+    "star_rating": 4.0
+   },
+   "region": "Central"
+  },
+  {
+   "id": "FAN-031200",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Chakra Appliances",
+   "model": "Chakra 1200 mm 3-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": false,
+   "attributes": {
+    "sweep": 1200.0,
+    "air_delivery": 227.0,
+    "service_value": 4.86,
+    "star_rating": 3.0
+   },
+   "region": "East"
+  },
+  {
+   "id": "FAN-031050",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Chakra Appliances",
+   "model": "Chakra 1050 mm 3-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1050.0,
+    "air_delivery": 196.0,
+    "service_value": 5.0,
+    "star_rating": 3.0
+   },
+   "region": "Central"
+  },
+  {
+   "id": "FAN-031400",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Chakra Appliances",
+   "model": "Chakra 1400 mm 5-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1400.0,
+    "air_delivery": 258.0,
+    "service_value": 5.97,
+    "star_rating": 5.0
+   },
+   "region": "West"
+  },
+  {
+   "id": "FAN-041200",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Dhanvantari Electric",
+   "model": "Dhanvantari 1200 mm 5-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": false,
+   "attributes": {
+    "sweep": 1200.0,
+    "air_delivery": 228.0,
+    "service_value": 6.16,
+    "star_rating": 5.0
+   },
+   "region": "East"
+  },
+  {
+   "id": "FAN-041050",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Dhanvantari Electric",
+   "model": "Dhanvantari 1050 mm 4-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1050.0,
+    "air_delivery": 192.0,
+    "service_value": 5.47,
+    "star_rating": 4.0
+   },
+   "region": "Central"
+  },
+  {
+   "id": "FAN-051200",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Eolic Home",
+   "model": "Eolic 1200 mm 5-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1200.0,
+    "air_delivery": 232.0,
+    "service_value": 6.32,
+    "star_rating": 5.0
+   },
+   "region": "South"
+  },
+  {
+   "id": "FAN-051400",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Eolic Home",
+   "model": "Eolic 1400 mm 1-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1400.0,
+    "air_delivery": 257.0,
+    "service_value": 3.95,
+    "star_rating": 1.0
+   },
+   "region": "Central"
+  },
+  {
+   "id": "FAN-061050",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Pawan Fans Ltd",
+   "model": "Pawan 1050 mm 5-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1050.0,
+    "air_delivery": 200.0,
+    "service_value": 6.29,
+    "star_rating": 5.0
+   },
+   "region": "East"
+  },
+  {
+   "id": "FAN-061400",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Pawan Fans Ltd",
+   "model": "Pawan 1400 mm 3-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1400.0,
+    "air_delivery": 264.0,
+    "service_value": 5.1,
+    "star_rating": 3.0
+   },
+   "region": "Central"
+  },
+  {
+   "id": "FAN-071050",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Samir Motors",
+   "model": "Samir 1050 mm 5-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1050.0,
+    "air_delivery": 185.0,
+    "service_value": 6.01,
+    "star_rating": 5.0
+   },
+   "region": "Central"
+  },
+  {
+   "id": "FAN-071200",
+   "category": "fans",
+   "item": "ceiling_fan",
+   "manufacturer": "Samir Motors",
+   "model": "Samir 1200 mm 1-star",
+   "grade": "General",
+   "standard": "IS 374:2019",
+   "bis_licence": true,
+   "attributes": {
+    "sweep": 1200.0,
+    "air_delivery": 240.0,
+    "service_value": 3.86,
+    "star_rating": 1.0
+   },
+   "region": "East"
+  },
+  {
+   "id": "MCB-01",
+   "category": "electrical",
+   "item": "mcb",
+   "manufacturer": "Abhay Switchgear",
+   "model": "Abhay MCB",
+   "grade": "General",
+   "standard": "IS/IEC 60898-1:2002",
+   "bis_licence": true,
+   "attributes": {
+    "breaking_capacity": 10.0
+   },
+   "ratings_a": [
+    6,
+    10,
+    16,
+    20,
+    25,
+    32,
+    40,
+    63
+   ],
+   "curves": [
+    "C",
+    "D"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "MCB-02",
+   "category": "electrical",
+   "item": "mcb",
+   "manufacturer": "Bhoomi Protection",
+   "model": "Bhoomi MCB",
+   "grade": "General",
+   "standard": "IS/IEC 60898-1:2002",
+   "bis_licence": true,
+   "attributes": {
+    "breaking_capacity": 10.0
+   },
+   "ratings_a": [
+    6,
+    10,
+    16,
+    20,
+    25,
+    32,
+    40,
+    63
+   ],
+   "curves": [
+    "B",
+    "D"
+   ],
+   "region": "South"
+  },
+  {
+   "id": "MCB-03",
+   "category": "electrical",
+   "item": "mcb",
+   "manufacturer": "Circuit Kavach",
+   "model": "Circuit MCB",
+   "grade": "General",
+   "standard": "IS/IEC 60898-1:2002",
+   "bis_licence": true,
+   "attributes": {
+    "breaking_capacity": 10.0
+   },
+   "ratings_a": [
+    6,
+    10,
+    16,
+    20,
+    25,
+    32,
+    40,
+    63
+   ],
+   "curves": [
+    "D",
+    "C",
+    "B"
+   ],
+   "region": "East"
+  },
+  {
+   "id": "MCB-04",
+   "category": "electrical",
+   "item": "mcb",
+   "manufacturer": "Dhruva Electricals",
+   "model": "Dhruva MCB",
+   "grade": "General",
+   "standard": "IS/IEC 60898-1:2002",
+   "bis_licence": true,
+   "attributes": {
+    "breaking_capacity": 10.0
+   },
+   "ratings_a": [
+    6,
+    10,
+    16,
+    20,
+    25,
+    32,
+    40,
+    63
+   ],
+   "curves": [
+    "D",
+    "B",
+    "C"
+   ],
+   "region": "West"
+  },
+  {
+   "id": "MCB-05",
+   "category": "electrical",
+   "item": "mcb",
+   "manufacturer": "Eksha Controls",
+   "model": "Eksha MCB",
+   "grade": "General",
+   "standard": "IS/IEC 60898-1:2002",
+   "bis_licence": true,
+   "attributes": {
+    "breaking_capacity": 10.0
+   },
+   "ratings_a": [
+    6,
+    10,
+    16,
+    20,
+    25,
+    32,
+    40,
+    63
+   ],
+   "curves": [
+    "B",
+    "D",
+    "C"
+   ],
+   "region": "North"
+  },
+  {
+   "id": "PV-01440",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Arka Solar",
+   "model": "Arka 440Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 440.0,
+    "module_efficiency": 22.28
+   },
+   "region": "East"
+  },
+  {
+   "id": "PV-01550",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Arka Solar",
+   "model": "Arka 550Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": false,
+   "attributes": {
+    "module_power": 550.0,
+    "module_efficiency": 21.41
+   },
+   "region": "North"
+  },
+  {
+   "id": "PV-02580",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Bhaskar PV",
+   "model": "Bhaskar 580Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 580.0,
+    "module_efficiency": 21.38
+   },
+   "region": "East"
+  },
+  {
+   "id": "PV-02540",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Bhaskar PV",
+   "model": "Bhaskar 540Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 540.0,
+    "module_efficiency": 21.18
+   },
+   "region": "West"
+  },
+  {
+   "id": "PV-02440",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Bhaskar PV",
+   "model": "Bhaskar 440Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 440.0,
+    "module_efficiency": 20.59
+   },
+   "region": "East"
+  },
+  {
+   "id": "PV-03600",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Chhaya Energy",
+   "model": "Chhaya 600Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 600.0,
+    "module_efficiency": 20.55
+   },
+   "region": "North"
+  },
+  {
+   "id": "PV-03580",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Chhaya Energy",
+   "model": "Chhaya 580Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 580.0,
+    "module_efficiency": 21.93
+   },
+   "region": "North"
+  },
+  {
+   "id": "PV-03440",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Chhaya Energy",
+   "model": "Chhaya 440Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 440.0,
+    "module_efficiency": 20.53
+   },
+   "region": "West"
+  },
+  {
+   "id": "PV-04600",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Dinkar Modules",
+   "model": "Dinkar 600Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 600.0,
+    "module_efficiency": 22.21
+   },
+   "region": "East"
+  },
+  {
+   "id": "PV-04540",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Dinkar Modules",
+   "model": "Dinkar 540Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 540.0,
+    "module_efficiency": 21.33
+   },
+   "region": "West"
+  },
+  {
+   "id": "PV-05550",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Ekaditya Power",
+   "model": "Ekaditya 550Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": false,
+   "attributes": {
+    "module_power": 550.0,
+    "module_efficiency": 20.62
+   },
+   "region": "East"
+  },
+  {
+   "id": "PV-05580",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Ekaditya Power",
+   "model": "Ekaditya 580Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 580.0,
+    "module_efficiency": 21.66
+   },
+   "region": "Central"
+  },
+  {
+   "id": "PV-05440",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Ekaditya Power",
+   "model": "Ekaditya 440Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 440.0,
+    "module_efficiency": 21.91
+   },
+   "region": "West"
+  },
+  {
+   "id": "PV-06550",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Suryodaya PV",
+   "model": "Suryodaya 550Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": false,
+   "attributes": {
+    "module_power": 550.0,
+    "module_efficiency": 20.12
+   },
+   "region": "Central"
+  },
+  {
+   "id": "PV-06440",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Suryodaya PV",
+   "model": "Suryodaya 440Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 440.0,
+    "module_efficiency": 21.08
+   },
+   "region": "Central"
+  },
+  {
+   "id": "PV-06540",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Suryodaya PV",
+   "model": "Suryodaya 540Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 540.0,
+    "module_efficiency": 21.51
+   },
+   "region": "South"
+  },
+  {
+   "id": "PV-07540",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Tejas Photovoltaic",
+   "model": "Tejas 540Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": false,
+   "attributes": {
+    "module_power": 540.0,
+    "module_efficiency": 22.41
+   },
+   "region": "North"
+  },
+  {
+   "id": "PV-07440",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Tejas Photovoltaic",
+   "model": "Tejas 440Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 440.0,
+    "module_efficiency": 20.2
+   },
+   "region": "Central"
+  },
+  {
+   "id": "PV-07580",
+   "category": "solar",
+   "item": "solar_pv_module",
+   "manufacturer": "Tejas Photovoltaic",
+   "model": "Tejas 580Wp",
+   "grade": "General",
+   "standard": "IS 14286 (Part 1/Sec 1):2023",
+   "bis_licence": true,
+   "almm_listed": true,
+   "attributes": {
+    "module_power": 580.0,
+    "module_efficiency": 22.4
+   },
+   "region": "East"
+  }
+ ]
+}

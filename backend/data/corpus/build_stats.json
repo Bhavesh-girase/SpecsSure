@@ -1,0 +1,17 @@
+{
+ "standards_parsed": 19492,
+ "with_scope": 18525,
+ "with_references_clause": 6428,
+ "relations": 80834,
+ "relations_by_kind": {
+  "allied_product": 53256,
+  "test_method": 12252,
+  "terminology": 4349,
+  "sampling": 3884,
+  "material": 2424,
+  "packaging_marking": 2384,
+  "safety": 1617,
+  "installation": 668
+ },
+ "built": "2026-09-26 18:26"
+}

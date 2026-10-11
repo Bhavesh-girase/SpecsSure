@@ -1,0 +1,1339 @@
+{
+  "_comment": "Procurement item catalogue — the 'Item' layer of the Procurement Knowledge Graph. Each item links to its governing standards (resolved to the edition in force on the tender date by the temporal engine), mandatory regulations (via the regulation registry), the parameters a buyer must decide (slots), clause templates and tests. Clause 'basis' tells the reader where a sentence comes from: standard = required by the cited standard, regulation = required by a QCO/CRS/label order, buyer = a choice the officer made, practice = a recommended default from common Indian public-procurement practice (editable, NOT a statutory limit). Values marked 'practice' must be confirmed by the indenting officer.",
+  "items": [
+    {
+      "id": "led_lamp",
+      "label": "LED lamp (self-ballasted, general lighting)",
+      "domain": "lighting",
+      "default_unit": "nos",
+      "unit_kind": "count",
+      "hsn": "853952",
+      "aliases": [
+        "led bulb",
+        "led bulbs",
+        "light bulb",
+        "light bulbs",
+        "bulb",
+        "bulbs",
+        "led lamp",
+        "led lamps",
+        "lamp",
+        "lamps",
+        "led light bulb",
+        "tube bulb",
+        "बल्ब",
+        "एलईडी बल्ब",
+        "एलईडी लैंप",
+        "bulb chahiye",
+        "batti",
+        "बत्ती"
+      ],
+      "standards": [
+        {
+          "family": "IS 16102 (Part 1)",
+          "role": "safety"
+        },
+        {
+          "family": "IS 16102 (Part 2)",
+          "role": "performance"
+        },
+        {
+          "family": "IS 16106",
+          "role": "test method"
+        }
+      ],
+      "related": [
+        "pvc_cable",
+        "mcb",
+        "led_streetlight"
+      ],
+      "pack": null,
+      "estimate_inr": [
+        55,
+        110
+      ],
+      "slots": [
+        {
+          "id": "rated_power",
+          "label": "Wattage",
+          "param": "rated_power",
+          "type": "number",
+          "unit": "W",
+          "options": [
+            7,
+            9,
+            10,
+            12,
+            15,
+            20
+          ],
+          "default": 9,
+          "ask": true,
+          "basis": "buyer",
+          "question": "What wattage should each lamp be?",
+          "question_hi": "हर बल्ब कितने वाट का होना चाहिए?",
+          "why": "Wattage fixes light output and energy use; efficacy is tested at rated power."
+        },
+        {
+          "id": "cap_type",
+          "label": "Cap / holder type",
+          "type": "enum",
+          "options": [
+            "B22d",
+            "E27"
+          ],
+          "default": "B22d",
+          "ask": true,
+          "basis": "buyer",
+          "question": "Which holder: B22 (pin type, common in India) or E27 (screw)?",
+          "question_hi": "होल्डर कौन सा: B22 (पिन) या E27 (स्क्रू)?",
+          "why": "A wrong cap makes the lamp unusable in existing fittings."
+        },
+        {
+          "id": "cct",
+          "label": "Colour temperature",
+          "param": "cct",
+          "type": "enum",
+          "unit": "K",
+          "options": [
+            2700,
+            4000,
+            5700,
+            6500
+          ],
+          "default": 6500,
+          "ask": false,
+          "basis": "buyer",
+          "question": "Warm white (2700 K), neutral (4000 K) or cool daylight (6500 K)?",
+          "why": "Offices and hospitals usually use cool daylight; residences warm white."
+        },
+        {
+          "id": "efficacy",
+          "label": "Minimum luminous efficacy",
+          "param": "luminous_efficacy",
+          "type": "number",
+          "unit": "lm/W",
+          "options": [
+            90,
+            100,
+            110,
+            120
+          ],
+          "default": 100,
+          "ask": false,
+          "basis": "practice",
+          "why": "Higher efficacy saves energy but fewer manufacturers qualify — the competition meter shows the trade-off."
+        },
+        {
+          "id": "power_factor",
+          "label": "Minimum power factor",
+          "param": "power_factor",
+          "type": "number",
+          "unit": "",
+          "options": [
+            0.85,
+            0.9,
+            0.95
+          ],
+          "default": 0.9,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "cri",
+          "label": "Minimum colour rendering index",
+          "param": "colour_rendering_index",
+          "type": "number",
+          "unit": "",
+          "options": [
+            70,
+            80,
+            90
+          ],
+          "default": 80,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "star_rating",
+          "label": "Minimum BEE star rating",
+          "param": "star_rating",
+          "type": "number",
+          "unit": "star",
+          "options": [
+            3,
+            4,
+            5
+          ],
+          "default": 3,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "warranty_months",
+          "label": "Warranty (months)",
+          "type": "number",
+          "unit": "months",
+          "options": [
+            12,
+            24,
+            36
+          ],
+          "default": 24,
+          "ask": false,
+          "basis": "practice"
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "Self-ballasted LED lamps for general lighting services with {cap_type} cap, for operation on 230 V, 50 Hz single-phase AC supply, conforming to {std:IS 16102 (Part 1)} (safety) and {std:IS 16102 (Part 2)} (performance) including all amendments in force on the last date of bid submission.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Rated Power",
+          "text": "The rated power of each lamp shall not exceed {rated_power} W.",
+          "basis": "buyer"
+        },
+        {
+          "heading": "Luminous Efficacy",
+          "text": "The luminous efficacy shall not be less than {efficacy} lm/W, measured as per {std:IS 16106}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Power Factor",
+          "text": "The power factor shall not be less than {power_factor}, measured as per {std:IS 16106}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Colour Rendering",
+          "text": "The colour rendering index (Ra) shall not be less than {cri}, measured as per {std:IS 16106}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Colour Temperature",
+          "text": "The rated correlated colour temperature shall be {cct} K; the permitted tolerance shall be as specified in {std:IS 16102 (Part 2)}.",
+          "basis": "buyer"
+        },
+        {
+          "heading": "Energy Label",
+          "text": "Each lamp shall carry a valid BEE star label with a star rating of not less than {star_rating}.",
+          "basis": "regulation",
+          "regulation": "BEE-SL-LED"
+        },
+        {
+          "heading": "Registration",
+          "text": "The offered model shall be registered with BIS under the Compulsory Registration Scheme (CRS) and shall bear the Standard Mark with the registration number (R-number); a copy of the valid registration shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "CRS-MEITY"
+        },
+        {
+          "heading": "Marking",
+          "text": "Each lamp and its carton shall be legibly marked with the manufacturer's name or trade-mark, model, rated power, rated voltage and the R-number.",
+          "basis": "standard"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Type tests (safety)",
+          "standard": "IS 16102 (Part 1)",
+          "stage": "type"
+        },
+        {
+          "name": "Type tests (performance)",
+          "standard": "IS 16102 (Part 2)",
+          "stage": "type"
+        },
+        {
+          "name": "Acceptance tests (electrical and photometric)",
+          "standard": "IS 16106",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": "The lamps shall carry a warranty of not less than {warranty_months} months from the date of delivery; lamps failing within the warranty period shall be replaced free of cost.",
+      "delivery_days": 30
+    },
+    {
+      "id": "led_streetlight",
+      "label": "LED street light luminaire",
+      "domain": "lighting",
+      "default_unit": "nos",
+      "unit_kind": "count",
+      "hsn": "940540",
+      "aliases": [
+        "street light",
+        "street lights",
+        "streetlight",
+        "streetlights",
+        "led street light",
+        "road light",
+        "pole light",
+        "street lamp",
+        "स्ट्रीट लाइट",
+        "खंभे की लाइट"
+      ],
+      "standards": [
+        {
+          "family": "IS 10322 (Part 5/Sec 3)",
+          "role": "product"
+        },
+        {
+          "family": "IS 10322 (Part 1)",
+          "role": "safety"
+        },
+        {
+          "family": "IS 16106",
+          "role": "test method"
+        },
+        {
+          "family": "IS/IEC 60529",
+          "role": "test method"
+        },
+        {
+          "family": "IS 14700 (Part 4/Sec 5)",
+          "role": "test method"
+        }
+      ],
+      "related": [
+        "pvc_cable",
+        "mcb",
+        "solar_pv_module"
+      ],
+      "estimate_inr": [
+        3500,
+        9000
+      ],
+      "slots": [
+        {
+          "id": "rated_power",
+          "label": "Wattage",
+          "param": "rated_power",
+          "type": "number",
+          "unit": "W",
+          "options": [
+            30,
+            45,
+            60,
+            90,
+            120,
+            150
+          ],
+          "default": 90,
+          "ask": true,
+          "basis": "buyer",
+          "question": "What wattage per luminaire? (30–45 W lanes, 60–90 W colony roads, 120–150 W main roads)",
+          "question_hi": "हर स्ट्रीट लाइट कितने वाट की हो?",
+          "why": "Wattage depends on road width and pole height."
+        },
+        {
+          "id": "ip",
+          "label": "Ingress protection",
+          "type": "enum",
+          "options": [
+            "IP65",
+            "IP66"
+          ],
+          "default": "IP66",
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "efficacy",
+          "label": "Minimum system efficacy",
+          "param": "luminous_efficacy",
+          "type": "number",
+          "unit": "lm/W",
+          "options": [
+            110,
+            120,
+            130,
+            140
+          ],
+          "default": 130,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "power_factor",
+          "label": "Minimum power factor",
+          "param": "power_factor",
+          "type": "number",
+          "unit": "",
+          "options": [
+            0.9,
+            0.95
+          ],
+          "default": 0.95,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "surge",
+          "label": "Surge protection",
+          "param": "surge_protection",
+          "type": "number",
+          "unit": "kV",
+          "options": [
+            4,
+            6,
+            10
+          ],
+          "default": 10,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "warranty_months",
+          "label": "Warranty (months)",
+          "type": "number",
+          "unit": "months",
+          "options": [
+            36,
+            60
+          ],
+          "default": 60,
+          "ask": false,
+          "basis": "practice"
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "LED luminaires for road and street lighting conforming to {std:IS 10322 (Part 5/Sec 3)} and {std:IS 10322 (Part 1)} including all amendments in force on the last date of bid submission.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Rated Power",
+          "text": "The rated power shall be {rated_power} W with a tolerance of ± 10%.",
+          "basis": "buyer"
+        },
+        {
+          "heading": "System Efficacy",
+          "text": "The system luminous efficacy shall not be less than {efficacy} lm/W, measured as per {std:IS 16106}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Power Factor",
+          "text": "The power factor shall not be less than {power_factor}, measured as per {std:IS 16106}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Ingress Protection",
+          "text": "The luminaire shall be {ip} as per {std:IS/IEC 60529}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Surge Protection",
+          "text": "Surge protection shall not be less than {surge} kV, tested as per {std:IS 14700 (Part 4/Sec 5)}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Registration",
+          "text": "The offered model shall be registered with BIS under the Compulsory Registration Scheme (CRS); the registration number (R-number) shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "CRS-MEITY"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Type tests",
+          "standard": "IS 10322 (Part 5/Sec 3)",
+          "stage": "type"
+        },
+        {
+          "name": "Photometry and electrical parameters",
+          "standard": "IS 16106",
+          "stage": "type"
+        },
+        {
+          "name": "Acceptance tests (electrical, photometric and enclosure)",
+          "standard": "IS 16106",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": "The luminaires shall carry a warranty of not less than {warranty_months} months from the date of commissioning; failed luminaires shall be repaired or replaced.",
+      "delivery_days": 60
+    },
+    {
+      "id": "pvc_cable",
+      "label": "PVC insulated wiring cable (up to 1100 V)",
+      "domain": "cables",
+      "default_unit": "m",
+      "unit_kind": "length",
+      "hsn": "854449",
+      "aliases": [
+        "wire",
+        "wires",
+        "wiring",
+        "cable",
+        "cables",
+        "wiring cable",
+        "house wire",
+        "house wiring",
+        "pvc wire",
+        "pvc cable",
+        "copper wire",
+        "electric wire",
+        "frls wire",
+        "fr wire",
+        "taar",
+        "तार",
+        "बिजली का तार",
+        "केबल"
+      ],
+      "standards": [
+        {
+          "family": "IS 694",
+          "role": "product"
+        },
+        {
+          "family": "IS 8130",
+          "role": "conductor"
+        },
+        {
+          "family": "IS 10810 (Part 5)",
+          "role": "test method"
+        },
+        {
+          "family": "IS 10810 (Part 58)",
+          "role": "test method"
+        }
+      ],
+      "related": [
+        "led_lamp",
+        "mcb",
+        "ceiling_fan"
+      ],
+      "pack": {
+        "size": 90,
+        "unit": "m",
+        "label": "coil of 90 m"
+      },
+      "estimate_inr": [
+        18,
+        60
+      ],
+      "slots": [
+        {
+          "id": "conductor_area",
+          "label": "Conductor size",
+          "param": "conductor_area",
+          "type": "enum",
+          "unit": "sq mm",
+          "options": [
+            1.0,
+            1.5,
+            2.5,
+            4.0,
+            6.0,
+            10.0
+          ],
+          "default": 1.5,
+          "ask": true,
+          "basis": "buyer",
+          "question": "Which conductor size? (1.5 sq mm lighting circuits, 2.5 sq mm power points, 4 sq mm AC/geyser)",
+          "question_hi": "तार का साइज़ कितना? (लाइट के लिए 1.5 sq mm, पावर प्लग के लिए 2.5 sq mm)",
+          "why": "Size decides safe current; undersized wire overheats."
+        },
+        {
+          "id": "cores",
+          "label": "Number of cores",
+          "type": "enum",
+          "options": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "default": 1,
+          "ask": false,
+          "basis": "buyer"
+        },
+        {
+          "id": "conductor_material",
+          "label": "Conductor",
+          "type": "enum",
+          "options": [
+            "copper",
+            "aluminium"
+          ],
+          "default": "copper",
+          "ask": false,
+          "basis": "buyer"
+        },
+        {
+          "id": "insulation",
+          "label": "Insulation type",
+          "type": "enum",
+          "options": [
+            "FR",
+            "FR-LSH"
+          ],
+          "default": "FR",
+          "ask": false,
+          "basis": "practice",
+          "why": "FR-LSH (low smoke) is advisable for hospitals, schools and escape routes."
+        },
+        {
+          "id": "warranty_months",
+          "label": "Warranty (months)",
+          "type": "number",
+          "unit": "months",
+          "options": [
+            12,
+            24
+          ],
+          "default": 12,
+          "ask": false,
+          "basis": "practice"
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "{cores}-core PVC insulated {insulation} cable with annealed {conductor_material} conductor for working voltages up to and including 1100 V, conforming to {std:IS 694} including all amendments in force on the last date of bid submission.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Conductor",
+          "text": "The conductor shall conform to {std:IS 8130}; the nominal cross-sectional area of the conductor shall be {conductor_area} sq mm, and the conductor resistance shall comply with {std:IS 8130} when tested as per {std:IS 10810 (Part 5)}.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Fire Performance",
+          "text": "The oxygen index of the insulation shall not be less than 29%, tested as per {std:IS 10810 (Part 58)}.",
+          "basis": "practice",
+          "when": {
+            "slot": "insulation",
+            "in": [
+              "FR",
+              "FR-LSH"
+            ]
+          }
+        },
+        {
+          "heading": "Certification",
+          "text": "The cable shall bear the BIS Standard Mark (ISI) under a valid licence (CM/L) as mandated by the Electrical Wires, Cables, Appliances and Protection Devices and Accessories (Quality Control) Order, 2003; the licence number shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "QCO-CABLES"
+        },
+        {
+          "heading": "Packing and Marking",
+          "text": "Cable shall be supplied in coils of 90 m (balance quantity as a single cut length), each coil marked with the manufacturer's name, size, length, voltage grade, ISI mark and licence number.",
+          "basis": "standard"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Type tests",
+          "standard": "IS 694",
+          "stage": "type"
+        },
+        {
+          "name": "Acceptance tests (conductor and insulation)",
+          "standard": "IS 10810 (Part 5)",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": "The cable shall carry a warranty of not less than {warranty_months} months from the date of delivery against manufacturing defects.",
+      "delivery_days": 30
+    },
+    {
+      "id": "ceiling_fan",
+      "label": "Electric ceiling fan",
+      "domain": "fans",
+      "default_unit": "nos",
+      "unit_kind": "count",
+      "hsn": "841451",
+      "aliases": [
+        "ceiling fan",
+        "ceiling fans",
+        "fan",
+        "fans",
+        "pankha",
+        "पंखा",
+        "पंखे",
+        "छत का पंखा"
+      ],
+      "standards": [
+        {
+          "family": "IS 374",
+          "role": "product"
+        }
+      ],
+      "related": [
+        "pvc_cable",
+        "led_lamp",
+        "mcb"
+      ],
+      "estimate_inr": [
+        1500,
+        3500
+      ],
+      "slots": [
+        {
+          "id": "sweep",
+          "label": "Sweep",
+          "param": "sweep",
+          "type": "enum",
+          "unit": "mm",
+          "options": [
+            900,
+            1050,
+            1200,
+            1400
+          ],
+          "default": 1200,
+          "ask": true,
+          "basis": "buyer",
+          "question": "Which sweep? (1200 mm is standard for rooms up to ~12 m²; 1400 mm for larger halls)",
+          "question_hi": "पंखे का साइज़ (स्वीप) कितना? 1200 mm सामान्य कमरे के लिए",
+          "why": "Sweep must match room size; air delivery limits in IS 374 depend on sweep."
+        },
+        {
+          "id": "star_rating",
+          "label": "Minimum BEE star rating",
+          "param": "star_rating",
+          "type": "number",
+          "unit": "star",
+          "options": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "default": 3,
+          "ask": false,
+          "basis": "practice",
+          "why": "Star rating is mandatory for ceiling fans; a higher minimum saves energy but narrows the market."
+        },
+        {
+          "id": "air_delivery",
+          "label": "Minimum air delivery",
+          "param": "air_delivery",
+          "type": "number",
+          "unit": "m3/min",
+          "options": [
+            150,
+            180,
+            210,
+            230,
+            250
+          ],
+          "default": 210,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "warranty_months",
+          "label": "Warranty (months)",
+          "type": "number",
+          "unit": "months",
+          "options": [
+            24,
+            36
+          ],
+          "default": 24,
+          "ask": false,
+          "basis": "practice"
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "Electric ceiling type fans for 230 V, 50 Hz single-phase AC supply conforming to {std:IS 374} including all amendments in force on the last date of bid submission, complete with down-rod, canopy and blades.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Sweep",
+          "text": "The sweep of the fan shall be {sweep} mm, with tolerance as specified in {std:IS 374}.",
+          "basis": "buyer"
+        },
+        {
+          "heading": "Air Delivery",
+          "text": "The air delivery shall not be less than {air_delivery} m3/min, tested as per {std:IS 374}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Energy Label",
+          "text": "Each fan shall carry a valid BEE star label with a star rating of not less than {star_rating}.",
+          "basis": "regulation",
+          "regulation": "BEE-SL-FAN"
+        },
+        {
+          "heading": "Certification",
+          "text": "The fans shall bear the BIS Standard Mark (ISI) under a valid licence (CM/L) as mandated by the Electric Ceiling Type Fans (Quality Control) Order, 2023; the licence number shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "QCO-CEILING-FAN-2023"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Type tests (performance and safety)",
+          "standard": "IS 374",
+          "stage": "type"
+        },
+        {
+          "name": "Acceptance tests (performance and insulation)",
+          "standard": "IS 374",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": "The fans shall carry a warranty of not less than {warranty_months} months from the date of installation; defective fans shall be repaired or replaced.",
+      "delivery_days": 30
+    },
+    {
+      "id": "mcb",
+      "label": "Miniature circuit breaker (MCB)",
+      "domain": "electrical",
+      "default_unit": "nos",
+      "unit_kind": "count",
+      "hsn": "853620",
+      "aliases": [
+        "mcb",
+        "mcbs",
+        "miniature circuit breaker",
+        "circuit breaker",
+        "circuit breakers",
+        "breaker",
+        "एमसीबी"
+      ],
+      "standards": [
+        {
+          "family": "IS/IEC 60898",
+          "role": "product"
+        }
+      ],
+      "related": [
+        "pvc_cable",
+        "led_lamp"
+      ],
+      "estimate_inr": [
+        150,
+        600
+      ],
+      "slots": [
+        {
+          "id": "rated_current",
+          "label": "Rated current",
+          "param": "rated_current",
+          "type": "enum",
+          "unit": "A",
+          "options": [
+            6,
+            10,
+            16,
+            20,
+            25,
+            32,
+            40,
+            63
+          ],
+          "default": 16,
+          "ask": true,
+          "basis": "buyer",
+          "question": "Which rating? (6–10 A lighting, 16–20 A power, 32–63 A incomer)",
+          "question_hi": "एमसीबी कितने एम्पियर का?",
+          "why": "The rating must match the cable size of the circuit it protects."
+        },
+        {
+          "id": "poles",
+          "label": "Poles",
+          "type": "enum",
+          "options": [
+            "SP",
+            "DP",
+            "TP",
+            "TPN"
+          ],
+          "default": "SP",
+          "ask": false,
+          "basis": "buyer"
+        },
+        {
+          "id": "curve",
+          "label": "Tripping characteristic",
+          "type": "enum",
+          "options": [
+            "B",
+            "C",
+            "D"
+          ],
+          "default": "C",
+          "ask": false,
+          "basis": "buyer"
+        },
+        {
+          "id": "breaking_capacity",
+          "label": "Minimum breaking capacity",
+          "param": "breaking_capacity",
+          "type": "number",
+          "unit": "kA",
+          "options": [
+            6,
+            10
+          ],
+          "default": 10,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "warranty_months",
+          "label": "Warranty (months)",
+          "type": "number",
+          "unit": "months",
+          "options": [
+            12,
+            24,
+            60
+          ],
+          "default": 24,
+          "ask": false,
+          "basis": "practice"
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "{poles} miniature circuit breakers, {curve}-curve tripping characteristic, conforming to {std:IS/IEC 60898} including all amendments in force on the last date of bid submission.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Rating",
+          "text": "The rated current shall be {rated_current} A.",
+          "basis": "buyer"
+        },
+        {
+          "heading": "Breaking Capacity",
+          "text": "The rated short-circuit capacity shall not be less than {breaking_capacity} kA, verified as per {std:IS/IEC 60898}.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Certification",
+          "text": "The MCBs shall bear the BIS Standard Mark (ISI) under a valid licence (CM/L) as mandated by the Electrical Wires, Cables, Appliances and Protection Devices and Accessories (Quality Control) Order, 2003 as amended; the licence number shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "QCO-CABLES"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Type tests",
+          "standard": "IS/IEC 60898",
+          "stage": "type"
+        },
+        {
+          "name": "Acceptance tests (tripping and dielectric)",
+          "standard": "IS/IEC 60898",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": "The MCBs shall carry a warranty of not less than {warranty_months} months from the date of delivery.",
+      "delivery_days": 30
+    },
+    {
+      "id": "opc_cement",
+      "label": "Ordinary Portland Cement",
+      "domain": "cement",
+      "default_unit": "MT",
+      "unit_kind": "mass",
+      "hsn": "252329",
+      "aliases": [
+        "cement",
+        "opc",
+        "opc cement",
+        "ordinary portland cement",
+        "portland cement",
+        "cement bags",
+        "सीमेंट",
+        "सिमेंट"
+      ],
+      "standards": [
+        {
+          "family": "IS 269",
+          "role": "product"
+        },
+        {
+          "family": "IS 4031 (Part 6)",
+          "role": "test method"
+        },
+        {
+          "family": "IS 4031 (Part 5)",
+          "role": "test method"
+        },
+        {
+          "family": "IS 4031 (Part 2)",
+          "role": "test method"
+        },
+        {
+          "family": "IS 4031 (Part 3)",
+          "role": "test method"
+        }
+      ],
+      "related": [
+        "tmt_steel"
+      ],
+      "pack": {
+        "size": 0.05,
+        "unit": "MT",
+        "label": "50 kg bag"
+      },
+      "estimate_inr": [
+        6500,
+        8500
+      ],
+      "slots": [
+        {
+          "id": "grade",
+          "label": "Grade",
+          "type": "enum",
+          "options": [
+            "33",
+            "43",
+            "53"
+          ],
+          "default": "43",
+          "ask": true,
+          "basis": "buyer",
+          "question": "Which grade of OPC: 43 (general construction) or 53 (high-strength RCC)?",
+          "question_hi": "सीमेंट का ग्रेड: 43 या 53?",
+          "why": "Grade fixes the 28-day strength class under IS 269."
+        },
+        {
+          "id": "warranty_months",
+          "label": "Shelf life (months)",
+          "type": "number",
+          "unit": "months",
+          "options": [
+            3
+          ],
+          "default": 3,
+          "ask": false,
+          "basis": "practice"
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "Ordinary Portland Cement {grade} Grade conforming to {std:IS 269} including all amendments in force on the last date of bid submission; all physical and chemical requirements of {std:IS 269} for {grade} Grade shall apply.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Testing",
+          "text": "Compressive strength shall be tested as per {std:IS 4031 (Part 6)}, setting time as per {std:IS 4031 (Part 5)}, fineness as per {std:IS 4031 (Part 2)} and soundness as per {std:IS 4031 (Part 3)}.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Certification",
+          "text": "Cement shall bear the BIS Standard Mark (ISI) under a valid licence (CM/L) as mandated by the Cement (Quality Control) Order, 2003; the licence number shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "QCO-CEMENT-2003"
+        },
+        {
+          "heading": "Packing",
+          "text": "Cement shall be supplied in 50 kg bags marked with the ISI mark, licence number, grade and week and year of manufacture; cement older than 90 days from the date of manufacture on the date of delivery shall not be accepted.",
+          "basis": "practice"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Compressive strength",
+          "standard": "IS 4031 (Part 6)",
+          "stage": "acceptance"
+        },
+        {
+          "name": "Setting time",
+          "standard": "IS 4031 (Part 5)",
+          "stage": "acceptance"
+        },
+        {
+          "name": "Fineness",
+          "standard": "IS 4031 (Part 2)",
+          "stage": "acceptance"
+        },
+        {
+          "name": "Soundness",
+          "standard": "IS 4031 (Part 3)",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": null,
+      "delivery_days": 30
+    },
+    {
+      "id": "tmt_steel",
+      "label": "TMT reinforcement steel bars",
+      "domain": "steel",
+      "default_unit": "MT",
+      "unit_kind": "mass",
+      "hsn": "721420",
+      "aliases": [
+        "tmt",
+        "tmt bar",
+        "tmt bars",
+        "tmt steel",
+        "steel bars",
+        "rebar",
+        "rebars",
+        "reinforcement steel",
+        "saria",
+        "sariya",
+        "सरिया",
+        "स्टील"
+      ],
+      "standards": [
+        {
+          "family": "IS 1786",
+          "role": "product"
+        },
+        {
+          "family": "IS 1608 (Part 1)",
+          "role": "test method"
+        },
+        {
+          "family": "IS 1599",
+          "role": "test method"
+        },
+        {
+          "family": "IS 228",
+          "role": "test method"
+        }
+      ],
+      "related": [
+        "opc_cement"
+      ],
+      "estimate_inr": [
+        55000,
+        70000
+      ],
+      "slots": [
+        {
+          "id": "grade",
+          "label": "Grade",
+          "type": "enum",
+          "options": [
+            "Fe 500",
+            "Fe 500D",
+            "Fe 550D"
+          ],
+          "default": "Fe 500D",
+          "ask": true,
+          "basis": "buyer",
+          "question": "Which grade? Fe 500D is the usual choice (ductile, suits seismic zones).",
+          "question_hi": "सरिया का ग्रेड: Fe 500D (सामान्य) या Fe 550D?",
+          "why": "Grade fixes yield strength and ductility requirements in IS 1786."
+        },
+        {
+          "id": "sizes",
+          "label": "Diameters",
+          "param": "nominal_diameter",
+          "type": "multi",
+          "unit": "mm",
+          "options": [
+            8,
+            10,
+            12,
+            16,
+            20,
+            25,
+            32
+          ],
+          "default": [
+            8,
+            12,
+            16
+          ],
+          "ask": true,
+          "basis": "buyer",
+          "question": "Which bar diameters?",
+          "question_hi": "सरिया किन मोटाइयों में चाहिए (mm)?",
+          "why": "Sizes come from the structural drawings."
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "High strength deformed (TMT) steel bars of Grade {grade} conforming to {std:IS 1786} including all amendments in force on the last date of bid submission; all mechanical and chemical requirements of {std:IS 1786} for Grade {grade} shall apply.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Sizes",
+          "text": "Nominal diameters: {sizes} mm, with tolerances on nominal mass per metre as per {std:IS 1786}.",
+          "basis": "buyer"
+        },
+        {
+          "heading": "Testing",
+          "text": "Tensile properties shall be tested as per {std:IS 1608 (Part 1)}, bend and rebend as per {std:IS 1599} and chemical composition as per {std:IS 228}.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Certification",
+          "text": "The bars shall bear the BIS Standard Mark (ISI) under a valid licence (CM/L); the licence number shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "QCO-STEEL"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Tensile test",
+          "standard": "IS 1608 (Part 1)",
+          "stage": "acceptance"
+        },
+        {
+          "name": "Bend / rebend",
+          "standard": "IS 1599",
+          "stage": "acceptance"
+        },
+        {
+          "name": "Chemical analysis",
+          "standard": "IS 228",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": null,
+      "delivery_days": 30
+    },
+    {
+      "id": "solar_pv_module",
+      "label": "Solar PV module (crystalline silicon)",
+      "domain": "solar",
+      "default_unit": "nos",
+      "unit_kind": "count",
+      "hsn": "854143",
+      "aliases": [
+        "solar panel",
+        "solar panels",
+        "solar module",
+        "solar modules",
+        "pv module",
+        "pv modules",
+        "solar plate",
+        "सोलर पैनल",
+        "सौर पैनल"
+      ],
+      "standards": [
+        {
+          "family": "IS 14286 (Part 1/Sec 1)",
+          "role": "design qualification"
+        },
+        {
+          "family": "IS 14286 (Part 2)",
+          "role": "test method"
+        },
+        {
+          "family": "IS/IEC 61730-1",
+          "role": "safety (construction)"
+        },
+        {
+          "family": "IS/IEC 61730-2",
+          "role": "safety (testing)"
+        }
+      ],
+      "related": [
+        "pvc_cable",
+        "led_streetlight"
+      ],
+      "estimate_inr": [
+        9000,
+        16000
+      ],
+      "slots": [
+        {
+          "id": "module_power",
+          "label": "Module rating",
+          "param": "module_power",
+          "type": "number",
+          "unit": "Wp",
+          "options": [
+            440,
+            540,
+            550,
+            580
+          ],
+          "default": 540,
+          "ask": true,
+          "basis": "buyer",
+          "question": "What module rating (Wp)?",
+          "question_hi": "पैनल कितने वॉट-पीक का हो?",
+          "why": "Module rating decides the number of modules and structure size."
+        },
+        {
+          "id": "module_efficiency",
+          "label": "Minimum module efficiency",
+          "param": "module_efficiency",
+          "type": "number",
+          "unit": "%",
+          "options": [
+            19.5,
+            20.5,
+            21.5
+          ],
+          "default": 20.5,
+          "ask": false,
+          "basis": "practice"
+        },
+        {
+          "id": "warranty_years",
+          "label": "Product warranty (years)",
+          "type": "number",
+          "unit": "years",
+          "options": [
+            10,
+            12
+          ],
+          "default": 10,
+          "ask": false,
+          "basis": "practice"
+        }
+      ],
+      "spec": [
+        {
+          "heading": "Type and Standard",
+          "text": "Crystalline silicon terrestrial PV modules conforming to {std:IS 14286 (Part 1/Sec 1)} and {std:IS/IEC 61730-1} / {std:IS/IEC 61730-2} including all amendments in force on the last date of bid submission.",
+          "basis": "standard"
+        },
+        {
+          "heading": "Rating",
+          "text": "The rated peak power of each module shall not be less than {module_power} Wp at STC, with only positive power tolerance, tested as per {std:IS 14286 (Part 2)}.",
+          "basis": "buyer"
+        },
+        {
+          "heading": "Efficiency",
+          "text": "The module efficiency shall not be less than {module_efficiency}% at STC.",
+          "basis": "practice"
+        },
+        {
+          "heading": "Registration",
+          "text": "The offered module model shall be registered with BIS under the Compulsory Registration Scheme; the registration number shall be furnished with the bid.",
+          "basis": "regulation",
+          "regulation": "CRS-SOLAR-PV"
+        },
+        {
+          "heading": "ALMM",
+          "text": "The offered module model and manufacturer shall be enlisted in ALMM List-I of MNRE on the last date of bid submission, and the solar cells used shall be from ALMM List-II where applicable to the project.",
+          "basis": "regulation",
+          "regulation": "ALMM-LIST-I"
+        }
+      ],
+      "tests": [
+        {
+          "name": "Design qualification and type approval",
+          "standard": "IS 14286 (Part 2)",
+          "stage": "type"
+        },
+        {
+          "name": "Safety qualification",
+          "standard": "IS/IEC 61730-2",
+          "stage": "type"
+        },
+        {
+          "name": "Acceptance tests (flash test at STC)",
+          "standard": "IS 14286 (Part 2)",
+          "stage": "acceptance"
+        }
+      ],
+      "warranty_text": "The modules shall carry a product warranty of not less than {warranty_years} years and a linear performance warranty of not less than 25 years from the date of commissioning.",
+      "delivery_days": 60
+    }
+  ]
+}

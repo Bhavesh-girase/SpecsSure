@@ -1,0 +1,99 @@
+{
+  "planted_issue_recall": 1.0,
+  "planted_issues": 29,
+  "critical_false_alarms_on_clean_tenders": 0,
+  "clean_tenders": 1,
+  "mean_compile_ms": 24.3,
+  "cases": [
+    {
+      "case": "DEMO-PHC",
+      "expected": 18,
+      "missed": [],
+      "findings": 34,
+      "critical": 8,
+      "readiness": 17.4,
+      "compile_ms": 157.2
+    },
+    {
+      "case": "LED-CLEAN",
+      "expected": 0,
+      "missed": [],
+      "findings": 6,
+      "critical": 0,
+      "readiness": 76.9,
+      "compile_ms": 33.0
+    },
+    {
+      "case": "WITHDRAWN-53",
+      "expected": 1,
+      "missed": [],
+      "findings": 5,
+      "critical": 1,
+      "readiness": 58.0,
+      "compile_ms": 3.6
+    },
+    {
+      "case": "BRAND-CABLE",
+      "expected": 1,
+      "missed": [],
+      "findings": 5,
+      "critical": 1,
+      "readiness": 58.0,
+      "compile_ms": 3.5
+    },
+    {
+      "case": "WEAK-WATER",
+      "expected": 1,
+      "missed": [],
+      "findings": 7,
+      "critical": 0,
+      "readiness": 59.3,
+      "compile_ms": 6.9
+    },
+    {
+      "case": "IMPOSSIBLE-PF",
+      "expected": 1,
+      "missed": [],
+      "findings": 6,
+      "critical": 2,
+      "readiness": 49.4,
+      "compile_ms": 5.5
+    },
+    {
+      "case": "DELIVERY-TEST",
+      "expected": 1,
+      "missed": [],
+      "findings": 7,
+      "critical": 1,
+      "readiness": 59.7,
+      "compile_ms": 7.0
+    },
+    {
+      "case": "STEEL-CONTRA",
+      "expected": 2,
+      "missed": [],
+      "findings": 9,
+      "critical": 2,
+      "readiness": 46.0,
+      "compile_ms": 20.1
+    },
+    {
+      "case": "FOREIGN-QCO",
+      "expected": 2,
+      "missed": [],
+      "findings": 7,
+      "critical": 2,
+      "readiness": 51.9,
+      "compile_ms": 3.5
+    },
+    {
+      "case": "GENERIC-REF",
+      "expected": 2,
+      "missed": [],
+      "findings": 6,
+      "critical": 1,
+      "readiness": 54.1,
+      "compile_ms": 2.9
+    }
+  ]
+}

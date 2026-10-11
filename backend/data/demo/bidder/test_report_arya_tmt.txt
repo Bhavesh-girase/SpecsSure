@@ -1,0 +1,20 @@
+--- Page 1 ---
+SAMPLE TEST REPORT — FICTIONAL LABORATORY, FOR SOFTWARE DEMONSTRATION ONLY
+Laboratory: Demo Steel Testing Centre, Raipur
+Accreditation: NABL (ISO/IEC 17025) Certificate No. TC-DEMO-0202
+Report No.: DSTC/2026/08/4411
+Date of Report: 12-08-2026
+Customer: Arya Rebar Ltd
+Sample: TMT bar Fe 500D, 16 mm nominal diameter, Heat No. A-2291
+
+TEST RESULTS
+| Parameter | Result | Test method |
+| 0.2% Proof Stress | 538 N/mm2 | IS 1608 (Part 1):2018 |
+| Ultimate Tensile Strength | 612 N/mm2 | IS 1608 (Part 1):2018 |
+| Elongation | 17.5 % | IS 1608 (Part 1):2018 |
+| Carbon | 0.21 % | IS 228 |
+| Sulphur | 0.034 % | IS 228 |
+| Phosphorus | 0.031 % | IS 228 |
+
+Remarks: The sample conforms to the requirements of IS 1786:2008 Fe 500D for the parameters tested.
+Total elongation at maximum force was not tested.

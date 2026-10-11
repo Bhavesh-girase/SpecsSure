@@ -1,0 +1,54 @@
+{
+  "category_name": "Ordinary Portland Cement",
+  "bis_division": "Civil Engineering Division",
+  "bis_section_committee": "CED 2",
+  "primary_standard_is": "IS 269:2015",
+  "keywords": "cement, OPC, portland cement, 43 grade, 53 grade, 33 grade, building material, concrete, clinker",
+  "parameter_template": {
+    "chemical": [
+      "Lime Saturation Factor LSF",
+      "Alumina-Iron Ratio",
+      "Insoluble Residue % max",
+      "Magnesia MgO % max",
+      "Sulphuric Anhydride SO3 % max",
+      "Total Loss on Ignition % max",
+      "Total Chloride Content % max",
+      "Alkalies %"
+    ],
+    "physical": [
+      "Fineness m2/kg (Blaine method)",
+      "Standard Consistency %",
+      "Initial Setting Time minutes min",
+      "Final Setting Time minutes max",
+      "Soundness Le Chatelier mm max",
+      "Soundness Autoclave % max"
+    ],
+    "mechanical": [
+      "Compressive Strength 3 days MPa (min 23 MPa)",
+      "Compressive Strength 7 days MPa (min 33 MPa)",
+      "Compressive Strength 28 days MPa (min 43 MPa / 53 MPa)"
+    ],
+    "performance": [
+      "Heat of Hydration kJ/kg",
+      "Drying Shrinkage %"
+    ],
+    "test_methods": [
+      "IS 4031 Part 1 - Fineness by dry sieving",
+      "IS 4031 Part 2 - Fineness by Blaine air permeability",
+      "IS 4031 Part 3 - Soundness test",
+      "IS 4031 Part 4 - Standard Consistency",
+      "IS 4031 Part 5 - Setting Time determination",
+      "IS 4031 Part 6 - Compressive Strength",
+      "IS 4032 - Method of Chemical Analysis for Hydraulic Cement"
+    ],
+    "safety": [],
+    "installation": [
+      "IS 456:2000 - Plain and Reinforced Concrete Code of Practice"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "BIS ISI Mark (Compulsory under QCO)",
+      "qco": "Cement (Quality Control) Order 2003 / 2024"
+    }
+  }
+}

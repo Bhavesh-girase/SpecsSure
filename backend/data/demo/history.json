@@ -1,0 +1,66 @@
+{
+  "_comment": "FICTIONAL institutional memory of past tenders (for the Procurement Memory & pre-bid prediction demo). In production this is built automatically from every compiled tender, its pre-bid Q&A and corrigenda.",
+  "tenders": [
+    {
+      "ref": "DEMO/PWD/2024/0118", "title": "Supply of TMT bars Fe 500D for district hospital extension", "year": 2024, "domains": ["steel"],
+      "outcome": "2 corrigenda, bid due date extended by 14 days, 1 representation to Chief Engineer",
+      "clauses": [
+        {"key": "5.3", "text": "Carbon content shall not exceed 0.18% for better weldability.", "issues": ["SS-RES-003"],
+         "prebid_questions": ["Carbon 0.18% max is stricter than IS 1786 Fe 500D (0.25% max) and only one mill meets it. Please relax to IS 1786 limits.",
+                              "Please confirm whether bars with carbon up to 0.25% conforming to IS 1786:2008 will be accepted."],
+         "resolution": "Corrigendum No. 1 relaxed the limit to 'as per IS 1786:2008 Fe 500D'."},
+        {"key": "5.1", "text": "Bars shall be of reputed make like TATA Tiscon or JSW Neosteel only.", "issues": ["SS-RES-001"],
+         "prebid_questions": ["Will ISI-marked bars of other manufacturers be accepted?"],
+         "resolution": "Clause amended to 'any make conforming to IS 1786:2008 with BIS licence'."}
+      ]
+    },
+    {
+      "ref": "DEMO/PWD/2025/0044", "title": "Supply of OPC 43 grade cement for school buildings", "year": 2025, "domains": ["cement"],
+      "outcome": "1 corrigendum; 11 pre-bid queries",
+      "clauses": [
+        {"key": "2.1", "text": "Cement shall be OPC 43 grade conforming to IS 8112.", "issues": ["SS-STD-003"],
+         "prebid_questions": ["IS 8112 has been withdrawn and merged into IS 269:2015. Please confirm cement conforming to IS 269:2015 (43 grade) is acceptable."],
+         "resolution": "Corrigendum replaced IS 8112 with IS 269:2015."},
+        {"key": "4.2", "text": "Each lot shall be tested for 28 days strength before dispatch; delivery within 10 days of order.", "issues": ["SS-CON-005"],
+         "prebid_questions": ["28-day strength results cannot be available within the 10-day delivery period. Will manufacturer's test certificate of the week of production be accepted?"],
+         "resolution": "Clarified: MTC accepted; 28-day results on retained samples."}
+      ]
+    },
+    {
+      "ref": "DEMO/WRD/2025/0210", "title": "Supply of HDPE pipes for rural water supply", "year": 2025, "domains": ["pipes"],
+      "outcome": "No corrigendum; 3 pre-bid queries",
+      "clauses": [
+        {"key": "3.4", "text": "Pipes shall be of good quality and as per relevant IS codes.", "issues": ["SS-AMB-001", "SS-STD-001"],
+         "prebid_questions": ["Please specify the applicable IS and pressure class."], "resolution": "Clarified: IS 4984:2016 PN 10."}
+      ]
+    },
+    {
+      "ref": "DEMO/EE/2024/0301", "title": "Supply of 1100 V PVC insulated copper cables for hospital wiring", "year": 2024, "domains": ["cables"],
+      "outcome": "1 corrigendum",
+      "clauses": [
+        {"key": "6.1", "text": "Test certificates should be submitted with supply.", "issues": ["SS-MOD-001", "SS-TEST-002"],
+         "prebid_questions": ["Are manufacturer's routine test certificates acceptable or are NABL lab reports required?"],
+         "resolution": "Clarified: type test reports from NABL lab within 3 years + routine test certificates."}
+      ]
+    },
+    {
+      "ref": "DEMO/PWD/2025/0377", "title": "Supply of structural steel and TMT bars for flyover", "year": 2025, "domains": ["steel"],
+      "outcome": "Tender cancelled and re-issued after contradiction was pointed out in pre-bid",
+      "clauses": [
+        {"key": "7.4", "text": "Yield stress shall not exceed 480 N/mm2 to ensure ductility.", "issues": ["SS-CON-001", "SS-CON-002"],
+         "prebid_questions": ["Clause 7.4 caps yield at 480 N/mm2 while Fe 500D requires minimum 500 N/mm2 — no bar can comply. Please clarify."],
+         "resolution": "Tender re-issued; cap replaced by 'actual/nominal yield ratio ≤ 1.25'."},
+        {"key": "1.6", "text": "Pre-bid meeting will be held after the bid submission date.", "issues": ["SS-CON-004"],
+         "prebid_questions": ["Please reschedule the pre-bid meeting before the bid due date."], "resolution": "Dates revised."}
+      ]
+    },
+    {
+      "ref": "DEMO/HLTH/2026/0022", "title": "Supply of LED street light luminaires 120 W", "year": 2026, "domains": ["lighting"],
+      "outcome": "No issues",
+      "clauses": [
+        {"key": "2.2", "text": "Luminaires shall conform to IS 10322 (Part 5/Sec 1):2012 with BIS CRS registration, IP66 as per IS/IEC 60529.", "issues": [],
+         "prebid_questions": [], "resolution": null}
+      ]
+    }
+  ]
+}

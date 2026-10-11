@@ -1,0 +1,35 @@
+{
+  "category_name": "Caustic Soda and Industrial Chemicals",
+  "bis_division": "Chemical Division",
+  "bis_section_committee": "CHD 2",
+  "primary_standard_is": "IS 252:2013",
+  "keywords": "caustic soda, sodium hydroxide, NaOH, flakes, lye, chemical reagent, industrial chemical, chlorine alkali, neutralizing agent",
+  "parameter_template": {
+    "chemical": [
+      "Sodium Hydroxide NaOH content % by mass min (99.5% for pure grade, 98.0% for rayon grade)",
+      "Sodium Carbonate Na2CO3 % by mass max (0.4% to 1.0%)",
+      "Chlorides as NaCl % by mass max (0.03% to 0.10%)",
+      "Sulphates as Na2SO4 % by mass max (0.05%)",
+      "Iron as Fe ppm max (10 to 20 ppm)",
+      "Heavy metals as Lead ppm max (5 ppm)"
+    ],
+    "physical": [
+      "Physical Form (Flakes, Prills, Pellets, Solid Lye 48%)",
+      "Colour and visual clarity in solution"
+    ],
+    "test_methods": [
+      "IS 252:2013 Annex A to G - Analytical test procedures for Caustic Soda",
+      "IS 1070:1992 - Water for General Laboratory Use"
+    ],
+    "safety": [
+      "IS 4268:1992 - Code of Safety for Caustic Soda",
+      "IS 4015 - Guide for handling and storage of hazardous chemicals"
+    ],
+    "installation": [],
+    "certification": {
+      "mandatory": true,
+      "scheme": "Mandatory BIS ISI Mark under QCO",
+      "qco": "Caustic Soda (Quality Control) Order 2018 / 2024"
+    }
+  }
+}

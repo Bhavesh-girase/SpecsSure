@@ -1,0 +1,121 @@
+{
+ "columns": [
+  "BIS list top-1",
+  "BIS list top-3",
+  "GeM names top-1",
+  "GeM names top-3",
+  "Procurement top-1",
+  "Procurement top-3",
+  "Indian-language held-out top-1",
+  "held-out top-3",
+  "ms / query"
+ ],
+ "rows": [
+  {
+   "name": "Archive only (19.7k texts) \u00b7 e5-small \u2014 BIS n=721, GeM n=395",
+   "chosen": false,
+   "values": [
+    87.5,
+    95.4,
+    77.2,
+    85.6,
+    70.0,
+    85.0,
+    46.4,
+    64.3,
+    116.2
+   ],
+   "cases": {
+    "bis": 721,
+    "gem": 395,
+    "procurement": 40,
+    "heldout": 28
+   }
+  },
+  {
+   "name": "+ BIS portal catalogue & current titles (29.9k) \u00b7 e5-small \u2014 BIS n=803, GeM n=403",
+   "chosen": false,
+   "values": [
+    82.2,
+    90.3,
+    76.7,
+    85.4,
+    75.0,
+    87.5,
+    42.9,
+    64.3,
+    113.6
+   ],
+   "cases": {
+    "bis": 803,
+    "gem": 403,
+    "procurement": 40,
+    "heldout": 28
+   }
+  },
+  {
+   "name": "+ bge-m3 multilingual embeddings \u2014 BIS n=803, GeM n=403",
+   "chosen": false,
+   "values": [
+    84.2,
+    90.9,
+    77.7,
+    85.4,
+    72.5,
+    87.5,
+    46.4,
+    71.4,
+    273.1
+   ],
+   "cases": {
+    "bis": 803,
+    "gem": 403,
+    "procurement": 40,
+    "heldout": 28
+   }
+  },
+  {
+   "name": "+ BIS catalogue status & document type for all standards (default) \u2014 BIS n=803, GeM n=403",
+   "chosen": true,
+   "values": [
+    83.8,
+    90.7,
+    80.4,
+    86.1,
+    70.0,
+    90.0,
+    39.3,
+    71.4,
+    275.3
+   ],
+   "cases": {
+    "bis": 803,
+    "gem": 403,
+    "procurement": 40,
+    "heldout": 28
+   }
+  },
+  {
+   "name": "+ product-name aliases & GeM prior (product mode; GeM scored on unseen half) \u2014 BIS n=803, GeM n=203",
+   "chosen": false,
+   "values": [
+    93.5,
+    94.3,
+    82.3,
+    88.7,
+    82.5,
+    92.5,
+    50.0,
+    78.6,
+    532.6
+   ],
+   "cases": {
+    "bis": 803,
+    "gem": 203,
+    "procurement": 40,
+    "heldout": 28
+   }
+  }
+ ],
+ "note": "Same scripts; BIS-list and GeM case counts grow when the BIS-portal layer adds standards the archive lacks (the added cases are title-only, hence harder). Clean rows have all product-name aliases off. Before the multilingual work (glossary of ~100 words, no transliteration, e5-small) the held-out Indian-language set scored 7.1 % top-1 / 10.7 % top-3. Engineering measurements, not an official BIS methodology."
+}

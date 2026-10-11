@@ -1,0 +1,580 @@
+[
+  {
+    "is_number": "IS 269:2015",
+    "title": "Ordinary Portland Cement — Specification (Sixth Revision)",
+    "scope": "This standard covers the manufacture, chemical and physical requirements, packing and marking of 33, 43 and 53 grade ordinary Portland cement.",
+    "status": "current",
+    "edition": "Sixth Revision",
+    "division_code": "Civil Engineering Division (CED)",
+    "section_committee": "CED 2 - Cement and Concrete",
+    "publication_date": "2015-12-15",
+    "superseded_by": null,
+    "iso_equivalent": "ISO 9001 aligned",
+    "source_url": "https://standards.bis.gov.in/standards/IS269",
+    "amendments": [
+      {
+        "amendment_number": 1,
+        "title": "Amendment No. 1 to IS 269:2015",
+        "published_at": "2018-05-01",
+        "changed_clauses": "Clause 6.1 (Chemical requirements), Table 1",
+        "summary": "Updated maximum permissible limits for chloride content in reinforced concrete applications."
+      },
+      {
+        "amendment_number": 2,
+        "title": "Amendment No. 2 to IS 269:2015",
+        "published_at": "2021-09-15",
+        "changed_clauses": "Clause 9.2 (Eco-friendly packaging and tamper proof bags)",
+        "summary": "Mandated HDPE/PP woven sacks compliance and QR code tracking."
+      }
+    ],
+    "relations": [
+      {
+        "to_is_number": "IS 4031 (Part 1)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 7.1.1 - Fineness"
+      },
+      {
+        "to_is_number": "IS 4031 (Part 2)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 7.1.2 - Blaine Air Permeability"
+      },
+      {
+        "to_is_number": "IS 4031 (Part 3)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 7.2 - Soundness"
+      },
+      {
+        "to_is_number": "IS 4031 (Part 5)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 7.3 - Setting Time"
+      },
+      {
+        "to_is_number": "IS 4031 (Part 6)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 7.4 - Compressive Strength"
+      },
+      {
+        "to_is_number": "IS 4032:1985",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 6.1 - Chemical Analysis"
+      },
+      {
+        "to_is_number": "IS 456:2000",
+        "relationship_type": "installation_code",
+        "clause_reference": "Clause 5.1 - Concrete Design"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "BIS ISI Mark (QCO)",
+        "title": "Cement (Quality Control) Order 2003 / 2024",
+        "issuing_authority": "Ministry of Commerce and Industry (DPIIT)",
+        "notification_number": "S.O. 191(E)",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 1489 (Part 1):2015",
+    "title": "Portland Pozzolana Cement — Specification — Part 1: Fly Ash Based (Third Revision)",
+    "scope": "Covers the manufacture and chemical and physical requirements of Portland pozzolana cement utilizing fly ash as pozzolanic material for general concrete construction and coastal structures.",
+    "status": "current",
+    "edition": "Third Revision",
+    "division_code": "Civil Engineering Division (CED)",
+    "section_committee": "CED 2",
+    "publication_date": "2015-11-20",
+    "relations": [
+      {
+        "to_is_number": "IS 269:2015",
+        "relationship_type": "allied_product",
+        "clause_reference": "Clause 4.1"
+      },
+      {
+        "to_is_number": "IS 3812 (Part 1)",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 5.2 - Fly Ash Quality"
+      },
+      {
+        "to_is_number": "IS 4031 (Part 6)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 8.3 - Compressive Strength"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "BIS ISI Mark (QCO)",
+        "title": "Cement (Quality Control) Order",
+        "issuing_authority": "DPIIT",
+        "notification_number": "S.O. 191(E)",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 456:2000",
+    "title": "Plain and Reinforced Concrete — Code of Practice (Fourth Revision)",
+    "scope": "Deals with the general structural use of plain and reinforced concrete in buildings and civil engineering structures. Specifies material qualities, design load combinations, durability requirements, and workmanship.",
+    "status": "current",
+    "edition": "Fourth Revision",
+    "division_code": "Civil Engineering Division (CED)",
+    "section_committee": "CED 2",
+    "publication_date": "2000-07-01",
+    "amendments": [
+      {
+        "amendment_number": 1,
+        "title": "Amendment 1",
+        "published_at": "2001-12-01",
+        "summary": "Clarification on exposure condition tables."
+      },
+      {
+        "amendment_number": 2,
+        "title": "Amendment 2",
+        "published_at": "2005-09-01",
+        "summary": "Revised maximum free water-cement ratios and minimum cement content."
+      },
+      {
+        "amendment_number": 5,
+        "title": "Amendment 5",
+        "published_at": "2019-07-01",
+        "summary": "Incorporated manufactured sand (M-sand) compliance and ductile seismic detailing."
+      }
+    ],
+    "relations": [
+      {
+        "to_is_number": "IS 269:2015",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 5.1 - Cement"
+      },
+      {
+        "to_is_number": "IS 1786:2008",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 5.6 - Steel Reinforcement"
+      },
+      {
+        "to_is_number": "IS 383:2016",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 5.3 - Aggregates"
+      },
+      {
+        "to_is_number": "IS 516 (Part 1/Sec 1):2021",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 15.1 - Concrete Testing"
+      },
+      {
+        "to_is_number": "IS 10262:2019",
+        "relationship_type": "allied_product",
+        "clause_reference": "Clause 9.1 - Concrete Mix Proportioning"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 1786:2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement — Specification (Fourth Revision)",
+    "scope": "Covers the requirements of deformed steel bars and wires for use as reinforcement in concrete in grades Fe 415, Fe 415D, Fe 500, Fe 500D, Fe 550, Fe 550D and Fe 600.",
+    "status": "current",
+    "edition": "Fourth Revision",
+    "division_code": "Metallurgical Engineering Division (MTD)",
+    "section_committee": "MTD 4 - Steel Tubes, Pipes and Fittings",
+    "publication_date": "2008-04-15",
+    "amendments": [
+      {
+        "amendment_number": 1,
+        "title": "Amendment No. 1",
+        "published_at": "2012-03-01",
+        "summary": "Introduction of High Ductility 'D' grades (Fe 500D) for seismic zones."
+      },
+      {
+        "amendment_number": 3,
+        "title": "Amendment No. 3",
+        "published_at": "2017-11-01",
+        "summary": "Mandatory BIS mark embossing on every metre length of bar."
+      }
+    ],
+    "relations": [
+      {
+        "to_is_number": "IS 1608 (Part 1):2018",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 8.1 - Tensile Testing"
+      },
+      {
+        "to_is_number": "IS 1599:2019",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 8.3 - Bend Test"
+      },
+      {
+        "to_is_number": "IS 228 (Parts 1-24)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 7.1 - Chemical Composition"
+      },
+      {
+        "to_is_number": "IS 13920:2016",
+        "relationship_type": "safety_requirement",
+        "clause_reference": "Clause 5.3 - Seismic Detailing"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "BIS ISI Mark (QCO)",
+        "title": "Steel and Steel Products (Quality Control) Order 2020",
+        "issuing_authority": "Ministry of Steel",
+        "notification_number": "S.O. 1673(E)",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 2062:2011",
+    "title": "Hot Rolled Medium and High Tensile Structural Steel — Specification (Seventh Revision)",
+    "scope": "Covers the requirements of steel plates, sections, flats, bars and strips for structural engineering, bridge building, and pre-engineered buildings.",
+    "status": "current",
+    "edition": "Seventh Revision",
+    "division_code": "Metallurgical Engineering Division (MTD)",
+    "section_committee": "MTD 4",
+    "publication_date": "2011-10-01",
+    "relations": [
+      {
+        "to_is_number": "IS 800:2007",
+        "relationship_type": "installation_code",
+        "clause_reference": "Section 2 - Steel Design"
+      },
+      {
+        "to_is_number": "IS 1608 (Part 1):2018",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 9.1 - Tensile Test"
+      },
+      {
+        "to_is_number": "IS 1757:2014",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 9.4 - Charpy Impact V-notch"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "BIS ISI Mark (QCO)",
+        "title": "Steel and Steel Products (Quality Control) Order 2020",
+        "issuing_authority": "Ministry of Steel",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 800:2007",
+    "title": "General Construction in Steel — Code of Practice (Third Revision)",
+    "scope": "Applies to the design and construction of steel structures and members utilizing hot-rolled sections, welded plates, and structural hollow sections using limit state design method.",
+    "status": "current",
+    "edition": "Third Revision",
+    "division_code": "Civil Engineering Division (CED)",
+    "section_committee": "CED 7 - Structural Engineering",
+    "publication_date": "2007-12-01",
+    "relations": [
+      {
+        "to_is_number": "IS 2062:2011",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 2.1 - Material Selection"
+      },
+      {
+        "to_is_number": "IS 875 (Part 3):2015",
+        "relationship_type": "safety_requirement",
+        "clause_reference": "Section 3 - Wind Loads"
+      },
+      {
+        "to_is_number": "IS 1893 (Part 1):2016",
+        "relationship_type": "safety_requirement",
+        "clause_reference": "Section 12 - Seismic Resistance"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 694:2010",
+    "title": "Polyvinyl Chloride Insulated Unsheathed and Sheathed Cables/Cords with Rigid and Flexible Conductor for Rated Voltages up to and including 450/750 V and 1100 V (Reaffirmed 2015)",
+    "scope": "Covers requirements for single-core and multi-core PVC insulated unsheathed and sheathed electric cables and cords with copper or aluminium conductors for electric power, lighting and internal wiring.",
+    "status": "current",
+    "edition": "Reaffirmed 2015",
+    "division_code": "Electrotechnical Division (ETD)",
+    "section_committee": "ETD 20 - Electrical Cables",
+    "publication_date": "2010-01-01",
+    "relations": [
+      {
+        "to_is_number": "IS 8130:2013",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 4.1 - Conductor Specification"
+      },
+      {
+        "to_is_number": "IS 5831:1984",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 4.2 - PVC Insulation Compound"
+      },
+      {
+        "to_is_number": "IS 10810 (Part 5)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 8.1 - Conductor Resistance Test"
+      },
+      {
+        "to_is_number": "IS 10810 (Part 43)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 8.4 - Oxygen Index Test"
+      },
+      {
+        "to_is_number": "IS 732:2019",
+        "relationship_type": "installation_code",
+        "clause_reference": "Section 4 - Building Wiring"
+      },
+      {
+        "to_is_number": "IS 3043:2018",
+        "relationship_type": "safety_requirement",
+        "clause_reference": "Clause 5.2 - Earthing Safety"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "Mandatory BIS ISI Mark / QCO",
+        "title": "Electrical Wires and Cables (Quality Control) Order 2023",
+        "issuing_authority": "Ministry of Commerce and Industry (DPIIT)",
+        "notification_number": "S.O. 4038(E)",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 732:2019",
+    "title": "Code of Practice for Electrical Wiring Installations (Fourth Revision)",
+    "scope": "Applies to electrical installations such as those of residential, commercial, industrial and public premises for voltages up to 1000 V AC or 1500 V DC.",
+    "status": "current",
+    "edition": "Fourth Revision",
+    "division_code": "Electrotechnical Division (ETD)",
+    "section_committee": "ETD 20",
+    "publication_date": "2019-06-15",
+    "relations": [
+      {
+        "to_is_number": "IS 694:2010",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 5.1 - Cable Selection"
+      },
+      {
+        "to_is_number": "IS 3043:2018",
+        "relationship_type": "safety_requirement",
+        "clause_reference": "Section 7 - Earthing System"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 3043:2018",
+    "title": "Code of Practice for Earthing (Second Revision)",
+    "scope": "Provides guidance on the design, installation, testing and maintenance of earthing systems for electrical installations in buildings, industrial plants, and substations.",
+    "status": "current",
+    "edition": "Second Revision",
+    "division_code": "Electrotechnical Division (ETD)",
+    "section_committee": "ETD 30 - Surge Arresters and Earthing",
+    "publication_date": "2018-08-30",
+    "relations": [
+      {
+        "to_is_number": "IS 732:2019",
+        "relationship_type": "allied_product",
+        "clause_reference": "Clause 3.1"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 10322 (Part 5/Sec 1):2012",
+    "title": "Luminaires — Part 5: Particular Requirements — Section 1: Fixed General Purpose Luminaires",
+    "scope": "Specifies requirements for fixed general purpose luminaires, LED luminaires and street lighting systems for use with tungsten filament, tubular fluorescent and LED light sources on supply voltages not exceeding 1000 V.",
+    "status": "current",
+    "edition": "First Revision",
+    "division_code": "Electrotechnical Division (ETD)",
+    "section_committee": "ETD 23 - Electric Lamps and Luminaires",
+    "publication_date": "2012-11-15",
+    "relations": [
+      {
+        "to_is_number": "IS 10322 (Part 1):2014",
+        "relationship_type": "safety_requirement",
+        "clause_reference": "Clause 1.1 - General Safety"
+      },
+      {
+        "to_is_number": "IS 15885 (Part 2/Sec 13)",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 4.3 - LED Driver Controlgear"
+      },
+      {
+        "to_is_number": "IS 16103 (Part 1)",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 4.1 - LED Modules"
+      },
+      {
+        "to_is_number": "IS/IEC 60529:2001",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 6.1 - IP Enclosure Protection"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "Compulsory Registration Scheme (CRS)",
+        "title": "Electronics and IT Goods (Compulsory Registration) Order 2021",
+        "issuing_authority": "Ministry of Electronics and Information Technology (MeitY)",
+        "notification_number": "MeitY CRS Order Phase-II",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 14543:2018",
+    "title": "Packaged Drinking Water (Other than Packaged Natural Mineral Water) — Specification (Second Revision)",
+    "scope": "Prescribes requirements and methods of sampling and test for packaged drinking water derived from any potable water source after appropriate treatment such as RO, ozonation, UV disinfection and filtration.",
+    "status": "current",
+    "edition": "Second Revision",
+    "division_code": "Food and Agriculture Division (FAD)",
+    "section_committee": "FAD 14 - Drinks and Drinking Water",
+    "publication_date": "2018-06-20",
+    "relations": [
+      {
+        "to_is_number": "IS 3025 (Part 1 to 65)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 6.1 - Physico-Chemical Tests"
+      },
+      {
+        "to_is_number": "IS 1622:1981",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 7.1 - Microbiological Examination"
+      },
+      {
+        "to_is_number": "IS 10500:2012",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 4.1 - Raw Water Quality"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "Mandatory BIS ISI Mark Certification",
+        "title": "Food Safety and Standards (Prohibition and Restrictions on Sales) Regulations",
+        "issuing_authority": "FSSAI / BIS",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 10500:2012",
+    "title": "Drinking Water — Specification (Second Revision)",
+    "scope": "Prescribes requirements and essential acceptable limits for physical, chemical, toxic substances, and bacteriological characteristics of potable drinking water supplied by public utilities and tankers.",
+    "status": "current",
+    "edition": "Second Revision",
+    "division_code": "Food and Agriculture Division (FAD)",
+    "section_committee": "FAD 14",
+    "publication_date": "2012-05-10",
+    "amendments": [
+      {
+        "amendment_number": 1,
+        "title": "Amendment No. 1 to IS 10500:2012",
+        "published_at": "2018-03-01",
+        "summary": "Tightened limits for Total Dissolved Solids and Heavy Metals (Arsenic, Lead)."
+      }
+    ],
+    "relations": [
+      {
+        "to_is_number": "IS 3025 (Part 11)",
+        "relationship_type": "test_method",
+        "clause_reference": "Table 1 - pH Value"
+      },
+      {
+        "to_is_number": "IS 3025 (Part 16)",
+        "relationship_type": "test_method",
+        "clause_reference": "Table 1 - TDS"
+      },
+      {
+        "to_is_number": "IS 3025 (Part 21)",
+        "relationship_type": "test_method",
+        "clause_reference": "Table 1 - Total Hardness"
+      },
+      {
+        "to_is_number": "IS 1622:1981",
+        "relationship_type": "test_method",
+        "clause_reference": "Table 2 - Biological Testing"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 4984:2016",
+    "title": "Polyethylene Pipes for Water Supply — Specification (Fifth Revision)",
+    "scope": "Specifies requirements for high density polyethylene (HDPE) pipes intended for conveyance of potable water, sewage and industrial effluents under pressure.",
+    "status": "current",
+    "edition": "Fifth Revision",
+    "division_code": "Petroleum, Coal and Related Products Division (PCD)",
+    "section_committee": "PCD 12 - Plastics Piping Systems",
+    "publication_date": "2016-08-15",
+    "relations": [
+      {
+        "to_is_number": "IS 2530:1963",
+        "relationship_type": "normative_reference",
+        "clause_reference": "Clause 4.1 - Raw Material Resin"
+      },
+      {
+        "to_is_number": "IS 12235 (Part 8/Sec 1)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 8.1 - Hydrostatic Pressure Test"
+      },
+      {
+        "to_is_number": "IS 7634 (Part 2)",
+        "relationship_type": "installation_code",
+        "clause_reference": "Clause 11.1 - Installation & Jointing"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "BIS ISI Mark (QCO)",
+        "title": "Polyethylene Piping Systems (Quality Control) Order 2023",
+        "issuing_authority": "DPIIT",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 16391:2015",
+    "title": "Geotextiles — Non-woven Polypropylene Geotextiles for Sub-grade Separation and Drainage in Pavements — Specification",
+    "scope": "Covers physical, mechanical, hydraulic and endurance properties of non-woven geotextiles used in flexible pavements, highway construction, railway tracks, and coastal embankments.",
+    "status": "current",
+    "edition": "First Edition",
+    "division_code": "Textiles Division (TXD)",
+    "section_committee": "TXD 30 - Geotextiles and Geosynthetics",
+    "publication_date": "2015-09-01",
+    "relations": [
+      {
+        "to_is_number": "IS 13162 (Part 4)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 6.2 - Static Puncture CBR"
+      },
+      {
+        "to_is_number": "IS 13162 (Part 5)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 6.3 - Apparent Opening Size"
+      },
+      {
+        "to_is_number": "IS 1969 (Part 1)",
+        "relationship_type": "test_method",
+        "clause_reference": "Clause 6.1 - Tensile Properties"
+      }
+    ],
+    "regulations": [
+      {
+        "regulation_type": "BIS ISI Mark (QCO)",
+        "title": "Geotextiles (Quality Control) Order 2023",
+        "issuing_authority": "Ministry of Textiles",
+        "is_mandatory": "yes"
+      }
+    ]
+  },
+  {
+    "is_number": "IS 12933:2003",
+    "title": "Solar Flat Plate Collector — Specification (Superseded)",
+    "scope": "Old specification for domestic solar flat plate collectors.",
+    "status": "superseded",
+    "edition": "First Revision",
+    "division_code": "Mechanical Engineering Division",
+    "superseded_by": "IS 12933:2020",
+    "publication_date": "2003-01-01",
+    "relations": [
+      {
+        "to_is_number": "IS 12933:2020",
+        "relationship_type": "superseded_by",
+        "clause_reference": "Replaced completely by 2020 edition"
+      }
+    ]
+  }
+]

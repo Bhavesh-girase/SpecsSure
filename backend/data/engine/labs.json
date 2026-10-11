@@ -1,0 +1,172 @@
+{
+  "_comment": "SYNTHETIC laboratory directory for the Test & Lab Route Planner demo. Names and certificate numbers are fictional. Production: NABL directory (nabl-india.org) scope data.",
+  "labs": [
+    {
+      "id": "LAB-01",
+      "name": "Demo Materials Testing Lab, Pune",
+      "city": "Pune",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0101",
+      "disciplines": [
+        "Mechanical",
+        "Chemical",
+        "Physical"
+      ],
+      "scope": [
+        "IS 1608 (Part 1)",
+        "IS 1599",
+        "IS 228",
+        "IS 1786",
+        "IS 4031 (Part 6)",
+        "IS 4031 (Part 2)",
+        "IS 4031 (Part 5)",
+        "IS 4031 (Part 3)",
+        "IS 10810 (Part 58)",
+        "IS 10810 (Part 5)"
+      ],
+      "turnaround_factor": 1.0,
+      "cost_index": 1.0
+    },
+    {
+      "id": "LAB-02",
+      "name": "Demo Steel Testing Centre, Raipur",
+      "city": "Raipur",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0202",
+      "disciplines": [
+        "Mechanical",
+        "Chemical"
+      ],
+      "scope": [
+        "IS 1608 (Part 1)",
+        "IS 1599",
+        "IS 228",
+        "IS 1786"
+      ],
+      "turnaround_factor": 0.8,
+      "cost_index": 0.9
+    },
+    {
+      "id": "LAB-03",
+      "name": "Demo Cement & Concrete Lab, Hyderabad",
+      "city": "Hyderabad",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0303",
+      "disciplines": [
+        "Mechanical",
+        "Physical",
+        "Chemical"
+      ],
+      "scope": [
+        "IS 4031 (Part 6)",
+        "IS 4031 (Part 2)",
+        "IS 4031 (Part 5)",
+        "IS 4031 (Part 3)",
+        "IS 4032"
+      ],
+      "turnaround_factor": 0.9,
+      "cost_index": 0.85
+    },
+    {
+      "id": "LAB-04",
+      "name": "Demo Electrical Test House, Bengaluru",
+      "city": "Bengaluru",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0404",
+      "disciplines": [
+        "Electrical",
+        "Chemical",
+        "Physical"
+      ],
+      "scope": [
+        "IS 10810 (Part 5)",
+        "IS 10810 (Part 6)",
+        "IS 10810 (Part 43)",
+        "IS 10810 (Part 45)",
+        "IS 10810 (Part 58)",
+        "IS 10810 (Part 63)",
+        "IS 16106",
+        "IS 14700 (Part 4/Sec 5)",
+        "IS/IEC 60529",
+        "IS 16102 (Part 1)",
+        "IS 16102 (Part 2)",
+        "IS 10322 (Part 5/Sec 3)",
+        "IS 374",
+        "IS/IEC 60898"
+      ],
+      "turnaround_factor": 1.1,
+      "cost_index": 1.2
+    },
+    {
+      "id": "LAB-05",
+      "name": "Demo Water Quality Laboratory, Lucknow",
+      "city": "Lucknow",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0505",
+      "disciplines": [
+        "Chemical",
+        "Biological"
+      ],
+      "scope": [
+        "IS 3025 (Part 11)",
+        "IS 3025 (Part 16)",
+        "IS 3025 (Part 21)",
+        "IS 1622"
+      ],
+      "turnaround_factor": 1.0,
+      "cost_index": 0.7
+    },
+    {
+      "id": "LAB-06",
+      "name": "Demo Geosynthetics Lab, Chennai",
+      "city": "Chennai",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0606",
+      "disciplines": [
+        "Physical",
+        "Mechanical"
+      ],
+      "scope": [
+        "IS 14716",
+        "IS 16078",
+        "IS 13162 (Part 4)",
+        "IS 13162 (Part 5)"
+      ],
+      "turnaround_factor": 1.0,
+      "cost_index": 1.0
+    },
+    {
+      "id": "LAB-07",
+      "name": "Demo Solar PV Test Centre, Gurugram",
+      "city": "Gurugram",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0707",
+      "disciplines": [
+        "Electrical",
+        "Environmental"
+      ],
+      "scope": [
+        "IS 14286 (Part 2)",
+        "IS 14286 (Part 1/Sec 1)",
+        "IS/IEC 61730-2",
+        "IS/IEC 61730-1"
+      ],
+      "turnaround_factor": 1.4,
+      "cost_index": 1.3
+    },
+    {
+      "id": "LAB-08",
+      "name": "Demo Appliance & Lighting Lab, Noida",
+      "city": "Noida",
+      "accreditation": "NABL (ISO/IEC 17025) — TC-DEMO-0808",
+      "disciplines": [
+        "Electrical",
+        "Physical"
+      ],
+      "scope": [
+        "IS 16102 (Part 1)",
+        "IS 16102 (Part 2)",
+        "IS 16106",
+        "IS 374",
+        "IS/IEC 60529",
+        "IS/IEC 60898",
+        "IS 10322 (Part 5/Sec 3)"
+      ],
+      "turnaround_factor": 0.9,
+      "cost_index": 1.0
+    }
+  ]
+}

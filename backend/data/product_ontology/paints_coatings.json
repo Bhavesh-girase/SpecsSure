@@ -1,0 +1,43 @@
+{
+  "category_name": "Paints, Enamels and Protective Coatings",
+  "bis_division": "Chemical Division",
+  "bis_section_committee": "CHD 20",
+  "primary_standard_is": "IS 2932:2013",
+  "keywords": "paint, enamel, synthetic enamel, primer, emulsion, exterior paint, coating, lead content, VOC, rust protection, architectural coating",
+  "parameter_template": {
+    "composition_and_chemical": [
+      "Lead and Heavy Metals Content ppm max (90 ppm max under Lead in Paint Regulation)",
+      "Volatile Organic Compounds VOC g/l max",
+      "Volume Solids % min (35% to 50%)",
+      "Total Non-volatile Matter % by mass"
+    ],
+    "physical_and_application": [
+      "Viscosity at 30 deg C seconds / poise",
+      "Drying Time Surface Dry hours max (4 hours)",
+      "Drying Time Hard Dry hours max (18 hours)",
+      "Finish and Gloss Level % at 60 deg angle min (80% for glossy)",
+      "Wet Film Thickness WFT and Dry Film Thickness DFT microns"
+    ],
+    "mechanical_and_durability": [
+      "Cross Hatch Adhesion rating (5B / 4B)",
+      "Scratch Hardness test load g min (1000 g)",
+      "Flexibility and Bend Test (6.25 mm mandrel without cracking)",
+      "Salt Spray Corrosion Resistance hours (min 200 hours without blistering)"
+    ],
+    "test_methods": [
+      "IS 101 (Parts 1 to 9) - Methods of Sampling and Test for Paints, Varnishes and Related Products",
+      "IS 15489:2004 - Method of Test for Determination of Lead Content in Paint"
+    ],
+    "safety": [
+      "Regulation on Lead Content in Household and Decorative Paints Rules 2016"
+    ],
+    "installation": [
+      "IS 1477 (Part 1 and 2) - Code of practice for painting of ferrous metals in buildings"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "BIS ISI Mark and ECO Mark",
+      "qco": "Paints and Related Products (Quality Control) Order 2024"
+    }
+  }
+}

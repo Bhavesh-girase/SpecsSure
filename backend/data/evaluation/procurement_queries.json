@@ -1,0 +1,1034 @@
+{
+ "_comment": "Procurement-language queries written by the team (not copied from standard titles). 'expected' lists acceptable designations; a bare number (e.g. 'IS 2556') accepts any part. Expected answers follow the BIS compulsory-certification lists and common public-procurement practice — review before quoting as ground truth.",
+ "cases": [
+  {
+   "query": "house wiring cable, PVC insulated, 1.5 sq mm copper, 450/750 V, FR",
+   "expected": [
+    "IS 694"
+   ]
+  },
+  {
+   "query": "heavy duty PVC insulated power cable 1100 V armoured",
+   "expected": [
+    "IS 1554 (Part 1)"
+   ]
+  },
+  {
+   "query": "XLPE insulated armoured power cable 1.1 kV",
+   "expected": [
+    "IS 7098 (Part 1)"
+   ]
+  },
+  {
+   "query": "OPC 53 grade cement for RCC work",
+   "expected": [
+    "IS 269",
+    "IS 12269"
+   ]
+  },
+  {
+   "query": "PPC cement fly ash based",
+   "expected": [
+    "IS 1489 (Part 1)"
+   ]
+  },
+  {
+   "query": "TMT bars Fe 500D for reinforced concrete",
+   "expected": [
+    "IS 1786"
+   ]
+  },
+  {
+   "query": "structural steel plates and angles for fabrication",
+   "expected": [
+    "IS 2062"
+   ]
+  },
+  {
+   "query": "GI pipes for water supply, medium class",
+   "expected": [
+    "IS 1239 (Part 1)",
+    "IS 1239"
+   ]
+  },
+  {
+   "query": "ductile iron pipes for water mains",
+   "expected": [
+    "IS 8329"
+   ]
+  },
+  {
+   "query": "HDPE pipes for drinking water supply",
+   "expected": [
+    "IS 4984"
+   ]
+  },
+  {
+   "query": "uPVC pipes for potable water",
+   "expected": [
+    "IS 4985"
+   ]
+  },
+  {
+   "query": "ceiling fan 1200 mm sweep",
+   "expected": [
+    "IS 374"
+   ]
+  },
+  {
+   "query": "LED bulb 9 W B22 for general lighting",
+   "expected": [
+    "IS 16102 (Part 1)",
+    "IS 16102 (Part 2)",
+    "IS 16102"
+   ]
+  },
+  {
+   "query": "LED street light luminaire",
+   "expected": [
+    "IS 10322 (Part 5/Sec 3)"
+   ]
+  },
+  {
+   "query": "MCB 32 A C curve for household distribution board",
+   "expected": [
+    "IS/IEC 60898 (Part 1)",
+    "IS 8828"
+   ]
+  },
+  {
+   "query": "RCCB 30 mA earth leakage protection",
+   "expected": [
+    "IS 12640 (Part 1)",
+    "IS 12640"
+   ]
+  },
+  {
+   "query": "oil immersed distribution transformer 250 kVA",
+   "expected": [
+    "IS 1180 (Part 1)",
+    "IS 1180"
+   ]
+  },
+  {
+   "query": "single phase static energy meter",
+   "expected": [
+    "IS 13779",
+    "IS 16444 (Part 1)",
+    "IS 16444"
+   ]
+  },
+  {
+   "query": "helmet for motorcycle riders",
+   "expected": [
+    "IS 4151"
+   ]
+  },
+  {
+   "query": "packaged drinking water bottles",
+   "expected": [
+    "IS 14543"
+   ]
+  },
+  {
+   "query": "drinking water quality parameters",
+   "expected": [
+    "IS 10500"
+   ]
+  },
+  {
+   "query": "burnt clay building bricks",
+   "expected": [
+    "IS 1077"
+   ]
+  },
+  {
+   "query": "interlocking concrete paver blocks",
+   "expected": [
+    "IS 15658"
+   ]
+  },
+  {
+   "query": "fly ash lime bricks",
+   "expected": [
+    "IS 12894"
+   ]
+  },
+  {
+   "query": "gold jewellery fineness and hallmark",
+   "expected": [
+    "IS 1417"
+   ]
+  },
+  {
+   "query": "domestic LPG gas stove",
+   "expected": [
+    "IS 4246"
+   ]
+  },
+  {
+   "query": "LPG cylinder 14.2 kg",
+   "expected": [
+    "IS 3196 (Part 1)",
+    "IS 3196"
+   ]
+  },
+  {
+   "query": "aluminium pressure cooker",
+   "expected": [
+    "IS 2347"
+   ]
+  },
+  {
+   "query": "electric storage water heater geyser",
+   "expected": [
+    "IS 2082"
+   ]
+  },
+  {
+   "query": "modular switches for domestic use",
+   "expected": [
+    "IS 3854"
+   ]
+  },
+  {
+   "query": "plugs and socket outlets 6 A 16 A",
+   "expected": [
+    "IS 1293"
+   ]
+  },
+  {
+   "query": "synthetic enamel paint for doors and windows",
+   "expected": [
+    "IS 2932"
+   ]
+  },
+  {
+   "query": "plastic water storage tank for rooftop",
+   "expected": [
+    "IS 12701"
+   ]
+  },
+  {
+   "query": "crystalline silicon solar PV module",
+   "expected": [
+    "IS 14286"
+   ]
+  },
+  {
+   "query": "UPS for computers",
+   "expected": [
+    "IS 16242 (Part 1)",
+    "IS 16242"
+   ]
+  },
+  {
+   "query": "reinforced concrete pipes for drainage",
+   "expected": [
+    "IS 458"
+   ]
+  },
+  {
+   "query": "vitreous china water closet",
+   "expected": [
+    "IS 2556"
+   ]
+  },
+  {
+   "query": "portable fire extinguisher ABC dry powder",
+   "expected": [
+    "IS 15683",
+    "IS 13849",
+    "IS 2171"
+   ]
+  },
+  {
+   "query": "safety footwear for industrial workers",
+   "expected": [
+    "IS 15298 (Part 2)",
+    "IS 15298"
+   ]
+  },
+  {
+   "query": "sanitary napkins",
+   "expected": [
+    "IS 5405"
+   ]
+  }
+ ],
+ "multilingual": [
+  {
+   "lang": "hi",
+   "query": "दोपहिया वाहन चालकों के लिए हेलमेट",
+   "expected": [
+    "IS 4151"
+   ]
+  },
+  {
+   "lang": "hi",
+   "query": "सरिया Fe 500D",
+   "expected": [
+    "IS 1786"
+   ]
+  },
+  {
+   "lang": "hi",
+   "query": "अग्निशामक यंत्र",
+   "expected": [
+    "IS 15683",
+    "IS 10204",
+    "IS 2171",
+    "IS 13849",
+    "IS 15397",
+    "IS 940"
+   ]
+  },
+  {
+   "lang": "hi",
+   "query": "पीने के पानी के लिए एचडीपीई पाइप",
+   "expected": [
+    "IS 4984"
+   ]
+  },
+  {
+   "lang": "hi",
+   "query": "छत का पंखा",
+   "expected": [
+    "IS 374"
+   ]
+  },
+  {
+   "lang": "te",
+   "query": "ఎల్ఈడి బల్బ్",
+   "expected": [
+    "IS 16102 (Part 1)",
+    "IS 16102"
+   ]
+  },
+  {
+   "lang": "ta",
+   "query": "குடிநீர் குழாய்",
+   "expected": [
+    "IS 4984",
+    "IS 4985",
+    "IS 12818"
+   ]
+  },
+  {
+   "lang": "bn",
+   "query": "পানীয় জলের পাইপ",
+   "expected": [
+    "IS 4984",
+    "IS 4985",
+    "IS 12818"
+   ]
+  },
+  {
+   "lang": "kn",
+   "query": "ಅಗ್ನಿಶಾಮಕ",
+   "expected": [
+    "IS 15683",
+    "IS 10204",
+    "IS 2171",
+    "IS 13849",
+    "IS 15397",
+    "IS 940"
+   ]
+  },
+  {
+   "lang": "ta",
+   "query": "சிமெண்ட்",
+   "expected": [
+    "IS 269",
+    "IS 12269",
+    "IS 8112",
+    "IS 1489 (Part 1)",
+    "IS 455"
+   ]
+  },
+  {
+   "lang": "hi",
+   "query": "पोर्टेबल अग्निशामक",
+   "expected": [
+    "IS 15683"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "सड़क की एलईडी लाइट",
+   "expected": [
+    "IS 10322 (Part 5/Sec 3)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "फोटोकॉपी कागज",
+   "expected": [
+    "IS 14490"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "तिजोरी",
+   "expected": [
+    "IS 550"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "पीवीसी तार",
+   "expected": [
+    "IS 694"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "स्प्लिट एयर कंडीशनर",
+   "expected": [
+    "IS 1391 (Part 2)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "सीलिंग पंखा",
+   "expected": [
+    "IS 374"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "प्लास्टिक कुर्सी",
+   "expected": [
+    "IS 13713"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "पानी की टंकी",
+   "expected": [
+    "IS 12701"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "सर्जिकल दस्ताने",
+   "expected": [
+    "IS 13422"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "एलईडी बल्ब",
+   "expected": [
+    "IS 16102 (Part 1)",
+    "IS 16102 (Part 2)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "लिफाफे",
+   "expected": [
+    "IS 13892"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "बिजली के स्विच",
+   "expected": [
+    "IS 3854"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "पीतल का नल",
+   "expected": [
+    "IS 8931",
+    "IS 781"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "ta",
+   "query": "தீயணைப்பான்",
+   "expected": [
+    "IS 15683"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "ta",
+   "query": "மின்விசிறி",
+   "expected": [
+    "IS 374"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "ta",
+   "query": "தலைக்கவசம்",
+   "expected": [
+    "IS 4151"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "ta",
+   "query": "எல்இடி விளக்கு",
+   "expected": [
+    "IS 16102 (Part 1)",
+    "IS 16102 (Part 2)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "te",
+   "query": "సిమెంట్",
+   "expected": [
+    "IS 269",
+    "IS 12269",
+    "IS 8112",
+    "IS 1489 (Part 1)",
+    "IS 455"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "te",
+   "query": "ఇనుప కడ్డీలు",
+   "expected": [
+    "IS 1786",
+    "IS 432 (Part 1)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "te",
+   "query": "నీటి పైపు",
+   "expected": [
+    "IS 4985",
+    "IS 4984",
+    "IS 12818"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "bn",
+   "query": "সিলিং ফ্যান",
+   "expected": [
+    "IS 374"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "bn",
+   "query": "মোটরসাইকেল হেলমেট",
+   "expected": [
+    "IS 4151"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "bn",
+   "query": "অগ্নি নির্বাপক যন্ত্র",
+   "expected": [
+    "IS 15683"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "kn",
+   "query": "ಸೀಲಿಂಗ್ ಫ್ಯಾನ್",
+   "expected": [
+    "IS 374"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "kn",
+   "query": "ನೀರಿನ ಟ್ಯಾಂಕ್",
+   "expected": [
+    "IS 12701"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "mr",
+   "query": "पाण्याची टाकी",
+   "expected": [
+    "IS 12701"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "mr",
+   "query": "छताचा पंखा",
+   "expected": [
+    "IS 374"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "यूपीएस बैटरी सहित",
+   "expected": [
+    "IS 16242 (Part 1)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "वितरण ट्रांसफार्मर",
+   "expected": [
+    "IS 1180 (Part 1)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "सुरक्षा जूते",
+   "expected": [
+    "IS 15298 (Part 2)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "गैल्वनाइज्ड लोहे का पाइप",
+   "expected": [
+    "IS 1239 (Part 1)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "hi",
+   "query": "मिनिएचर सर्किट ब्रेकर",
+   "expected": [
+    "IS/IEC 60898 (Part 1)",
+    "IS 8828"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  },
+  {
+   "lang": "ta",
+   "query": "குடிநீர் குளிர்விப்பான்",
+   "expected": [
+    "IS 1475 (Part 1)"
+   ],
+   "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards"
+  }
+ ],
+ "multilingual_heldout": [
+  {
+   "lang": "hi",
+   "query": "स्टील की अलमारी",
+   "expected": [
+    "IS 3312",
+    "IS 3313",
+    "IS 6189"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "कार्यालय की लोहे की कुर्सी",
+   "expected": [
+    "IS 3499 (Part 1)",
+    "IS 3499 (Part 2)"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "प्रेशर कुकर",
+   "expected": [
+    "IS 2347"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "एलपीजी गैस सिलेंडर",
+   "expected": [
+    "IS 3196 (Part 1)",
+    "IS 3196"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "बिजली का मीटर",
+   "expected": [
+    "IS 13779",
+    "IS 16444 (Part 1)",
+    "IS 13010"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+   "label_note": "IS 13010 (a.c. watthour meters) added after review — it is an electricity-meter standard"
+  },
+  {
+   "lang": "hi",
+   "query": "सोलर पैनल",
+   "expected": [
+    "IS 14286",
+    "IS/IEC 61215 (Part 1)",
+    "IS 16077 (Part 1)"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "कांटेदार तार",
+   "expected": [
+    "IS 278"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "बिटुमेन सड़क के लिए",
+   "expected": [
+    "IS 73",
+    "IS 8887",
+    "IS 217"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "पेवर ब्लॉक",
+   "expected": [
+    "IS 15658"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "ऑफिस के लिए पेपर",
+   "expected": [
+    "IS 14490",
+    "IS 1848 (Part 1)"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "सैनिटरी नैपकिन",
+   "expected": [
+    "IS 5405"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "प्लाईवुड",
+   "expected": [
+    "IS 303",
+    "IS 710"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "बैटरी इनवर्टर के लिए",
+   "expected": [
+    "IS 13369",
+    "IS 15549",
+    "IS 16270"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "mr",
+   "query": "सिमेंट काँक्रीट पाईप",
+   "expected": [
+    "IS 458"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "mr",
+   "query": "विद्युत केबल",
+   "expected": [
+    "IS 694",
+    "IS 1554 (Part 1)",
+    "IS 7098 (Part 1)"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "ta",
+   "query": "பிளாஸ்டிக் நாற்காலி",
+   "expected": [
+    "IS 13713"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "ta",
+   "query": "மின் மீட்டர்",
+   "expected": [
+    "IS 13779",
+    "IS 16444 (Part 1)",
+    "IS 13010"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+   "label_note": "IS 13010 (a.c. watthour meters) added after review — it is an electricity-meter standard"
+  },
+  {
+   "lang": "ta",
+   "query": "இரும்பு கம்பி",
+   "expected": [
+    "IS 1786",
+    "IS 432 (Part 1)",
+    "IS 280"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "te",
+   "query": "ఎల్పీజీ సిలిండర్",
+   "expected": [
+    "IS 3196 (Part 1)",
+    "IS 3196"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "te",
+   "query": "సోలార్ ప్యానెల్",
+   "expected": [
+    "IS 14286",
+    "IS/IEC 61215 (Part 1)",
+    "IS 16077 (Part 1)"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "te",
+   "query": "ప్లాస్టిక్ కుర్చీ",
+   "expected": [
+    "IS 13713"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "bn",
+   "query": "প্রেসার কুকার",
+   "expected": [
+    "IS 2347"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "bn",
+   "query": "বিদ্যুতের মিটার",
+   "expected": [
+    "IS 13779",
+    "IS 16444 (Part 1)",
+    "IS 13010"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+   "label_note": "IS 13010 (a.c. watthour meters) added after review — it is an electricity-meter standard"
+  },
+  {
+   "lang": "bn",
+   "query": "স্টিলের আলমারি",
+   "expected": [
+    "IS 3312",
+    "IS 3313",
+    "IS 6189"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "kn",
+   "query": "ಎಲ್ಇಡಿ ಬಲ್ಬ್",
+   "expected": [
+    "IS 16102 (Part 1)",
+    "IS 16102 (Part 2)"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "kn",
+   "query": "ಪ್ರೆಶರ್ ಕುಕ್ಕರ್",
+   "expected": [
+    "IS 2347"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "kn",
+   "query": "ಹೆಲ್ಮೆಟ್",
+   "expected": [
+    "IS 4151",
+    "IS 2925"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  },
+  {
+   "lang": "hi",
+   "query": "फर्स्ट एड बॉक्स",
+   "expected": [
+    "IS 13115"
+   ],
+   "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+  }
+ ],
+ "should_abstain": [
+  {
+   "query": "good quality material",
+   "kind": "vague"
+  },
+  {
+   "query": "items as per specification",
+   "kind": "vague"
+  },
+  {
+   "query": "supply of goods as per sample",
+   "kind": "vague"
+  },
+  {
+   "query": "miscellaneous items",
+   "kind": "vague"
+  },
+  {
+   "query": "standard quality equipment",
+   "kind": "vague"
+  },
+  {
+   "query": "high quality product",
+   "kind": "vague"
+  },
+  {
+   "query": "various electrical items",
+   "kind": "vague"
+  },
+  {
+   "query": "materials required for office",
+   "kind": "vague"
+  },
+  {
+   "query": "best available product",
+   "kind": "vague"
+  },
+  {
+   "query": "spare parts as per list",
+   "kind": "vague"
+  },
+  {
+   "query": "consumables",
+   "kind": "vague"
+  },
+  {
+   "query": "general items for department",
+   "kind": "vague"
+  },
+  {
+   "query": "items of approved make",
+   "kind": "vague"
+  },
+  {
+   "query": "supply of stores",
+   "kind": "vague"
+  },
+  {
+   "query": "equipment as per annexure",
+   "kind": "vague"
+  },
+  {
+   "query": "annual maintenance contract for lifts",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "manpower outsourcing services",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "Microsoft Office 365 licence",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "cloud hosting services",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "catering services for canteen",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "security guard services",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "legal consultancy services",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "travel agency services",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "insurance for official vehicles",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "event management services",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "Adobe Acrobat subscription",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "hiring of taxi on monthly basis",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "training programme on leadership",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "website development",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "printing of annual report",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "housekeeping services",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "architectural consultancy for new building",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "audit services by chartered accountant",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "software for payroll management",
+   "kind": "out_of_scope"
+  },
+  {
+   "query": "postal courier services",
+   "kind": "out_of_scope"
+  }
+ ],
+ "should_abstain_note": "Written 27 Sep 2026: vague requests and services/software where no Indian Standard applies. SpecSure should not return a ‘Recommended’ (high-confidence) standard."
+}

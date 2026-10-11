@@ -1,0 +1,3705 @@
+{
+ "run": "2026-09-27 12:20",
+ "summary": {
+  "tenders_analysed": 63,
+  "tenders_failed": 5,
+  "pages": 1542,
+  "items_found": 489,
+  "items_named": 36,
+  "items_recommended": 45,
+  "items_possible": 140,
+  "items_abstained": 262,
+  "items_service": 6,
+  "tenders_citing_no_IS": 25,
+  "tenders_citing_older_edition": 3,
+  "distinct_IS_cited": 127,
+  "tenders_with_compulsory_items_but_no_certification_clause": 3,
+  "tenders_citing_withdrawn": 3,
+  "tenders_naming_superseded_edition": 0,
+  "by_source": {
+   "institutional": {
+    "tenders_analysed": 23,
+    "tenders_failed": 5,
+    "pages": 1011,
+    "items_found": 400,
+    "items_named": 5,
+    "items_recommended": 33,
+    "items_possible": 129,
+    "items_abstained": 228,
+    "items_service": 5,
+    "tenders_citing_no_IS": 12,
+    "tenders_citing_older_edition": 3,
+    "distinct_IS_cited": 42,
+    "tenders_with_compulsory_items_but_no_certification_clause": 2,
+    "tenders_citing_withdrawn": 3,
+    "tenders_naming_superseded_edition": 0
+   },
+   "gem": {
+    "tenders_analysed": 40,
+    "tenders_failed": 0,
+    "pages": 531,
+    "items_found": 89,
+    "items_named": 31,
+    "items_recommended": 12,
+    "items_possible": 11,
+    "items_abstained": 34,
+    "items_service": 1,
+    "tenders_citing_no_IS": 13,
+    "tenders_citing_older_edition": 0,
+    "distinct_IS_cited": 87,
+    "tenders_with_compulsory_items_but_no_certification_clause": 1,
+    "tenders_citing_withdrawn": 0,
+    "tenders_naming_superseded_edition": 0
+   }
+  }
+ },
+ "tenders": [
+  {
+   "org": "IIIT Naya Raipur",
+   "url": "https://www.iiitnr.ac.in/sites/default/files/tenders_document/Corrigendum%20Electrical%20Items.pdf",
+   "source": "institutional",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>"
+  },
+  {
+   "org": "IREL (India) Ltd",
+   "url": "https://irel.co.in/documents/20126/0/irel.pdf/edaec0dd-4c15-8950-7794-7a7182bcb348?t=1762239005820",
+   "source": "institutional",
+   "pages": 32,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 5,
+   "counts": {
+    "named": 0,
+    "recommended": 3,
+    "possible": 2,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 10322 (Part 5/Sec 5)",
+    "IS 10322 (Part 5/Sec 3)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "LED Bulb 18-20W",
+     "standard": "IS 16102 (Part 1)",
+     "scheme": "Scheme-II (CRS registration)"
+    },
+    {
+     "item": "LED Street Light 30W To 35W",
+     "standard": "IS 10322 (Part 5/Sec 3)",
+     "scheme": "Scheme-II (CRS registration)"
+    },
+    {
+     "item": "LED Flood Light 50W To 60W",
+     "standard": "IS 10322 (Part 5/Sec 5)",
+     "scheme": "Scheme-II (CRS registration)"
+    }
+   ],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "LED tube light 18-20W IP 20 , LED bulb 18-20W , LED Street",
+     "status": "possible",
+     "top": "IS 16102 (Part 1) Self - Ballasted LED Lamps for General Lighting Services, Pa"
+    },
+    {
+     "text": "LED Tube Light 18-20W IP 20",
+     "status": "possible",
+     "top": "IS 16614 (Part 1) Double- Capped LED Linear Lamps Part1 Safety Specification"
+    },
+    {
+     "text": "LED Bulb 18-20W",
+     "status": "recommended",
+     "top": "IS 16102 (Part 1) Self - Ballasted LED Lamps for General Lighting Services, Pa"
+    },
+    {
+     "text": "LED Street Light 30W To 35W",
+     "status": "recommended",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "LED Flood Light 50W To 60W",
+     "status": "recommended",
+     "top": "IS 10322 (Part 5/Sec 5) Luminaires: Part 5 Particular requirements, Section 5 Flood "
+    }
+   ]
+  },
+  {
+   "org": "IIT Delhi",
+   "url": "https://home.iitd.ac.in/public/storage/tenders/NIT_1767957742.pdf",
+   "source": "institutional",
+   "pages": 92,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [
+    "IS 2099",
+    "IS 6600"
+   ],
+   "ocr_pages": 0,
+   "items": 20,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 2,
+    "none": 18,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 2099",
+    "IS 8626",
+    "IS 6600",
+    "IS 31",
+    "IS 335"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Instruction for online bid submission",
+     "status": "none",
+     "top": "IS 12984 Proforma for purchase specification for plate bending machin"
+    },
+    {
+     "text": "Information & instruction to bidders",
+     "status": "none",
+     "top": "IS 12984 Proforma for purchase specification for plate bending machin"
+    },
+    {
+     "text": "IITD 6 Form",
+     "status": "possible",
+     "top": "IS 1570 (Part 1) Schedules for wrought steels, Part 1: Steels specified by te"
+    },
+    {
+     "text": "Integrity Pact",
+     "status": "none",
+     "top": "IS 1576 Solid pressboard for electrical purposes"
+    },
+    {
+     "text": "IITD – 7/8 Form",
+     "status": "none",
+     "top": "IS 1570 (Part 2) Schedules for Wrought Steels, Part 2: Carbon Steels (Unalloy"
+    },
+    {
+     "text": "Commercial & Additional conditions",
+     "status": "none",
+     "top": "IS 8800 Technical Delivery Conditions for Steel Casting (Excluding I"
+    },
+    {
+     "text": "Special Terms & Conditions & Guidelines",
+     "status": "none",
+     "top": "IS 6453 Technical supply conditions for rolling bearings"
+    },
+    {
+     "text": "Technical Specifications of LT ACB (2 Tier) Panels",
+     "status": "none",
+     "top": "IS/QC 250000 Inductor and Transformer Cores for Telecommunications - Gene"
+    },
+    {
+     "text": "Guaranteed Technical Particulars for TTA panel, Transformers & Busduct",
+     "status": "none",
+     "top": "IS 16227 (Part 1) Instrument Transformers Part 1 General Requirements"
+    },
+    {
+     "text": "Bid Submission Check List",
+     "status": "none",
+     "top": "IS guide (Part 14) Purchase information of goods and services intended for cons"
+    },
+    {
+     "text": "NOT SPECIFIED",
+     "status": "none",
+     "top": "IS 1309 Endrin, technical"
+    },
+    {
+     "text": "Supplying and making end termination with brass compression gland and aluminium lugs of fo",
+     "status": "none",
+     "top": "IS 8309 Compression type tubular terminal ends for aluminium conduct"
+    }
+   ]
+  },
+  {
+   "org": "SBI (electrical & AC)",
+   "url": "https://sbi.bank.in/documents/39129/51516783/PRICE+BID20260224114130434.pdf",
+   "source": "institutional",
+   "pages": 10,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 40,
+   "counts": {
+    "named": 0,
+    "recommended": 1,
+    "possible": 11,
+    "none": 28,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "POWER POINTS",
+     "status": "possible",
+     "top": "IS 14392 General considerations for telecommunication services for el"
+    },
+    {
+     "text": "Primary Point",
+     "status": "none",
+     "top": "IS/IEC 60309 (Part 2) Plugs, Socket-Outlets and Couplers for Industrial Purposes, "
+    },
+    {
+     "text": "Secondary Point",
+     "status": "none",
+     "top": "IS/IEC 60309 (Part 2) Plugs, Socket-Outlets and Couplers for Industrial Purposes, "
+    },
+    {
+     "text": "COMPUTER POINTS",
+     "status": "none",
+     "top": "IS/IEC 60309 (Part 2) Plugs, Socket-Outlets and Couplers for Industrial Purposes, "
+    },
+    {
+     "text": "CONDUITING FOR TELEPHONE, COMPUTER & CONDUITING, WIRING FOR T.V. SYSTEM",
+     "status": "none",
+     "top": "IS 17017 (Part 2/Sec 6) Electric Vehicle Conductive Charging System -- Part 2 Plugs,"
+    },
+    {
+     "text": "TELEPHONE SYSTEM",
+     "status": "possible",
+     "top": "IS 1441 Insulator stalks for telegraph and telephone lines"
+    },
+    {
+     "text": "Supplying, laying, effecting terminations, testing and commissioning of 0.51 mm dia Cu. Co",
+     "status": "none",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Supplying & fixing 20 pair krone tag block with enclosure",
+     "status": "none",
+     "top": "IS/IEC 62255 (Part 3) MULTICORE AND SYMMETRICAL PAIR/QUAD CABLES FOR BROADBAND DIG"
+    },
+    {
+     "text": "P/L 10 Pair of PVC insulated PVC sheathed multi core jelly filled armored telephone",
+     "status": "possible",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "COMPUTER NETWORKING",
+     "status": "none",
+     "top": "IS 17017 (Part 2/Sec 6) Electric Vehicle Conductive Charging System -- Part 2 Plugs,"
+    },
+    {
+     "text": "Supply, Installation, Testing & Commissioning of 24 port Jack Panel",
+     "status": "none",
+     "top": "IS 4552 (Part 1) Automotive vehicles - Portable jacks for automobiles, Part 1"
+    },
+    {
+     "text": "Supplying and fixing Patch Cord-2 Meter- (DBPS Mounting Cord)",
+     "status": "none",
+     "top": "IS 14927 (Part 2) Cable Trunking and Ducting Systems for Electrical Installati"
+    }
+   ]
+  },
+  {
+   "org": "WB Land Development Corp (BOQ)",
+   "url": "https://wbldc.in/wp-content/uploads/2025/03/BOQ-11.pdf",
+   "source": "institutional",
+   "pages": 17,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 17,
+   "counts": {
+    "named": 0,
+    "recommended": 8,
+    "possible": 6,
+    "none": 3,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 15683:2006",
+    "IS 3224"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [
+    "IS 15683"
+   ],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "2 core 10 sqmm PVC insulated 1100 Volt",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "4C x 25 Sqmm Aluminium armoured",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "4C x 10 Sqmm Aluminium armoured",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "LED Street Light Fittings IP-65 Standard",
+     "standard": "IS 10322 (Part 5/Sec 3)",
+     "scheme": "Scheme-II (CRS registration)"
+    },
+    {
+     "item": "XLPE Insulated 5 core Multistrand 10 sq",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "XLPE Insulated 5 core Multistrand 6 sq",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "11 KV Grade 3.5 core 240 sqmm PVC",
+     "status": "possible",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "2 core 10 sqmm PVC insulated 1100 Volt",
+     "status": "recommended",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "1200mm long LED FL Light set",
+     "status": "possible",
+     "top": "IS 16614 (Part 1) Double- Capped LED Linear Lamps Part1 Safety Specification"
+    },
+    {
+     "text": "450mm dia exhaust Fan Metal",
+     "status": "possible",
+     "top": "IS 2312 Propeller type ac ventilating fans"
+    },
+    {
+     "text": "1200 long A.C. Ceiling Fan Complete",
+     "status": "possible",
+     "top": "IS 374 Electric Ceiling Type Fans — Specification ( Fourth Revision"
+    },
+    {
+     "text": "4C x 25 Sqmm Aluminium armoured",
+     "status": "recommended",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "4C x 10 Sqmm Aluminium armoured",
+     "status": "recommended",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "LED Street Light Fittings IP-65 Standard",
+     "status": "recommended",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Lubricant oil filter (FP A00300) for Ashok Leyland",
+     "status": "none",
+     "top": "IS 11509 (Part 1) Methods of Test for Full-flow Lubricating Oil Filters for In"
+    },
+    {
+     "text": "Fuel filter (Diesel Filter) for Ashok Leyland make",
+     "status": "possible",
+     "top": "IS 12500 0.2 litre diesel fuel filters"
+    },
+    {
+     "text": "Diesel oil for the D.G. Set",
+     "status": "recommended",
+     "top": "IS 15217 Fuel Oil for Diesel Generating Sets"
+    },
+    {
+     "text": "Lubricant oil filter (FP A00620) for Ashok Leyland",
+     "status": "none",
+     "top": "IS 1628 Axle Oil"
+    }
+   ]
+  },
+  {
+   "org": "SBI (interior)",
+   "url": "https://sbi.bank.in/documents/39129/51516783/PRICE+BID20260302113656401.pdf",
+   "source": "institutional",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 40,
+   "counts": {
+    "named": 0,
+    "recommended": 1,
+    "possible": 12,
+    "none": 27,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "POWER POINTS",
+     "status": "none",
+     "top": "IS 14886 Switch Mode Power Supply"
+    },
+    {
+     "text": "Primary Point",
+     "status": "possible",
+     "top": "IS/ISO 8559 (Part 2) Textiles Size designation of clothes Part 2: Primary and sec"
+    },
+    {
+     "text": "Secondary Point",
+     "status": "possible",
+     "top": "IS/ISO 8559 (Part 2) Textiles Size designation of clothes Part 2: Primary and sec"
+    },
+    {
+     "text": "COMPUTER POINTS",
+     "status": "possible",
+     "top": "IS 12766 Computer Paper - Specification"
+    },
+    {
+     "text": "CONDUITING FOR TELEPHONE, COMPUTER & CONDUITING, WIRING FOR T.V. SYSTEM",
+     "status": "none",
+     "top": "IS 17017 (Part 2/Sec 6) Electric Vehicle Conductive Charging System -- Part 2 Plugs,"
+    },
+    {
+     "text": "TELEPHONE SYSTEM",
+     "status": "possible",
+     "top": "IS 14392 General considerations for telecommunication services for el"
+    },
+    {
+     "text": "Supplying, laying, effecting terminations, testing and commissioning of 0.51 mm dia Cu. Co",
+     "status": "none",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Supplying & fixing 20 pair krone tag block with enclosure",
+     "status": "none",
+     "top": "IS 14927 (Part 2) Cable Trunking and Ducting Systems for Electrical Installati"
+    },
+    {
+     "text": "P/L 10 Pair of PVC insulated PVC sheathed multi core jelly filled armored telephone",
+     "status": "possible",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "COMPUTER NETWORKING",
+     "status": "none",
+     "top": "IS 12195 (Part 1/Sec 2) Dimensions of Sockets for Relays Used in Electronic and Tele"
+    },
+    {
+     "text": "Supply, Installation, Testing & Commissioning of 24 port Jack Panel",
+     "status": "none",
+     "top": "IS 4552 (Part 1) Automotive vehicles - Portable jacks for automobiles, Part 1"
+    },
+    {
+     "text": "Supplying and fixing Patch Cord-2 Meter- (DBPS Mounting Cord)",
+     "status": "none",
+     "top": "IS 14927 (Part 2) Cable Trunking and Ducting Systems for Electrical Installati"
+    }
+   ]
+  },
+  {
+   "org": "Union Bank of India (branch electrical)",
+   "url": "https://www.unionbankofindia.bank.in/tenderfiles/chebrolu%20branch%20electrical%20final.pdf",
+   "source": "institutional",
+   "pages": 59,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 4,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 4,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 732",
+    "IS 2274",
+    "IS 2148:1968",
+    "IS 3043:1989"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [
+    "IS 2148",
+    "IS 3043"
+   ],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "3 Nos 16 Amps socket in single board",
+     "status": "none",
+     "top": "IS 2312 Propeller type ac ventilating fans"
+    },
+    {
+     "text": "A/C. 11-18 Amps stator complete with 20",
+     "status": "none",
+     "top": "IS 14222 Impulse Voltage Withstand Levels of Rotating a.c. Machines w"
+    },
+    {
+     "text": "UPS incoming 20 Amps Industrial",
+     "status": "none",
+     "top": "IS/ISO 22915 (Part 20) Industrial Trucks-Verification of Stability - Part 20 Additi"
+    },
+    {
+     "text": "16 Amps DB MCB at main entrance",
+     "status": "none",
+     "top": "IS 13032 AC Miniature Circuit-Breaker Boards for Voltages not Exceedi"
+    }
+   ]
+  },
+  {
+   "org": "University of Calcutta",
+   "url": "https://www.caluniv.ac.in/tender/Engg-6-2-20.pdf",
+   "source": "institutional",
+   "pages": 16,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 9,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 9,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Supply fitting and fixing of of good Quality Curtain with bracket and rod etc( as per Choi",
+     "status": "none",
+     "top": "IS 1829 (Part 2) Library Furniture and Fittings - Specification Part 2 Steel "
+    },
+    {
+     "text": "Labour for Chipping of concrete surface before taking up Plastering work",
+     "status": "none",
+     "top": "IS 2395 (Part 1) Painting of Concrete, Masonry and Plaster Surfaces - Code of"
+    },
+    {
+     "text": "Supplying, fitting & fixing 1st quality Ceramic tiles in walls and floors to match with th",
+     "status": "none",
+     "top": "IS 15477 Adhesives for Use with Ceramic Tiles and Mosaics"
+    },
+    {
+     "text": "Labour charges for carpenter for repairing door due to executing floor tiles",
+     "status": "none",
+     "top": "IS 4017 Carpenter's Squares"
+    },
+    {
+     "text": "Priming one coat on timber or plastered surface with synthetic oil bound primer of approve",
+     "status": "none",
+     "top": "IS 1874 Ready Mixed Paint, Universal, Zinc Chrome, Priming (Syntheti"
+    },
+    {
+     "text": "Painting with best quality synthetic enamel paint of approved make and brand including smo",
+     "status": "none",
+     "top": "IS 2932 Enamel, Synthetic, Exterior : (a) Undercoating (b) Finishing"
+    },
+    {
+     "text": "office Steel",
+     "status": "none",
+     "top": "IS 7070 Wooden shelving racks, adjustable and non-adjustable type"
+    },
+    {
+     "text": "6mm clear glass for",
+     "status": "none",
+     "top": "IS 6240 Hot Rolled Steel Plate (up to 6 mm) Sheet and Strip for the "
+    },
+    {
+     "text": "good quality blazer",
+     "status": "none",
+     "top": "IS 5984 Glass Shells for Miniature Lamps"
+    }
+   ]
+  },
+  {
+   "org": "HLL Lifecare (steel furniture RC)",
+   "url": "https://www.lifecarehll.com/file/download/reference/d0f5edad9ac19abed9e235c0fe0aa59fjIeFgQ",
+   "source": "institutional",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "org": "Kolkata Municipal Corporation",
+   "url": "https://www.kmcgov.in/KMCPortal/downloads/Tender_REPAIRING_04_21_09_2022.pdf",
+   "source": "institutional",
+   "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)>"
+  },
+  {
+   "org": "CREDA (solar street lights)",
+   "url": "https://creda.co.in/Image/Tender_11e9fef63b344210b42c96000027079d.pdf",
+   "source": "institutional",
+   "pages": 49,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [
+    "IS 16046"
+   ],
+   "ocr_pages": 0,
+   "items": 26,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 20,
+    "none": 6,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 14286",
+    "IS 1161",
+    "IS 4736",
+    "IS 16270",
+    "IS 16046",
+    "IS 16101",
+    "IS 16221 (Part 2)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "For all the categories in the bid document as mentioned in Specifications",
+     "status": "none",
+     "top": "IS 15666 (Part 7) Gas turbines - Procurements, Part 7: Tehnical information"
+    },
+    {
+     "text": "Supply of Solar Street Light System 6 meter high with 360Wp Module/ LFP Battery (100AH at ",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Supply of Solar Street Light System 4 meter high with 180Wp Module/ LFP Battery (60AH at 1",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Supply of Solar Street Light System (20W) with LFP Battery and 100 Wp SPV Module with five",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Supply of Solar Street Light System (30W) with LFP Battery and 150 Wp SPV Module with five",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Supply of Solar Street Light System (12W) with LFP Battery and 75 Wp SPV Module with five ",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Supply of Solar Street Light System (40W) with LFP Battery and 200 Wp SPV Module with five",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Supply of Solar Street Light System (20W) with LFP Battery and 30 Wp SPV Module with five ",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Installation and Commissioning including civil works at site",
+     "status": "none",
+     "top": "IS 732 Code of Practice for Electrical Wiring Installations ( Fourt"
+    },
+    {
+     "text": "Comprehensive Operation and Maintenance of Systems for five years",
+     "status": "none",
+     "top": "IS 15475 (Part 5) Code of Recommended Practice for Amusement Rides Safety - Pa"
+    },
+    {
+     "text": "Supply of Solar Street Light System (12W x 03 nos) with LFP Battery and 35 Wp x 03 nos SPV",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Solar Street Light System 6 meter high with 360Wp",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    }
+   ]
+  },
+  {
+   "org": "MNREDA (street lighting)",
+   "url": "https://mnreda.gov.in/assets/pdf/tenders/MNREDA-1622-2014-5%20Street%20Lighting%20System%20Tender.pdf",
+   "source": "institutional",
+   "pages": 27,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 5,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 4,
+    "service": 1
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Supply of 11Wp SPV Street Lighting System with 50 Wp SPV module; 12 volt, 40 Ah Battery; P",
+     "status": "none",
+     "top": "IS 12013 Lead-acid batteries for 110 volts train lighting system with"
+    },
+    {
+     "text": "Local transportation per system",
+     "status": "none",
+     "top": "IS 4552 (Part 1) Automotive vehicles - Portable jacks for automobiles, Part 1"
+    },
+    {
+     "text": "Installation and commissioning at different locations in the state of Meghalaya",
+     "status": "none",
+     "top": "IS 17512 Requirements for Electrical Installations in Medical Locatio"
+    },
+    {
+     "text": "AMC for 3 years after the expiry of warranty period per system",
+     "status": "service",
+     "top": "IS 13129 (Part 3) Solar heating - Domestic water heating systems, Part 3: Proc"
+    },
+    {
+     "text": "11Wp SPV Street",
+     "status": "none",
+     "top": "IS 12013 Lead-acid batteries for 110 volts train lighting system with"
+    }
+   ]
+  },
+  {
+   "org": "NALCO",
+   "url": "https://nalcoindia.com/wp-content/uploads/2025/07/CTPitch_Published-Tender-document.pdf",
+   "source": "institutional",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)>"
+  },
+  {
+   "org": "MNIT Jaipur",
+   "url": "https://www.mnit.ac.in/cms/uploads/2025/11/NIT_MNITNITE2025-2614.pdf",
+   "source": "institutional",
+   "pages": 95,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 19,
+   "counts": {
+    "named": 0,
+    "recommended": 2,
+    "possible": 4,
+    "none": 12,
+    "service": 1
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Addition of indigenous items (manufactured in India ) inclusive of taxes",
+     "status": "none",
+     "top": "IS 11738 (Part 2) Bulk handling equipment - Crawler tractors - Data sheet, Par"
+    },
+    {
+     "text": "Addition of Locally sourced imported items inclusive of taxes",
+     "status": "none",
+     "top": "IS 4651 (Part 1) Code of practice for planning and design of ports and harbou"
+    },
+    {
+     "text": "License/Royalty paid/Technical expertise etc. paid out of India",
+     "status": "service",
+     "top": "IS 26002 (Part 3) ASSURANCE ENGAGEMENT STANDARD PART 3 ï‚¾ COMPETENCE OF INDIV"
+    },
+    {
+     "text": "Lifting, Shifting, Assembling, Installation as per the requireemnt of site, Testing and co",
+     "status": "none",
+     "top": "IS 15666 (Part 8) Gas turbines - Procurements, Part 8: Inspection, testing, in"
+    },
+    {
+     "text": "Providing and fixing of Canvass Connection as per requirement",
+     "status": "none",
+     "top": "IS 8329 Centrifugally Cast (Spun) Ductile Iron Pressure Pipes for Wa"
+    },
+    {
+     "text": "Supply, Installation & testing of Galvanised Sheet FABRICATED DUCT as required at site wit",
+     "status": "none",
+     "top": "IS 14841 (Part 4/Sec 1) Packaging of Winding Wires, Part 4: Methods of Test, Section"
+    },
+    {
+     "text": "22 Gauge- FABRICATED Duct",
+     "status": "none",
+     "top": "IS 5362 Twist Drills, Parallel Shanks, Stub Series, Left Hand Cuttin"
+    },
+    {
+     "text": "24 Gauge- FABRICATED Duct",
+     "status": "none",
+     "top": "IS 5362 Twist Drills, Parallel Shanks, Stub Series, Left Hand Cuttin"
+    },
+    {
+     "text": "Central Air-Cooling System in RAC LAB",
+     "status": "possible",
+     "top": "IS 17893 Work Permit System-Code of Practice"
+    },
+    {
+     "text": "MNIT",
+     "status": "none",
+     "top": "IS 9002 (Part 15) Equipment for Environmental Tests for Electronic and Electri"
+    },
+    {
+     "text": "Central Air",
+     "status": "none",
+     "top": "IS 17893 Work Permit System-Code of Practice"
+    },
+    {
+     "text": "PACKAGE AIR Cooling Units comprising of",
+     "status": "recommended",
+     "top": "IS 16590 Liquid Chilling Package Units-Specification"
+    }
+   ]
+  },
+  {
+   "org": "District administration (s3waas)",
+   "url": "https://cdnbbsr.s3waas.gov.in/s35679fb79d04e9ed91e292858c54df4e8/uploads/2025/08/202508301794264144.pdf",
+   "source": "institutional",
+   "pages": 53,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 11,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 1,
+    "none": 10,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 3764",
+    "IS 4756",
+    "IS 7293",
+    "IS 7969",
+    "IS 4081",
+    "IS 4138",
+    "IS 818",
+    "IS 4912",
+    "IS 5121",
+    "IS 4130",
+    "IS 5916",
+    "IS 3016"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "NIT Number",
+     "status": "none",
+     "top": "IS 18306 Pneumatic Tourniquet- Specification"
+    },
+    {
+     "text": "Title of Tender",
+     "status": "possible",
+     "top": "IS 15659 (Part 1) Petroleum and natural gas industries - external coatings for"
+    },
+    {
+     "text": "Head",
+     "status": "none",
+     "top": "IS 955 Functional Requirements for Dry Powder Tender for Fire Briga"
+    },
+    {
+     "text": "Starting Date for Downloading Tender Documents (dd/mm/yy)",
+     "status": "none",
+     "top": "IS 12356 Purchaser's Data Sheet for Clean Air Equipment (Laminar Flow"
+    },
+    {
+     "text": "Closing Date for Downloading Tender Documents (dd/mm/yy)",
+     "status": "none",
+     "top": "IS 15883 (Part 1) Construction project management - Guidelines, Part 1: Genera"
+    },
+    {
+     "text": "Place",
+     "status": "none",
+     "top": "IS 11633 Lift doors"
+    },
+    {
+     "text": "Address of Tender Issuing Office",
+     "status": "none",
+     "top": "IS 16361 Thermoplastic Polymer based Coatings: (a) Undercoating (b) F"
+    },
+    {
+     "text": "Contact Telephone Number",
+     "status": "none",
+     "top": "IS 8581 Supplier's data sheet for cooling towers for process industr"
+    },
+    {
+     "text": "E-mail Address of Tender Issuing Office",
+     "status": "none",
+     "top": "IS 10060 Geotechnical Investigations for Power House Sites - Code of "
+    },
+    {
+     "text": "TOOLS AND PLANTS: The Contractor shall make his own arrangement for ordinary",
+     "status": "none",
+     "top": "IS 13834 (Part 2) Cranes - Classification, Part 2: Mobile cranes"
+    },
+    {
+     "text": "_________________________ [enter description of work / supply] under the above mentioned",
+     "status": "none",
+     "top": "IS 9921 (Part 5) Alternating Current Disconnectors (Isolators) and Earthing S"
+    }
+   ]
+  },
+  {
+   "org": "OPTCL (office furniture)",
+   "url": "https://www.optcl.co.in/Downloads/Tender/TENDER%20DOCUMENT_%20furnitures_Final.pdf",
+   "source": "institutional",
+   "pages": 7,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 0,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": []
+  },
+  {
+   "org": "Karnataka Gramin Bank (electrical BOQ)",
+   "url": "https://ftp.karnatakagb.bank.in/public/tender-files/BOQ-FOR-ELECTRICAL-WORKS-AT-HEAD-OFFICE-BALLARI_1.pdf",
+   "source": "institutional",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 10,
+   "counts": {
+    "named": 0,
+    "recommended": 1,
+    "possible": 2,
+    "none": 6,
+    "service": 1
+   },
+   "is_cited": [
+    "IS 13871",
+    "IS 9606:1980"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "brass glands",
+     "status": "recommended",
+     "top": "IS 12943 Brass glands for PVC cables"
+    },
+    {
+     "text": "solders crimping type copper lugs",
+     "status": "none",
+     "top": "IS 15137 Metal Connecting Lugs for Porcelain Transformer Bushings"
+    },
+    {
+     "text": "following MCB Distribution Board made out of 16SWGMS",
+     "status": "possible",
+     "top": "IS 13032 AC Miniature Circuit-Breaker Boards for Voltages not Exceedi"
+    },
+    {
+     "text": "following",
+     "status": "none",
+     "top": "IS/IEC 60730 (Part 1) Automatic electrical controls for household and similar use,"
+    },
+    {
+     "text": "following floor mounted Pop-up service",
+     "status": "service",
+     "top": "IS 2556 (Part 17) Vitreous Sanitary Appliances (Vitreous China) - , Part 17: S"
+    },
+    {
+     "text": "24 port Cat 6 19\" Modular",
+     "status": "none",
+     "top": "IS 13499 Road Vehicles - Connectors for the Electrical Connection of "
+    },
+    {
+     "text": "Drain pipe with necessary fittings - Hi wall / cassette AC",
+     "status": "possible",
+     "top": "IS 16098 (Part 1) Structured-Wall Plastics Piping Systems for Non-Pressure Dra"
+    },
+    {
+     "text": "cable 4core comunnication - Hi wall / cassette AC",
+     "status": "none",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Outdoor stand for caseette AC",
+     "status": "none",
+     "top": "IS 5880 Stand, Saline-Cum-Irrigator"
+    },
+    {
+     "text": "copper pipe with insulation for Cassette AC",
+     "status": "none",
+     "top": "IS 10773 Wrought Copper Tubes for Refrigeration and Air-Conditioning "
+    }
+   ]
+  },
+  {
+   "org": "SBI (electrical, data BOQ)",
+   "url": "https://sbi.bank.in/documents/39129/51516783/PRICE+BID20260310060902213.pdf",
+   "source": "institutional",
+   "pages": 6,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 16,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 5,
+    "none": 11,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 3043:1987"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [
+    "IS 3043"
+   ],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "factory fabricated",
+     "status": "possible",
+     "top": "IS 14350 Code For Hygienic Conditions for Sugar Factories"
+    },
+    {
+     "text": "PVC insulated PVC",
+     "status": "possible",
+     "top": "IS 3035 (Part 1) Thermoplastic insulated weatherproof cables: Part 1 PVC insu"
+    },
+    {
+     "text": "following 3 pin metal clad",
+     "status": "none",
+     "top": "IS 4570 (Part 13/Sec 3) Crystal Unit Holders, Part 13: Quartz Crystal Unit Holder Ou"
+    },
+    {
+     "text": "of 3 nos 200 Amps Kitkat with 1 no neutral link on",
+     "status": "none",
+     "top": "IS 3010 (Part 1) Appliance-connectors and appliance-inlets (non-reversible th"
+    },
+    {
+     "text": "of suitable size MS box fabricated with 16 G MS sheet",
+     "status": "none",
+     "top": "IS 1280 Foundry moulding boxes of steel construction"
+    },
+    {
+     "text": "3 pin 20/25 A 3 pin metal",
+     "status": "possible",
+     "top": "IS 10794 Mild steel wire for cottor pins"
+    },
+    {
+     "text": "3 pin 32 A 3 pin metal",
+     "status": "possible",
+     "top": "IS 4570 (Part 2) Crystal Unit Holders, Part 2: Metal, Solder-sealed, Two Pin "
+    },
+    {
+     "text": "of 8 SWG copper earth wire in the recess for loop",
+     "status": "none",
+     "top": "IS 4412 Copper wires for general engineering purposes"
+    },
+    {
+     "text": "of 8 SWG GI earth wire in the recess for loop earthing",
+     "status": "none",
+     "top": "IS 3043 Code of Practice for Earthing ( Second Revision )"
+    },
+    {
+     "text": "16 G MS sheet adopter box",
+     "status": "none",
+     "top": "IS 3298 Mild steel rivet bars for shipbuilding"
+    },
+    {
+     "text": "also base frame for",
+     "status": "none",
+     "top": "IS 6783 Basketball Frames"
+    },
+    {
+     "text": "Tag Block 10 pair for telephone",
+     "status": "none",
+     "top": "IS 1441 Insulator stalks for telegraph and telephone lines"
+    }
+   ]
+  },
+  {
+   "org": "SBI Jatni (price bid)",
+   "url": "https://sbi.bank.in/webfiles/uploads/files_2425/180120251244-PRICE%20BID_JATNI.pdf",
+   "source": "institutional",
+   "pages": 16,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 40,
+   "counts": {
+    "named": 0,
+    "recommended": 3,
+    "possible": 10,
+    "none": 27,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Concealed/Surface wiring with 6 sq. mm 3 Core, PVC Insulated Copper Cable ( From",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Supply of all required materials and wiring to circuits/ submains with following number an",
+     "status": "possible",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Recessed wiring with (3R X 2.5sqmm ) copper wire (RDB to work station Points)",
+     "status": "none",
+     "top": "IS 10322 (Part 5/Sec 2) Luminaires, Part 5: Particular Requirements, Section 2: Rece"
+    },
+    {
+     "text": "Supply of 1100V grade Aluminium armoured cable having sector / circular shaped aluminium C",
+     "status": "possible",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "Supply of 35 sq.mm 4 core XLPE Armoured Cables ISI Marked. ( Generator to main panel) (2 R",
+     "status": "possible",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "LV / MV CABLE TRENCHING AND LAYING WITH SAND AND PROTECTIVE COVERING",
+     "status": "none",
+     "top": "IS 10022 Open Ended Cogged V-Belting"
+    },
+    {
+     "text": "Laying of one number of PVC insulated and PVC seathed / XLPE power cable of 1.1 KV grade o",
+     "status": "possible",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "GLANDING & TERMINATION :- Supply & Installation of end termination of above mentioned cabl",
+     "status": "none",
+     "top": "IS 12943 Brass glands for PVC cables"
+    },
+    {
+     "text": "(35 sqmm) 4 core armored almunium cable",
+     "status": "none",
+     "top": "IS 14255 Aerial Bunched Cables for working voltagess upto and includi"
+    },
+    {
+     "text": "Concealed wiring with ( 3Rx2.5sqmm ) copper wire ( C.D.B. to Computer Points )",
+     "status": "none",
+     "top": "IS 3855 (Part 3) Rectangular and square enamelled copper conductors: Part 3 W"
+    },
+    {
+     "text": "Concealed wiring with ( 3Rx4.0 sqmm ) copper wire ( U.P.S. OUTPUT to C.D.B. )",
+     "status": "none",
+     "top": "IS 12444 Copper Wire Rods for Electrical Applications â€” Specificati"
+    },
+    {
+     "text": "Concealed/Surface wiring with 6 sq. mm 3 Core, PVC Insulated Copper Cable ( From ACDB/ Mai",
+     "status": "recommended",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Recessed wiring with (3Rx2.5sqmm) copper wire (LDB/RDB to Common Switch board/ Points)",
+     "status": "none",
+     "top": "IS 10322 (Part 5/Sec 2) Luminaires, Part 5: Particular Requirements, Section 2: Rece"
+    }
+   ]
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "url": "https://sbi.bank.in/webfiles/uploads/files_2425/240620241801-Technical%20Bid_Electrical%20Works.pdf",
+   "source": "institutional",
+   "pages": 52,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 31,
+   "counts": {
+    "named": 0,
+    "recommended": 4,
+    "possible": 15,
+    "none": 12,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Wires",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "GI Pipe",
+     "standard": "IS 1239 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Electrical Wiring /Cabling/Earthing",
+     "status": "none",
+     "top": "IS 5244 Safe Deposit Locker Cabinets — Specification ( Fourth Revisi"
+    },
+    {
+     "text": "Wires",
+     "status": "recommended",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Copper/Aluminium Power Cables",
+     "status": "possible",
+     "top": "IS 3961 (Part 5) Recommended current ratings for cables, Part 5: PVC insulate"
+    },
+    {
+     "text": "Telephone Cables",
+     "status": "possible",
+     "top": "IS 7098 (Part 2) Crosslinked Polyethylene Insulated Thermoplastics Sheathed C"
+    },
+    {
+     "text": "PVC Conduit",
+     "status": "recommended",
+     "top": "IS 9537 (Part 3) Conduits for electrical installations, Part 3: Rigid plain c"
+    },
+    {
+     "text": "MS Conduit",
+     "status": "recommended",
+     "top": "IS 9537 (Part 2) Conduits for electrical installations, Part 2: Rigid steel c"
+    },
+    {
+     "text": "GI Pipe",
+     "status": "recommended",
+     "top": "IS 1239 (Part 1) Steel Tubes, Tubulars and Other Wrought Steel Fittings, Part"
+    },
+    {
+     "text": "Switches/Sockets (Modular)",
+     "status": "possible",
+     "top": "IS 4615 Switch Socket Outlets (non-interlocking Type)"
+    },
+    {
+     "text": "Raceways",
+     "status": "none",
+     "top": "IS/QC 250200 Inductor and Transformer Cores for Telecommunications Sectio"
+    },
+    {
+     "text": "Data cabling- Cat 5",
+     "status": "possible",
+     "top": "IS/ISO/IEC 11801 (Part 5) Information Technology-Generic Cabling for Customer Premises"
+    },
+    {
+     "text": "Information Outlets",
+     "status": "possible",
+     "top": "IS 9921 (Part 5) Alternating Current Disconnectors (Isolators) and Earthing S"
+    },
+    {
+     "text": "Jack panel",
+     "status": "none",
+     "top": "IS 4949 2 Amp switches for domestic and similar purposes"
+    }
+   ]
+  },
+  {
+   "org": "CPWD (FMTTI)",
+   "url": "https://images.assettype.com/sentinelassam-english/2024-03/9e029628-7920-4194-96ba-c605f761a6d5/Final_NIT___FMTTI.pdf",
+   "source": "institutional",
+   "pages": 45,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 4,
+   "items": 22,
+   "counts": {
+    "named": 0,
+    "recommended": 1,
+    "possible": 11,
+    "none": 10,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 374:2019"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "ceiling fan with",
+     "standard": "IS 374",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Steel Conduit / PVC Conduit",
+     "status": "possible",
+     "top": "IS 9537 (Part 2) Conduits for electrical installations, Part 2: Rigid steel c"
+    },
+    {
+     "text": "Modular Type Switch/ Socket / Fan Regulator / RJ45 / TV Socket / Telephone Socket",
+     "status": "none",
+     "top": "IS 3452 (Part 2) Toggle Switches, Part 2: Toggle Switches, Type I and type II"
+    },
+    {
+     "text": "MCB DB/MCB",
+     "status": "possible",
+     "top": "IS 13032 AC Miniature Circuit-Breaker Boards for Voltages not Exceedi"
+    },
+    {
+     "text": "MCCB",
+     "status": "none",
+     "top": "IS 11003 (Part 2) Hydraulic Fluid Power - Mounting Dimensions for Single Rod C"
+    },
+    {
+     "text": "LT Panel /Feeder Pillar",
+     "status": "none",
+     "top": "IS 10242 (Part 3/Sec 3) Electrical installations in ships, Part 3: Equipment, Sectio"
+    },
+    {
+     "text": "Current Transformer",
+     "status": "possible",
+     "top": "IS 4201 Application Guide for Current Transformer"
+    },
+    {
+     "text": "LED Fittings/ Compound light / Street light/ Post top Fitting",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Ceiling fan/ Exhaust fan",
+     "status": "possible",
+     "top": "IS 374 Electric Ceiling Type Fans — Specification ( Fourth Revision"
+    },
+    {
+     "text": "GI / MS Pipe (ISI Marked)",
+     "status": "none",
+     "top": "IS 1978 Line pipe"
+    },
+    {
+     "text": "DWC / HDPE pipe",
+     "status": "possible",
+     "top": "IS 8360 (Part 1) fabricated high density polyethylene (HDPE) fittings for pot"
+    },
+    {
+     "text": "surface mounted LED light fitting 4 feet length, non",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 1) Luminaires, Part 5: Particular requirements, Section 1: Gene"
+    },
+    {
+     "text": "Fancy Wall bracket fitting along with 9W retrofit LED",
+     "status": "possible",
+     "top": "IS 16614 (Part 1) Double- Capped LED Linear Lamps Part1 Safety Specification"
+    }
+   ]
+  },
+  {
+   "org": "ESIC Pune (electrical estimate)",
+   "url": "https://esic.gov.in/Tender/ten_1pune_27.3.14.pdf",
+   "source": "institutional",
+   "error": "<urlopen error [Errno 104] Connection reset by peer>"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "url": "https://www.unionbankofindia.bank.in/tenderfiles/rfp-fire-extingueshers-2024-goa-and-kolhapur-final-21-04-2025.pdf",
+   "source": "institutional",
+   "pages": 60,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 28,
+   "counts": {
+    "named": 0,
+    "recommended": 8,
+    "possible": 12,
+    "none": 7,
+    "service": 1
+   },
+   "is_cited": [
+    "IS 15683"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "CO Portable 2 kg Fire Extinguisher with floor stand 2",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "CO Portable 4.5 kg Fire Extinguisher with floor stand 2",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 90 Based) with floor stand",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 90 Based) with suspension wall b",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 50 Based) with floor stand",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 50 Based) with suspension wall b",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Fire Extinguishers (Portable and Modular type)",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Floor stand for Fire Extinguishers",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "CO Portable 2 kg Fire Extinguisher with floor stand 2",
+     "status": "recommended",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "CO Portable 2 kg Fire Extinguisher with suspension wall bracket 2",
+     "status": "possible",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "CO Portable 4.5 kg Fire Extinguisher with floor stand 2",
+     "status": "recommended",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "CO Portable 4.5 kg Fire Extinguisher with suspension wall bracket 2",
+     "status": "possible",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 90 Based) with floor stand",
+     "status": "recommended",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 90 Based) with suspension wall bracket",
+     "status": "recommended",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 50 Based) with floor stand",
+     "status": "recommended",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 50 Based) with suspension wall bracket",
+     "status": "recommended",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "Automatic Modular Fire Extinguisher (ABC Type - MAP 90 Based) 5 KG with ceiling mount brac",
+     "status": "possible",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "Automatic Modular Fire Extinguisher (ABC Type - MAP 90 Based) 5 KG with suspension wall br",
+     "status": "possible",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "Audited Balance Sheet AND Profit & Loss A/c. Statement for last three years",
+     "status": "none",
+     "top": "IS 18006 (Part 3/Sec 1) Municipal Governance - Part 3 Property Tax - Section 1 Taxon"
+    },
+    {
+     "text": "Pre-Qualification Criteria Form duly filed with self rating marks",
+     "status": "none",
+     "top": "IS/QC 390101 Fixed Film Resistor Networks for Use in Electronic Equipment"
+    }
+   ]
+  },
+  {
+   "org": "SBI (fire extinguishers)",
+   "url": "https://sbi.bank.in/documents/39129/51516783/NOTICE+INVITING+TENDER20260813123722051.pdf",
+   "source": "institutional",
+   "pages": 21,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [
+    "IS 15397"
+   ],
+   "ocr_pages": 0,
+   "items": 7,
+   "counts": {
+    "named": 5,
+    "recommended": 0,
+    "possible": 2,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 15683:2018",
+    "IS 16018:2022",
+    "IS 2190:2024",
+    "IS 15397",
+    "IS 4989",
+    "IS 3224"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "WATER (GAS CARTRIDGE TYPE) FIRE EXTINGUISHERS: provided with squeeze grip contro",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "WATER (STORED PRESSURE TYPE) FIRE EXTINGUISHERS: provided with squeeze grip cont",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "WATER TYPE FIRE EXTINGUISHERS: Stored pressure type / gas cartridge type, provid",
+     "standard": "IS 16018",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "FOAM (STORED PRESSURE) TYPE FIRE EXTINGUISHERS: provided with squeeze grip contr",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "DRY POWDER (BC/ABC) GAS CARTRIDGE TYPE FIRE EXTINGUISHERS: provided with squeeze",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "WATER (GAS CARTRIDGE TYPE) FIRE EXTINGUISHERS: provided with squeeze grip control valve op",
+     "status": "named",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "WATER (STORED PRESSURE TYPE) FIRE EXTINGUISHERS: provided with squeeze grip control valve ",
+     "status": "named",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "WATER TYPE FIRE EXTINGUISHERS: Stored pressure type / gas cartridge type, provided with sq",
+     "status": "named",
+     "top": "IS 16018 Wheeled Fire Extinguishers — Performance and Construction — "
+    },
+    {
+     "text": "FOAM (STORED PRESSURE) TYPE FIRE EXTINGUISHERS: provided with squeeze grip control valve o",
+     "status": "named",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "DRY POWDER (BC/ABC) GAS CARTRIDGE TYPE FIRE EXTINGUISHERS: provided with squeeze grip cont",
+     "status": "named",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    },
+    {
+     "text": "4 Kg Capacity Minimum Fire Rating: 3A, 55B",
+     "status": "possible",
+     "top": "IS 13849 Specification for portable fire extinguisher dry powder type"
+    },
+    {
+     "text": "6 Kg Capacity Minimum Fire Rating: 4A, 89B",
+     "status": "possible",
+     "top": "IS 10204 Specification for portable fire extinguisher mechanical foam"
+    }
+   ]
+  },
+  {
+   "org": "AIIMS Bhubaneswar",
+   "url": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/01/NIT-28.pdf",
+   "source": "institutional",
+   "pages": 39,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 3,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 1,
+    "none": 1,
+    "service": 1
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Intraoral scanner",
+     "status": "possible",
+     "top": "IS 19021 Information Technology-Office Equipment-Minimum Information "
+    },
+    {
+     "text": "01 No. of Intraoral scanner at AIIMS, Bhubaneswar. The sealed envelope should",
+     "status": "none",
+     "top": "IS 15537 Injection Equipment for medical use-Ampoules for injectables"
+    },
+    {
+     "text": "goods/ services outside GeM, bidders are required to submit documents in",
+     "status": "service",
+     "top": "IS 9921 (Part 5) Alternating Current Disconnectors (Isolators) and Earthing S"
+    }
+   ]
+  },
+  {
+   "org": "CSIR-NAL",
+   "url": "https://www.nal.res.in/sites/default/files/2025-10/NIT-FMCD-088-25.pdf",
+   "source": "institutional",
+   "pages": 114,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 5,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 5,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Supply, Development And Rendering Of Visual Database For Real-Time Flight Simulator",
+     "status": "none",
+     "top": "IS 10120 Supplier's data sheet for rotary dryers"
+    },
+    {
+     "text": "goods not produced by MSMEs is also involved",
+     "status": "none",
+     "top": "IS guide (Part 65) General requirements foor bodies operating product certifica"
+    },
+    {
+     "text": "development tools for generation of out of window visual database",
+     "status": "none",
+     "top": "IS 12461 (Part 2) Simplified Presentation of Technical Documents (GUIDE FOR PR"
+    },
+    {
+     "text": "rendering engine tool for rendering above database",
+     "status": "none",
+     "top": "IS 10990 (Part 3) Technical Drawings - Simplified Representation of Pipelines,"
+    },
+    {
+     "text": "Image Generator hardware",
+     "status": "none",
+     "top": "IS 12369 Graphical Kernel System (GKS) for Computer Graphics"
+    }
+   ]
+  },
+  {
+   "org": "IMD",
+   "url": "https://internal.imd.gov.in/tenders/20250124_td_308.pdf",
+   "source": "institutional",
+   "pages": 11,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 2,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Twenty (20) number of C-band",
+     "status": "none",
+     "top": "IS 6544 Wing Band for Poultry"
+    },
+    {
+     "text": "Twenty Five (25) number",
+     "status": "none",
+     "top": "IS 5508 (Part 25) Guide for Fishing Gear Part 25 Mackeral Gillnet"
+    }
+   ]
+  },
+  {
+   "org": "Coal India (civil)",
+   "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/TD_01_1.pdf",
+   "source": "institutional",
+   "pages": 172,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 40,
+   "counts": {
+    "named": 0,
+    "recommended": 1,
+    "possible": 13,
+    "none": 26,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Wings",
+     "standard": "IS 10322 (Part 5/Sec 6)",
+     "scheme": "Scheme-II (CRS registration)"
+    }
+   ],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Tender e-Publication date",
+     "status": "none",
+     "top": "IS 9921 (Part 5) Alternating Current Disconnectors (Isolators) and Earthing S"
+    },
+    {
+     "text": "Auditorium ceiling light",
+     "status": "possible",
+     "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi"
+    },
+    {
+     "text": "Auditorium Cove light",
+     "status": "none",
+     "top": "IS 9559 Guide for selection of electrical and electronic equipment f"
+    },
+    {
+     "text": "Wall washer",
+     "status": "none",
+     "top": "IS 15111 (Part 1) Self Ballasted Lamps for General Lighting Services, Part 1: "
+    },
+    {
+     "text": "Cat way light",
+     "status": "none",
+     "top": "IS 1885 (Part 16/Sec 3) Electrotechnical Vocabulary, Part XVI: Lighting, Section 3: "
+    },
+    {
+     "text": "Telescopic ladder",
+     "status": "none",
+     "top": "IS 7785 (Part 4/Sec 1) Elevated type aerodrome lighting fittings, Part 4: Angle of "
+    },
+    {
+     "text": "Tele hosting motorised light bar (4 light set)",
+     "status": "none",
+     "top": "IS 7785 (Part 6/Sec 1) Elevated type aerodrome lighting fittings, Part 6: Taxiway l"
+    },
+    {
+     "text": "Foot light at walking ramps",
+     "status": "possible",
+     "top": "IS 1885 (Part 16/Sec 3) Electrotechnical Vocabulary, Part XVI: Lighting, Section 3: "
+    },
+    {
+     "text": "BOSE main speaker",
+     "status": "possible",
+     "top": "IS 15596 (Part 5) Sound systems equipment, Part 5: Loudspeakers"
+    },
+    {
+     "text": "BOSE woofers",
+     "status": "none",
+     "top": "IS 9302 (Part 6) Characteristics and methods of measurements for sound system"
+    },
+    {
+     "text": "Moving head light set",
+     "status": "possible",
+     "top": "IS 1885 (Part 16/Sec 3) Electrotechnical Vocabulary, Part XVI: Lighting, Section 3: "
+    },
+    {
+     "text": "Control panel",
+     "status": "none",
+     "top": "IS 15596 (Part 4) Sound System Equipment: Part 4 Microphones"
+    }
+   ]
+  },
+  {
+   "org": "Hydro Power",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9838860",
+   "bid": "GEM/2026/B/7989471",
+   "category": "PVC Insulated Copper Cable Single Core and Multi Core Circular Sheathed with Flexible Conductor (V2) ISI Marked To IS 694,PVC Insulated Copper Cable Single Core",
+   "source": "gem",
+   "pages": 14,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 6,
+   "counts": {
+    "named": 5,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 694",
+    "IS 7098 (Part 1)",
+    "IS 8130:2013"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "PVC Insulated Copper Cable Single Core and Multi Core",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Flexible Conductor (V2) ISI Marked To IS 694",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Circular Sheathed With Flexible Conductor (V2) ISI Marked To IS 694",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Conductor (V2) ISI Marked To IS 694",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Circular Sheathed With Rigid Conductor (V2) ISI Marked To IS 694",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Marked To IS 7098 (Part 1)",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "PVC Insulated Copper Cable Single Core and Multi Core",
+     "status": "recommended",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Flexible Conductor (V2) ISI Marked To IS 694",
+     "status": "named",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Circular Sheathed With Flexible Conductor (V2) ISI Marked To IS 694",
+     "status": "named",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Conductor (V2) ISI Marked To IS 694",
+     "status": "named",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Circular Sheathed With Rigid Conductor (V2) ISI Marked To IS 694",
+     "status": "named",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Marked To IS 7098 (Part 1)",
+     "status": "named",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9913821",
+   "bid": "GEM/2026/B/8054879",
+   "category": "Modular Piano Type Domestic Electrical Switches ISI Marked To IS 3854,PVC Insulated Aluminium Cable Single Core and Multi Core Circular Sheathed with Rigid Cond",
+   "source": "gem",
+   "pages": 25,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 8,
+   "counts": {
+    "named": 7,
+    "recommended": 0,
+    "possible": 1,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 3854",
+    "IS 694",
+    "IS 1293",
+    "IS 10322 (Part 5/Sec 3)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Modular Piano Type Domestic Electrical Switches ISI Marked To IS 3854",
+     "standard": "IS 3854",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Rigid Conductor ISI Marked To IS 694",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Conductor (V2) ISI Marked To IS 694",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Modular Piano Type Domestic Electrical Sockets ISI Marked To IS 1293",
+     "standard": "IS 1293",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Electrical Plugs (V2) ISI Marked To IS 1293",
+     "standard": "IS 1293",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Non Modular Piano Type Domestic Electrical Sockets ISI Marked To IS 1293",
+     "standard": "IS 1293",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Non Modular Piano Type Domestic Electrical Switches ISI Marked To IS 3854",
+     "standard": "IS 3854",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Modular Piano Type Domestic Electrical Switches ISI Marked",
+     "status": "possible",
+     "top": "IS 9433 Piano key type switches for use in automobiles"
+    },
+    {
+     "text": "Modular Piano Type Domestic Electrical Switches ISI Marked To IS 3854",
+     "status": "named",
+     "top": "IS 3854 Switches For Domestic And Similar Purposes - Specification"
+    },
+    {
+     "text": "Rigid Conductor ISI Marked To IS 694",
+     "status": "named",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Conductor (V2) ISI Marked To IS 694",
+     "status": "named",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "Modular Piano Type Domestic Electrical Sockets ISI Marked To IS 1293",
+     "status": "named",
+     "top": "IS 1293 Plugs and socket- outlets of rated voltage up to and includi"
+    },
+    {
+     "text": "Electrical Plugs (V2) ISI Marked To IS 1293",
+     "status": "named",
+     "top": "IS 1293 Plugs and socket- outlets of rated voltage up to and includi"
+    },
+    {
+     "text": "Non Modular Piano Type Domestic Electrical Sockets ISI Marked To IS 1293",
+     "status": "named",
+     "top": "IS 1293 Plugs and socket- outlets of rated voltage up to and includi"
+    },
+    {
+     "text": "Non Modular Piano Type Domestic Electrical Switches ISI Marked To IS 3854",
+     "status": "named",
+     "top": "IS 3854 Switches For Domestic And Similar Purposes - Specification"
+    }
+   ]
+  },
+  {
+   "org": "Department of Financial Services",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9922233",
+   "bid": "GEM/2026/B/8062066",
+   "category": "Safes (V3) ISI Marked to IS 550",
+   "source": "gem",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 1,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Safes (V3) ISI Marked to IS 550",
+     "standard": "IS 550 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Safes (V3) ISI Marked to IS 550",
+     "status": "named",
+     "top": "IS 550 (Part 1) Safes: Part 1 specification Fifth Revision"
+    }
+   ]
+  },
+  {
+   "org": "Health and Family Welfare Department Tripura",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9918203",
+   "bid": "GEM/2026/B/8058670",
+   "category": "Disposable Sanitary Napkin/Panty Liner/Maternity Pad/Period Panty (V2) ISI Marked to IS 5405",
+   "source": "gem",
+   "pages": 7,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 3,
+   "counts": {
+    "named": 2,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 5405"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Disposable Sanitary Napkin/Panty Liner/Maternity",
+     "standard": "IS 5405",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "To IS 5405",
+     "standard": "IS 5405",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Panty (V2) ISI Marked To IS 5405",
+     "standard": "IS 5405",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Disposable Sanitary Napkin/Panty Liner/Maternity",
+     "status": "recommended",
+     "top": "IS 5405 Sanitary Napkins — Specification ( Second Revision )"
+    },
+    {
+     "text": "To IS 5405",
+     "status": "named",
+     "top": "IS 5405 Sanitary Napkins — Specification ( Second Revision )"
+    },
+    {
+     "text": "Panty (V2) ISI Marked To IS 5405",
+     "status": "named",
+     "top": "IS 5405 Sanitary Napkins — Specification ( Second Revision )"
+    }
+   ]
+  },
+  {
+   "org": "Indian Railways",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9861348",
+   "bid": "GEM/2026/B/8008955",
+   "category": "XLPE Cable for Working Voltage up to and Including 1.1 KV Marked To IS 7098 (Part 1)",
+   "source": "gem",
+   "pages": 7,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 1,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 7098 (Part 1)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "XLPE Cable for Working Voltage up to and Including 1.1 KV",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "Marked To IS 7098 (Part 1)",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "XLPE Cable for Working Voltage up to and Including 1.1 KV",
+     "status": "recommended",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "Marked To IS 7098 (Part 1)",
+     "status": "named",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    }
+   ]
+  },
+  {
+   "org": "Department of Animal Husbandry and Dairying",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9921434",
+   "bid": "GEM/2026/B/8061399",
+   "category": "Composite Office Tables conforming to IS 8126 (V2)",
+   "source": "gem",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 1,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 8126"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Composite Office Tables conforming to IS 8126 (V2)",
+     "status": "named",
+     "top": "IS 8126 composite office tables"
+    }
+   ]
+  },
+  {
+   "org": "Indian Railways",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9952674",
+   "bid": "GEM/2026/B/8088804",
+   "category": "Plain Copier Paper (V3) ISI Marked to IS 14490",
+   "source": "gem",
+   "pages": 7,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 1,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 14490",
+    "IS 9894"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Plain Copier Paper (V3) ISI Marked to IS 14490",
+     "standard": "IS 14490",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Plain Copier Paper (V3) ISI Marked to IS 14490",
+     "status": "named",
+     "top": "IS 14490 Plain Copier Paper- Specification"
+    }
+   ]
+  },
+  {
+   "org": "Bhakra Beas Managemet Board",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9898197",
+   "bid": "GEM/2026/B/8041040",
+   "category": "Television (V3),Television (V3),Portable Electric Indoor Air Purifier Conforming To IS 17531,Portable Electric Indoor Air Purifier Conforming To IS 17531",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 3,
+   "counts": {
+    "named": 1,
+    "recommended": 1,
+    "possible": 1,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 17531"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Television (V3) (Q2) , Portable Electric Indoor Air Purifier",
+     "status": "recommended",
+     "top": "IS 17531 PORTABLE ELECTRIC INDOOR AIR PURIFIER - SPECIFICATION"
+    },
+    {
+     "text": "Television (V3)",
+     "status": "possible",
+     "top": "IS 9298 (Part 1) Television Pattern Generators, Part I: Requirements"
+    },
+    {
+     "text": "Portable Electric Indoor Air Purifier Conforming To IS 17531",
+     "status": "named",
+     "top": "IS 17531 PORTABLE ELECTRIC INDOOR AIR PURIFIER - SPECIFICATION"
+    }
+   ]
+  },
+  {
+   "org": "Department of Atomic Energy",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9782314",
+   "bid": "GEM/2026/B/7940567",
+   "category": "Portable Fire Extinguishers (V3) ISI Marked to IS 15683",
+   "source": "gem",
+   "pages": 7,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 1,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 15683"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Portable Fire Extinguishers (V3) ISI Marked to IS 15683",
+     "standard": "IS 15683",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Portable Fire Extinguishers (V3) ISI Marked to IS 15683",
+     "status": "named",
+     "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —"
+    }
+   ]
+  },
+  {
+   "org": "Indian Railways",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9865142",
+   "bid": "GEM/2026/B/8012382",
+   "category": "Self Ballasted LED Lamps (LED Bulb) Conforming to IS 16102 (Part 2) (V3),Self Ballasted LED Lamps (LED Bulb) Conforming to IS 16102 (Part 2) (V3),Self Ballasted",
+   "source": "gem",
+   "pages": 7,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 1,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 16102 (Part 2)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Self Ballasted LED Lamps (LED Bulb) Conforming to IS",
+     "standard": "IS 16102 (Part 1)",
+     "scheme": "Scheme-II (CRS registration)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Self Ballasted LED Lamps (LED Bulb) Conforming to IS",
+     "status": "recommended",
+     "top": "IS 16102 (Part 1) Self - Ballasted LED Lamps for General Lighting Services, Pa"
+    },
+    {
+     "text": "Self Ballasted LED Lamps (LED Bulb) Conforming To IS 16102 (Part 2) (V3)",
+     "status": "named",
+     "top": "IS 16102 (Part 2) Self - Ballasted LED Lamps for General Lighting Services Par"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9890335",
+   "bid": "GEM/2026/B/8034308",
+   "category": "Soda Lime (as Carbon Dioxide Absorbent) (V2) Conforming to IS 5321",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 3,
+   "counts": {
+    "named": 2,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 5321"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Soda Lime (as Carbon Dioxide Absorbent) (V2) Conforming",
+     "status": "recommended",
+     "top": "IS 5321 Specification for Soda lime as Carbon dioxide absorbent (fir"
+    },
+    {
+     "text": "Soda Lime (as Carbon Dioxide Absorbent) (V2) Conforming To IS 5321",
+     "status": "named",
+     "top": "IS 5321 Specification for Soda lime as Carbon dioxide absorbent (fir"
+    },
+    {
+     "text": "IS 5321",
+     "status": "named",
+     "top": "IS 5321 Specification for Soda lime as Carbon dioxide absorbent (fir"
+    }
+   ]
+  },
+  {
+   "org": "Delhi Jal Board (DJB)",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9943934",
+   "bid": "GEM/2026/B/8081184",
+   "category": "PVC Insulated Cable For Submersible Pumps ISI Marked To IS 694",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 1,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 694"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "PVC Insulated Cable For Submersible Pumps ISI Marked To",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "PVC Insulated Cable For Submersible Pumps ISI Marked To IS 694",
+     "standard": "IS 694",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "PVC Insulated Cable For Submersible Pumps ISI Marked To",
+     "status": "recommended",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    },
+    {
+     "text": "PVC Insulated Cable For Submersible Pumps ISI Marked To IS 694",
+     "status": "named",
+     "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/"
+    }
+   ]
+  },
+  {
+   "org": "Indian Railways",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9865513",
+   "bid": "GEM/2026/B/8012723",
+   "category": "Bayonet Lampholders (V2) ISI Marked to IS 1258,Bayonet Lampholders (V2) ISI Marked to IS 1258,Bayonet Lampholders (V2) ISI Marked to IS 1258,Bayonet Lampholders",
+   "source": "gem",
+   "pages": 6,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 1,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 1258"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Bayonet Lampholders (V2) ISI Marked to IS 1258",
+     "standard": "IS 1258",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Bayonet Lampholders (V2) ISI Marked to IS 1258",
+     "status": "named",
+     "top": "IS 1258 Bayonet lamp holders"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9725224",
+   "bid": "GEM/2026/B/7890766",
+   "category": "Split Air Conditioner, Wall Mount Type (V3) ISI Marked to IS 1391 (Part 2),Unitary Air Conditioner (Window AC) (V3) ISI Marked to IS 1391 (Part 1),Split Air Con",
+   "source": "gem",
+   "pages": 16,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 8,
+   "counts": {
+    "named": 3,
+    "recommended": 2,
+    "possible": 3,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 1391 (Part 2)",
+    "IS 1391 (Part 1)",
+    "IS 1475"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Split Air Conditioner, Wall Mount Type (V3) ISI Marked to IS",
+     "status": "recommended",
+     "top": "IS 1391 (Part 2) Room Air Conditioners - Specification: - Part 2 Split Air Co"
+    },
+    {
+     "text": "Split Air Conditioner, Wall Mount Type (V3) ISI Marked To IS 1391 (Part 2)",
+     "status": "named",
+     "top": "IS 1391 (Part 2) Room Air Conditioners - Specification: - Part 2 Split Air Co"
+    },
+    {
+     "text": "Unitary Air Conditioner (Window AC) (V3) ISI Marked To IS 1391 (Part 1)",
+     "status": "named",
+     "top": "IS 1391 (Part 1) Room Air Conditioners - Specification: - Part 1 Unitary Air "
+    },
+    {
+     "text": "Split Air Conditioner, Wall Mount Type 3 Ton Capacity",
+     "status": "recommended",
+     "top": "IS 1391 (Part 2) Room Air Conditioners - Specification: - Part 2 Split Air Co"
+    },
+    {
+     "text": "Refrigerator 180 Ltr",
+     "status": "possible",
+     "top": "IS 1476 (Part 1) Performance of Household Refrigerating Appliance - Refrigera"
+    },
+    {
+     "text": "Refrigerator 230 Ltr",
+     "status": "possible",
+     "top": "IS 1476 (Part 1) Performance of Household Refrigerating Appliance - Refrigera"
+    },
+    {
+     "text": "Refrigerator 310 Ltr",
+     "status": "possible",
+     "top": "IS 1476 (Part 1) Performance of Household Refrigerating Appliance - Refrigera"
+    },
+    {
+     "text": "Drinking Water Coolers (V4) ISI Marked To IS 1475",
+     "status": "named",
+     "top": "IS 1475 Drinking Water Coolers - Specification"
+    }
+   ]
+  },
+  {
+   "org": "NA",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9822141",
+   "bid": "GEM/2026/B/7974941",
+   "category": "XLPE Cable, Working Voltage from 3.3 kV up to and including 33 kV (V2) ISI Marked to IS 7098 (Part 2),XLPE Cable, Working Voltage from 3.3 kV up to and includin",
+   "source": "gem",
+   "pages": 11,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 1,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 7098 (Part 2)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "XLPE Cable, Working Voltage from 3.3 kV up to and",
+     "standard": "IS 7098 (Part 1)",
+     "scheme": "Scheme-I (ISI mark)"
+    },
+    {
+     "item": "To IS 7098 (Part 2)",
+     "standard": "IS 7098 (Part 2)",
+     "scheme": "Scheme-I (ISI mark)"
+    }
+   ],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "XLPE Cable, Working Voltage from 3.3 kV up to and",
+     "status": "recommended",
+     "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part"
+    },
+    {
+     "text": "To IS 7098 (Part 2)",
+     "status": "named",
+     "top": "IS 7098 (Part 2) Crosslinked Polyethylene Insulated Thermoplastics Sheathed C"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9887601",
+   "bid": "GEM/2026/B/8032064",
+   "category": "PA SYSTEM",
+   "source": "gem",
+   "pages": 6,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "PA SYSTEM",
+     "status": "none",
+     "top": "IS 13450 (Part 2/Sec 11) Medical Electrical Equipment : Part 2 - Particular Requireme"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9907618",
+   "bid": "GEM/2026/B/8049378",
+   "category": "Extension Board,Steel Dustbin,White Towel,Hand Towel,Hanging Light,Juice Machine,Photo 18by24,Camera Bag,Desert Cooler,Glucose Meter,Steel Plate,Lance Base with",
+   "source": "gem",
+   "pages": 21,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [
+    "IS/IEC 60947 (Part 2)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Extension Board , Steel Dustbin , White Towel , Hand Towel",
+     "status": "none",
+     "top": "IS 7056 Cotton Towelling and Towels"
+    }
+   ]
+  },
+  {
+   "org": "Department of Defence Production",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9854033",
+   "bid": "GEM/2026/B/8002795",
+   "category": "GAUGE NO. G-SK-7483A-M/P AS PER SPECIFICATION IN ANNEXURE NO. -MACHINE PISTOL/GAUGE/26/81 DATE-13/07,GAUGE NO. G-SK-7483A-M/P AS PER SPECIFICATION IN ANNEXURE N",
+   "source": "gem",
+   "pages": 11,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 6,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 6,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 5225"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "GAUGE NO. G-SK-7483A-M/P AS PER SPECIFICATION IN",
+     "status": "none",
+     "top": "IS 7018 (Part 1) Technical supply conditions for gauges, Part 1: General"
+    },
+    {
+     "text": "PISTOL/GAUGE/26/81 DATE-13/07",
+     "status": "none",
+     "top": "IS 8578 Purchaser's data sheet for pulverizers"
+    },
+    {
+     "text": "PISTOL/GAUGE/26/73 DATE-13/07/20",
+     "status": "none",
+     "top": "IS 8578 Purchaser's data sheet for pulverizers"
+    },
+    {
+     "text": "PISTOL/GAUGE/26/86 DATE-13/07/",
+     "status": "none",
+     "top": "IS 10732 Purchaser's Data Sheet for Gauge Glasses for Pressure Vessel"
+    },
+    {
+     "text": "PISTOL/GAUGE/26/75 DATE-13/07",
+     "status": "none",
+     "top": "IS 8578 Purchaser's data sheet for pulverizers"
+    },
+    {
+     "text": "PISTOL/GAUGE/26/74 DATE-13/07/",
+     "status": "none",
+     "top": "IS 8578 Purchaser's data sheet for pulverizers"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9904252",
+   "bid": "GEM/2026/B/8046364",
+   "category": "FORWARD REVERSE SWITCH,FAN BELT,EGNITION KEY FOR ENGINE STARTING,ACTUATOR ASSY,WHEEL HUBCAP COVER",
+   "source": "gem",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 8935"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "FORWARD REVERSE SWITCH , FAN BELT , EGNITION KEY",
+     "status": "none",
+     "top": "IS 1837 Specification for fanlight pivots"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9904757",
+   "bid": "GEM/2026/B/8046801",
+   "category": "Stainless Steel Shelf Rack",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Stainless Steel Shelf Rack",
+     "status": "none",
+     "top": "IS 7070 Wooden shelving racks, adjustable and non-adjustable type"
+    }
+   ]
+  },
+  {
+   "org": "Bhakra Beas Managemet Board",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9861177",
+   "bid": "GEM/2026/B/8008806",
+   "category": "HRC (High Rupturing Capacity) Fuse Conforming to IS/IEC 60269 (Part 2),HRC (High Rupturing Capacity) Fuse Conforming to IS/IEC 60269 (Part 2),HRC (High Rupturin",
+   "source": "gem",
+   "pages": 16,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 3,
+   "counts": {
+    "named": 1,
+    "recommended": 1,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [
+    "IS/IEC 60269 (Part 2)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "HRC (High Rupturing Capacity) Fuse Conforming to IS/IEC",
+     "status": "none",
+     "top": "IS 2208 HRC cartridge fuse links for voltage above 650 volts"
+    },
+    {
+     "text": "HRC (High Rupturing Capacity) Fuse Conforming To IS/IEC 60269 (Part 2)",
+     "status": "named",
+     "top": "IS/IEC 60269 (Part 2) Low-Voltage Fuses Part 2 Supplementary Requirements for Fuse"
+    },
+    {
+     "text": "Electrical Cable Lugs",
+     "status": "recommended",
+     "top": "IS 14927 (Part 1) Cable Trunking and Ducting Systems for Electrical Installati"
+    }
+   ]
+  },
+  {
+   "org": "Department of Atomic Energy",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9838258",
+   "bid": "GEM/2026/B/7988920",
+   "category": "SUPPLY OF 1/2\" SS BALL VALVE AS PER SPECIFICATION,SUPPLY OF 1/2\" SS BALL VALVE AS PER SPECIFICATION,SUPPLY OF 1/4\" SS BALL VALVE AS PER SPECIFICATION ATTACHED,S",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 2,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 778",
+    "IS 9890",
+    "IS 16220 (Part 1)",
+    "IS 5312 (Part 1)",
+    "IS 1534 (Part 1)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "SUPPLY OF 1/2\" SS BALL VALVE AS PER SPECIFICATION ,",
+     "status": "possible",
+     "top": "IS 6453 Technical supply conditions for rolling bearings"
+    },
+    {
+     "text": "SUPPLY OF 1/4\" SS BALL VALVE AS PER SPECIFICATION ATTACHED",
+     "status": "possible",
+     "top": "IS 6453 Technical supply conditions for rolling bearings"
+    }
+   ]
+  },
+  {
+   "org": "Forest Department Rajasthan",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9725648",
+   "bid": "GEM/2026/B/7891153",
+   "category": "Boat For shallow water,Rescue Shield,Tent with essential equipment,Bullet proof jacket,Full body protector",
+   "source": "gem",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 30",
+    "IS 949"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Boat For shallow water , Rescue Shield , Tent with essential",
+     "status": "none",
+     "top": "IS 7609 General requirements for tents"
+    }
+   ]
+  },
+  {
+   "org": "Materials Department",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9901148",
+   "bid": "GEM/2026/B/8043557",
+   "category": "1000111954,1000097938,1000097939,1000111951,1000111952,1000111956,1060066",
+   "source": "gem",
+   "pages": 11,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 7098 (Part 1)",
+    "IS 7098 (Part 2)",
+    "IS 14255"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "1000111954 , 1000097938 , 1000097939 , 1000111951 ,",
+     "status": "none",
+     "top": "IS 1052 Dieldrin, technical (revised)"
+    }
+   ]
+  },
+  {
+   "org": "Department of Defence Research & Development",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9909968",
+   "bid": "GEM/2026/B/8051447",
+   "category": "Toner Cartridges / Ink Cartridges / Consumables for Printers,Toner Cartridges / Ink Cartridges / Consumables for Printers,Toner Cartridges / Ink Cartridges / Co",
+   "source": "gem",
+   "pages": 52,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Toner Cartridges / Ink Cartridges / Consumables for Printers",
+     "status": "none",
+     "top": "IS 10994 (Part 1) cartridges for Shot Guns, Part 1: General Requirements"
+    }
+   ]
+  },
+  {
+   "org": "NA",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9868754",
+   "bid": "GEM/2026/B/8015540",
+   "category": "SURFACE DRESSING,SIT,EXCAVATION,F or FNDTN,GRND LVL UPTO 1.5M,Supply of 16 Channel NVR 6SATA 4K,Supply of 32 Channel NVR 6SATA 4K,4MP Camera Bullet 30 mtr IP,4M",
+   "source": "gem",
+   "pages": 59,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 4,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 1,
+    "none": 3,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "SURFACE DRESSING",
+     "status": "none",
+     "top": "SP 36 (Part 2) Compendium of Indian Standards on Soil Engineering: Part-2 F"
+    },
+    {
+     "text": "SIT , EXCAVATION",
+     "status": "possible",
+     "top": "IS 5878 (Part 2/Sec 2) Code of Practice for Construction of Tunnels, Part II: Under"
+    },
+    {
+     "text": "F or FNDTN",
+     "status": "none",
+     "top": "IS 15821 Gaseous fire extinguishing systems - Physical properties and"
+    },
+    {
+     "text": "GRND",
+     "status": "none",
+     "top": "IS 6705 Sand used in germination tests"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9906888",
+   "bid": "GEM/2026/B/8048712",
+   "category": "Battery Operated Industrial Sweeper",
+   "source": "gem",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 1,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 2062"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "Battery Operated Industrial Sweeper",
+     "status": "possible",
+     "top": "IS 17154 Battery Operated Motorized Tricycle — Specification"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9798308",
+   "bid": "GEM/2026/B/7954394",
+   "category": "HCL AppScan Source for Analysis (1 year license)",
+   "source": "gem",
+   "pages": 9,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 1
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "HCL AppScan Source for Analysis (1 year license)",
+     "status": "service",
+     "top": "IS 2020 (Part 1) Methods of chemical analysis of silicon chromium, Part 1: An"
+    }
+   ]
+  },
+  {
+   "org": "Central Armed Police Forces",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9853504",
+   "bid": "GEM/2026/B/8002335",
+   "category": "TAB AZEE 500,TAB PAN 40,TAB STAMLO 5MG,TAB ALLEGRA M,TAB TELMA 40,TAB EMESET 4,TAB ZINCOVIT,TAB NEUROBION FORTE,TAB MONTAIR LC,TAB CILACAR T,TAB. SHELCAL D 500,",
+   "source": "gem",
+   "pages": 56,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 8068",
+    "IS 7056",
+    "IS 9197",
+    "IS 7098 (Part 1)",
+    "IS 4494",
+    "IS 1664",
+    "IS 4375",
+    "IS 16468",
+    "IS 3584",
+    "IS 175",
+    "IS 15041",
+    "IS 694",
+    "IS 650",
+    "IS 9926",
+    "IS 303",
+    "IS 15532",
+    "IS 15801",
+    "IS 6455",
+    "IS 17629",
+    "IS 1943",
+    "IS/IEC 60947 (Part 2)",
+    "IS 948",
+    "IS 2932",
+    "IS 3854",
+    "IS 7983",
+    "IS 1997",
+    "IS 808",
+    "IS 1867",
+    "IS 17681",
+    "IS 2618",
+    "IS 4605",
+    "IS 863",
+    "IS 16111",
+    "IS 16469",
+    "IS 4739",
+    "IS 4738",
+    "IS 16660",
+    "IS 16466",
+    "IS 4199",
+    "IS 854",
+    "IS 16240",
+    "IS 6608",
+    "IS 8931",
+    "IS 9740",
+    "IS 417 (Part 1)",
+    "IS 1381 (Part 2)",
+    "IS 1381 (Part 1)",
+    "IS 16242 (Part 1)",
+    "IS 393",
+    "IS 1961",
+    "IS 15683",
+    "IS 15354 (Part 1)",
+    "IS/ISO 10555 (Part 5)",
+    "IS 13422"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": true,
+   "sample_items": [
+    {
+     "text": "TAB AZEE 500 , TAB PAN 40 , TAB STAMLO 5MG , TAB",
+     "status": "none",
+     "top": "IS 13648 Power electronics capacitors"
+    }
+   ]
+  },
+  {
+   "org": "Department of Heavy Industry",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9912847",
+   "bid": "GEM/2026/B/8054005",
+   "category": "81011SC300AAPI BOURDON RANGE 0 to 6 KG PER CM SQUARE,81011SC300ABPI BOURDON RANGE 0 to 10 KG PER CM SQUARE,81011SC300ACPI BOURDON RANGE 0 to 25 KG PER CM SQUARE",
+   "source": "gem",
+   "pages": 11,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "81011SC300AAPI BOURDON RANGE 0 to 6 KG PER CM",
+     "status": "none",
+     "top": "IS 10325 Square Tins - 15 kg/litre For Ghee, Vanaspati, Edible Oils a"
+    }
+   ]
+  },
+  {
+   "org": "COAL INDIA LIMITED",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9906255",
+   "bid": "GEM/2026/B/8048140",
+   "category": "Switch Disconnectors and Fuse Combination Units (Switch Fuse Unit) Conforming To IS/IEC 60947 (Part 3)",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 1,
+    "recommended": 1,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS/IEC 60947 (Part 3)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [
+    {
+     "item": "Switch Disconnectors and Fuse Combination Units (Switch",
+     "standard": "IS/IEC 60947 (Part 3)",
+     "scheme": "Scheme-X"
+    },
+    {
+     "item": "IS/IEC 60947 (Part 3)",
+     "standard": "IS/IEC 60947 (Part 3)",
+     "scheme": "Scheme-X"
+    }
+   ],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Switch Disconnectors and Fuse Combination Units (Switch",
+     "status": "recommended",
+     "top": "IS/IEC 60947 (Part 3) Lowpvoltage switchgear and controlgear, Part 3: Switches, di"
+    },
+    {
+     "text": "IS/IEC 60947 (Part 3)",
+     "status": "named",
+     "top": "IS/IEC 60947 (Part 3) Lowpvoltage switchgear and controlgear, Part 3: Switches, di"
+    }
+   ]
+  },
+  {
+   "org": "Department of Defence Research & Development",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9856914",
+   "bid": "GEM/2026/B/8005127",
+   "category": "High End Desktop Computer,High End Desktop Computer,Entry and Mid Level Desktop Computer,Entry and Mid Level Desktop Computer",
+   "source": "gem",
+   "pages": 12,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 0,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 13252 (Part 1)"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": []
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9909864",
+   "bid": "GEM/2026/B/8051363",
+   "category": "TAXIWAY GUIDANCE SIGNS",
+   "source": "gem",
+   "pages": 6,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "TAXIWAY GUIDANCE SIGNS",
+     "status": "none",
+     "top": "IS 9942 T-Sign Plate for Trailers"
+    }
+   ]
+  },
+  {
+   "org": "Department of Military Affairs",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9885312",
+   "bid": "GEM/2026/B/8030091",
+   "category": "BIRD BOOMER",
+   "source": "gem",
+   "pages": 7,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 1,
+    "none": 0,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 745"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "BIRD BOOMER",
+     "status": "possible",
+     "top": "IS 18310 (Part 3) Agro Textiles Bird Protection Nets For Agriculture And Horti"
+    }
+   ]
+  },
+  {
+   "org": "Housing and Urban Development Department Jammu and Kashmir",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9866621",
+   "bid": "GEM/2026/B/8013664",
+   "category": "Diesel Power Generator (V2)",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Diesel Power Generator (V2)",
+     "status": "none",
+     "top": "IS 15217 Fuel Oil for Diesel Generating Sets"
+    }
+   ]
+  },
+  {
+   "org": "Uttar Pradesh Cooperative Sugar Factories Federation Limited",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9910521",
+   "bid": "GEM/2026/B/8051925",
+   "category": "C. I. Solid Size OD 9 Inch Length 12 Inch (Total Wt 90 Kg) On conversion basis",
+   "source": "gem",
+   "pages": 6,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 2,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "C. I. Solid Size OD 9 Inch Length 12 Inch (Total Wt 90 Kg) On",
+     "status": "none",
+     "top": "IS 11943 (Part 9) Hard Metal Burrs, Part 9: 60 and 90 Cone Burrs (Type J and K"
+    },
+    {
+     "text": "C. I. Solid Size OD 9 Inch Length 12 Inch (Total Wt 90 Kg) On Conversion Basis",
+     "status": "none",
+     "top": "IS 3 Inch-millimetre Conversion for Industrial use"
+    }
+   ]
+  },
+  {
+   "org": "Department of Heavy Industry",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9882535",
+   "bid": "GEM/2026/B/8027662",
+   "category": "FACE AND RADIAL GROOVING L TYPE INSERT EQUIVALENT TO LPGIL 12-11-5T6.5PR,FACE AND RADIAL GROOVING L TYPE INSERT EQUIVALENT TO LPGIL 12-11-5T6.5PR,FACE AND RADIA",
+   "source": "gem",
+   "pages": 10,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 5,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 1,
+    "none": 4,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "FACE AND RADIAL GROOVING L TYPE INSERT EQUIVALENT",
+     "status": "possible",
+     "top": "IS 13244 Half Side and Face Cutters with Indexable Inserts"
+    },
+    {
+     "text": "FACE AND RADIAL GROOVING L TYPE INSERT EQUIVALENT TO LPGIL 12-11-5T6.5PR",
+     "status": "none",
+     "top": "IS 13244 Half Side and Face Cutters with Indexable Inserts"
+    },
+    {
+     "text": "FACE AND RADIAL GROOVING L TYPE INSERT EQUIVALENT TO LPGIR 12-11-5T6.5PR",
+     "status": "none",
+     "top": "IS 13244 Half Side and Face Cutters with Indexable Inserts"
+    },
+    {
+     "text": "FACE AND RADIAL GROOVING L TYPE INSERT EQUIVALENT TO LPGIL 12-9.5-4T6PR",
+     "status": "none",
+     "top": "IS 13244 Half Side and Face Cutters with Indexable Inserts"
+    },
+    {
+     "text": "FACE AND RADIAL GROOVING L TYPE INSERT EQUIVALENT TO LPGIR 12-9.5-4T6PR",
+     "status": "none",
+     "top": "IS 13244 Half Side and Face Cutters with Indexable Inserts"
+    }
+   ]
+  },
+  {
+   "org": "Department of Atomic Energy",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9777505",
+   "bid": "GEM/2026/B/7936289",
+   "category": "Drain line piping of OLWIS system at Effluent Treatment Plant",
+   "source": "gem",
+   "pages": 8,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 2,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 2,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Drain line piping of OLWIS system at Effluent Treatment",
+     "status": "none",
+     "top": "IS 10044 Guide for Treatment and Disposal of Effluents of Petroleum R"
+    },
+    {
+     "text": "Drain Line Piping Of OLWIS System At Effluent Treatment Plant",
+     "status": "none",
+     "top": "IS 10044 Guide for Treatment and Disposal of Effluents of Petroleum R"
+    }
+   ]
+  },
+  {
+   "org": "Department of Atomic Energy",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9808736",
+   "bid": "GEM/2026/B/7963417",
+   "category": "SS Plates Confirming to AISI 304L, of size 1250 MM X 2500 MM X 3 MM,SS Plates Confirming to AISI 304L, of size 1250 MM X 2500 MM X 3 MM,SS Plates Confirming to ",
+   "source": "gem",
+   "pages": 10,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 4,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 4,
+    "service": 0
+   },
+   "is_cited": [
+    "IS 12766",
+    "IS 2618",
+    "IS 3502",
+    "IS 1079"
+   ],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "SS Plates Confirming to AISI 304L, of size 1250 MM X 2500",
+     "status": "none",
+     "top": "IS 17803 POTABLE WATER BOTTLES (COPPER, STAINLESS STEEL, ALUMINIUM) â"
+    },
+    {
+     "text": "SS Plates Confirming To AISI 304L, Of Size 1250 MM X 2500 MM X 3 MM",
+     "status": "none",
+     "top": "IS 17803 POTABLE WATER BOTTLES (COPPER, STAINLESS STEEL, ALUMINIUM) â"
+    },
+    {
+     "text": "SS Plates Confirming To AISI 304L Of Size 1250 MM X 2500 MM X 6 MM",
+     "status": "none",
+     "top": "IS 17803 POTABLE WATER BOTTLES (COPPER, STAINLESS STEEL, ALUMINIUM) â"
+    },
+    {
+     "text": "SS Plates Confirming To AISI 304L Of Size 1250 MM X 2500 MM X10 MM",
+     "status": "none",
+     "top": "IS 17803 POTABLE WATER BOTTLES (COPPER, STAINLESS STEEL, ALUMINIUM) â"
+    }
+   ]
+  },
+  {
+   "org": "Bharat Petroleum Corporation Ltd",
+   "url": "https://bidplus.gem.gov.in/showbidDocument/9892712",
+   "bid": "GEM/2026/B/8036321",
+   "category": "Office Table with Side Unit Desk White,3 Seater Metal Chair,Water Cooler 80 Litres,Printer cum Photocopy Multifunction Laser Printer,Desktop Computer,Security S",
+   "source": "gem",
+   "pages": 12,
+   "named_withdrawn": [],
+   "named_newer_edition": [],
+   "cited_withdrawn": [],
+   "ocr_pages": 0,
+   "items": 1,
+   "counts": {
+    "named": 0,
+    "recommended": 0,
+    "possible": 0,
+    "none": 1,
+    "service": 0
+   },
+   "is_cited": [],
+   "cited_unknown": [],
+   "cited_older_edition": [],
+   "items_needing_compulsory_certification": [],
+   "mentions_certification": false,
+   "sample_items": [
+    {
+     "text": "Office Table with Side Unit Desk White , 3 Seater Metal",
+     "status": "none",
+     "top": "IS 3498 Metal table (office type)-Specification"
+    }
+   ]
+  }
+ ],
+ "method": "Automatic run; per-item statuses and cited-edition flags must be spot-checked by a person before being quoted."
+}

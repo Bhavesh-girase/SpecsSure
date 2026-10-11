@@ -1,0 +1,33 @@
+{
+ "_comment": "Public tender documents downloaded from Indian government / PSU / public-sector-bank websites (found via web search, September 2026). Used only to measure how SpecSure behaves on real documents. Add more URLs (e.g. GeM bid documents from bidplus.gem.gov.in, reachable from India) and re-run scripts/real_tender_study.py.",
+ "tenders": [
+  {"org": "IIIT Naya Raipur", "url": "https://www.iiitnr.ac.in/sites/default/files/tenders_document/Corrigendum%20Electrical%20Items.pdf"},
+  {"org": "IREL (India) Ltd", "url": "https://irel.co.in/documents/20126/0/irel.pdf/edaec0dd-4c15-8950-7794-7a7182bcb348?t=1762239005820"},
+  {"org": "IIT Delhi", "url": "https://home.iitd.ac.in/public/storage/tenders/NIT_1767957742.pdf"},
+  {"org": "SBI (electrical & AC)", "url": "https://sbi.bank.in/documents/39129/51516783/PRICE+BID20260224114130434.pdf"},
+  {"org": "WB Land Development Corp (BOQ)", "url": "https://wbldc.in/wp-content/uploads/2025/03/BOQ-11.pdf"},
+  {"org": "SBI (interior)", "url": "https://sbi.bank.in/documents/39129/51516783/PRICE+BID20260302113656401.pdf"},
+  {"org": "Union Bank of India (branch electrical)", "url": "https://www.unionbankofindia.bank.in/tenderfiles/chebrolu%20branch%20electrical%20final.pdf"},
+  {"org": "University of Calcutta", "url": "https://www.caluniv.ac.in/tender/Engg-6-2-20.pdf"},
+  {"org": "HLL Lifecare (steel furniture RC)", "url": "https://www.lifecarehll.com/file/download/reference/d0f5edad9ac19abed9e235c0fe0aa59fjIeFgQ"},
+  {"org": "Kolkata Municipal Corporation", "url": "https://www.kmcgov.in/KMCPortal/downloads/Tender_REPAIRING_04_21_09_2022.pdf"},
+  {"org": "CREDA (solar street lights)", "url": "https://creda.co.in/Image/Tender_11e9fef63b344210b42c96000027079d.pdf"},
+  {"org": "MNREDA (street lighting)", "url": "https://mnreda.gov.in/assets/pdf/tenders/MNREDA-1622-2014-5%20Street%20Lighting%20System%20Tender.pdf"},
+  {"org": "NALCO", "url": "https://nalcoindia.com/wp-content/uploads/2025/07/CTPitch_Published-Tender-document.pdf"},
+  {"org": "MNIT Jaipur", "url": "https://www.mnit.ac.in/cms/uploads/2025/11/NIT_MNITNITE2025-2614.pdf"},
+  {"org": "District administration (s3waas)", "url": "https://cdnbbsr.s3waas.gov.in/s35679fb79d04e9ed91e292858c54df4e8/uploads/2025/08/202508301794264144.pdf"},
+  {"org": "OPTCL (office furniture)", "url": "https://www.optcl.co.in/Downloads/Tender/TENDER%20DOCUMENT_%20furnitures_Final.pdf"},
+  {"org": "Karnataka Gramin Bank (electrical BOQ)", "url": "https://ftp.karnatakagb.bank.in/public/tender-files/BOQ-FOR-ELECTRICAL-WORKS-AT-HEAD-OFFICE-BALLARI_1.pdf"},
+  {"org": "SBI (electrical, data BOQ)", "url": "https://sbi.bank.in/documents/39129/51516783/PRICE+BID20260310060902213.pdf"},
+  {"org": "SBI Jatni (price bid)", "url": "https://sbi.bank.in/webfiles/uploads/files_2425/180120251244-PRICE%20BID_JATNI.pdf"},
+  {"org": "SBI (technical bid electrical)", "url": "https://sbi.bank.in/webfiles/uploads/files_2425/240620241801-Technical%20Bid_Electrical%20Works.pdf"},
+  {"org": "CPWD (FMTTI)", "url": "https://images.assettype.com/sentinelassam-english/2024-03/9e029628-7920-4194-96ba-c605f761a6d5/Final_NIT___FMTTI.pdf"},
+  {"org": "ESIC Pune (electrical estimate)", "url": "https://esic.gov.in/Tender/ten_1pune_27.3.14.pdf"},
+  {"org": "Union Bank of India (fire extinguishers)", "url": "https://www.unionbankofindia.bank.in/tenderfiles/rfp-fire-extingueshers-2024-goa-and-kolhapur-final-21-04-2025.pdf"},
+  {"org": "SBI (fire extinguishers)", "url": "https://sbi.bank.in/documents/39129/51516783/NOTICE+INVITING+TENDER20260813123722051.pdf"},
+  {"org": "AIIMS Bhubaneswar", "url": "https://aiimsbhubaneswar.nic.in/wp-content/uploads/2026/01/NIT-28.pdf"},
+  {"org": "CSIR-NAL", "url": "https://www.nal.res.in/sites/default/files/2025-10/NIT-FMCD-088-25.pdf"},
+  {"org": "IMD", "url": "https://internal.imd.gov.in/tenders/20250124_td_308.pdf"},
+  {"org": "Coal India (civil)", "url": "https://d3u7ubx0okog7j.cloudfront.net/documents/TD_01_1.pdf"}
+ ]
+}

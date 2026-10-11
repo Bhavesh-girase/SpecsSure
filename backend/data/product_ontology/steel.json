@@ -1,0 +1,53 @@
+{
+  "category_name": "High Strength Deformed Steel Bars (TMT Rebars)",
+  "bis_division": "Metallurgical Engineering Division",
+  "bis_section_committee": "MTD 4",
+  "primary_standard_is": "IS 1786:2008",
+  "keywords": "steel, TMT, rebar, reinforcement bar, Fe 500D, Fe 550D, Fe 415, thermo mechanically treated, mild steel bars, structural reinforcement",
+  "parameter_template": {
+    "chemical": [
+      "Carbon % max (0.25% for Fe 500D)",
+      "Sulphur % max (0.040% for Fe 500D)",
+      "Phosphorus % max (0.040% for Fe 500D)",
+      "Sulphur + Phosphorus combined % max",
+      "Carbon Equivalent CE % max"
+    ],
+    "mechanical": [
+      "0.2% Proof Stress / Yield Stress Min (500 MPa for Fe 500D)",
+      "Tensile Strength Min (565 MPa for Fe 500D)",
+      "Tensile to Yield Ratio TS/YS Min (1.10 for Fe 500D)",
+      "Elongation at gauge length % Min (16.0% for Fe 500D)",
+      "Total Elongation at Maximum Force % Min (5.0%)",
+      "Bend Test without fracture",
+      "Re-bend Test without rupture"
+    ],
+    "physical": [
+      "Nominal Diameter mm (8mm to 40mm)",
+      "Mass per metre run tolerance %",
+      "Nominal Cross-sectional Area sq mm",
+      "Rib pattern, height, and spacing requirements"
+    ],
+    "performance": [
+      "Ductility index",
+      "Earthquake energy dissipation",
+      "Corrosion resistance for CRS grade"
+    ],
+    "test_methods": [
+      "IS 1608 Part 1 - Metallic Materials Tensile Testing",
+      "IS 1599 - Metallic Materials Bend Test",
+      "IS 228 - Methods for Chemical Analysis of Steels"
+    ],
+    "safety": [
+      "IS 13920:2016 - Ductile Design and Detailing of Reinforced Concrete Structures subject to Seismic Forces"
+    ],
+    "installation": [
+      "IS 456:2000 - Plain and Reinforced Concrete Code of Practice",
+      "IS 2502:1963 - Code of practice for bending and fixing of bars for concrete reinforcement"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "BIS ISI Mark (Compulsory under QCO)",
+      "qco": "Steel and Steel Products (Quality Control) Order 2020 / 2024"
+    }
+  }
+}

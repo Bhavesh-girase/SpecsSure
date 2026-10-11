@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpecSure — Smarter Tenders for India | SIH 2026</title>
+<meta name="description" content="SpecSure: AI-powered Tender Intelligence and Standards Compliance for Indian public procurement. SIH 2026 PS SIH26108 Team CodeNova.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="showcase.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a href="#" class="nav-logo">Spec<em>Sure</em></a>
+    <ul class="nav-links">
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#journeys">Demo</a></li>
+      <li><a href="#proof">Proof</a></li>
+      <li><a href="#vs">vs. Others</a></li>
+      <li><span class="pill">SIH 2026</span></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="wrap hero-body">
+    <div class="kicker">&#x1F1EE;&#x1F1F3; SIH 2026 &middot; PS SIH26108 &middot; Ministry of Consumer Affairs / BIS</div>
+    <h1 class="anim">Government tenders deserve<br><em>better than guesswork.</em></h1>
+    <p class="hero-sub anim d1">SpecSure reads procurement documents the way an auditor would &mdash; then <strong>proves</strong> problems with mathematics, not opinions. From a single sentence, it drafts a compliant, verifiable tender in minutes.</p>
+    <div class="hero-ctas anim d2">
+      <a href="#journeys" class="btn btn-blue">See it in action &rarr;</a>
+      <a href="#how" class="btn btn-ghost">How it works</a>
+    </div>
+    <div class="hero-roles anim d3">
+      <a href="#journeys" class="role-card" onclick="activateRole('buyer'); return false;">
+        <div class="role-icon">&#x1F3DB;&#xFE0F;</div>
+        <div class="role-title">I&rsquo;m a Buyer / Officer</div>
+        <div class="role-desc">Upload a tender, get a full audit &mdash; contradictions, outdated standards, linting issues &mdash; before you publish.</div>
+      </a>
+      <a href="#journeys" class="role-card" onclick="activateRole('bidder'); return false;">
+        <div class="role-icon">&#x1F3ED;</div>
+        <div class="role-title">I&rsquo;m a Contractor / Bidder</div>
+        <div class="role-desc">Drop your documents. The system tells you exactly what clause you&rsquo;re missing and how to fix it.</div>
+      </a>
+      <a href="#journeys" class="role-card" onclick="activateRole('ai'); return false;">
+        <div class="role-icon">&#x1F916;</div>
+        <div class="role-title">I&rsquo;m an AI / Developer</div>
+        <div class="role-desc">Call any tool over MCP or REST. Get deterministic, provable answers &mdash; not hallucinations.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section id="problem">
+  <div class="wrap">
+    <div class="problem-grid">
+      <div>
+        <div class="sec-head" style="text-align:left;margin-bottom:32px;">
+          <span class="eyebrow eye-blue">The Problem</span>
+          <h2>Tenders in India are<br>broken &mdash; systematically.</h2>
+          <p>Crores are lost every year to contradictory clauses, outdated standards, and bid documents nobody can verify. This is fixable.</p>
+        </div>
+        <ul class="problem-list">
+          <li><span class="ico">&#x26A0;&#xFE0F;</span><div><strong>Contradictory clauses nobody notices</strong><p>Two clauses often demand impossible values &mdash; like steel with yield strength &ge;500&nbsp;MPa in one clause and &le;480&nbsp;MPa in another. Suppliers cannot win; taxpayers pay the price.</p></div></li>
+          <li><span class="ico">&#x1F4C5;</span><div><strong>Tenders cite withdrawn standards</strong><p>A standard withdrawn in 2019 is still appearing in 2024 tenders. Suppliers reference it, officers accept it &mdash; nobody checks.</p></div></li>
+          <li><span class="ico">&#x1F4CB;</span><div><strong>Bid compliance is a manual nightmare</strong><p>Evaluating a 400-page bid against a 200-page tender is done by eye. Critical non-compliance slips through. Corruption takes root in the gaps.</p></div></li>
+          <li><span class="ico">&#x1F50C;</span><div><strong>No single tool spans the whole lifecycle</strong><p>Buyers use one system. Bidders use another. Evaluators use spreadsheets. Nothing talks to anything else.</p></div></li>
+        </ul>
+      </div>
+      <div>
+        <div class="solution-box">
+          <div class="solution-inner">
+            <h3>SpecSure fixes this &mdash; end to end.</h3>
+            <p>We built a Tender Compiler: the same rigour software engineers use to catch bugs in code, applied to government procurement. Every output is grounded in evidence &mdash; never an opinion.</p>
+            <div class="big-stat">29/29</div>
+            <div class="stat-label">Planted issues detected in testing &mdash; zero missed.</div>
+            <div class="solution-mini-grid">
+              <div><div class="mini-num">29,875</div><div class="mini-lbl">Indian Standards indexed</div></div>
+              <div><div class="mini-num">~15ms</div><div class="mini-lbl">Per-tender compile time</div></div>
+              <div><div class="mini-num">80,834</div><div class="mini-lbl">Standards relationships</div></div>
+              <div><div class="mini-num">38</div><div class="mini-lbl">Linting rules with auto-fix</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="pale" id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow eye-amber">How It Works</span>
+      <h2>A pipeline that reasons,<br>not one that guesses.</h2>
+      <p>Every step is deterministic. Every output carries document &rarr; page &rarr; clause provenance. The AI assists &mdash; it never decides.</p>
+    </div>
+    <div class="flow">
+      <div class="flow-step"><div class="f-emoji">&#x1F4C4;</div><h4>Input</h4><p>PDF, DOCX, scanned image, or plain text in any Indian language</p></div>
+      <div class="flow-step"><div class="f-emoji">&#x1F50D;</div><h4>Parse</h4><p>Extract every clause, requirement, unit, tolerance, and standard reference</p></div>
+      <div class="flow-step"><div class="f-emoji">&#x1F4DA;</div><h4>Verify</h4><p>Check editions, amendments, QCO status, and testing lab availability</p></div>
+      <div class="flow-step hl"><div class="f-emoji">&#x1F9EE;</div><h4>Prove</h4><p>Z3 SMT solver finds contradictions with mathematical certainty</p></div>
+      <div class="flow-step"><div class="f-emoji">&#x1F4CA;</div><h4>Report</h4><p>Readiness score, issue list, autofixes, and a verifiable audit trail</p></div>
+    </div>
+    <div class="flow-cards">
+      <div class="flow-card"><div class="fc-icon">&#x1F6E1;&#xFE0F;</div><h4>Never invents a standard</h4><p>Every IS number shown exists in the BIS catalogue. If there is no match, the system says so. 91% of vague queries correctly receive no recommendation.</p></div>
+      <div class="flow-card"><div class="fc-icon">&#x1F441;&#xFE0F;</div><h4>Explains every decision</h4><p>Highlighted scope clause, keyword ranks, verification date, confidence level &mdash; on every result. The Evidence page even shows where the system is uncertain.</p></div>
+      <div class="flow-card"><div class="fc-icon">&#x1F3E0;</div><h4>Runs offline, on your server</h4><p>No cloud required. No paid API keys. Runs on a laptop with Docker or SQLite. The optional LLM is for language polish only &mdash; it never makes procurement decisions.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO JOURNEYS -->
+<section id="journeys">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow eye-green">Live Demo Walkthrough</span>
+      <h2>Pick your role, follow the story.</h2>
+      <p>Select who you are below. Each step matches a screen you can open on <strong>localhost:3000</strong> right now.</p>
+    </div>
+    <div class="journey-nav">
+      <button class="jnav-btn active" onclick="showJourney(this,'buyer')">&#x1F3DB;&#xFE0F; Buyer / Officer</button>
+      <button class="jnav-btn" onclick="showJourney(this,'bidder')">&#x1F3ED; Contractor / Bidder</button>
+      <button class="jnav-btn" onclick="showJourney(this,'ai')">&#x1F916; AI / Developer</button>
+      <button class="jnav-btn" onclick="showJourney(this,'lifecycle')">&#x1F504; Full Lifecycle</button>
+    </div>
+
+    <!-- BUYER -->
+    <div class="journey-panel active" id="j-buyer">
+      <div class="journey-steps">
+        <div class="jstep active" onclick="setStep(this,'buyer',0)"><div class="jstep-num">1</div><div><div class="jstep-title">Upload your tender document</div><div class="jstep-sub">PDF or DOCX &rarr; parsed to a structured Digital Twin in under 3 seconds</div></div></div>
+        <div class="jstep" onclick="setStep(this,'buyer',1)"><div class="jstep-num">2</div><div><div class="jstep-title">See the contradiction proof</div><div class="jstep-sub">Z3 proves conflicting clauses with arithmetic &mdash; not a suggestion, a proof</div></div></div>
+        <div class="jstep" onclick="setStep(this,'buyer',2)"><div class="jstep-num">3</div><div><div class="jstep-title">Get the linting report</div><div class="jstep-sub">38 rules checked &mdash; vague specs, wrong units, missing QCO clauses, and more</div></div></div>
+        <div class="jstep" onclick="setStep(this,'buyer',3)"><div class="jstep-num">4</div><div><div class="jstep-title">Check market impact</div><div class="jstep-sub">See how many licensed manufacturers each clause leaves &mdash; GFR Rule 144 evidence built in</div></div></div>
+        <div class="jstep" onclick="setStep(this,'buyer',4)"><div class="jstep-num">5</div><div><div class="jstep-title">Or start from scratch &mdash; one sentence</div><div class="jstep-sub">Tender Studio: type an intent &rarr; a verified draft tender is generated and audited automatically</div></div></div>
+      </div>
+      <div class="journey-preview" id="preview-buyer">
+        <div class="jp-icon">&#x1F4C4;</div>
+        <div class="jp-title">Tender Digital Twin</div>
+        <div class="jp-body">Your document becomes a structured object: 25 requirements extracted, each with type, value, unit, and the standard it references. Every clause is individually trackable.</div>
+        <div class="jp-tags"><span class="jp-tag ui">FastAPI</span><span class="jp-tag kg">Knowledge Graph</span></div>
+        <div class="jp-result"><div class="jpr-label">LIVE URL</div><div class="jpr-value"><a href="http://localhost:3000/tenders" target="_blank">localhost:3000/tenders &rarr;</a></div></div>
+      </div>
+    </div>
+
+    <!-- BIDDER -->
+    <div class="journey-panel" id="j-bidder">
+      <div class="journey-steps">
+        <div class="jstep active" onclick="setStep(this,'bidder',0)"><div class="jstep-num">1</div><div><div class="jstep-title">Find the right standard for your product</div><div class="jstep-sub">Search in English, Hindi, or Kannada &mdash; the system finds IS numbers, edition, and certifications</div></div></div>
+        <div class="jstep" onclick="setStep(this,'bidder',1)"><div class="jstep-num">2</div><div><div class="jstep-title">Fill the smart bid form</div><div class="jstep-sub">Drop a scanned NABL report &mdash; OCR reads it at 97% accuracy and auto-fills the form for you</div></div></div>
+        <div class="jstep" onclick="setStep(this,'bidder',2)"><div class="jstep-num">3</div><div><div class="jstep-title">See your Match Index instantly</div><div class="jstep-sub">Live score showing clause-by-clause compliance &mdash; knock-outs highlighted, exactly what to fix</div></div></div>
+        <div class="jstep" onclick="setStep(this,'bidder',3)"><div class="jstep-num">4</div><div><div class="jstep-title">Get a tamper-proof Compliance Passport</div><div class="jstep-sub">W3C Verifiable Credential signed with Ed25519 &mdash; verifiable offline</div></div></div>
+      </div>
+      <div class="journey-preview" id="preview-bidder">
+        <div class="jp-icon">&#x1F3ED;</div>
+        <div class="jp-title">Standards Search</div>
+        <div class="jp-body">&ldquo;&#x938;&#x94D;&#x92A;&#x94D;&#x932;&#x93F;&#x91F; &#x90F;&#x92F;&#x930; &#x915;&#x902;&#x921;&#x940;&#x936;&#x928;&#x930;&rdquo; &rarr; IS 1391 (Part 2). No LLM translation. Works offline with phonetic transliteration. 7 Indian languages supported.</div>
+        <div class="jp-tags"><span class="jp-tag ocr">Multilingual NLP</span><span class="jp-tag kg">BIS Corpus</span></div>
+        <div class="jp-result"><div class="jpr-label">LIVE URL</div><div class="jpr-value"><a href="http://localhost:3000/recommend" target="_blank">localhost:3000/recommend &rarr;</a></div></div>
+      </div>
+    </div>
+
+    <!-- AI -->
+    <div class="journey-panel" id="j-ai">
+      <div class="journey-steps">
+        <div class="jstep active" onclick="setStep(this,'ai',0)"><div class="jstep-num">1</div><div><div class="jstep-title">Call SpecSure from Claude Desktop</div><div class="jstep-sub">MCP server exposes lint_tender, check_contradictions, resolve_standard &mdash; all deterministic tools</div></div></div>
+        <div class="jstep" onclick="setStep(this,'ai',1)"><div class="jstep-num">2</div><div><div class="jstep-title">Use the REST API directly</div><div class="jstep-sub">60+ endpoints, Swagger docs at /docs &mdash; call from any language, any platform</div></div></div>
+        <div class="jstep" onclick="setStep(this,'ai',2)"><div class="jstep-num">3</div><div><div class="jstep-title">Annotate GeM bids in the browser</div><div class="jstep-sub">Chrome extension (Manifest V3) annotates live GeM listings &mdash; standard status, amendments, certification per bid</div></div></div>
+      </div>
+      <div class="journey-preview" id="preview-ai">
+        <div class="jp-icon">&#x1F916;</div>
+        <div class="jp-title">MCP Server Integration</div>
+        <div class="jp-body">Any MCP-capable AI assistant can call SpecSure&rsquo;s tools. The AI converses naturally &mdash; SpecSure provides provable, deterministic answers. Reasoning separated from proof.</div>
+        <div class="jp-tags"><span class="jp-tag ui">MCP SDK</span><span class="jp-tag z3">Deterministic</span></div>
+        <div class="jp-result"><div class="jpr-label">API DOCS</div><div class="jpr-value"><a href="http://localhost:8000/docs" target="_blank">localhost:8000/docs &rarr;</a></div></div>
+      </div>
+    </div>
+
+    <!-- LIFECYCLE -->
+    <div class="journey-panel" id="j-lifecycle">
+      <div class="journey-steps">
+        <div class="jstep active" onclick="setStep(this,'lifecycle',0)"><div class="jstep-num">1</div><div><div class="jstep-title">Intent &rarr; Verified Tender</div><div class="jstep-sub">&ldquo;6,000 LED bulbs for District Hospital&rdquo; &rarr; draft &rarr; compiler says READY automatically</div></div></div>
+        <div class="jstep" onclick="setStep(this,'lifecycle',1)"><div class="jstep-num">2</div><div><div class="jstep-title">Publish &rarr; Contractors Bid</div><div class="jstep-sub">Smart bid form auto-fills from scanned documents. Match Index scores each bid in real time.</div></div></div>
+        <div class="jstep" onclick="setStep(this,'lifecycle',2)"><div class="jstep-num">3</div><div><div class="jstep-title">Evaluation &rarr; Award</div><div class="jstep-sub">L1 price &rarr; Make in India margin &rarr; MSE preference &rarr; Award letter + PDF report</div></div></div>
+        <div class="jstep" onclick="setStep(this,'lifecycle',3)"><div class="jstep-num">4</div><div><div class="jstep-title">Regulatory Radar &mdash; ongoing</div><div class="jstep-sub">When any standard changes, every dependent published tender is automatically re-validated</div></div></div>
+        <div class="jstep" onclick="setStep(this,'lifecycle',4)"><div class="jstep-num">5</div><div><div class="jstep-title">Audit Ledger &mdash; always on</div><div class="jstep-sub">Every action hash-chained. One click verifies the entire procurement chain front to back.</div></div></div>
+      </div>
+      <div class="journey-preview" id="preview-lifecycle">
+        <div class="jp-icon">&#x1F504;</div>
+        <div class="jp-title">Full Procurement Lifecycle</div>
+        <div class="jp-body">SpecSure is the only prototype covering intent &rarr; tender &rarr; bids &rarr; evaluation &rarr; award &rarr; audit in a single connected system, with formal verification at every stage.</div>
+        <div class="jp-tags"><span class="jp-tag z3">Z3 Solver</span><span class="jp-tag vc">W3C VC</span><span class="jp-tag kg">KG</span><span class="jp-tag ui">LangGraph</span></div>
+        <div class="jp-result"><div class="jpr-label">DEMO TENDER (LIVE)</div><div class="jpr-value"><a href="http://localhost:3000/tenders/03285a9185d6" target="_blank">Open demo tender &rarr;</a></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="pale" id="proof">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow eye-green">Measured, Not Claimed</span>
+      <h2>Real numbers. Honest limits.</h2>
+      <p>Labels come from GeM and BIS &mdash; not our own data. We show the weak result too.</p>
+    </div>
+    <div class="proof-grid">
+      <div class="proof-card">
+        <div class="pc-label">GeM Category Names &mdash; 403 items, labelled by GeM</div>
+        <div class="pc-row"><span class="pc-name">Top-1 Accuracy</span><span class="pc-val">80.4%</span></div>
+        <div class="pc-bar"><div class="pc-fill" style="width:80.4%"></div></div>
+        <div class="pc-row" style="margin-top:12px"><span class="pc-name">Top-3 Accuracy</span><span class="pc-val">86.1%</span></div>
+        <div class="pc-bar"><div class="pc-fill amber" style="width:86.1%"></div></div>
+      </div>
+      <div class="proof-card">
+        <div class="pc-label">BIS Compulsory Certification &mdash; 803 items, labelled by BIS</div>
+        <div class="pc-row"><span class="pc-name">Top-1 Accuracy</span><span class="pc-val">83.8%</span></div>
+        <div class="pc-bar"><div class="pc-fill" style="width:83.8%"></div></div>
+        <div class="pc-row" style="margin-top:12px"><span class="pc-name">Top-3 Accuracy</span><span class="pc-val">90.7%</span></div>
+        <div class="pc-bar"><div class="pc-fill amber" style="width:90.7%"></div></div>
+      </div>
+      <div class="proof-card">
+        <div class="pc-label">Indian Languages &mdash; 28 held-out queries &nbsp;<span style="color:#EF4444;font-size:11px;font-weight:700;">Our weakest area &mdash; and we show it.</span></div>
+        <div class="pc-row"><span class="pc-name">Top-1 Accuracy</span><span class="pc-val" style="color:#EF4444">39.3%</span></div>
+        <div class="pc-bar"><div class="pc-fill" style="width:39.3%;background:linear-gradient(90deg,#EF4444,#F87171)"></div></div>
+        <div class="pc-row" style="margin-top:12px"><span class="pc-name">Top-3 Accuracy</span><span class="pc-val">71.4%</span></div>
+        <div class="pc-bar"><div class="pc-fill amber" style="width:71.4%"></div></div>
+      </div>
+      <div class="proof-card proof-big">
+        <div class="big-block"><div class="big-num green">29/29</div><div class="big-desc">Planted issues caught<br>0 critical false alarms</div></div>
+        <div class="big-block"><div class="big-num blue">89.6%</div><div class="big-desc">Precision when system<br>says &ldquo;Recommended&rdquo;</div></div>
+        <div class="big-block"><div class="big-num amber">~15ms</div><div class="big-desc">Per-tender compile time<br>on commodity hardware</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section class="dark" id="numbers">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow eye-amber">By the Numbers</span>
+      <h2>Built from authoritative sources,<br>not hand-curated lists.</h2>
+      <p>Every number is reproducible &mdash; scripts in the repo, sources dated.</p>
+    </div>
+    <div class="stats-wrap">
+      <div class="stat-box"><div class="snum">29,875</div><div class="slbl">Indian Standards across all BIS divisions</div></div>
+      <div class="stat-box"><div class="snum">80,834</div><div class="slbl">Typed links extracted from standards text</div></div>
+      <div class="stat-box"><div class="snum">19,492</div><div class="slbl">Full texts parsed (scope, refs, tests)</div></div>
+      <div class="stat-box"><div class="snum">482</div><div class="slbl">BIS-recognised testing labs with charges</div></div>
+      <div class="stat-box"><div class="snum">828</div><div class="slbl">Compulsory certification rows (QCO / BIS)</div></div>
+      <div class="stat-box"><div class="snum">821</div><div class="slbl">GeM categories linked to their IS number</div></div>
+      <div class="stat-box"><div class="snum">38</div><div class="slbl">Linter rules with autofixes and SARIF export</div></div>
+      <div class="stat-box"><div class="snum">63</div><div class="slbl">Real documents tested (1,542 pages)</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- VS -->
+<section id="vs">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow eye-purple">Compared to 28 public SIH26108 repos</span>
+      <h2>Why SpecSure stands apart.</h2>
+      <p>We surveyed every public repository for this problem statement. Here is what we found &mdash; and what we built instead.</p>
+    </div>
+    <table class="vs-table">
+      <tr><th>Capability</th><th>Typical Prototype</th><th>SpecSure</th></tr>
+      <tr><td>Standards database</td><td>3&ndash;2,500 standards, mostly hand-typed</td><td>29,875 standards, all BIS divisions, fully parsed</td></tr>
+      <tr><td>Contradiction check</td><td class="na">Not addressed</td><td>Z3 SMT solver &mdash; mathematical proof with minimal unsat core</td></tr>
+      <tr><td>Tender linting</td><td class="na">Not addressed</td><td>38 rules, SARIF 2.1.0 export, autofixes with gov. phrasing</td></tr>
+      <tr><td>Market analysis</td><td class="na">Not addressed</td><td>Product-space funnel, GFR Rule 144 evidence per clause</td></tr>
+      <tr><td>Standards edition</td><td>&ldquo;Verify on the BIS portal&rdquo;</td><td>Status for 29,710 &mdash; amendments, replacements, QCO dates</td></tr>
+      <tr><td>Bid evaluation</td><td class="na">Not addressed</td><td>Full lifecycle: sealed bids &rarr; L1 &rarr; MII margin &rarr; MSE &rarr; award</td></tr>
+      <tr><td>Compliance passport</td><td class="na">Not addressed</td><td>W3C Verifiable Credential 2.0 &middot; Ed25519 &middot; verifiable offline</td></tr>
+      <tr><td>Indian languages</td><td>English only, or paid LLM</td><td>Offline glossary + transliteration + bge-m3, all measured</td></tr>
+      <tr><td>Proof of results</td><td>Demo queries only</td><td>GeM-labelled benchmarks, 63 real docs, abstention metrics</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section class="dark" id="stack">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow eye-blue">Tech Stack</span>
+      <h2>Open-source. Offline. On-prem.</h2>
+      <p>No paid API keys. No cloud lock-in. Runs on a laptop.</p>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-item"><h4>Backend</h4><p>FastAPI &middot; SQLAlchemy async &middot; PostgreSQL + pgvector / SQLite</p></div>
+      <div class="tech-item"><h4>Frontend</h4><p>Next.js 14 &middot; Tailwind CSS &middot; React Flow</p></div>
+      <div class="tech-item"><h4>Formal Verification</h4><p>Microsoft Z3 SMT Solver</p></div>
+      <div class="tech-item"><h4>Knowledge Graph</h4><p>NetworkX temporal graph &middot; Neo4j &amp; JSON-LD export</p></div>
+      <div class="tech-item"><h4>Document Parsing</h4><p>PyMuPDF &middot; python-docx &middot; optional Docling</p></div>
+      <div class="tech-item"><h4>OCR</h4><p>RapidOCR (PaddleOCR PP-OCRv6) &middot; Devanagari ONNX</p></div>
+      <div class="tech-item"><h4>Search &amp; NLP</h4><p>rank-bm25 &middot; bge-m3 / e5 multilingual &middot; rapidfuzz</p></div>
+      <div class="tech-item"><h4>Cryptography</h4><p>Ed25519 for W3C VC &middot; SHA-256 hash-chain ledger</p></div>
+      <div class="tech-item"><h4>AI Integration</h4><p>MCP SDK &middot; LangGraph &middot; Gemini (optional, language polish only)</p></div>
+      <div class="tech-item"><h4>Browser Extension</h4><p>Chrome Manifest V3 &middot; GeM &middot; CPPP &middot; any .gov.in page</p></div>
+      <div class="tech-item"><h4>Voice Input</h4><p>Web Speech API &mdash; browser-native, no server needed</p></div>
+      <div class="tech-item"><h4>Infrastructure</h4><p>Docker Compose &middot; zero-config SQLite for demos</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="team">
+  <div class="wrap">
+    <div class="team-strip">
+      <h3>Team CodeNova &middot; Smart India Hackathon 2026</h3>
+      <p>Problem Statement SIH26108 &middot; Ministry of Consumer Affairs / Bureau of Indian Standards</p>
+      <div class="team-ctas">
+        <a href="http://localhost:3000" target="_blank" class="btn btn-amber">Open Live App &rarr;</a>
+        <a href="http://localhost:8000/docs" target="_blank" class="btn btn-blue">API Docs</a>
+        <a href="../PPT_SHOWCASE_GUIDE.md" class="btn btn-ghost">PPT Guide</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="f-logo">Spec<em>Sure</em></div>
+    <p style="color:#94A9C8;font-size:14px;">Tender Intelligence &amp; Standards Compliance for Indian Public Procurement</p>
+    <div class="f-links">
+      <a href="http://localhost:3000/tenders" target="_blank">Tenders</a>
+      <a href="http://localhost:3000/recommend" target="_blank">Standards Search</a>
+      <a href="http://localhost:3000/studio" target="_blank">Tender Studio</a>
+      <a href="http://localhost:3000/radar" target="_blank">Regulatory Radar</a>
+      <a href="http://localhost:3000/kg" target="_blank">Knowledge Graph</a>
+      <a href="http://localhost:8000/docs" target="_blank">API Docs</a>
+    </div>
+    <div class="f-divider"></div>
+    <div class="f-small">Prototype &mdash; not an official Government of India system. Standards metadata is curated demo data; always verify on official BIS / e-Gazette portals. Market catalogue, tender history and bidder documents are fictional and clearly labelled as such. SpecSure is decision support &mdash; final procurement decisions rest with the competent authority.</div>
+  </div>
+</footer>
+
+<script src="showcase.js"></script>
+</body>
+</html>

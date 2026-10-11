@@ -1,0 +1,64 @@
+# Core Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-dotenv>=1.0.1
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# Database & ORM
+sqlalchemy[asyncio]>=2.0.35
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.9
+aiosqlite>=0.20.0
+alembic>=1.13.0
+pgvector>=0.3.5
+
+# AI / ML & Graph
+google-genai>=1.10.0
+sentence-transformers>=3.1.0
+torch>=2.2.0
+transformers>=4.44.0
+tokenizers>=0.20.0
+networkx>=3.2.1
+
+# LangGraph & Agent Orchestration
+langgraph>=0.2.40
+langchain-core>=0.3.10
+
+# Document Parsing
+pymupdf>=1.24.0
+python-docx>=1.1.0
+python-multipart>=0.0.9
+
+# Retrieval & NLP
+rank-bm25>=0.2.2
+scikit-learn>=1.4.0
+
+# Web Scraping & HTTP
+httpx>=0.27.0
+beautifulsoup4>=4.12.3
+lxml>=5.3.0
+
+# Utilities
+numpy>=1.26.0
+pandas>=2.2.0
+
+# --- Tender Compiler (v2) ---
+z3-solver>=4.12            # SMT solver: formal contradiction proofs (unsat cores)
+rapidfuzz>=3.6             # duplicate-clause detection, grounded-quote verification
+openpyxl>=3.1              # Excel compliance matrix / findings register
+reportlab>=4.0             # PDF readiness report
+cryptography>=42.0         # Ed25519 signatures for Verifiable Credential passports
+qrcode[pil]>=7.4           # passport QR codes
+pytesseract>=0.3.10        # OCR fallback for scanned tenders (tesseract-ocr is installed in the Docker image)
+mcp>=1.2                   # Model Context Protocol server (mcp_server.py)
+pytest>=8.0
+httpx>=0.27
+
+# Optional, heavier document AI (enable with SPECSURE_USE_DOCLING=1):
+# docling>=2.0
+
+# --- Tender Studio / Knowledge Graph / OCR (v2.1) ---
+rapidocr>=3.4              # PaddleOCR PP-OCRv6 (+ PP-OCRv5 Devanagari) as ONNX — primary OCR (CPU)
+onnxruntime>=1.18          # inference runtime for RapidOCR
+indic_transliteration>=2.3

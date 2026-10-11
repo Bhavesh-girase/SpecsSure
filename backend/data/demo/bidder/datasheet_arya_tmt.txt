@@ -1,0 +1,24 @@
+--- Page 1 ---
+PRODUCT DATASHEET (FICTIONAL MANUFACTURER — SOFTWARE DEMO SAMPLE)
+Arya Rebar Ltd — Arya TMT Fe 500D Thermo-Mechanically Treated Bars
+Conforming to: IS 1786:2008, Grade Fe 500D
+Sizes available: 8 mm, 10 mm, 12 mm, 16 mm, 20 mm, 25 mm and 32 mm
+
+MECHANICAL PROPERTIES
+| Property | Guaranteed value | Test method |
+| 0.2% Proof Stress | 540 N/mm2 (min) | IS 1608 (Part 1) |
+| Ultimate Tensile Strength | 620 N/mm2 (min) | IS 1608 (Part 1) |
+| TS/YS Ratio | 1.15 (min) | IS 1608 (Part 1) |
+| Elongation | 18 % (min) | IS 1608 (Part 1) |
+| Total Elongation at Maximum Force | 8 % (min) | IS 1608 (Part 1) |
+
+--- Page 2 ---
+CHEMICAL COMPOSITION
+| Element | Maximum | Test method |
+| Carbon | 0.22 % | IS 228 |
+| Sulphur | 0.035 % | IS 228 |
+| Phosphorus | 0.032 % | IS 228 |
+| Sulphur + Phosphorus | 0.067 % | IS 228 |
+
+Mass per metre and tolerances: as per IS 1786:2008.
+Every bundle carries the BIS Standard Mark and the licence number.

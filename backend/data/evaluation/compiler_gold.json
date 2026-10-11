@@ -1,0 +1,19 @@
+{
+  "_comment": "Gold labels for the Tender Compiler benchmark. Each case lists planted issues as [rule_id, clause_key]; 'no_critical' cases must produce zero critical findings (false-alarm check).",
+  "cases": [
+    {"id": "DEMO-PHC", "file": "data/demo/tender_phc_building.txt", "expected": [
+      ["SS-STD-003", "3.1"], ["SS-RES-001", "3.4"], ["SS-CERT-001", "4.1"], ["SS-CON-001", "4.2"], ["SS-CON-002", "7.2"],
+      ["SS-CON-003", "4.3"], ["SS-RES-003", "4.4"], ["SS-CON-005", "7.3"], ["SS-CON-004", "1.5"], ["SS-UNIT-001", "3.3"],
+      ["SS-STD-001", "4.5"], ["SS-AMB-001", "4.1"], ["SS-MOD-001", "7.1"], ["SS-INS-001", "8.1"], ["SS-DUP-001", "9.3"],
+      ["SS-TOL-001", "4.1"], ["SS-ACC-001", null], ["SS-TEST-001", null]]},
+    {"id": "LED-CLEAN", "file": "data/demo/tender_led_streetlight.txt", "expected": [], "no_critical": true},
+    {"id": "WITHDRAWN-53", "text": "2.1 Cement: OPC 53 grade conforming to IS 12269:2013 shall be supplied with ISI mark.", "expected": [["SS-STD-003", "2.1"]]},
+    {"id": "BRAND-CABLE", "text": "3.1 Cables: 1100 V grade PVC insulated copper cables of Polycab make only, with ISI mark.", "expected": [["SS-RES-001", "3.1"]]},
+    {"id": "WEAK-WATER", "text": "5.1 Water: Drinking water conforming to IS 10500:2012 with TDS not more than 2500 mg/l and pH between 6.5 and 8.5.", "expected": [["SS-CON-003", "5.1"]]},
+    {"id": "IMPOSSIBLE-PF", "text": "2.1 Luminaire: LED luminaire 120 W conforming to IS 10322 (Part 5/Sec 1):2012, IP66, power factor not less than 1.2, with CRS registration.", "expected": [["SS-UNIT-004", "2.1"]]},
+    {"id": "DELIVERY-TEST", "text": "3.1 Cement: OPC 43 grade conforming to IS 269:2015 with ISI mark.\n3.2 Testing: Each lot shall be tested for 28 days compressive strength before dispatch.\n6.1 Delivery: Supply shall be delivered within 7 days from the date of Purchase Order.", "expected": [["SS-CON-005", "3.2"]]},
+    {"id": "STEEL-CONTRA", "text": "4.1 Bars: TMT bars Grade Fe 500D conforming to IS 1786:2008 with ISI mark.\n4.2 Yield: Yield stress shall not be less than 500 N/mm2.\n4.3 Cap: Yield stress shall not be more than 450 N/mm2.\n4.4 Ductility: Elongation shall not be less than 14%.", "expected": [["SS-CON-001", "4.2"], ["SS-CON-003", "4.4"]]},
+    {"id": "FOREIGN-QCO", "text": "4.1 Bars: TMT bars conforming to IS 1786:2008 Fe 500D or BS 4449:2005 B500B.", "expected": [["SS-CERT-004", "4.1"], ["SS-CERT-001", "4.1"]]},
+    {"id": "GENERIC-REF", "text": "2.1 Pipes: HDPE pipes of good quality as per relevant IS codes.", "expected": [["SS-STD-001", "2.1"], ["SS-AMB-001", "2.1"]]}
+  ]
+}

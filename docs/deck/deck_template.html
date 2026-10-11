@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpecSure — SIH 2026 · PS SIH26108</title>
+<meta name="description" content="SpecSure pitch deck — AI recommendation of applicable Indian Standards for procurement (SIH26108). Team CodeNova. Prototype, not an official Government of India system.">
+<style>
+:root{
+  --navy:#0F2748;--navy2:#173A66;--navy3:#2A4E7E;--blue:#1D4F93;--ice:#E8EEF7;--saffron:#F28C28;--green:#138808;
+  --ink:#1F2937;--muted:#5B6B80;--line:#D5DEEA;--red:#B42318;--paleG:#E7F5E9;--paleS:#FFF1E3;--panel:#F6F8FB;
+  --hf:Cambria,Caladea,"Source Serif 4",Georgia,serif;
+  --bf:Calibri,Carlito,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  --notes-h:0px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#0A1628;color:var(--ink);font-family:var(--bf);overflow:hidden}
+body.show-notes{--notes-h:170px}
+.viewport{position:fixed;left:0;right:0;top:0;bottom:var(--notes-h);display:grid;place-items:center}
+.stage{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform-origin:0 0;background:#fff;
+  box-shadow:0 20px 60px rgba(0,0,0,.45);border-radius:6px;overflow:hidden}
+.slide{position:absolute;inset:0;padding:40px 56px 44px;display:flex;flex-direction:column;background:#fff;
+  opacity:0;visibility:hidden;transform:translateX(24px);transition:opacity .45s ease,transform .45s ease,visibility 0s .45s}
+.slide.active{opacity:1;visibility:visible;transform:none;transition:opacity .45s ease,transform .45s ease}
+.slide.before{transform:translateX(-24px)}
+.slide.dark{background:var(--navy);color:#fff}
+.slide.dark::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(900px 500px at 85% 20%,rgba(29,79,147,.55),transparent 60%),
+             linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px) 0 0/40px 40px,
+             linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px) 0 0/40px 40px}
+.slide>*{position:relative}
+.slide.light::after{content:"";position:absolute;left:0;top:0;width:100%;height:5px;background:linear-gradient(90deg,var(--navy) 0 70%,var(--saffron) 70% 100%)}
+.foot{position:absolute;left:56px;bottom:16px;font-size:13px;color:#8A97A8;letter-spacing:.02em}
+.dark .foot{color:#8FA3C0}
+.foot b{color:var(--saffron);font-weight:700}
+.brand{position:absolute;right:56px;bottom:16px;font-size:13px;color:#8A97A8;font-weight:700;letter-spacing:.04em}
+.dark .brand{color:#8FA3C0}
+.note{display:none}
+
+h1,h2,h3{font-family:var(--hf)}
+.title{font-size:40px;line-height:1.1;font-weight:700;color:var(--navy);letter-spacing:-.005em}
+.dark .title{color:#fff}
+.sub{font-size:20px;color:var(--muted);margin-top:8px}
+.dark .sub{color:#C9D6EA}
+.body{flex:1;min-height:0;margin-top:26px}
+.hl{color:var(--saffron)}
+
+.ic{display:inline-grid;place-items:center;border-radius:50%;background:var(--navy);color:#fff;flex:none}
+.ic svg{width:52%;height:52%}
+.ic.s{background:var(--saffron)} .ic.g{background:var(--green)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.frame{display:flex;align-items:center;justify-content:center}
+.frame>span{display:inline-block;padding:8px;background:#fff;border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 6px 18px rgba(15,39,72,.16),0 1px 3px rgba(15,39,72,.10);line-height:0}
+.frame img{display:block;border-radius:4px}
+.dark .frame>span{border-color:#fff;box-shadow:0 18px 40px rgba(0,0,0,.35)}
+
+.row{display:flex;gap:14px;align-items:flex-start}
+.row h4{font-size:19px;color:var(--navy);font-weight:700;line-height:1.2}
+.row p{font-size:15.5px;color:var(--muted);line-height:1.35;margin-top:3px}
+
+table.t{width:100%;border-collapse:collapse;font-size:16px}
+table.t th{background:var(--navy);color:#fff;text-align:left;font-weight:700;padding:9px 12px;border:1px solid var(--line)}
+table.t td{padding:9px 12px;border:1px solid var(--line);color:var(--ink);vertical-align:middle}
+table.t tr:nth-child(even) td{background:#FAFBFD}
+
+/* 1 title */
+.s1{display:grid;grid-template-columns:1fr 560px;gap:40px;flex:1;min-height:0}
+.kicker{font-size:14px;font-weight:700;letter-spacing:.14em;color:var(--saffron);margin-top:22px}
+.s1 h1{font-size:96px;line-height:1;margin-top:40px;font-weight:700;letter-spacing:-.01em}
+.s1 h1 i{font-style:normal;color:var(--saffron)}
+.s1 .tag{font-size:25px;line-height:1.35;color:#DCE5F2;margin-top:22px;max-width:620px}
+.facts{display:flex;gap:40px;margin-top:40px}
+.facts b{display:block;font-family:var(--hf);font-size:36px;color:#fff}
+.facts span{font-size:15px;color:#A9BAD3}
+.team{margin-top:auto;font-size:18px;font-weight:700}
+.disc{font-size:13px;color:#8FA3C0;margin-top:6px}
+.disc::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--saffron);margin-right:8px;vertical-align:1px}
+
+/* 2 problem */
+.s2{display:grid;grid-template-columns:540px 1fr;gap:44px;height:100%}
+.stat{display:flex;align-items:center;gap:22px;padding:18px 24px;margin-bottom:20px;height:146px}
+.stat b{font-family:var(--hf);font-size:46px;min-width:200px;line-height:1}
+.stat>span{font-size:18px;line-height:1.35}
+.pains .row{margin-bottom:31px}
+.pains .ic{width:54px;height:54px;margin-top:2px}
+
+/* 3 flow */
+.steps{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-top:6px}
+.step{position:relative;background:var(--ice);border:1px solid var(--line);border-radius:12px;height:330px;padding:34px 12px 12px;text-align:center}
+.step .n{position:absolute;left:12px;top:10px;font-family:var(--hf);font-weight:700;font-size:15px;color:var(--muted)}
+.step .ic{width:66px;height:66px}
+.step h3{font-size:21px;color:var(--navy);margin-top:18px}
+.step p{font-size:15.5px;line-height:1.35;margin-top:10px}
+.step.hi{background:var(--navy);border-color:var(--navy);color:#DCE5F2}
+.step.hi h3{color:#fff}.step.hi .n{color:#A9BAD3}
+.step:not(:last-child)::after{content:"";position:absolute;right:-10px;top:65px;border:6px solid transparent;border-left:7px solid var(--saffron);z-index:2}
+.banner{display:flex;align-items:center;gap:20px;margin-top:34px;background:var(--paleS);border:1px solid #F4C99A;border-radius:10px;padding:18px 24px;font-size:19px;line-height:1.35}
+.banner svg{width:48px;height:48px;color:var(--navy);flex:none}
+.banner b{color:var(--navy)}
+
+/* 4 knowledge */
+.s4{display:grid;grid-template-columns:360px 1fr;gap:40px;height:100%}
+.big{font-family:var(--hf);font-weight:700;line-height:1}
+.s4 .b1{font-size:80px;margin-top:6px}
+.s4 .b2{font-size:54px;color:var(--saffron);margin-top:30px}
+.s4 p{font-size:17px;color:#C9D6EA;line-height:1.4;margin-top:10px}
+.layers{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-content:start}
+.layer{background:rgba(23,58,102,.9);border:1px solid var(--navy3);border-radius:10px;padding:16px 18px;height:140px}
+.layer .top{display:flex;gap:16px;align-items:center}
+.layer .ic{width:54px;height:54px}
+.layer b{display:block;font-family:var(--hf);font-size:30px;line-height:1}
+.layer h4{font-size:16.5px;color:#E6ECF5;margin-top:5px}
+.layer p{font-size:14px;color:#A9BAD3;margin-top:10px;line-height:1.35}
+
+/* 5 architecture */
+.stages{display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
+.stg{position:relative;background:var(--ice);border:1px solid var(--line);border-radius:10px;height:262px;padding:20px 12px;text-align:center}
+.stg h3{font-size:21px;color:var(--navy)}
+.stg p{font-size:15.5px;line-height:1.42;margin-top:14px}
+.stg.hi{background:var(--navy);border-color:var(--navy);color:#DCE5F2}.stg.hi h3{color:#fff}
+.stg:not(:last-child)::after{content:"";position:absolute;right:-12px;top:118px;border:7px solid transparent;border-left:9px solid var(--saffron)}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+.cards3 .card{padding:18px 20px;height:164px}
+.cards3 .hd{display:flex;align-items:center;gap:14px}
+.cards3 .ic{width:54px;height:54px}
+.cards3 h4{font-size:19px;color:var(--navy)}
+.cards3 p{font-size:15.5px;line-height:1.38;margin-top:12px}
+
+/* 6 card */
+.s6{display:grid;grid-template-columns:760px 1fr;gap:36px;height:100%;align-items:center;padding-bottom:30px}
+.checks .row{margin-bottom:22px}
+.checks .ic{width:38px;height:38px;margin-top:2px}
+.checks h4{font-size:18px}.checks p{font-size:15px}
+
+/* 7 tree + labs */
+.s7{display:grid;grid-template-columns:630px 1fr;gap:36px;height:100%;align-content:center;padding-bottom:30px}
+.s7 .cap{font-size:17px;line-height:1.4;margin-top:22px}
+.cap b{color:var(--navy)}
+
+/* 8 languages */
+.s8{display:grid;grid-template-columns:700px 1fr;gap:40px;height:100%;align-items:center;padding-bottom:30px}
+.s8 table.t{margin-top:22px;font-size:15.5px}
+.s8 table.t td,.s8 table.t th{padding:7px 12px}
+.s8 .row{margin-bottom:26px}
+.s8 .ic{width:54px;height:54px}
+
+/* 9 edition */
+.s9{display:grid;grid-template-columns:620px 1fr;gap:36px;height:100%;align-items:center;padding-bottom:30px}
+.s9 .pts{margin-top:22px}
+.s9 .row{margin-bottom:14px}
+.s9 .ic{width:42px;height:42px}
+.s9 .row h4{font-size:17px}.s9 .row p{font-size:14.5px}
+.s9 .cap{font-size:16px;line-height:1.4;margin-top:22px}
+
+/* 10 extension */
+.s10{display:grid;grid-template-columns:540px 270px 1fr;gap:30px;height:calc(100% - 30px);align-items:center}
+.s10 .row{margin-bottom:26px}
+.s10 .ic{width:52px;height:52px}
+.s10 .row p{font-size:15px}
+.italic{font-size:15px;font-style:italic;color:var(--muted)}
+
+/* 11 evidence */
+.s11{display:grid;grid-template-columns:1fr 390px;gap:40px;height:100%;align-items:center;padding-bottom:30px}
+.chart{padding:8px 4px 0}
+.bar-group{margin-bottom:24px}
+.bar-group .lbl{font-size:17px;font-weight:700;color:var(--ink)}
+.bar-group .lbl span{font-weight:400;color:var(--muted)}
+.bar{display:flex;align-items:center;gap:10px;margin-top:7px}
+.bar i{display:block;height:24px;border-radius:0 5px 5px 0;background:var(--navy);width:calc(var(--v) * 5.3px);transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.bar.s i{background:var(--saffron)}
+.bar em{font-style:normal;font-size:16px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.anim .bar i{width:0}
+.legend{display:flex;gap:24px;font-size:15px;color:var(--muted);margin-top:4px}
+.legend span::before{content:"";display:inline-block;width:14px;height:14px;border-radius:3px;background:var(--navy);margin-right:8px;vertical-align:-2px}
+.legend span.s::before{background:var(--saffron)}
+.kpi{padding:18px 22px;margin-bottom:16px;height:140px}
+.kpi b{display:block;font-family:var(--hf);font-size:42px;line-height:1.05}
+.kpi>span{display:block;font-size:16px;line-height:1.35;margin-top:8px}
+
+/* 12 real docs */
+.s12{display:grid;grid-template-columns:760px 1fr;gap:36px;height:100%;align-items:center;padding-bottom:30px}
+.s12 table.t{font-size:17px}.s12 table.t td,.s12 table.t th{padding:15px 14px}
+.s12 td:first-child{font-weight:700;color:var(--navy)}
+.s12 .note2{font-size:15px;font-style:italic;color:var(--muted);margin-top:18px;line-height:1.4}
+.bigc{border-radius:10px;border:1px solid var(--line);padding:24px 26px;height:196px;margin-bottom:22px}
+.bigc b{display:block;font-family:var(--hf);font-size:48px;line-height:1}
+.bigc>span{display:block;font-size:17px;line-height:1.4;margin-top:16px}
+
+/* 13 diff */
+.s13 table.t{font-size:18px}
+.s13 table.t td,.s13 table.t th{padding:13px 16px}
+.s13 td:first-child{font-weight:700;color:var(--navy);width:200px}
+.s13 td:nth-child(2){color:var(--muted)}
+.s13 td:nth-child(3){font-weight:700}
+.s13 th.grey{background:var(--muted)}
+.s13 td:nth-child(3)::before{content:"✓";color:var(--green);font-weight:700;margin-right:10px}
+
+/* 14 deploy */
+.s14{display:grid;grid-template-columns:1fr 540px;gap:44px;height:100%;align-items:center;padding-bottom:30px}
+.s14 .row{margin-bottom:30px}
+.s14 .ic{width:54px;height:54px}
+.nextp{background:var(--ice);border:1px solid var(--line);border-radius:10px;padding:26px 30px}
+.nextp h3{font-size:25px;color:var(--navy)}
+.nextp ol{list-style:none;margin-top:14px;counter-reset:n}
+.nextp li{position:relative;font-size:17.5px;line-height:1.4;padding-left:40px;margin-bottom:18px;counter-increment:n}
+.nextp li::before{content:counter(n);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:50%;background:var(--saffron);color:#fff;font-weight:700;font-size:14px;display:grid;place-items:center}
+
+/* 15 close */
+.s15{display:grid;grid-template-columns:1fr 330px;gap:50px;height:100%}
+.s15 h2{font-size:52px;line-height:1.15;margin-top:70px;font-weight:700}
+.s15 .lead{font-size:22px;color:#C9D6EA;line-height:1.4;margin-top:26px;max-width:720px}
+.closers{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+.closers b{display:block;color:var(--saffron);font-size:18px}
+.closers span{display:block;color:#A9BAD3;font-size:15px;margin-top:6px;line-height:1.35}
+.thanks{margin-top:auto;font-size:19px;font-weight:700}
+
+/* HUD */
+.hud{position:fixed;right:18px;bottom:calc(var(--notes-h) + 14px);display:flex;gap:6px;align-items:center;z-index:20;
+  background:rgba(10,22,40,.72);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:5px 8px;
+  color:#C9D6EA;font:600 13px var(--bf);opacity:.85;transition:opacity .35s}
+.hud:hover,.hud:focus-within{opacity:1!important}
+body.idle .hud,body.idle .help{opacity:0;pointer-events:none}
+body.idle .stage{cursor:none}
+.help{transition:opacity .4s}
+.hud button{all:unset;cursor:pointer;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;color:#C9D6EA}
+.hud button:hover{background:rgba(255,255,255,.12);color:#fff}
+.hud button:focus-visible{outline:2px solid var(--saffron)}
+.hud svg{width:15px;height:15px}
+.hud .count{min-width:62px;text-align:center;font-variant-numeric:tabular-nums}
+.progress{position:fixed;left:0;right:0;bottom:var(--notes-h);height:3px;background:rgba(255,255,255,.06);z-index:15}
+.progress i{display:block;height:100%;width:0;background:var(--saffron);transition:width .35s ease}
+.notes{position:fixed;left:0;right:0;bottom:0;height:var(--notes-h);overflow:auto;background:#0F1E36;border-top:1px solid #22385A;
+  color:#DCE5F2;padding:14px 22px;font-size:16px;line-height:1.5;display:none}
+.show-notes .notes{display:block}
+.notes h5{font:700 12px var(--bf);letter-spacing:.12em;color:var(--saffron);margin-bottom:6px;text-transform:uppercase}
+.help{position:fixed;left:18px;bottom:calc(var(--notes-h) + 14px);color:#6F82A0;font-size:12px;z-index:20}
+.help kbd{font:600 11px var(--bf);border:1px solid #33496B;border-radius:4px;padding:1px 5px;color:#A9BAD3}
+
+/* overview */
+.overview{position:fixed;inset:0;background:#0A1628;overflow:auto;padding:28px;display:none;z-index:30}
+.show-overview .overview{display:grid;grid-template-columns:repeat(auto-fill,minmax(256px,1fr));gap:20px;align-content:start}
+.thumb{cursor:pointer;border-radius:6px;overflow:hidden;outline:2px solid transparent;background:#fff;aspect-ratio:16/9;position:relative}
+.thumb:hover,.thumb.cur{outline-color:var(--saffron)}
+.thumb .inner{position:absolute;left:0;top:0;width:1280px;height:720px;transform-origin:0 0}
+.thumb .inner .slide{opacity:1;visibility:visible;transform:none;transition:none}
+.thumb .lab{position:absolute;right:6px;bottom:6px;background:rgba(10,22,40,.8);color:#fff;font-size:12px;padding:2px 7px;border-radius:4px}
+
+@media (max-width:700px){.help{display:none}}
+@media (prefers-reduced-motion:reduce){.slide,.bar i{transition:none!important}}
+
+/* print: one slide per page */
+@page{size:1280px 720px;margin:0}
+@media print{
+  html,body{overflow:visible;height:auto;background:#fff}
+  .viewport{position:static;display:block}
+  .stage{position:static;transform:none!important;box-shadow:none;border-radius:0;width:1280px;height:auto;overflow:visible}
+  .slide{position:relative;height:720px;width:1280px;opacity:1!important;visibility:visible!important;transform:none!important;
+    page-break-after:always;break-after:page;transition:none}
+  .anim .bar i{width:calc(var(--v) * 5.3px)}
+  .hud,.progress,.notes,.help,.overview{display:none!important}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="viewport"><div class="stage" id="stage">
+
+<!-- ===================================================== 1 -->
+<section class="slide dark" data-title="SpecSure">
+  <div class="kicker">SMART INDIA HACKATHON 2026 · PS SIH26108 · MINISTRY OF CONSUMER AFFAIRS</div>
+  <div class="s1">
+    <div style="display:flex;flex-direction:column">
+      <h1>Spec<i>Sure</i></h1>
+      <p class="tag">The right Indian Standard for every procurement specification — with the edition in force, everything it depends on, the certification it needs and where to test it.</p>
+      <div class="facts">
+        <div><b data-count="29875">29,875</b><span>Indian Standards</span></div>
+        <div><b data-count="80834">80,834</b><span>links read from their text</span></div>
+        <div><b>7 languages</b><span>text · voice · read-aloud</span></div>
+      </div>
+      <div class="team">Team CodeNova</div>
+      <div class="disc">Prototype — not an official Government of India system</div>
+    </div>
+    <div class="frame"><span><img alt="SpecSure result card for PVC insulated copper wire: IS 694" src="{{IMG:card}}" style="max-width:544px;max-height:560px"></span></div>
+  </div>
+  <aside class="note">SpecSure answers the core question of PS SIH26108: which Indian Standards apply to what I am procuring — and it goes beyond search: edition in force, amendments, allied standards, compulsory certification, testing labs and a clause the officer can paste into the tender. The screenshot on the right is a real result for 'PVC insulated copper wire for house wiring, 450/750 V'.</aside>
+</section>
+
+<!-- ===================================================== 2 -->
+<section class="slide light" data-title="The problem">
+  <h2 class="title">Citing the right standard is still guesswork</h2>
+  <p class="sub">What we found in 63 real public tenders and GeM bids (1,542 pages) and in the BIS catalogue</p>
+  <div class="body s2">
+    <div>
+      <div class="card stat"><b style="color:var(--red)">12 of 23</b><span>institutional tenders cite <strong>no Indian Standard</strong> at all</span></div>
+      <div class="card stat"><b style="color:var(--saffron)" data-count="6072">6,072</b><span>standards are withdrawn — yet 3 tenders still cite one</span></div>
+      <div class="card stat"><b style="color:var(--blue)" data-count="3823">3,823</b><span>standards have a newer edition than the text usually circulated</span></div>
+    </div>
+    <div class="pains">
+      <div class="row"><span class="ic">{{IC:FaSearch}}</span><div><h4>Officers know the product, not the IS number</h4><p>Keyword search on titles fails for “GI pipe”, “सरिया”, “LED street light”.</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaSitemap}}</span><div><h4>A standard never travels alone</h4><p>Each one pulls in test methods, terminology, sampling — easy to miss.</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaHistory}}</span><div><h4>Editions, amendments, withdrawals change</h4><p>Tenders quote superseded years; amendments go unnoticed.</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaCertificate}}</span><div><h4>Certification is a separate hunt</h4><p>ISI mark / CRS / hallmarking and the QCO must be looked up elsewhere.</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaLanguage}}</span><div><h4>English-only, no explanation</h4><p>Buyers write in Indian languages; auditors need a reason trace.</p></div></div>
+    </div>
+  </div>
+  <aside class="note">The problem statement is real and measurable. We ran our pipeline over 23 institutional tenders and 40 GeM bid documents. Half the institutional tenders cite no Indian Standard at all. BIS's own catalogue lists 6,072 withdrawn standards, and 3,823 standards have a newer edition than the archived text most people circulate. The five pain points on the right are exactly what the PS asks us to fix.</aside>
+</section>
+
+<!-- ===================================================== 3 -->
+<section class="slide light" data-title="The solution">
+  <h2 class="title">Describe it in any language — get the complete answer</h2>
+  <p class="sub">One query or one uploaded tender returns seven things, each with its source and date</p>
+  <div class="body">
+    <div class="steps">
+      <div class="step hi"><span class="n">1</span><span class="ic s">{{IC:FaMicrophone}}</span><h3>Describe</h3><p>text, voice, Hindi… or upload a tender / GeM bid</p></div>
+      <div class="step"><span class="n">2</span><span class="ic">{{IC:FaSearch}}</span><h3>Recommend</h3><p>ranked IS with a confidence level — or an honest abstain</p></div>
+      <div class="step"><span class="n">3</span><span class="ic">{{IC:FaSitemap}}</span><h3>Depends on</h3><p>normative references, test methods — compliance tree</p></div>
+      <div class="step"><span class="n">4</span><span class="ic">{{IC:FaHistory}}</span><h3>Edition in force</h3><p>status, amendments, replacement if withdrawn</p></div>
+      <div class="step"><span class="n">5</span><span class="ic">{{IC:FaCertificate}}</span><h3>Certification</h3><p>ISI mark / CRS with the Quality Control Order</p></div>
+      <div class="step"><span class="n">6</span><span class="ic">{{IC:FaFlask}}</span><h3>Where to test</h3><p>BIS-recognised labs, charges, city</p></div>
+      <div class="step hi"><span class="n">7</span><span class="ic s">{{IC:FaFileAlt}}</span><h3>Spec clause</h3><p>ready-to-paste, sourced, Word export</p></div>
+    </div>
+    <div class="banner">{{IC:FaChrome}}<div><b>Works where officers already are:</b> the same engine powers the web portal, a browser extension on GeM / CPPP pages, a REST API and an MCP server for AI assistants.</div></div>
+  </div>
+  <aside class="note">This is the whole product in one line. Every step is backed by data — steps 4 to 6 use live BIS data we collected: the BIS catalogue, the BIS e-Sale portal and BIS LIMS for labs. The output is not a chat answer but a clause the officer can paste into the tender.</aside>
+</section>
+
+<!-- ===================================================== 4 -->
+<section class="slide dark" data-title="Knowledge base">
+  <h2 class="title">The knowledge base is the standards themselves</h2>
+  <p class="sub">Six layers, each from an authoritative public source — not a hand-typed list</p>
+  <div class="body s4">
+    <div>
+      <div class="big b1" data-count="29875">29,875</div>
+      <p>Indian Standards across <strong style="color:#fff">all BIS divisions</strong> — the largest other public SIH26108 graph covers one division family.</p>
+      <div class="big b2" data-count="80834">80,834</div>
+      <p>typed links (references, 19,622 test methods, terminology, sampling…) — each with the clause and sentence it came from</p>
+    </div>
+    <div class="layers">
+      <div class="layer"><div class="top"><span class="ic s">{{IC:FaBook}}</span><div><b data-count="19492">19,492</b><h4>Full texts parsed</h4></div></div><p>Internet Archive (Public.Resource.Org) — scope, references, tests</p></div>
+      <div class="layer"><div class="top"><span class="ic s">{{IC:FaShieldAlt}}</span><div><b data-count="29710">29,710</b><h4>Status of every standard</h4></div></div><p>BIS Know-Your-Standards: 21,291 active · 6,072 withdrawn · document type</p></div>
+      <div class="layer"><div class="top"><span class="ic s">{{IC:FaHistory}}</span><div><b data-count="29607">29,607</b><h4>Editions &amp; amendments</h4></div></div><p>BIS e-Sale portal editions · amendment lists for 1,138 key standards</p></div>
+      <div class="layer"><div class="top"><span class="ic s">{{IC:FaCertificate}}</span><div><b data-count="828">828</b><h4>Compulsory certification</h4></div></div><p>BIS Scheme-I / II / X + hallmarking pages, with the QCO</p></div>
+      <div class="layer"><div class="top"><span class="ic s">{{IC:FaStore}}</span><div><b data-count="821">821</b><h4>GeM procurement layer</h4></div></div><p>GeM categories that name their IS (3,794 live bids)</p></div>
+      <div class="layer"><div class="top"><span class="ic s">{{IC:FaFlask}}</span><div><b data-count="482">482</b><h4>Testing labs</h4></div></div><p>BIS LIMS: labs for 823 standards, charges &amp; clauses</p></div>
+    </div>
+  </div>
+  <aside class="note">This is our moat. Every other public SIH26108 project we surveyed has between 3 and about 2,500 standards, mostly typed by hand. We parsed the standards' own text into 80,834 relationships, then layered BIS's own catalogue for status and document type, the BIS e-Sale portal for editions and amendments, the compulsory-certification lists, GeM categories and BIS LIMS for testing labs. All fetched on 27 September 2026 and dated in every answer.</aside>
+</section>
+
+<!-- ===================================================== 5 -->
+<section class="slide light" data-title="Architecture">
+  <h2 class="title">How it decides — evidence first, AI where it helps</h2>
+  <p class="sub">Deterministic pipeline; every output line carries its source clause and the date it was checked</p>
+  <div class="body">
+    <div class="stages">
+      <div class="stg"><h3>Input</h3><p>text · voice · 7 languages · tender PDF (OCR) · GeM bid page</p></div>
+      <div class="stg"><h3>Understand</h3><p>procurement glossary + loanword transliteration · item extraction from tenders</p></div>
+      <div class="stg"><h3>Retrieve</h3><p>3-field BM25 (title · scope · product names) + bge-m3 multilingual embeddings, fused (RRF)</p></div>
+      <div class="stg hi"><h3>Decide</h3><p>confidence from retriever agreement + coverage · abstain · withdrawn / title-only never “Recommended”</p></div>
+      <div class="stg"><h3>Expand</h3><p>knowledge graph: normative refs, test methods, compliance tree (depth 1–4)</p></div>
+      <div class="stg"><h3>Resolve</h3><p>edition in force · amendments · replacement · QCO · labs &amp; charges</p></div>
+      <div class="stg"><h3>Output</h3><p>result card · spec clause · Word · extension · REST / MCP API</p></div>
+    </div>
+    <div class="cards3">
+      <div class="card"><div class="hd"><span class="ic">{{IC:FaShieldAlt}}</span><h4>Never invents a standard</h4></div><p>Every IS it shows exists in the BIS catalogue; vague or service requests get no recommendation (91 %).</p></div>
+      <div class="card"><div class="hd"><span class="ic">{{IC:FaEye}}</span><h4>Explains itself</h4></div><p>Scope clause highlighted, keyword / meaning ranks, coverage, source &amp; check date on every line.</p></div>
+      <div class="card"><div class="hd"><span class="ic">{{IC:FaServer}}</span><h4>Runs offline, on-prem</h4></div><p>No paid LLM needed; an LLM is optional for translation polish and never decides.</p></div>
+    </div>
+  </div>
+  <aside class="note">The pipeline is deterministic and auditable: retrieval combines keyword and multilingual semantic search; the decision step computes a confidence level and abstains when the retrievers disagree; withdrawn and title-only standards can never be 'Recommended'. The graph and the BIS data then add dependencies, editions, certification and labs. No step requires a paid AI service.</aside>
+</section>
+
+<!-- ===================================================== 6 -->
+<section class="slide light" data-title="Result card">
+  <h2 class="title">One query, one defensible answer</h2>
+  <p class="sub">“PVC insulated copper wire for house wiring, 450/750 V” → <strong style="color:var(--navy)">IS 694</strong></p>
+  <div class="body s6">
+    <div class="frame" style="align-items:flex-start"><span><img alt="Result card for IS 694" src="{{IMG:card}}" style="max-width:744px;max-height:470px"></span></div>
+    <div class="checks">
+      <div class="row"><span class="ic g">{{IC:FaCheck}}</span><div><h4>Why it matches</h4><p>the standard’s own Scope clause, highlighted — plus keyword rank, meaning rank and coverage</p></div></div>
+      <div class="row"><span class="ic g">{{IC:FaCheck}}</span><div><h4>In force today</h4><p>IS 694:2010 with Amendments 1–4, reaffirmed 2020 — from the BIS portal, dated</p></div></div>
+      <div class="row"><span class="ic g">{{IC:FaCheck}}</span><div><h4>Compulsory certification</h4><p>ISI mark under the Electrical Wires &amp; Cables QCO, 2003</p></div></div>
+      <div class="row"><span class="ic g">{{IC:FaCheck}}</span><div><h4>Procurement reality</h4><p>the GeM categories that buy against it (96 + 67 live bids)</p></div></div>
+      <div class="row"><span class="ic g">{{IC:FaCheck}}</span><div><h4>Allied standards</h4><p>IS 8130 conductors, IS 5831 PVC, IS 10810 test methods — each with its sentence</p></div></div>
+    </div>
+  </div>
+  <aside class="note">A real result. IS 694 ranks first because its Scope clause matches; the Why line shows the retrieval signals. The green box is the edition status from the BIS portal with every amendment and the date we checked. Certification comes from BIS's compulsory-certification pages, and the GeM line shows how many live bids use this standard.</aside>
+</section>
+
+<!-- ===================================================== 7 -->
+<section class="slide light" data-title="Compliance tree & labs">
+  <h2 class="title">Everything the supplier must satisfy — and where to test it</h2>
+  <p class="sub">Compliance tree from the standards’ own clauses · labs and charges from BIS LIMS</p>
+  <div class="body s7">
+    <div>
+      <div class="frame" style="height:350px"><span><img alt="Compliance tree for IS 694" src="{{IMG:tree}}" style="max-width:614px;max-height:334px"></span></div>
+      <p class="cap"><b>Compliance tree</b> — IS 694 → 15 standards at depth 1 → 20 at depth 2. IS 1786 (TMT bars) → 7 → 29 → 37. Withdrawn nodes show their replacement.</p>
+    </div>
+    <div>
+      <div class="frame" style="height:350px"><span><img alt="BIS-recognised labs for IS 694" src="{{IMG:labs_top}}" style="max-width:500px;max-height:334px"></span></div>
+      <p class="cap"><b>Where to test</b> — <span data-count="52">52</span> BIS-recognised labs for IS 694, full test from ₹6,750, filter by city — 482 labs for 823 standards.</p>
+    </div>
+  </div>
+  <aside class="note">The PS asks for related standards. We go further: the compliance tree is the transitive closure of references and test methods, read from each standard's text. Then the bidder's next question — where can I get this tested and at what cost — is answered from BIS LIMS. No other SIH26108 project we surveyed has real lab data.</aside>
+</section>
+
+<!-- ===================================================== 8 -->
+<section class="slide light" data-title="Indian languages">
+  <h2 class="title">Indian languages — read offline, shown word by word</h2>
+  <p class="sub">Procurement Hindi is mostly English written in Devanagari; we read it by sound, not by a paid translator</p>
+  <div class="body s8">
+    <div>
+      <div class="frame" style="justify-content:flex-start"><span><img alt="Hindi query reading shown word by word" src="{{IMG:hindi}}" style="max-width:684px;max-height:250px"></span></div>
+      <table class="t">
+        <tr><th>Buyer writes</th><th>SpecSure reads</th><th>Standard</th></tr>
+        <tr><td>स्प्लिट एयर कंडीशनर</td><td>split air conditioner</td><td>IS 1391 (Part 2)</td></tr>
+        <tr><td>ಸೀಲಿಂಗ್ ಫ್ಯಾನ್ <span style="color:var(--muted)">(Kannada)</span></td><td>ceiling fan</td><td>IS 374</td></tr>
+        <tr><td>यूपीएस · एलपीजी</td><td>UPS · LPG (spelled acronyms)</td><td>IS 16242 · IS 3196</td></tr>
+        <tr><td>பிளாஸ்டிக் நாற்காலி <span style="color:var(--muted)">(Tamil)</span></td><td>plastic chair</td><td>IS 13713</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="row"><span class="ic">{{IC:FaLanguage}}</span><div><h4>Glossary + transliteration</h4><p>hi · mr · ta · te · bn · kn; sound-skeleton matching (स्प्लिट → SPLT → split)</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaMicrophone}}</span><div><h4>Voice in, voice out</h4><p>speak the query; “Speak answers” reads the result back (browser voices, no server)</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaBalanceScale}}</span><div><h4>Measured honestly</h4><p>held-out set: 39 % first, 71 % in top 3 (clean) · 50 % / 79 % in product mode — our weakest area, and we say so</p></div></div>
+    </div>
+  </div>
+  <aside class="note">The PS asks for multiple Indian languages. Most tender Hindi is transliterated English, so we romanise each word, reduce it to a sound skeleton and match it to the vocabulary of standard titles. Native words go through a procurement glossary, and the multilingual embeddings also read the original text. On a held-out set written before this work, the right standard is first 39% of the time and in the top 3 71% of the time with shortcuts off; 50% and 79% in product mode. It is our weakest area and the Evidence page says so.</aside>
+</section>
+
+<!-- ===================================================== 9 -->
+<section class="slide light" data-title="Edition & spec clause">
+  <h2 class="title">The edition in force — and a clause the officer can paste</h2>
+  <p class="sub">“LED luminaire for road and street lights” → <strong style="color:var(--navy)">IS 10322 (Part 5/Sec 3)</strong></p>
+  <div class="body s9">
+    <div>
+      <div class="frame" style="justify-content:flex-start"><span><img alt="Result card for LED road-light luminaire showing the 2026 edition" src="{{IMG:led_card}}" style="max-width:604px;max-height:180px"></span></div>
+      <div class="pts">
+        <div class="row"><span class="ic" style="background:var(--saffron)">{{IC:FaExclamationTriangle}}</span><div><h4>Archive has 2012 — BIS lists 2026</h4><p>flagged in every answer; the clause is drafted for the 2026 edition</p></div></div>
+        <div class="row"><span class="ic">{{IC:FaHistory}}</span><div><h4>Withdrawn? Redrafted for the replacement</h4><p>IS 13849 → IS 15683 · IS 8112 → IS 269:2015 · IS 13947 → IS/IEC 60947</p></div></div>
+        <div class="row"><span class="ic">{{IC:FaCertificate}}</span><div><h4>Certification written in</h4><p>CRS registration (R-number) under the 2021 order — ISI licence (CM/L) for Scheme-I</p></div></div>
+        <div class="row"><span class="ic">{{IC:FaFileAlt}}</span><div><h4>Every sentence sourced</h4><p>copy, read aloud, or collect several into one Word document</p></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="frame"><span><img alt="Exportable specification block" src="{{IMG:specblock_top}}" style="max-width:504px;max-height:330px"></span></div>
+      <p class="cap"><b>Exportable specification block:</b> Standard · Referred standards · Tests &amp; acceptance · Mandatory certification · Marking &amp; packing · Terminology — with the BIS check date.</p>
+    </div>
+  </div>
+  <aside class="note">Version tracking is where most tools stop at 'check the BIS portal'. We checked it: the archived text is the 2012 edition, but BIS lists the 2026 edition, so we flag it and draft for 2026. Withdrawn standards are redrafted for their replacement. The spec block is the PS's 'exportable specification' feature — copy, Word, or read aloud.</aside>
+</section>
+
+<!-- ===================================================== 10 -->
+<section class="slide light" data-title="Browser extension">
+  <h2 class="title">Inside GeM and CPPP — a browser extension</h2>
+  <p class="sub">Officers don’t change tools: SpecSure annotates the bid pages they already use</p>
+  <div class="body s10">
+    <div class="frame" style="align-items:flex-start"><span><img alt="GeM bid listing annotated by the SpecSure extension" src="{{IMG:ext_listing_top}}" style="max-width:524px;max-height:430px"></span></div>
+    <div class="frame" style="align-items:flex-start"><span><img alt="SpecSure side panel" src="{{IMG:ext_panel_top}}" style="max-width:254px;max-height:430px"></span></div>
+    <div>
+      <div class="row"><span class="ic">{{IC:FaStore}}</span><div><h4>On every bid</h4><p>named standard · edition in force · amendments · ISI / CRS — or a suggestion, or “no confident match”</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaFileAlt}}</span><div><h4>On a bid PDF</h4><p>items bought, cited standards checked, forgotten test methods, copy-ready clause</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaSearch}}</span><div><h4>Anywhere</h4><p>select text on any page → “Find Indian Standards”; the side panel stays open while drafting</p></div></div>
+    </div>
+  </div>
+  <p class="italic">Real GeM category names, 27 Sep 2026 — road-lighting luminaires now need the 2026 edition of IS 10322 (Part 5/Sec 3). Extension is a prototype, not affiliated with GeM, CPPP or BIS.</p>
+  <aside class="note">Integration is usually a slide of promises. Ours is a working Manifest V3 extension: on the GeM bid listing it adds a strip under every bid with the named standard's status, amendments and certification, or our suggestion. On a bid document it analyses the PDF item by item. It talks only to the SpecSure server.</aside>
+</section>
+
+<!-- ===================================================== 11 -->
+<section class="slide light anim" data-title="Evidence">
+  <h2 class="title">Measured, not claimed</h2>
+  <p class="sub">Clean benchmarks — every product-name shortcut switched off; scripts in the repository</p>
+  <div class="body s11">
+    <div class="chart">
+      <div class="bar-group"><div class="lbl">GeM category names <span>· 403 · labels written by GeM</span></div>
+        <div class="bar"><i style="--v:80.4"></i><em>80.4 %</em></div><div class="bar s"><i style="--v:86.1"></i><em>86.1 %</em></div></div>
+      <div class="bar-group"><div class="lbl">BIS compulsory-certification list <span>· 803 · labels by BIS</span></div>
+        <div class="bar"><i style="--v:83.8"></i><em>83.8 %</em></div><div class="bar s"><i style="--v:90.7"></i><em>90.7 %</em></div></div>
+      <div class="bar-group"><div class="lbl">Procurement-language queries <span>· 40</span></div>
+        <div class="bar"><i style="--v:70.0"></i><em>70.0 %</em></div><div class="bar s"><i style="--v:90.0"></i><em>90.0 %</em></div></div>
+      <div class="bar-group"><div class="lbl">Indian languages, held-out <span>· 28</span></div>
+        <div class="bar"><i style="--v:39.3"></i><em>39.3 %</em></div><div class="bar s"><i style="--v:71.4"></i><em>71.4 %</em></div></div>
+      <div class="legend"><span>Right answer first</span><span class="s">In the top 3</span></div>
+    </div>
+    <div>
+      <div class="card kpi"><b style="color:var(--green)"><span data-count="89.6" data-dec="1">89.6</span> %</b><span>precision when SpecSure says “Recommended” (GeM names)</span></div>
+      <div class="card kpi"><b style="color:var(--blue)"><span data-count="91.4" data-dec="1">91.4</span> %</b><span>of vague or services requests get no recommendation</span></div>
+      <div class="card kpi"><b style="color:var(--red)"><span data-count="8.4" data-dec="1">8.4</span> %</b><span>confident but wrong — shown, not hidden</span></div>
+    </div>
+  </div>
+  <aside class="note">The GeM benchmark is our strongest evidence because the labels are written by GeM, not by us: 403 category names with the standard stripped out. 80% are right first time and 91% in the top 10 with every shortcut off. Just as important for procurement: when we say Recommended we are right about 90% of the time, and 91% of vague or service requests get no recommendation. Indian languages are the weakest bar, and we show it.</aside>
+</section>
+
+<!-- ===================================================== 12 -->
+<section class="slide light" data-title="Real documents">
+  <h2 class="title">Tested on real procurement documents</h2>
+  <p class="sub">63 public tenders and GeM bid documents · 1,542 pages · 489 items found</p>
+  <div class="body s12">
+    <div>
+      <table class="t">
+        <tr><th></th><th>Institutional tenders</th><th>GeM bid documents</th></tr>
+        <tr><td>Documents / pages</td><td>23 / 1,011</td><td>40 / 531</td></tr>
+        <tr><td>Cite no Indian Standard</td><td>12 of 23</td><td>13 of 40</td></tr>
+        <tr><td>Cite older edition / withdrawn</td><td>3 / 3</td><td>0 / 0</td></tr>
+        <tr><td>Items: named · recommended · possible · abstained</td><td>5 · 33 · 129 · 228</td><td>31 · 12 · 11 · 34</td></tr>
+        <tr><td>“Recommended” correct (spot-check)</td><td>17 of 21</td><td>10 of 12</td></tr>
+      </table>
+      <p class="note2">Spot-check is AI-assisted and will be confirmed by the team. “Possible” items are leads (4 of 25 correct, 13 incl. partial) — the interface labels them “verify”.</p>
+    </div>
+    <div>
+      <div class="bigc" style="background:var(--paleG)"><b style="color:var(--green)">~<span data-count="85">85</span> %</b><span>of “Recommended” items were right on real documents</span></div>
+      <div class="bigc" style="background:var(--ice)"><b style="color:var(--blue)"><span data-count="262">262</span> of 489</b><span>items abstained — medical, IT, services, custom parts: no guessing</span></div>
+    </div>
+  </div>
+  <aside class="note">Benchmarks are clean but short; real tenders are long and messy. We ran 63 real documents end to end. The headline for judges: half the institutional tenders cite no standard at all, and when we say Recommended on real documents we were right about 85% of the time. We abstain on items no Indian Standard fits.</aside>
+</section>
+
+<!-- ===================================================== 13 -->
+<section class="slide light" data-title="Differentiation">
+  <h2 class="title">Why SpecSure stands apart</h2>
+  <p class="sub">Compared with the typical approach in 28 public SIH26108 repositories we surveyed</p>
+  <div class="body s13">
+    <table class="t">
+      <tr><th></th><th class="grey">Typical prototype</th><th>SpecSure</th></tr>
+      <tr><td>Knowledge base</td><td>3 – 2,500 standards, mostly typed by hand</td><td>29,875 standards, 19,492 texts parsed, all divisions</td></tr>
+      <tr><td>Relationships</td><td>a few curated edges</td><td>80,834 links with clause + sentence; compliance tree</td></tr>
+      <tr><td>Edition / status</td><td>“verify on the BIS portal”</td><td>status for 29,710 from BIS; amendments; replacements</td></tr>
+      <tr><td>Certification</td><td>a handful of flags</td><td>828 BIS rows with the QCO, written into the clause</td></tr>
+      <tr><td>Testing</td><td>not addressed</td><td>482 BIS-recognised labs with charges (BIS LIMS)</td></tr>
+      <tr><td>Languages</td><td>English, or a paid LLM translator</td><td>offline glossary + transliteration + bge-m3, measured</td></tr>
+      <tr><td>Where it runs</td><td>a separate website</td><td>portal + GeM/CPPP extension + API + MCP, offline</td></tr>
+      <tr><td>Proof</td><td>demo queries</td><td>GeM-labelled benchmark, 63 real documents, abstention metrics</td></tr>
+    </table>
+  </div>
+  <aside class="note">We looked at every public repository on this problem statement. The strongest one does excellent work on one division family. What sets us apart is scale across all divisions, BIS-sourced editions and status, real certification and lab data, and proof on GeM's own labels and real documents.</aside>
+</section>
+
+<!-- ===================================================== 14 -->
+<section class="slide light" data-title="Deployment & next steps">
+  <h2 class="title">Ready to deploy — and honest about what is next</h2>
+  <p class="sub">Built for government IT: offline, on-prem, auditable</p>
+  <div class="body s14">
+    <div>
+      <div class="row"><span class="ic">{{IC:FaServer}}</span><div><h4>On-prem &amp; offline</h4><p>FastAPI + Next.js, Docker; bge-m3 on CPU (~270 ms/query), automatic fallback to a small model</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaPlug}}</span><div><h4>Integrates</h4><p>REST API, MCP server for AI assistants, browser extension; GeM / CPPP native integration next</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaLink}}</span><div><h4>Refreshable</h4><p>one script per source (BIS catalogue, e-Sale portal, LIMS, GeM) — re-run to update, every answer dated</p></div></div>
+      <div class="row"><span class="ic">{{IC:FaShieldAlt}}</span><div><h4>Accountable</h4><p>sources and dates on every line; LLM optional and never decides; a human signs the tender</p></div></div>
+    </div>
+    <div class="nextp">
+      <h3>Next steps</h3>
+      <ol>
+        <li>Amendment lists for all standards (today 1,138) — ~2 h collection from an Indian connection</li>
+        <li>Clause-level retrieval over every paragraph for sharper “why” on long standards</li>
+        <li>Full text for the 10,171 newer standards (title-only today, capped at “Possible”)</li>
+        <li>Indian languages: larger glossary; optional Bhashini / LLM translator</li>
+        <li>Pilot with a procurement cell: team-verified labels, public demo URL, GeM API</li>
+      </ol>
+    </div>
+  </div>
+  <aside class="note">Deployment is realistic for a government setting: it runs offline on a CPU server, falls back automatically if the large model is unavailable, and every data source has its own refresh script. We are open about the gaps: amendment lists cover 1,138 key standards today, newer standards are title-only, and Indian languages need more work. A pilot with a real procurement cell is the next milestone.</aside>
+</section>
+
+<!-- ===================================================== 15 -->
+<section class="slide dark" data-title="Close">
+  <div class="s15">
+    <div style="display:flex;flex-direction:column">
+      <h2>Right standard. Right edition.<br><span class="hl">Right test lab.</span> In the buyer’s language.</h2>
+      <p class="lead">SpecSure turns a product description or a whole tender into standards a procurement officer can defend — sourced, dated and explained.</p>
+      <div class="closers">
+        <div><b>Live demo</b><span>Find Standards · Evidence · Extension</span></div>
+        <div><b>100-second film</b><span>docs/media/specsure_demo.mp4</span></div>
+        <div><b>Reproduce every number</b><span>scripts/corpus_benchmark.py · real_tender_study.py</span></div>
+      </div>
+      <div class="thanks">Thank you · Team CodeNova</div>
+      <div class="disc">Prototype — not an official Government of India system</div>
+    </div>
+    <div class="frame"><span><img alt="SpecSure side panel" src="{{IMG:ext_panel_top}}" style="max-width:314px;max-height:560px"></span></div>
+  </div>
+  <aside class="note">Close on the promise: the right standard, the right edition, the right test lab, in the buyer's language — and every line defensible. Then switch to the live demo, or play the 100-second film if the network fails.</aside>
+</section>
+
+</div></div>
+
+<div class="progress"><i id="prog"></i></div>
+<div class="help"><kbd>←</kbd> <kbd>→</kbd> move · <kbd>N</kbd> notes · <kbd>G</kbd> overview · <kbd>F</kbd> full screen · <kbd>P</kbd> presenter</div>
+<nav class="hud" aria-label="Slide controls">
+  <button id="bPrev" title="Previous (←)" aria-label="Previous slide">{{IC:FaChevronLeft}}</button>
+  <span class="count" id="count" aria-live="polite">1 / 15</span>
+  <button id="bNext" title="Next (→)" aria-label="Next slide">{{IC:FaChevronRight}}</button>
+  <button id="bGrid" title="Overview (G)" aria-label="Overview">{{IC:FaThLarge}}</button>
+  <button id="bNotes" title="Speaker notes (N)" aria-label="Speaker notes">{{IC:FaStickyNote}}</button>
+  <button id="bFull" title="Full screen (F)" aria-label="Full screen">{{IC:FaExpand}}</button>
+  <button id="bPrint" title="Print / save as PDF" aria-label="Print">{{IC:FaPrint}}</button>
+</nav>
+<aside class="notes" id="notes"><h5 id="notesHead">Speaker notes</h5><div id="notesText"></div></aside>
+<div class="overview" id="overview"></div>
+
+<script>
+(function(){
+  const stage=document.getElementById('stage');
+  const slides=[...stage.querySelectorAll('.slide')];
+  const N=slides.length;
+  let cur=0, presenter=null;
+  slides.forEach((s,i)=>{ if(i>0 && i<slides.length-1){
+      const f=document.createElement('div');f.className='foot';f.innerHTML='SpecSure · <b>SIH26108</b> · '+(i+1);s.appendChild(f);
+      const b=document.createElement('div');b.className='brand';b.textContent='TEAM CODENOVA';s.appendChild(b);} });
+
+  function fit(){
+    const nh=document.body.classList.contains('show-notes')?170:0;
+    const w=window.innerWidth, h=window.innerHeight-nh;
+    const k=Math.min((w-24)/1280,(h-24)/720);
+    stage.style.transform='scale('+k+') translate(-50%,-50%)';
+    stage.style.left='50%'; stage.style.top=(h/2)+'px';
+  }
+  function fmt(v,dec){return dec?v.toFixed(dec):Math.round(v).toLocaleString('en-US');}
+  function countUp(s){
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    s.querySelectorAll('[data-count]').forEach(el=>{
+      const end=parseFloat(el.dataset.count), dec=+(el.dataset.dec||0), t0=performance.now(), d=1100;
+      (function tick(t){const p=Math.min(1,(t-t0)/d), e=1-Math.pow(1-p,3); el.textContent=fmt(end*e,dec); if(p<1) requestAnimationFrame(tick); else el.textContent=fmt(end,dec);})(t0);
+    });
+  }
+  function show(i,push){
+    i=Math.max(0,Math.min(N-1,i));
+    const s=slides[i], changed=(i!==cur)||!s.dataset.seen;
+    if(changed&&s.dataset.anim){ s.classList.add('anim'); void s.offsetWidth; }
+    slides.forEach((x,j)=>{x.classList.toggle('active',j===i);x.classList.toggle('before',j<i);x.setAttribute('aria-hidden',j!==i);});
+    cur=i;
+    if(changed){ s.dataset.seen=1; countUp(s);
+      if(s.dataset.anim) requestAnimationFrame(()=>requestAnimationFrame(()=>s.classList.remove('anim'))); }
+    document.getElementById('count').textContent=(i+1)+' / '+N;
+    document.getElementById('prog').style.width=((i+1)/N*100)+'%';
+    const note=s.querySelector('.note');
+    document.getElementById('notesHead').textContent='Speaker notes · '+(i+1)+' · '+(s.dataset.title||'');
+    document.getElementById('notesText').textContent=note?note.textContent.trim():'';
+    if(push!==false) history.replaceState(null,'','#'+(i+1));
+    updatePresenter();
+  }
+  slides.forEach(s=>{ if(s.classList.contains('anim')) s.dataset.anim=1; });
+
+  const next=()=>show(cur+1), prev=()=>show(cur-1);
+  function toggleNotes(){document.body.classList.toggle('show-notes');fit();}
+  function toggleFull(){ if(!document.fullscreenElement) document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen(); else document.exitFullscreen(); }
+
+  // overview
+  const ov=document.getElementById('overview');
+  function buildOverview(){
+    ov.innerHTML='';
+    slides.forEach((s,i)=>{
+      const t=document.createElement('div');t.className='thumb'+(i===cur?' cur':'');t.tabIndex=0;t.setAttribute('role','button');t.setAttribute('aria-label','Go to slide '+(i+1));
+      const inner=document.createElement('div');inner.className='inner';
+      const c=s.cloneNode(true);c.classList.add('active');c.classList.remove('before','anim');c.removeAttribute('aria-hidden');inner.appendChild(c);t.appendChild(inner);
+      const lab=document.createElement('span');lab.className='lab';lab.textContent=(i+1)+' · '+(s.dataset.title||'');t.appendChild(lab);
+      t.onclick=()=>{closeOverview();show(i);};t.onkeydown=e=>{if(e.key==='Enter'){closeOverview();show(i);}};
+      ov.appendChild(t);
+    });
+    requestAnimationFrame(()=>ov.querySelectorAll('.thumb').forEach(t=>{t.querySelector('.inner').style.transform='scale('+(t.clientWidth/1280)+')';}));
+  }
+  function openOverview(){document.body.classList.add('show-overview');buildOverview();const c=ov.querySelector('.cur');c&&c.focus();}
+  function closeOverview(){document.body.classList.remove('show-overview');}
+  const inOverview=()=>document.body.classList.contains('show-overview');
+
+  // presenter window
+  function openPresenter(){
+    presenter=window.open('','specsure_presenter','width=760,height=520');
+    if(!presenter) return;
+    presenter.document.write('<!doctype html><title>SpecSure — presenter</title><style>body{margin:0;font:16px Calibri,Carlito,Segoe UI,sans-serif;background:#0F1E36;color:#DCE5F2;padding:22px}h1{font:700 22px Cambria,Georgia,serif;color:#fff;margin:0 0 4px}.m{color:#F28C28;font-weight:700;letter-spacing:.1em;font-size:12px;text-transform:uppercase}.n{font-size:19px;line-height:1.55;margin-top:14px}.nx{margin-top:18px;color:#8FA3C0}.t{float:right;font:700 28px Calibri,sans-serif;color:#fff}button{background:#1D4F93;color:#fff;border:0;border-radius:6px;padding:8px 14px;font-size:15px;margin-right:6px;cursor:pointer}</style><div class="t" id="tm">00:00</div><div class="m" id="m"></div><h1 id="h"></h1><div class="n" id="n"></div><div class="nx" id="nx"></div><p><button id="p">← Prev</button><button id="x">Next →</button></p>');
+    presenter.document.close();
+    const t0=Date.now();
+    presenter.setInterval(()=>{const s=Math.floor((Date.now()-t0)/1000);const el=presenter.document.getElementById('tm');if(el)el.textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');},1000);
+    presenter.document.getElementById('p').onclick=prev; presenter.document.getElementById('x').onclick=next;
+    presenter.document.addEventListener('keydown',onKey);
+    updatePresenter();
+  }
+  function updatePresenter(){
+    if(!presenter||presenter.closed) return;
+    const d=presenter.document, s=slides[cur], nx=slides[cur+1];
+    d.getElementById('m').textContent='Slide '+(cur+1)+' of '+N;
+    d.getElementById('h').textContent=s.dataset.title||'';
+    d.getElementById('n').textContent=(s.querySelector('.note')||{}).textContent||'';
+    d.getElementById('nx').textContent=nx?'Next: '+(nx.dataset.title||''):'Last slide';
+  }
+
+  let typed='';
+  function onKey(e){
+    if(e.ctrlKey||e.metaKey||e.altKey) return;
+    const k=e.key;
+    if(inOverview()){ if(k==='Escape'||k==='g'||k==='G'||k==='o'||k==='O'){closeOverview();e.preventDefault();} return; }
+    if(['ArrowRight','ArrowDown','PageDown',' ','Enter'].includes(k)){
+      if(k==='Enter'&&typed){show(parseInt(typed,10)-1);typed='';e.preventDefault();return;}
+      next();e.preventDefault();}
+    else if(['ArrowLeft','ArrowUp','PageUp','Backspace'].includes(k)){prev();e.preventDefault();}
+    else if(k==='Home'){show(0);} else if(k==='End'){show(N-1);}
+    else if(k==='n'||k==='N'){toggleNotes();} else if(k==='f'||k==='F'){toggleFull();}
+    else if(k==='g'||k==='G'||k==='o'||k==='O'){openOverview();}
+    else if(k==='p'||k==='P'){openPresenter();}
+    else if(/^[0-9]$/.test(k)){typed+=k;clearTimeout(onKey.t);onKey.t=setTimeout(()=>typed='',1500);}
+  }
+  document.addEventListener('keydown',onKey);
+  document.getElementById('bPrev').onclick=prev; document.getElementById('bNext').onclick=next;
+  document.getElementById('bNotes').onclick=toggleNotes; document.getElementById('bFull').onclick=toggleFull;
+  document.getElementById('bGrid').onclick=openOverview; document.getElementById('bPrint').onclick=()=>window.print();
+  stage.addEventListener('click',e=>{ if(window.getSelection().toString()) return; const r=stage.getBoundingClientRect(); (e.clientX-r.left<r.width*0.25)?prev():next(); });
+  let tx=null; document.addEventListener('touchstart',e=>{tx=e.touches[0].clientX;},{passive:true});
+  document.addEventListener('touchend',e=>{ if(tx===null) return; const dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>40)(dx<0?next:prev)(); tx=null; });
+  let idleT; function wake(){document.body.classList.remove('idle');clearTimeout(idleT);idleT=setTimeout(()=>document.body.classList.add('idle'),2500);}
+  ['mousemove','mousedown','touchstart'].forEach(ev=>document.addEventListener(ev,wake,{passive:true})); wake();
+  window.addEventListener('resize',fit);
+  window.addEventListener('hashchange',()=>{const h=parseInt(location.hash.slice(1),10); if(h&&h-1!==cur) show(h-1,false);});
+  window.addEventListener('beforeprint',()=>slides.forEach(s=>s.classList.remove('anim')));
+  fit();
+  const h0=parseInt(location.hash.slice(1),10);
+  show(h0?h0-1:0,false);
+})();
+</script>
+</body>
+</html>

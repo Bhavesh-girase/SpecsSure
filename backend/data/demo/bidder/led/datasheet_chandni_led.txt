@@ -1,0 +1,12 @@
+PRODUCT DATASHEET (FICTIONAL MANUFACTURER — SOFTWARE DEMO SAMPLE)
+Chandni Lamps — CL-9 Economy LED Lamp
+Conforming to: IS 16102 (Part 1):2012
+Cap: B22d
+
+TECHNICAL DATA
+| Parameter | Declared value | Test method |
+| Rated power | 9 W | IS 16106 |
+| Luminous efficacy | 96 lm/W | IS 16106 |
+| Power factor | 0.9 | IS 16106 |
+| Colour rendering index | 80 | IS 16106 |
+| BEE star rating | 3 star | BEE |

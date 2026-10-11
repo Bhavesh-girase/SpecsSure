@@ -1,0 +1,67 @@
+[
+  {
+    "id": "TC01",
+    "difficulty": "Easy",
+    "category": "Civil",
+    "query": "Ordinary Portland Cement 43 grade with compressive strength 43 MPa for concrete structural work.",
+    "expected_is_number": "IS 269:2015",
+    "expected_mandatory_qco": true
+  },
+  {
+    "id": "TC02",
+    "difficulty": "Easy",
+    "category": "Metallurgy",
+    "query": "High strength deformed steel bars Grade Fe 500D for reinforced cement concrete construction in seismic zone IV.",
+    "expected_is_number": "IS 1786:2008",
+    "expected_mandatory_qco": true
+  },
+  {
+    "id": "TC03",
+    "difficulty": "Medium",
+    "category": "Electrical",
+    "query": "Single core PVC insulated copper wire 1100V grade 2.5 sq mm flame retardant for internal building wiring.",
+    "expected_is_number": "IS 694:2010",
+    "expected_mandatory_qco": true
+  },
+  {
+    "id": "TC04",
+    "difficulty": "Medium",
+    "category": "Public Health",
+    "query": "Drinking water supply testing for Total Dissolved Solids, pH, Chlorides, and microbial bacteria.",
+    "expected_is_number": "IS 10500:2012",
+    "expected_mandatory_qco": false
+  },
+  {
+    "id": "TC05",
+    "difficulty": "Medium",
+    "category": "Electrotechnical",
+    "query": "LED street light luminaires 120W outdoor IP66 with surge protection and electronic controlgear.",
+    "expected_is_number": "IS 10322 (Part 5/Sec 1):2012",
+    "expected_mandatory_qco": true
+  },
+  {
+    "id": "TC06",
+    "difficulty": "Hard (Hindi Input)",
+    "category": "Multilingual",
+    "query": "आरसीसी निर्माण कार्य के लिए 43 ग्रेड पोर्टलैंड सीमेंट और 500 एमपीए तन्यता वाले टीएमटी स्टील सरिया की आपूर्ति।",
+    "expected_is_number": "IS 269:2015",
+    "expected_secondary": "IS 1786:2008",
+    "expected_mandatory_qco": true
+  },
+  {
+    "id": "TC07",
+    "difficulty": "Medium (Ambiguity Test)",
+    "category": "Specification Intelligence",
+    "query": "Procurement of high quality durable steel sections of standard make as per standard with good finish.",
+    "expected_is_number": "IS 2062:2011",
+    "expected_ambiguities_flagged": true
+  },
+  {
+    "id": "TC08",
+    "difficulty": "Hard (Outdated Citation)",
+    "category": "Currency / Lifecycle",
+    "query": "Supply of domestic solar flat plate collectors conforming to IS 12933:2003 with copper absorber sheet.",
+    "expected_is_number": "IS 12933:2003",
+    "expected_lifecycle_flag": "superseded"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "category_name": "LED Luminaires and Lighting Systems",
+  "bis_division": "Electrotechnical Division",
+  "bis_section_committee": "ETD 23",
+  "primary_standard_is": "IS 10322 (Part 5/Sec 1):2012",
+  "keywords": "LED luminaire, street light, LED bulb, downlight, flood light, driver, electronics, energy efficient lighting, lumen, CRI, power factor",
+  "parameter_template": {
+    "electrical": [
+      "Input Operating Voltage Range V AC (140 V to 280 V AC)",
+      "System Power Consumption / Wattage W",
+      "Power Factor PF min (0.90 / 0.95)",
+      "Total Harmonic Distortion THD % max (10% to 15%)",
+      "Surge Protection Rating kV min (4 kV / 10 kV with external SPD)",
+      "Driver Efficiency % min (85% to 90%)"
+    ],
+    "optical_and_photometric": [
+      "Luminous Efficacy lumens/Watt min (120 to 140 lm/W)",
+      "Correlated Colour Temperature CCT K (3000K, 4000K, 5700K, 6500K)",
+      "Colour Rendering Index CRI min (70 for outdoor, 80 for indoor)",
+      "Lumen Maintenance L70 life hours min (50,000 hours)"
+    ],
+    "environmental_and_mechanical": [
+      "Ingress Protection IP Rating (IP 66 for outdoor street lights, IP 20 for indoor)",
+      "Impact Resistance IK Rating (IK 08 / IK 10)",
+      "Operating Temperature Range deg C (-10 to +50 deg C)"
+    ],
+    "test_methods": [
+      "IS 10322 (Part 1 to 5) - Luminaires Safety and Performance Requirements",
+      "IS 16102 (Part 1 and 2) - Self-ballasted LED Lamps for General Lighting",
+      "IS 15885 (Part 2/Sec 13) - Lamp Controlgear: Electronic Controlgear for LED Modules",
+      "IS 16103 (Part 1 and 2) - LED Modules for General Lighting"
+    ],
+    "safety": [
+      "IS 10322 Part 1:2014 - General requirements and tests for luminaires",
+      "IS 302 Part 1:2023 - Safety of Household and Similar Electrical Appliances"
+    ],
+    "installation": [
+      "IS 732:2019 - Electrical Wiring Installations Code of Practice"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "Compulsory Registration Scheme (CRS) under MeitY / BIS",
+      "qco": "Electronics and Information Technology Goods (Requirement for Compulsory Registration) Order 2021"
+    }
+  }
+}

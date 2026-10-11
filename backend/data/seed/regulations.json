@@ -1,0 +1,249 @@
+{
+  "_comment": "Curated regulatory registry (QCO / CRS / mandatory certification). 'verification_state' is shown in the UI: 'source_checked' = date & coverage checked against a public source during curation; 'secondary_source' = checked against a reputable secondary summary (consultancy / certification body) but not the gazette itself; 'curated_unverified' = coverage believed correct but dates/notification numbers must be confirmed on bis.gov.in / e-Gazette before relying on them. Effective dates left null are treated as 'in force, date unverified'.",
+  "regulations": [
+    {
+      "key": "QCO-CEMENT-2003",
+      "regulation_type": "QCO",
+      "scheme": "BIS Standard Mark (ISI) — Scheme-I",
+      "title": "Cement (Quality Control) Order, 2003",
+      "issuing_authority": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+      "notification_number": "S.O. 191(E)",
+      "product_scope": "Ordinary Portland cement, Portland pozzolana cement, Portland slag cement and other cement varieties",
+      "standards": [
+        "IS 269",
+        "IS 1489 (Part 1)",
+        "IS 1489 (Part 2)",
+        "IS 455",
+        "IS 8112",
+        "IS 12269",
+        "IS 12330",
+        "IS 3466",
+        "IS 6452",
+        "IS 6909",
+        "IS 8041",
+        "IS 8042",
+        "IS 8043",
+        "IS 8229"
+      ],
+      "effective_from": "2003-02-17",
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/",
+      "verification_state": "source_checked"
+    },
+    {
+      "key": "QCO-STEEL",
+      "regulation_type": "QCO",
+      "scheme": "BIS Standard Mark (ISI) — Scheme-I",
+      "title": "Steel and Steel Products (Quality Control) Order",
+      "issuing_authority": "Ministry of Steel",
+      "notification_number": null,
+      "product_scope": "High strength deformed steel bars (TMT) and structural steel",
+      "standards": [
+        "IS 1786",
+        "IS 2062"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://steel.gov.in/quality-control-orders",
+      "verification_state": "curated_unverified"
+    },
+    {
+      "key": "QCO-CABLES",
+      "regulation_type": "QCO",
+      "scheme": "BIS Standard Mark (ISI) — Scheme-I",
+      "title": "Electrical Wires, Cables, Appliances and Protection Devices and Accessories (Quality Control) Order, 2003",
+      "issuing_authority": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+      "notification_number": null,
+      "product_scope": "PVC insulated cables up to 1100 V (IS 694), elastomer cables, domestic switches, miniature circuit breakers and other notified electrical items",
+      "standards": [
+        "IS 694",
+        "IS 9968 (Part 1)",
+        "IS 3854",
+        "IS 8828",
+        "IS/IEC 60898"
+      ],
+      "effective_from": "2003-02-17",
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.dpiit.gov.in/static/uploads/2025/07/b9564dfa95202a0f2c22018f0ac6bd59.pdf",
+      "verification_state": "source_checked",
+      "note": "Order dated 17-02-2003 (items 1-7 immediate, items 8-24 incl. IS 694 six months after publication). MCB coverage under IS/IEC 60898-1 via later amendment — verify."
+    },
+    {
+      "key": "CRS-MEITY",
+      "regulation_type": "CRS",
+      "scheme": "Compulsory Registration Scheme (CRS) — Scheme-II",
+      "title": "Electronics and Information Technology Goods (Requirements for Compulsory Registration) Order, 2021",
+      "issuing_authority": "Ministry of Electronics and Information Technology (MeitY)",
+      "notification_number": null,
+      "product_scope": "LED luminaires (incl. road & street lighting), self-ballasted LED lamps and other notified electronic goods",
+      "standards": [
+        "IS 10322 (Part 5/Sec 1)",
+        "IS 10322 (Part 5/Sec 3)",
+        "IS 16102 (Part 1)"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.crsbis.in/",
+      "verification_state": "curated_unverified"
+    },
+    {
+      "key": "FSSAI-PDW",
+      "regulation_type": "Mandatory Certification",
+      "scheme": "BIS Standard Mark (ISI) — Scheme-I",
+      "title": "Food Safety and Standards (Prohibition and Restrictions on Sales) Regulations — packaged drinking water",
+      "issuing_authority": "FSSAI",
+      "notification_number": null,
+      "product_scope": "Packaged drinking water",
+      "standards": [
+        "IS 14543"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.fssai.gov.in/",
+      "verification_state": "curated_unverified"
+    },
+    {
+      "key": "QCO-PE-PIPES",
+      "regulation_type": "QCO",
+      "scheme": "BIS Standard Mark (ISI) — Scheme-I",
+      "title": "Polyethylene piping (Quality Control) Order",
+      "issuing_authority": "DPIIT",
+      "notification_number": null,
+      "product_scope": "Polyethylene pipes for water supply",
+      "standards": [
+        "IS 4984"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+      "verification_state": "curated_unverified"
+    },
+    {
+      "key": "QCO-GEOTEXTILES",
+      "regulation_type": "QCO",
+      "scheme": "BIS Standard Mark (ISI) — Scheme-I",
+      "title": "Geotextiles (Quality Control) Order",
+      "issuing_authority": "Ministry of Textiles",
+      "notification_number": null,
+      "product_scope": "Geotextiles for road and drainage applications",
+      "standards": [
+        "IS 16391"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/",
+      "verification_state": "curated_unverified"
+    },
+    {
+      "key": "QCO-CEILING-FAN-2023",
+      "regulation_type": "QCO",
+      "scheme": "BIS Standard Mark (ISI) — Scheme-I",
+      "title": "Electric Ceiling Type Fans (Quality Control) Order, 2023",
+      "issuing_authority": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+      "notification_number": null,
+      "product_scope": "Electric ceiling type fans",
+      "standards": [
+        "IS 374"
+      ],
+      "effective_from": "2024-02-09",
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.tuv.com/regulations-and-standards/en/india-electric-ceiling-type-fans-quality-control-order-2023.html",
+      "verification_state": "secondary_source",
+      "note": "Notified 09-08-2023; in force six months after publication (date derived)."
+    },
+    {
+      "key": "BEE-SL-FAN",
+      "regulation_type": "Energy Label",
+      "scheme": "BEE Standards & Labelling (mandatory star label)",
+      "title": "BEE Star Labelling — Ceiling Fans (mandatory)",
+      "issuing_authority": "Bureau of Energy Efficiency (BEE)",
+      "notification_number": null,
+      "product_scope": "Ceiling fans",
+      "standards": [
+        "IS 374"
+      ],
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.beestarlabel.com/Content/Files/CFN_Notification.pdf",
+      "verification_state": "secondary_source"
+    },
+    {
+      "key": "BEE-SL-LED",
+      "regulation_type": "Energy Label",
+      "scheme": "BEE Standards & Labelling (mandatory star label)",
+      "title": "BEE Star Labelling — Self-ballasted LED Lamps (revised norms from 01-07-2023)",
+      "issuing_authority": "Bureau of Energy Efficiency (BEE)",
+      "notification_number": "BEE/S&L/52/LED/2023",
+      "product_scope": "Self-ballasted LED lamps",
+      "standards": [
+        "IS 16102 (Part 2)"
+      ],
+      "effective_from": "2023-07-01",
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://beestarlabel.com/Content/Files/LED_Notification.pdf",
+      "verification_state": "secondary_source"
+    },
+    {
+      "key": "CRS-SOLAR-PV",
+      "regulation_type": "CRS",
+      "scheme": "Compulsory Registration Scheme (CRS) — Scheme-II",
+      "title": "Solar Photovoltaics, Systems, Devices and Components Goods (Requirements for Compulsory Registration) Order",
+      "issuing_authority": "Ministry of New and Renewable Energy (MNRE)",
+      "notification_number": null,
+      "product_scope": "Crystalline silicon terrestrial PV modules and other notified solar goods",
+      "standards": [
+        "IS 14286 (Part 1/Sec 1)",
+        "IS/IEC 61730"
+      ],
+      "effective_from": null,
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.crsbis.in/",
+      "verification_state": "curated_unverified"
+    },
+    {
+      "key": "ALMM-LIST-I",
+      "regulation_type": "Approved List",
+      "scheme": "MNRE ALMM List-I (modules) — enlistment of model & manufacturer",
+      "title": "Approved List of Models and Manufacturers (ALMM) Order — List-I: Solar PV Modules",
+      "issuing_authority": "Ministry of New and Renewable Energy (MNRE)",
+      "notification_number": null,
+      "product_scope": "Solar PV modules used in Government / Government-assisted projects",
+      "standards": [
+        "IS 14286 (Part 1/Sec 1)"
+      ],
+      "effective_from": "2021-04-10",
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/",
+      "verification_state": "curated_unverified"
+    },
+    {
+      "key": "ALMM-LIST-II",
+      "regulation_type": "Approved List",
+      "scheme": "MNRE ALMM List-II (cells)",
+      "title": "ALMM Order (amended) — List-II: Solar PV Cells",
+      "issuing_authority": "Ministry of New and Renewable Energy (MNRE)",
+      "notification_number": null,
+      "product_scope": "Solar PV cells inside modules for projects bid out by Government agencies (projects commissioned from 01-06-2026)",
+      "standards": [
+        "IS 14286 (Part 1/Sec 1)"
+      ],
+      "effective_from": "2026-06-01",
+      "effective_to": null,
+      "is_mandatory": "yes",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2149442",
+      "verification_state": "source_checked"
+    }
+  ]
+}

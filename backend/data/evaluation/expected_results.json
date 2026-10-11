@@ -1,0 +1,11 @@
+{
+  "benchmark_name": "SpecSure Indian Standards Benchmark v1.0",
+  "total_test_cases": 8,
+  "metrics": [
+    "Top-1 Accuracy",
+    "Top-3 Accuracy",
+    "Multilingual Retrieval Precision",
+    "Ambiguity Detection Recall",
+    "Currency Lifecycle Detection"
+  ]
+}

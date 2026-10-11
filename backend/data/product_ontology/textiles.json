@@ -1,0 +1,44 @@
+{
+  "category_name": "Geotextiles and Technical Textiles",
+  "bis_division": "Textiles Division",
+  "bis_section_committee": "TXD 30",
+  "primary_standard_is": "IS 16391:2015",
+  "keywords": "geotextile, technical textile, non woven, woven geotextile, filtration, drainage, separation, soil reinforcement, road construction, polymer fabric",
+  "parameter_template": {
+    "physical": [
+      "Mass per unit area GSM g/m2 (150 to 500 g/m2)",
+      "Thickness mm under 2 kPa pressure",
+      "Apparent Opening Size AOS micron (O95 / O90)",
+      "Roll width and roll length tolerances"
+    ],
+    "mechanical": [
+      "Wide Width Tensile Strength kN/m (Machine and Cross Direction)",
+      "Elongation at Break % (MD and CD)",
+      "Trapezoidal Tear Resistance N min",
+      "CBR Puncture Resistance N min (Static puncture)",
+      "Dynamic Perforation Cone Drop mm max"
+    ],
+    "performance": [
+      "Water Permeability / Permittivity sec-1 min",
+      "Transmissivity m2/sec",
+      "UV Resistance after 500 hours retained strength % min (70%)",
+      "Microbiological and chemical resistance"
+    ],
+    "test_methods": [
+      "IS 13162 (Parts 1 to 5) - Geotextiles Methods of Test",
+      "IS 1964:2001 - Methods for determination of mass per unit length and mass per unit area of fabrics",
+      "IS 1969:2009 - Tensile properties of fabrics"
+    ],
+    "safety": [
+      "IS 737:2008 - Specification for wrought aluminium and aluminium alloy sheet and strip"
+    ],
+    "installation": [
+      "IRC:SP:59 - Guidelines for Use of Geotextiles in Road Pavements and Associated Works"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "BIS ISI Mark (Technical Textiles QCO)",
+      "qco": "Geotextiles (Quality Control) Order 2023"
+    }
+  }
+}

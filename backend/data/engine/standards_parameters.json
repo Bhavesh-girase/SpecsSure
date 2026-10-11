@@ -1,0 +1,637 @@
+{
+  "_comment": "Machine-readable requirement sets per standard / grade. Used for (1) standard-derived constraints in the formal verifier, (2) 'tender weaker than cited standard' checks, (3) restriction baselines and (4) the Standards Equivalence engine. Values are curated from publicly available summaries for demonstration and MUST be verified against the licensed standard text before any procurement decision. Bounds are in the canonical unit of each parameter (see parameters.json).",
+  "standards": {
+    "IS 1786": {
+      "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement",
+      "edition": 2008,
+      "body": "BIS",
+      "domain": "steel",
+      "qco_family": "steel",
+      "scope": "Deformed steel bars and wires for use as reinforcement in concrete, grades Fe 415 to Fe 600 including ductile 'D' grades.",
+      "test_methods": {
+        "tensile": "IS 1608 (Part 1)",
+        "bend": "IS 1599",
+        "chemical": "IS 228"
+      },
+      "grades": {
+        "Fe 415": {
+          "yield_strength": {
+            "min": 415
+          },
+          "tensile_strength": {
+            "min": 485
+          },
+          "ts_ys_ratio": {
+            "min": 1.1
+          },
+          "elongation": {
+            "min": 14.5
+          },
+          "carbon": {
+            "max": 0.3
+          },
+          "sulphur": {
+            "max": 0.06
+          },
+          "phosphorus": {
+            "max": 0.06
+          },
+          "sulphur_phosphorus": {
+            "max": 0.11
+          }
+        },
+        "Fe 415D": {
+          "yield_strength": {
+            "min": 415
+          },
+          "tensile_strength": {
+            "min": 500
+          },
+          "ts_ys_ratio": {
+            "min": 1.12
+          },
+          "elongation": {
+            "min": 18.0
+          },
+          "total_elongation_max_force": {
+            "min": 5.0
+          },
+          "carbon": {
+            "max": 0.25
+          },
+          "sulphur": {
+            "max": 0.045
+          },
+          "phosphorus": {
+            "max": 0.045
+          },
+          "sulphur_phosphorus": {
+            "max": 0.085
+          }
+        },
+        "Fe 500": {
+          "yield_strength": {
+            "min": 500
+          },
+          "tensile_strength": {
+            "min": 545
+          },
+          "ts_ys_ratio": {
+            "min": 1.08
+          },
+          "elongation": {
+            "min": 12.0
+          },
+          "carbon": {
+            "max": 0.3
+          },
+          "sulphur": {
+            "max": 0.055
+          },
+          "phosphorus": {
+            "max": 0.055
+          },
+          "sulphur_phosphorus": {
+            "max": 0.105
+          }
+        },
+        "Fe 500D": {
+          "yield_strength": {
+            "min": 500
+          },
+          "tensile_strength": {
+            "min": 565
+          },
+          "ts_ys_ratio": {
+            "min": 1.1
+          },
+          "elongation": {
+            "min": 16.0
+          },
+          "total_elongation_max_force": {
+            "min": 5.0
+          },
+          "carbon": {
+            "max": 0.25
+          },
+          "sulphur": {
+            "max": 0.04
+          },
+          "phosphorus": {
+            "max": 0.04
+          },
+          "sulphur_phosphorus": {
+            "max": 0.075
+          }
+        },
+        "Fe 550": {
+          "yield_strength": {
+            "min": 550
+          },
+          "tensile_strength": {
+            "min": 585
+          },
+          "ts_ys_ratio": {
+            "min": 1.06
+          },
+          "elongation": {
+            "min": 10.0
+          },
+          "carbon": {
+            "max": 0.3
+          },
+          "sulphur": {
+            "max": 0.055
+          },
+          "phosphorus": {
+            "max": 0.05
+          },
+          "sulphur_phosphorus": {
+            "max": 0.1
+          }
+        },
+        "Fe 550D": {
+          "yield_strength": {
+            "min": 550
+          },
+          "tensile_strength": {
+            "min": 600
+          },
+          "ts_ys_ratio": {
+            "min": 1.08
+          },
+          "elongation": {
+            "min": 14.5
+          },
+          "total_elongation_max_force": {
+            "min": 5.0
+          },
+          "carbon": {
+            "max": 0.25
+          },
+          "sulphur": {
+            "max": 0.04
+          },
+          "phosphorus": {
+            "max": 0.04
+          },
+          "sulphur_phosphorus": {
+            "max": 0.075
+          }
+        },
+        "Fe 600": {
+          "yield_strength": {
+            "min": 600
+          },
+          "tensile_strength": {
+            "min": 660
+          },
+          "ts_ys_ratio": {
+            "min": 1.06
+          },
+          "elongation": {
+            "min": 10.0
+          },
+          "carbon": {
+            "max": 0.3
+          },
+          "sulphur": {
+            "max": 0.04
+          },
+          "phosphorus": {
+            "max": 0.04
+          },
+          "sulphur_phosphorus": {
+            "max": 0.075
+          }
+        }
+      },
+      "default_grade": "Fe 500D"
+    },
+    "BS 4449": {
+      "title": "Steel for the reinforcement of concrete — Weldable reinforcing steel — Bar, coil and decoiled product",
+      "edition": 2005,
+      "body": "BSI",
+      "domain": "steel",
+      "scope": "Weldable ribbed reinforcing steel grades B500A, B500B and B500C.",
+      "test_methods": {
+        "tensile": "BS EN ISO 15630-1",
+        "bend": "BS EN ISO 15630-1",
+        "chemical": "BS EN ISO 14284"
+      },
+      "grades": {
+        "B500B": {
+          "yield_strength": {
+            "min": 500
+          },
+          "ts_ys_ratio": {
+            "min": 1.08
+          },
+          "total_elongation_max_force": {
+            "min": 5.0
+          },
+          "carbon": {
+            "max": 0.22
+          },
+          "sulphur": {
+            "max": 0.05
+          },
+          "phosphorus": {
+            "max": 0.05
+          },
+          "carbon_equivalent": {
+            "max": 0.5
+          }
+        },
+        "B500C": {
+          "yield_strength": {
+            "min": 500
+          },
+          "ts_ys_ratio": {
+            "min": 1.15
+          },
+          "total_elongation_max_force": {
+            "min": 7.5
+          },
+          "carbon": {
+            "max": 0.22
+          },
+          "sulphur": {
+            "max": 0.05
+          },
+          "phosphorus": {
+            "max": 0.05
+          },
+          "carbon_equivalent": {
+            "max": 0.5
+          }
+        }
+      },
+      "default_grade": "B500B"
+    },
+    "ASTM A615/A615M": {
+      "title": "Standard Specification for Deformed and Plain Carbon-Steel Bars for Concrete Reinforcement",
+      "edition": 2022,
+      "body": "ASTM",
+      "domain": "steel",
+      "scope": "Deformed and plain carbon-steel bars in cut lengths and coils for concrete reinforcement.",
+      "test_methods": {
+        "tensile": "ASTM A370",
+        "bend": "ASTM A370",
+        "chemical": "ASTM A751"
+      },
+      "grades": {
+        "Grade 60 [420]": {
+          "yield_strength": {
+            "min": 420
+          },
+          "tensile_strength": {
+            "min": 620
+          },
+          "elongation": {
+            "min": 9.0
+          },
+          "phosphorus": {
+            "max": 0.06
+          }
+        }
+      },
+      "default_grade": "Grade 60 [420]"
+    },
+    "IS 269": {
+      "title": "Ordinary Portland Cement — Specification",
+      "edition": 2015,
+      "body": "BIS",
+      "domain": "cement",
+      "qco_family": "cement",
+      "scope": "Ordinary Portland cement of 33, 43, 53 grade and 43-S / 53-S (sleeper) grades.",
+      "test_methods": {
+        "strength": "IS 4031 (Part 6)",
+        "fineness": "IS 4031 (Part 2)",
+        "setting": "IS 4031 (Part 5)",
+        "soundness": "IS 4031 (Part 3)",
+        "chemical": "IS 4032"
+      },
+      "grades": {
+        "33": {
+          "compressive_strength_3d": {
+            "min": 16
+          },
+          "compressive_strength_7d": {
+            "min": 22
+          },
+          "compressive_strength_28d": {
+            "min": 33,
+            "max": 48
+          },
+          "fineness": {
+            "min": 225
+          },
+          "initial_setting_time": {
+            "min": 30
+          },
+          "final_setting_time": {
+            "max": 600
+          },
+          "soundness_le_chatelier": {
+            "max": 10
+          },
+          "soundness_autoclave": {
+            "max": 0.8
+          }
+        },
+        "43": {
+          "compressive_strength_3d": {
+            "min": 23
+          },
+          "compressive_strength_7d": {
+            "min": 33
+          },
+          "compressive_strength_28d": {
+            "min": 43,
+            "max": 58
+          },
+          "fineness": {
+            "min": 225
+          },
+          "initial_setting_time": {
+            "min": 30
+          },
+          "final_setting_time": {
+            "max": 600
+          },
+          "soundness_le_chatelier": {
+            "max": 10
+          },
+          "soundness_autoclave": {
+            "max": 0.8
+          }
+        },
+        "53": {
+          "compressive_strength_3d": {
+            "min": 27
+          },
+          "compressive_strength_7d": {
+            "min": 37
+          },
+          "compressive_strength_28d": {
+            "min": 53
+          },
+          "fineness": {
+            "min": 225
+          },
+          "initial_setting_time": {
+            "min": 30
+          },
+          "final_setting_time": {
+            "max": 600
+          },
+          "soundness_le_chatelier": {
+            "max": 10
+          },
+          "soundness_autoclave": {
+            "max": 0.8
+          }
+        }
+      },
+      "default_grade": "43"
+    },
+    "EN 197-1": {
+      "title": "Cement — Part 1: Composition, specifications and conformity criteria for common cements",
+      "edition": 2011,
+      "body": "CEN",
+      "domain": "cement",
+      "scope": "Common cements CEM I to CEM V in strength classes 32.5, 42.5 and 52.5 (N/R).",
+      "test_methods": {
+        "strength": "EN 196-1",
+        "setting": "EN 196-3",
+        "soundness": "EN 196-3"
+      },
+      "grades": {
+        "CEM I 42.5N": {
+          "compressive_strength_28d": {
+            "min": 42.5,
+            "max": 62.5
+          },
+          "initial_setting_time": {
+            "min": 60
+          },
+          "soundness_le_chatelier": {
+            "max": 10
+          }
+        }
+      },
+      "default_grade": "CEM I 42.5N"
+    },
+    "ASTM C150/C150M": {
+      "title": "Standard Specification for Portland Cement",
+      "edition": 2022,
+      "body": "ASTM",
+      "domain": "cement",
+      "scope": "Eight types of portland cement (Type I to Type V and air-entraining variants).",
+      "test_methods": {
+        "strength": "ASTM C109",
+        "fineness": "ASTM C204",
+        "setting": "ASTM C191",
+        "soundness": "ASTM C151"
+      },
+      "grades": {
+        "Type I": {
+          "compressive_strength_3d": {
+            "min": 12
+          },
+          "compressive_strength_7d": {
+            "min": 19
+          },
+          "fineness": {
+            "min": 260,
+            "max": 430
+          },
+          "initial_setting_time": {
+            "min": 45
+          },
+          "final_setting_time": {
+            "max": 375
+          },
+          "soundness_autoclave": {
+            "max": 0.8
+          }
+        }
+      },
+      "default_grade": "Type I"
+    },
+    "IS 10500": {
+      "title": "Drinking Water — Specification",
+      "edition": 2012,
+      "body": "BIS",
+      "domain": "water",
+      "scope": "Requirements for drinking water: acceptable and permissible limits.",
+      "test_methods": {
+        "ph": "IS 3025 (Part 11)",
+        "tds": "IS 3025 (Part 16)",
+        "hardness": "IS 3025 (Part 21)"
+      },
+      "grades": {
+        "Acceptable limit": {
+          "ph": {
+            "min": 6.5,
+            "max": 8.5
+          },
+          "tds": {
+            "max": 500
+          },
+          "total_hardness": {
+            "max": 200
+          }
+        },
+        "Permissible limit (no alternate source)": {
+          "ph": {
+            "min": 6.5,
+            "max": 8.5
+          },
+          "tds": {
+            "max": 2000
+          },
+          "total_hardness": {
+            "max": 600
+          }
+        }
+      },
+      "default_grade": "Acceptable limit"
+    },
+    "IS 14543": {
+      "title": "Packaged Drinking Water (Other than Packaged Natural Mineral Water) — Specification",
+      "edition": 2016,
+      "body": "BIS",
+      "domain": "water",
+      "qco_family": "packaged_water",
+      "scope": "Requirements, packing, marking, sampling and test methods for packaged drinking water.",
+      "test_methods": {
+        "ph": "IS 3025 (Part 11)",
+        "tds": "IS 3025 (Part 16)"
+      },
+      "grades": {
+        "Standard": {
+          "ph": {
+            "min": 6.5,
+            "max": 8.5
+          },
+          "tds": {
+            "max": 500
+          }
+        }
+      },
+      "default_grade": "Standard"
+    },
+    "IS 16102 (Part 1)": {
+      "title": "Self-Ballasted LED Lamps — Part 1: Safety",
+      "edition": 2026,
+      "body": "BIS",
+      "domain": "lighting",
+      "qco_family": "crs_led",
+      "scope": "Safety of self-ballasted LED lamps.",
+      "test_methods": {
+        "safety": "IS 16102 (Part 1)"
+      },
+      "grades": {
+        "General": {}
+      },
+      "default_grade": "General"
+    },
+    "IS 16102 (Part 2)": {
+      "title": "Self-Ballasted LED Lamps — Part 2: Performance",
+      "edition": 2017,
+      "body": "BIS",
+      "domain": "lighting",
+      "scope": "Performance of self-ballasted LED lamps.",
+      "test_methods": {
+        "photometry": "IS 16106"
+      },
+      "grades": {
+        "General": {}
+      },
+      "default_grade": "General"
+    },
+    "IS 10322 (Part 5/Sec 3)": {
+      "title": "Luminaires for Road and Street Lighting",
+      "edition": 2012,
+      "body": "BIS",
+      "domain": "lighting",
+      "qco_family": "crs_led",
+      "scope": "Road & street lighting luminaires.",
+      "test_methods": {
+        "photometry": "IS 16106",
+        "ip": "IS/IEC 60529"
+      },
+      "grades": {
+        "General": {}
+      },
+      "default_grade": "General"
+    },
+    "IS 694": {
+      "title": "PVC Insulated Cables up to 1100 V",
+      "edition": 2010,
+      "body": "BIS",
+      "domain": "cables",
+      "qco_family": "cables",
+      "scope": "PVC insulated cables and cords.",
+      "test_methods": {
+        "resistance": "IS 10810 (Part 5)",
+        "oxygen_index": "IS 10810 (Part 58)"
+      },
+      "grades": {
+        "1100 V": {
+          "voltage_grade": {
+            "min": 1100
+          }
+        }
+      },
+      "default_grade": "1100 V"
+    },
+    "IS 374": {
+      "title": "Electric Ceiling Type Fans",
+      "edition": 2019,
+      "body": "BIS",
+      "domain": "fans",
+      "qco_family": "fans",
+      "scope": "Electric ceiling type fans.",
+      "test_methods": {
+        "performance": "IS 374"
+      },
+      "grades": {
+        "General": {}
+      },
+      "default_grade": "General"
+    },
+    "IS/IEC 60898": {
+      "title": "Circuit breakers for overcurrent protection (MCB)",
+      "edition": 2002,
+      "body": "BIS",
+      "domain": "electrical",
+      "scope": "AC MCBs.",
+      "test_methods": {
+        "type": "IS/IEC 60898-1"
+      },
+      "grades": {
+        "General": {}
+      },
+      "default_grade": "General"
+    },
+    "IS 14286 (Part 1/Sec 1)": {
+      "title": "Crystalline silicon PV modules — design qualification",
+      "edition": 2023,
+      "body": "BIS",
+      "domain": "solar",
+      "qco_family": "solar",
+      "scope": "Crystalline silicon PV modules.",
+      "test_methods": {
+        "performance": "IS 14286 (Part 2)",
+        "safety": "IS/IEC 61730-2"
+      },
+      "grades": {
+        "General": {}
+      },
+      "default_grade": "General"
+    }
+  }
+}

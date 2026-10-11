@@ -1,0 +1,570 @@
+{
+ "_comment": "Extended curated registry: historical editions (for the Temporal Standards Engine), withdrawn/merged standards, test-method standards with proper titles, and foreign standards used only by the Standards Equivalence engine. Curated for demonstration from public BIS catalogue information; dates marked approximate must be verified on standards.bis.gov.in before use in a live procurement.",
+ "standards": [
+  {
+   "is_number": "IS 1786:1985",
+   "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement (Third Revision)",
+   "status": "superseded",
+   "edition": "Third Revision",
+   "division_code": "Metallurgical Engineering Division (MTD)",
+   "section_committee": "MTD 4",
+   "publication_date": "1985-06-01",
+   "effective_to": "2008-09-30",
+   "superseded_by": "IS 1786:2008",
+   "scope": "Earlier edition covering Fe 415, Fe 500 and Fe 550 deformed bars. Superseded by the 2008 (Fourth Revision) which introduced ductile D grades."
+  },
+  {
+   "is_number": "IS 269:2013",
+   "title": "Ordinary Portland Cement — Specification (Fifth Revision)",
+   "status": "superseded",
+   "edition": "Fifth Revision",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "2013-06-01",
+   "effective_to": "2015-12-14",
+   "superseded_by": "IS 269:2015",
+   "scope": "Earlier edition of the consolidated OPC specification."
+  },
+  {
+   "is_number": "IS 8112:1989",
+   "title": "43 Grade Ordinary Portland Cement — Specification (First Revision)",
+   "status": "superseded",
+   "edition": "First Revision",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "1989-06-01",
+   "effective_to": "2013-05-31",
+   "superseded_by": "IS 8112:2013",
+   "scope": "Requirements of 43 grade ordinary Portland cement."
+  },
+  {
+   "is_number": "IS 8112:2013",
+   "title": "Ordinary Portland Cement, 43 Grade — Specification (Second Revision)",
+   "status": "withdrawn",
+   "edition": "Second Revision",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "2013-06-01",
+   "effective_to": "2015-12-14",
+   "superseded_by": "IS 269:2015",
+   "scope": "Withdrawn: 43 grade OPC requirements were merged into IS 269:2015 (Sixth Revision) as '43 grade'."
+  },
+  {
+   "is_number": "IS 12269:2013",
+   "title": "Ordinary Portland Cement, 53 Grade — Specification (First Revision)",
+   "status": "withdrawn",
+   "edition": "First Revision",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "2013-06-01",
+   "effective_to": "2015-12-14",
+   "superseded_by": "IS 269:2015",
+   "scope": "Withdrawn: 53 grade OPC requirements were merged into IS 269:2015 as '53 grade'."
+  },
+  {
+   "is_number": "IS 12933:2020",
+   "title": "Solar Flat Plate Collector — Specification",
+   "status": "current",
+   "edition": "Revision",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 28",
+   "publication_date": "2020-03-01",
+   "scope": "Requirements and test methods for solar flat plate collectors."
+  },
+  {
+   "is_number": "IS 4031 (Part 1):1996",
+   "title": "Methods of Physical Tests for Hydraulic Cement — Part 1: Determination of Fineness by Dry Sieving",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "1996-01-01",
+   "scope": "Test method: fineness of cement by dry sieving."
+  },
+  {
+   "is_number": "IS 4031 (Part 2):1999",
+   "title": "Methods of Physical Tests for Hydraulic Cement — Part 2: Determination of Fineness by Specific Surface by Blaine Air Permeability Method",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "1999-01-01",
+   "scope": "Test method: Blaine specific surface (m2/kg)."
+  },
+  {
+   "is_number": "IS 4031 (Part 3):1988",
+   "title": "Methods of Physical Tests for Hydraulic Cement — Part 3: Determination of Soundness",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "1988-01-01",
+   "scope": "Test method: Le Chatelier and autoclave soundness."
+  },
+  {
+   "is_number": "IS 4031 (Part 5):1988",
+   "title": "Methods of Physical Tests for Hydraulic Cement — Part 5: Determination of Initial and Final Setting Times",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "1988-01-01",
+   "scope": "Test method: Vicat setting times."
+  },
+  {
+   "is_number": "IS 4031 (Part 6):1988",
+   "title": "Methods of Physical Tests for Hydraulic Cement — Part 6: Determination of Compressive Strength of Hydraulic Cement other than Masonry Cement",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "1988-01-01",
+   "scope": "Test method: compressive strength of mortar cubes at 3, 7 and 28 days."
+  },
+  {
+   "is_number": "IS 4032:1985",
+   "title": "Method of Chemical Analysis of Hydraulic Cement",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 2",
+   "publication_date": "1985-01-01",
+   "scope": "Chemical analysis methods for hydraulic cement."
+  },
+  {
+   "is_number": "IS 1608 (Part 1):2018",
+   "title": "Metallic Materials — Tensile Testing — Part 1: Method of Test at Room Temperature",
+   "status": "current",
+   "iso_equivalent": "ISO 6892-1:2016",
+   "division_code": "Metallurgical Engineering Division (MTD)",
+   "section_committee": "MTD 3",
+   "publication_date": "2018-01-01",
+   "scope": "Tensile test: proof stress, tensile strength, elongation, Agt."
+  },
+  {
+   "is_number": "IS 1599:2019",
+   "title": "Metallic Materials — Bend Test",
+   "status": "current",
+   "iso_equivalent": "ISO 7438:2016",
+   "division_code": "Metallurgical Engineering Division (MTD)",
+   "section_committee": "MTD 3",
+   "publication_date": "2019-01-01",
+   "scope": "Bend test of metallic materials."
+  },
+  {
+   "is_number": "IS 228 (Parts 1-24)",
+   "title": "Methods for Chemical Analysis of Steels",
+   "status": "current",
+   "division_code": "Metallurgical Engineering Division (MTD)",
+   "section_committee": "MTD 2",
+   "scope": "Chemical analysis of plain and low alloy steels (C, S, P, Mn, Si ...)."
+  },
+  {
+   "is_number": "IS 13920:2016",
+   "title": "Ductile Design and Detailing of Reinforced Concrete Structures Subjected to Seismic Forces — Code of Practice",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 39",
+   "publication_date": "2016-07-01",
+   "scope": "Ductile detailing requirements for RC structures in seismic zones III, IV and V."
+  },
+  {
+   "is_number": "IS 2502:1963",
+   "title": "Code of Practice for Bending and Fixing of Bars for Concrete Reinforcement",
+   "status": "current",
+   "division_code": "Civil Engineering Division (CED)",
+   "section_committee": "CED 54",
+   "publication_date": "1963-01-01",
+   "scope": "Bending, cutting and fixing of reinforcement bars."
+  },
+  {
+   "is_number": "IS 2500 (Part 1):2000",
+   "title": "Sampling Inspection Procedures — Part 1: Attribute Sampling Plans Indexed by Acceptable Quality Level (AQL) for Lot-by-Lot Inspection",
+   "status": "current",
+   "iso_equivalent": "ISO 2859-1",
+   "division_code": "Management and Systems Division (MSD)",
+   "section_committee": "MSD 3",
+   "publication_date": "2000-01-01",
+   "scope": "Acceptance sampling plans for lot-by-lot inspection."
+  },
+  {
+   "is_number": "IS 10810 (Part 5)",
+   "title": "Methods of Test for Cables — Part 5: Conductor Resistance Test",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 9",
+   "scope": "Conductor resistance test."
+  },
+  {
+   "is_number": "IS 10810 (Part 43)",
+   "title": "Methods of Test for Cables — Part 43: Insulation Resistance",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 9",
+   "scope": "Insulation resistance test."
+  },
+  {
+   "is_number": "IS 3025 (Part 11)",
+   "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater — Part 11: pH Value",
+   "status": "current",
+   "division_code": "Chemical Division (CHD)",
+   "section_committee": "CHD 36",
+   "scope": "pH measurement."
+  },
+  {
+   "is_number": "IS 3025 (Part 16)",
+   "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater — Part 16: Filterable Residue (Total Dissolved Solids)",
+   "status": "current",
+   "division_code": "Chemical Division (CHD)",
+   "section_committee": "CHD 36",
+   "scope": "TDS measurement."
+  },
+  {
+   "is_number": "IS 3025 (Part 21)",
+   "title": "Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater — Part 21: Hardness",
+   "status": "current",
+   "division_code": "Chemical Division (CHD)",
+   "section_committee": "CHD 36",
+   "scope": "Total hardness measurement."
+  },
+  {
+   "is_number": "IS/IEC 60529:2001",
+   "title": "Degrees of Protection Provided by Enclosures (IP Code)",
+   "status": "current",
+   "iso_equivalent": "IEC 60529",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 20",
+   "scope": "Classification of degrees of protection (IP code) and tests."
+  },
+  {
+   "is_number": "IS 16106:2012",
+   "title": "Method of Electrical and Photometric Measurements of Solid-State Lighting (LED) Products",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 23",
+   "publication_date": "2012-01-01",
+   "scope": "Electrical and photometric measurement methods for LED products (efficacy, power, power factor)."
+  },
+  {
+   "is_number": "IS 14700 (Part 4/Sec 5)",
+   "title": "Electromagnetic Compatibility (EMC) — Testing and Measurement Techniques — Surge Immunity Test",
+   "status": "current",
+   "iso_equivalent": "IEC 61000-4-5",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "LITD 09",
+   "scope": "Surge immunity test method (adoption of IEC 61000-4-5)."
+  },
+  {
+   "is_number": "BS 4449:2005",
+   "title": "Steel for the Reinforcement of Concrete — Weldable Reinforcing Steel — Bar, Coil and Decoiled Product (Foreign standard — equivalence analysis only)",
+   "status": "current",
+   "division_code": "Foreign Standard (BSI)",
+   "section_committee": "BSI ISE/9",
+   "publication_date": "2005-01-01",
+   "scope": "Weldable ribbed reinforcing steel grades B500A, B500B, B500C."
+  },
+  {
+   "is_number": "ASTM A615/A615M-22",
+   "title": "Deformed and Plain Carbon-Steel Bars for Concrete Reinforcement (Foreign standard — equivalence analysis only)",
+   "status": "current",
+   "division_code": "Foreign Standard (ASTM)",
+   "section_committee": "ASTM A01.05",
+   "publication_date": "2022-01-01",
+   "scope": "Deformed and plain carbon-steel bars for concrete reinforcement."
+  },
+  {
+   "is_number": "EN 197-1:2011",
+   "title": "Cement — Part 1: Composition, Specifications and Conformity Criteria for Common Cements (Foreign standard — equivalence analysis only)",
+   "status": "current",
+   "division_code": "Foreign Standard (CEN)",
+   "section_committee": "CEN/TC 51",
+   "publication_date": "2011-01-01",
+   "scope": "Common cements CEM I-V, strength classes 32.5/42.5/52.5."
+  },
+  {
+   "is_number": "ASTM C150/C150M-22",
+   "title": "Standard Specification for Portland Cement (Foreign standard — equivalence analysis only)",
+   "status": "current",
+   "division_code": "Foreign Standard (ASTM)",
+   "section_committee": "ASTM C01.10",
+   "publication_date": "2022-01-01",
+   "scope": "Portland cement Types I-V."
+  },
+  {
+   "is_number": "IS 16102 (Part 1):2012",
+   "title": "Self-Ballasted LED Lamps for General Lighting Services — Part 1: Safety Requirements",
+   "status": "superseded",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 23",
+   "publication_date": "2012-01-01",
+   "effective_to": "2026-08-02",
+   "superseded_by": "IS 16102 (Part 1):2026",
+   "scope": "Safety and interchangeability requirements for self-ballasted LED lamps (B22d/E27 caps). Concurrent running with the 2026 revision ended 02-08-2026, after which this edition is withdrawn.",
+   "source_url": "https://www.bl-india.com/notifications/bis-crs-registration/bis-crs-update-2026-for-led-lamps"
+  },
+  {
+   "is_number": "IS 16102 (Part 1):2026",
+   "title": "Self-Ballasted LED Lamps for General Lighting Services — Part 1: Safety Requirements (Revision)",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 23",
+   "publication_date": "2026-02-24",
+   "scope": "Revised safety requirements for self-ballasted LED lamps; implementation guidelines issued by BIS (CRS) 24-02-2026 with concurrent running of the 2012 edition up to 02-08-2026.",
+   "source_url": "https://www.bl-india.com/notifications/bis-crs-registration/bis-crs-update-2026-for-led-lamps"
+  },
+  {
+   "is_number": "IS 16102 (Part 2):2017",
+   "title": "Self-Ballasted LED Lamps for General Lighting Services — Part 2: Performance Requirements",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 23",
+   "publication_date": "2017-01-01",
+   "scope": "Performance requirements (luminous flux, efficacy, colour, lumen maintenance, power factor) of self-ballasted LED lamps. Edition year curated — verify on standards.bis.gov.in."
+  },
+  {
+   "is_number": "IS 10322 (Part 5/Sec 3):2012",
+   "title": "Luminaires — Part 5: Particular Requirements — Section 3: Luminaires for Road and Street Lighting",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 23",
+   "publication_date": "2012-01-01",
+   "scope": "Particular requirements for luminaires for road and street lighting, including LED street lights (registered under CRS)."
+  },
+  {
+   "is_number": "IS 10322 (Part 1):2014",
+   "title": "Luminaires — Part 1: General Requirements and Tests",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 23",
+   "publication_date": "2014-01-01",
+   "scope": "General safety requirements and tests for luminaires."
+  },
+  {
+   "is_number": "IS 8130:2013",
+   "title": "Conductors for Insulated Electric Cables and Flexible Cords",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 9",
+   "publication_date": "2013-01-01",
+   "scope": "Classes of conductors (solid, stranded, flexible) and their maximum resistance."
+  },
+  {
+   "is_number": "IS 10810 (Part 58)",
+   "title": "Methods of Test for Cables — Part 58: Oxygen Index Test",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 9",
+   "publication_date": "1998-01-01",
+   "scope": "Oxygen index test for cable insulation and sheath."
+  },
+  {
+   "is_number": "IS 374:2019",
+   "title": "Electric Ceiling Type Fans — Specification (Fourth Revision)",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 34",
+   "publication_date": "2019-01-01",
+   "scope": "Electric ceiling type fans for AC single-phase supply including sweep, air delivery, service value and safety. Mandatory under the Electric Ceiling Type Fans (Quality Control) Order, 2023.",
+   "source_url": "https://archive.org/details/gov.in.is.374.2019"
+  },
+  {
+   "is_number": "IS/IEC 60898-1:2002",
+   "title": "Electrical Accessories — Circuit Breakers for Overcurrent Protection for Household and Similar Installations — Part 1: Circuit Breakers for AC Operation",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 7",
+   "publication_date": "2002-01-01",
+   "scope": "AC miniature circuit breakers (MCBs) up to 125 A and 25 kA breaking capacity. Replaces IS 8828 for MCB certification (verify amendment status)."
+  },
+  {
+   "is_number": "IS 14286 (Part 1/Sec 1):2019",
+   "title": "Terrestrial Photovoltaic (PV) Modules — Design Qualification and Type Approval — Part 1: Test Requirements — Section 1: Special Requirements for Testing of Crystalline Silicon PV Modules (Second Revision)",
+   "status": "superseded",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 28",
+   "publication_date": "2019-01-01",
+   "effective_to": "2024-05-18",
+   "superseded_by": "IS 14286 (Part 1/Sec 1):2023",
+   "scope": "Withdrawn 18-05-2024.",
+   "source_url": "https://teamleaseregtech.com/updates/article/23874/"
+  },
+  {
+   "is_number": "IS 14286 (Part 1/Sec 1):2023",
+   "title": "Terrestrial Photovoltaic (PV) Modules — Design Qualification and Type Approval — Part 1: Test Requirements — Section 1: Special Requirements for Testing of Crystalline Silicon PV Modules (Third Revision) / IEC 61215-1-1:2021",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 28",
+   "publication_date": "2023-05-18",
+   "scope": "Design qualification of crystalline silicon PV modules; established 18-05-2023.",
+   "source_url": "https://teamleaseregtech.com/updates/article/23874/"
+  },
+  {
+   "is_number": "IS 14286 (Part 2):2023",
+   "title": "Terrestrial Photovoltaic (PV) Modules — Design Qualification and Type Approval — Part 2: Test Procedures (Third Revision) / IEC 61215-2:2021",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 28",
+   "publication_date": "2023-05-18",
+   "scope": "Test procedures for PV module design qualification.",
+   "source_url": "https://teamleaseregtech.com/updates/article/23874/"
+  },
+  {
+   "is_number": "IS/IEC 61730-1:2016",
+   "title": "Photovoltaic (PV) Module Safety Qualification — Part 1: Requirements for Construction",
+   "status": "superseded",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 28",
+   "publication_date": "2016-01-01",
+   "effective_to": "2027-02-15",
+   "superseded_by": "IS/IEC 61730-1:2023",
+   "scope": "Concurrent running with the 2023 edition up to 15-02-2027.",
+   "source_url": "https://www.vincular.in/bis-notifies-transition-to-is-iec-617302023-for-solar-pv"
+  },
+  {
+   "is_number": "IS/IEC 61730-1:2023",
+   "title": "Photovoltaic (PV) Module Safety Qualification — Part 1: Requirements for Construction",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 28",
+   "publication_date": "2024-01-01",
+   "scope": "PV module safety — construction requirements (2023 edition). Adoption date approximate.",
+   "source_url": "https://www.vincular.in/bis-notifies-transition-to-is-iec-617302023-for-solar-pv"
+  },
+  {
+   "is_number": "IS/IEC 61730-2:2023",
+   "title": "Photovoltaic (PV) Module Safety Qualification — Part 2: Requirements for Testing",
+   "status": "current",
+   "division_code": "Electrotechnical Division (ETD)",
+   "section_committee": "ETD 28",
+   "publication_date": "2024-01-01",
+   "scope": "PV module safety — testing requirements (2023 edition). Adoption date approximate.",
+   "source_url": "https://www.vincular.in/bis-notifies-transition-to-is-iec-617302023-for-solar-pv"
+  }
+ ],
+ "relations": [
+  {
+   "from": "IS 1786:1985",
+   "to": "IS 1786:2008",
+   "relationship_type": "superseded_by"
+  },
+  {
+   "from": "IS 269:2013",
+   "to": "IS 269:2015",
+   "relationship_type": "superseded_by"
+  },
+  {
+   "from": "IS 8112:1989",
+   "to": "IS 8112:2013",
+   "relationship_type": "superseded_by"
+  },
+  {
+   "from": "IS 8112:2013",
+   "to": "IS 269:2015",
+   "relationship_type": "superseded_by"
+  },
+  {
+   "from": "IS 12269:2013",
+   "to": "IS 269:2015",
+   "relationship_type": "superseded_by"
+  },
+  {
+   "from": "IS 1786:2008",
+   "to": "IS 2502:1963",
+   "relationship_type": "installation_code",
+   "clause_reference": "Bending & fixing of bars"
+  },
+  {
+   "from": "IS 269:2015",
+   "to": "IS 2500 (Part 1):2000",
+   "relationship_type": "normative_reference",
+   "clause_reference": "Sampling for lot acceptance (buyer practice)"
+  },
+  {
+   "from": "BS 4449:2005",
+   "to": "IS 1786:2008",
+   "relationship_type": "allied_product",
+   "clause_reference": "Comparable product standard (not a legal substitute under QCO)"
+  },
+  {
+   "from": "EN 197-1:2011",
+   "to": "IS 269:2015",
+   "relationship_type": "allied_product",
+   "clause_reference": "Comparable product standard (not a legal substitute under QCO)"
+  },
+  {
+   "from": "IS 16102 (Part 1):2012",
+   "to": "IS 16102 (Part 1):2026",
+   "relationship_type": "superseded_by"
+  },
+  {
+   "from": "IS 16102 (Part 2):2017",
+   "to": "IS 16102 (Part 1):2026",
+   "relationship_type": "normative_reference",
+   "clause_reference": "Safety requirements"
+  },
+  {
+   "from": "IS 16102 (Part 2):2017",
+   "to": "IS 16106:2012",
+   "relationship_type": "test_method",
+   "clause_reference": "Photometric and electrical measurement"
+  },
+  {
+   "from": "IS 10322 (Part 5/Sec 3):2012",
+   "to": "IS 10322 (Part 1):2014",
+   "relationship_type": "safety_requirement",
+   "clause_reference": "General requirements"
+  },
+  {
+   "from": "IS 10322 (Part 5/Sec 3):2012",
+   "to": "IS 16106:2012",
+   "relationship_type": "test_method",
+   "clause_reference": "Photometric measurement"
+  },
+  {
+   "from": "IS 10322 (Part 5/Sec 3):2012",
+   "to": "IS/IEC 60529:2001",
+   "relationship_type": "test_method",
+   "clause_reference": "Ingress protection"
+  },
+  {
+   "from": "IS 694:2010",
+   "to": "IS 8130:2013",
+   "relationship_type": "normative_reference",
+   "clause_reference": "Conductors"
+  },
+  {
+   "from": "IS 694:2010",
+   "to": "IS 10810 (Part 5)",
+   "relationship_type": "test_method",
+   "clause_reference": "Conductor resistance"
+  },
+  {
+   "from": "IS 694:2010",
+   "to": "IS 10810 (Part 58)",
+   "relationship_type": "test_method",
+   "clause_reference": "Oxygen index (FR / FR-LSH)"
+  },
+  {
+   "from": "IS 14286 (Part 1/Sec 1):2019",
+   "to": "IS 14286 (Part 1/Sec 1):2023",
+   "relationship_type": "superseded_by"
+  },
+  {
+   "from": "IS 14286 (Part 1/Sec 1):2023",
+   "to": "IS 14286 (Part 2):2023",
+   "relationship_type": "test_method",
+   "clause_reference": "Test procedures"
+  },
+  {
+   "from": "IS 14286 (Part 1/Sec 1):2023",
+   "to": "IS/IEC 61730-1:2023",
+   "relationship_type": "safety_requirement",
+   "clause_reference": "Module safety qualification"
+  },
+  {
+   "from": "IS/IEC 61730-1:2023",
+   "to": "IS/IEC 61730-2:2023",
+   "relationship_type": "test_method",
+   "clause_reference": "Safety testing"
+  },
+  {
+   "from": "IS/IEC 61730-1:2016",
+   "to": "IS/IEC 61730-1:2023",
+   "relationship_type": "superseded_by"
+  }
+ ]
+}

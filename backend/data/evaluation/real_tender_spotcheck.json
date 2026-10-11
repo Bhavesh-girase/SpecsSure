@@ -1,0 +1,516 @@
+{
+ "run": "2026-09-27 12:20",
+ "reviewer": "AI-assisted review during development (Claude); to be confirmed by the team",
+ "method": "Institutional tenders: all ‘recommended’ items shown in the study samples (21) and a random sample of 25 ‘possible’ items (seed 7), each judged: correct = the standard a buyer should cite; partial = right family but not the complete answer; wrong.",
+ "recommended": {
+  "n": 21,
+  "correct": 17,
+  "correct_or_partial": 19
+ },
+ "possible": {
+  "n": 25,
+  "correct": 4,
+  "correct_or_partial": 13
+ },
+ "items": [
+  {
+   "org": "IREL (India) Ltd",
+   "status": "recommended",
+   "item": "LED Bulb",
+   "top": "IS 16102 (Part 1) Self - Ballasted LED Lamps for General Lighting Services, Pa",
+   "verdict": "correct"
+  },
+  {
+   "org": "IREL (India) Ltd",
+   "status": "recommended",
+   "item": "LED Street Light",
+   "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi",
+   "verdict": "correct"
+  },
+  {
+   "org": "IREL (India) Ltd",
+   "status": "recommended",
+   "item": "LED Flood light",
+   "top": "IS 10322 (Part 5/Sec 5) Luminaires: Part 5 Particular requirements, Section 5 Flood ",
+   "verdict": "correct"
+  },
+  {
+   "org": "MNIT Jaipur",
+   "status": "recommended",
+   "item": "PACKAGE AIR Cooling Units comprising of",
+   "top": "IS 16590 Liquid Chilling Package Units-Specification",
+   "verdict": "wrong"
+  },
+  {
+   "org": "Karnataka Gramin Bank (electrical BOQ)",
+   "status": "recommended",
+   "item": "brass glands",
+   "top": "IS 12943 Brass glands for PVC cables",
+   "verdict": "correct"
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "status": "recommended",
+   "item": "Wires",
+   "top": "IS 694 POLYVINYL CHLORIDE INSULATED UNSHEATHED AND SHEATHED CABLES/",
+   "verdict": "correct"
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "status": "recommended",
+   "item": "PVC Conduit",
+   "top": "IS 9537 (Part 3) Conduits for electrical installations, Part 3: Rigid plain c",
+   "verdict": "correct"
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "status": "recommended",
+   "item": "MS Conduit",
+   "top": "IS 9537 (Part 2) Conduits for electrical installations, Part 2: Rigid steel c",
+   "verdict": "correct"
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "status": "recommended",
+   "item": "GI Pipe",
+   "top": "IS 1239 (Part 1) Steel Tubes, Tubulars and Other Wrought Steel Fittings, Part",
+   "verdict": "correct"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "status": "recommended",
+   "item": "CO Portable 2 kg Fire Extinguisher with floor stand 2",
+   "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —",
+   "verdict": "correct"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "status": "recommended",
+   "item": "CO Portable 4.5 kg Fire Extinguisher with floor stand 2",
+   "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —",
+   "verdict": "correct"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "status": "recommended",
+   "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 90 Based) with floor stand",
+   "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —",
+   "verdict": "correct"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "status": "recommended",
+   "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 90 Based) with suspension wall bracket",
+   "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —",
+   "verdict": "correct"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "status": "recommended",
+   "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 50 Based) with floor stand",
+   "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —",
+   "verdict": "correct"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "status": "recommended",
+   "item": "ABC Powder Portable 4 Kg Fire Extinguisher (MAP 50 Based) with suspension wall bracket",
+   "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —",
+   "verdict": "correct"
+  },
+  {
+   "org": "Karnataka Gramin Bank (electrical BOQ)",
+   "status": "possible",
+   "item": "Drain pipe with necessary fittings - Hi wall / cassette AC",
+   "top": "IS 16098 (Part 1) Structured-Wall Plastics Piping Systems for Non-Pressure Dra",
+   "verdict": "wrong"
+  },
+  {
+   "org": "CREDA (solar street lights)",
+   "status": "possible",
+   "item": "Supply of Solar Street Light System (30W) with LFP Battery and 150 Wp SPV Module with five",
+   "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi",
+   "verdict": "partial"
+  },
+  {
+   "org": "SBI (electrical, data BOQ)",
+   "status": "possible",
+   "item": "3 pin 32 A 3 pin metal",
+   "top": "IS 4570 (Part 2) Crystal Unit Holders, Part 2: Metal, Solder-sealed, Two Pin ",
+   "verdict": "wrong"
+  },
+  {
+   "org": "CPWD (FMTTI)",
+   "status": "possible",
+   "item": "Fancy Wall bracket fitting along with 9W retrofit LED",
+   "top": "IS 16614 (Part 1) Double- Capped LED Linear Lamps Part1 Safety Specification",
+   "verdict": "wrong"
+  },
+  {
+   "org": "SBI (electrical & AC)",
+   "status": "possible",
+   "item": "P/L 10 Pair of PVC insulated PVC sheathed multi core jelly filled armored telephone",
+   "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part",
+   "verdict": "wrong"
+  },
+  {
+   "org": "SBI (interior)",
+   "status": "possible",
+   "item": "TELEPHONE SYSTEM",
+   "top": "IS 1441 Insulator stalks for telegraph and telephone lines",
+   "verdict": "wrong"
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "status": "possible",
+   "item": "Information Outlets",
+   "top": "IS 12331 General Requirements for Canal Outlets",
+   "verdict": "wrong"
+  },
+  {
+   "org": "CREDA (solar street lights)",
+   "status": "possible",
+   "item": "Supply of Solar Street Light System 6 meter high with 360Wp Module/ LFP Battery (100AH at ",
+   "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi",
+   "verdict": "partial"
+  },
+  {
+   "org": "SBI (electrical, data BOQ)",
+   "status": "possible",
+   "item": "following 3 pin metal clad",
+   "top": "IS 5921 (Part 6) Metal Clad Base Materials for Use in Electronic and Telecomm",
+   "verdict": "wrong"
+  },
+  {
+   "org": "CPWD (FMTTI)",
+   "status": "possible",
+   "item": "Current Transformer",
+   "top": "IS 3639 Fittings and Accessories for Power Transformers",
+   "verdict": "wrong"
+  },
+  {
+   "org": "IMD",
+   "status": "possible",
+   "item": "Twenty (20) number of C-band",
+   "top": "IS 6964 Electroacoustics - Octave-Band and Fractional-Octave-Band Fi",
+   "verdict": "wrong"
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "status": "possible",
+   "item": "Copper/Aluminium Power Cables",
+   "top": "IS 3961 (Part 5) Recommended current ratings for cables, Part 5: PVC insulate",
+   "verdict": "wrong"
+  },
+  {
+   "org": "CREDA (solar street lights)",
+   "status": "possible",
+   "item": "Installation and Commissioning including civil works at site",
+   "top": "IS 1200 (Part 8) Method of measurement of building and civil engineering work",
+   "verdict": "wrong"
+  },
+  {
+   "org": "SBI (electrical & AC)",
+   "status": "possible",
+   "item": "TELEPHONE SYSTEM",
+   "top": "IS 1441 Insulator stalks for telegraph and telephone lines",
+   "verdict": "wrong"
+  },
+  {
+   "org": "SBI (interior)",
+   "status": "possible",
+   "item": "P/L 10 Pair of PVC insulated PVC sheathed multi core jelly filled armored telephone",
+   "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part",
+   "verdict": "wrong"
+  },
+  {
+   "org": "SBI Jatni (price bid)",
+   "status": "possible",
+   "item": "Supply of 1100V grade Aluminium armoured cable having sector / circular shaped aluminium C",
+   "top": "IS 1554 (Part 1) PVC insulated (heavy duty) electric cables, Part 1: For work",
+   "verdict": "correct"
+  },
+  {
+   "org": "SBI Jatni (price bid)",
+   "status": "possible",
+   "item": "Supply of all required materials and wiring to circuits/ submains with following number an",
+   "top": "IS 9537 (Part 3) Conduits for electrical installations, Part 3: Rigid plain c",
+   "verdict": "partial"
+  },
+  {
+   "org": "SBI (fire extinguishers)",
+   "status": "possible",
+   "item": "6 Kg Capacity Minimum Fire Rating: 4A, 89B",
+   "top": "IS 13849 Specification for portable fire extinguisher dry powder type",
+   "verdict": "correct"
+  },
+  {
+   "org": "CREDA (solar street lights)",
+   "status": "possible",
+   "item": "Solar Street Light System 6 meter high with 360Wp",
+   "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi",
+   "verdict": "partial"
+  },
+  {
+   "org": "CPWD (FMTTI)",
+   "status": "possible",
+   "item": "Ceiling fan/ Exhaust fan",
+   "top": "IS 374 Electric Ceiling Type Fans — Specification ( Fourth Revision",
+   "verdict": "correct"
+  },
+  {
+   "org": "CPWD (FMTTI)",
+   "status": "possible",
+   "item": "LED Fittings/ Compound light / Street light/ Post top Fitting",
+   "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi",
+   "verdict": "correct"
+  },
+  {
+   "org": "Union Bank of India (fire extinguishers)",
+   "status": "possible",
+   "item": "CO Portable 4.5 kg Fire Extinguisher with suspension wall bracket 2",
+   "top": "IS 15683 Portable Fire Extinguishers — Performance and Construction —",
+   "verdict": "correct"
+  },
+  {
+   "org": "CREDA (solar street lights)",
+   "status": "possible",
+   "item": "Supply of Solar Street Light System 4 meter high with 180Wp Module/ LFP Battery (60AH at 1",
+   "top": "IS 10322 (Part 5/Sec 3) Luminaires, Part 5: Particular Requirements, Section 3: Lumi",
+   "verdict": "partial"
+  },
+  {
+   "org": "SBI Jatni (price bid)",
+   "status": "possible",
+   "item": "(35 sqmm) 4 core armored almunium cable",
+   "top": "IS 7098 (Part 1) Crosslinked polyethylene insulated PVC sheathed cables, Part",
+   "verdict": "correct"
+  },
+  {
+   "org": "SBI (technical bid electrical)",
+   "status": "possible",
+   "item": "Electrical Wiring /Cabling/Earthing",
+   "top": "IS 732 Code of Practice for Electrical Wiring Installations ( Fourt",
+   "verdict": "correct"
+  }
+ ],
+ "gem": {
+  "run": "2026-09-27 12:20",
+  "method": "All ‘recommended’ and ‘possible’ items in the GeM bid samples of the study (items whose bid already names an IS are excluded — they are shown as ‘named’).",
+  "recommended": {
+   "n": 12,
+   "correct": 10
+  },
+  "possible": {
+   "n": 11,
+   "correct": 0,
+   "correct_or_partial": 4
+  },
+  "items": [
+   {
+    "status": "recommended",
+    "item": "PVC Insulated Copper Cable Single Core and Multi Core",
+    "standard": "IS 694",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "Disposable Sanitary Napkin/Panty Liner/Maternity",
+    "standard": "IS 5405",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "XLPE Cable for Working Voltage up to and Including 1.1 KV",
+    "standard": "IS 7098 (Part 1)",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "Portable Electric Indoor Air Purifier",
+    "standard": "IS 17531",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "Self Ballasted LED Lamps (LED Bulb)",
+    "standard": "IS 16102 (Part 1)",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "Soda Lime (as Carbon Dioxide Absorbent)",
+    "standard": "IS 5321",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "PVC Insulated Cable For Submersible Pumps",
+    "standard": "IS 694",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "Split Air Conditioner, Wall Mount Type",
+    "standard": "IS 1391 (Part 2)",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "Split Air Conditioner, Wall Mount Type 3 Ton Capacity",
+    "standard": "IS 1391 (Part 2)",
+    "judgement": "correct"
+   },
+   {
+    "status": "recommended",
+    "item": "XLPE Cable, Working Voltage from 3.3 kV up to 33 kV",
+    "standard": "IS 7098 (Part 1)",
+    "judgement": "wrong — should be IS 7098 (Part 2)"
+   },
+   {
+    "status": "recommended",
+    "item": "Electrical Cable Lugs",
+    "standard": "IS 14927 (Part 1)",
+    "judgement": "wrong — cable trunking, not lugs"
+   },
+   {
+    "status": "recommended",
+    "item": "Switch Disconnectors and Fuse Combination Units",
+    "standard": "IS/IEC 60947 (Part 3)",
+    "judgement": "correct"
+   },
+   {
+    "status": "possible",
+    "item": "Modular Piano Type Domestic Electrical Switches",
+    "standard": "IS 9433",
+    "judgement": "wrong (automobile switches)"
+   },
+   {
+    "status": "possible",
+    "item": "Television",
+    "standard": "IS 9298 (Part 1)",
+    "judgement": "wrong"
+   },
+   {
+    "status": "possible",
+    "item": "Refrigerator 180 Ltr",
+    "standard": "IS 1476 (Part 1)",
+    "judgement": "partial (older performance standard; IS 17550 now)"
+   },
+   {
+    "status": "possible",
+    "item": "Refrigerator 230 Ltr",
+    "standard": "IS 1476 (Part 1)",
+    "judgement": "partial"
+   },
+   {
+    "status": "possible",
+    "item": "Refrigerator 310 Ltr",
+    "standard": "IS 1476 (Part 1)",
+    "judgement": "partial"
+   },
+   {
+    "status": "possible",
+    "item": "1/2\" SS ball valve",
+    "standard": "IS 6453",
+    "judgement": "wrong"
+   },
+   {
+    "status": "possible",
+    "item": "1/4\" SS ball valve",
+    "standard": "IS 6453",
+    "judgement": "wrong"
+   },
+   {
+    "status": "possible",
+    "item": "SIT, excavation",
+    "standard": "IS 5878 (Part 2/Sec 2)",
+    "judgement": "wrong"
+   },
+   {
+    "status": "possible",
+    "item": "Battery Operated Industrial Sweeper",
+    "standard": "IS 17154",
+    "judgement": "wrong"
+   },
+   {
+    "status": "possible",
+    "item": "Bird boomer",
+    "standard": "IS 18310 (Part 3)",
+    "judgement": "wrong"
+   },
+   {
+    "status": "possible",
+    "item": "Face and radial grooving insert",
+    "standard": "IS 13244",
+    "judgement": "partial"
+   }
+  ]
+ },
+ "history": [
+  {
+   "run": "2026-09-26 22:26",
+   "recommended": {
+    "correct": 14,
+    "n": 15
+   },
+   "possible": {
+    "correct": 7,
+    "correct_or_partial": 12,
+    "n": 25
+   }
+  }
+ ],
+ "items_institutional": {
+  "recommended_judgements": [
+   "correct",
+   "correct",
+   "correct",
+   "wrong — PVC 1100 V is IS 1554 (Part 1)",
+   "partial (armoured cable: IS 7098 (Part 1) or IS 1554)",
+   "partial",
+   "correct",
+   "correct",
+   "wrong — packaged air conditioners are IS 8148",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct",
+   "correct"
+  ],
+  "possible_judgements": [
+   "partial",
+   "correct",
+   "wrong",
+   "wrong",
+   "wrong",
+   "wrong",
+   "partial",
+   "partial",
+   "wrong",
+   "partial",
+   "partial",
+   "wrong",
+   "wrong",
+   "wrong",
+   "wrong",
+   "wrong",
+   "correct",
+   "wrong",
+   "partial",
+   "wrong",
+   "correct",
+   "correct",
+   "partial",
+   "partial",
+   "partial"
+  ]
+ }
+}

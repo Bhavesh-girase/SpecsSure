@@ -1,0 +1,52 @@
+{
+  "category_name": "Electrical Wires and PVC Cables",
+  "bis_division": "Electrotechnical Division",
+  "bis_section_committee": "ETD 20",
+  "primary_standard_is": "IS 694:2020",
+  "keywords": "electrical wire, PVC cable, copper conductor, wiring, house wiring, power cable, 1100V, FR grade, FRLS, single core, multi core",
+  "parameter_template": {
+    "electrical": [
+      "Conductor Material (Electrolytic Grade Plain Annealed Copper / Aluminum)",
+      "Maximum Conductor Resistance ohm/km at 20 deg C",
+      "Voltage Grade (Up to and including 1100 V AC)",
+      "Insulation Resistance M-ohm-km min",
+      "High Voltage Withstand Test (3 kV AC for 5 minutes)"
+    ],
+    "physical": [
+      "Nominal Conductor Cross-Sectional Area sq mm (1.5, 2.5, 4.0, 6.0 sq mm)",
+      "Number and Nominal Diameter of Wires in Conductor",
+      "Thickness of PVC Insulation mm min",
+      "Overall Diameter limits mm",
+      "Color coding of core identification"
+    ],
+    "mechanical": [
+      "Tensile Strength of Conductor N/mm2",
+      "Tensile Strength of PVC Insulation N/mm2 min (12.5 N/mm2)",
+      "Elongation at Break % of Insulation min (150%)"
+    ],
+    "performance": [
+      "Flame Retardant (FR) Index (Oxygen Index min 29%)",
+      "Smoke Density Rating max (60% light transmittance)",
+      "Acid Gas Emission max (20% for FRLS)",
+      "Thermal Ageing Test (7 days at 80 deg C)"
+    ],
+    "test_methods": [
+      "IS 10810 (Parts 0 to 64) - Methods of Test for Cables",
+      "IS 5831:1984 - PVC Insulation and Sheath of Electric Cables",
+      "IS 8130:2013 - Conductors for Insulated Electric Cables and Flexible Cords"
+    ],
+    "safety": [
+      "IS 732:2019 - Code of Practice for Electrical Wiring Installations",
+      "IS 3043:2018 - Code of Practice for Earthing"
+    ],
+    "installation": [
+      "IS 732:2019 - Electrical Wiring Installation Design and Verification",
+      "IS 3043:2018 - Earthing and Surge Protection"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "BIS ISI Mark and CRS",
+      "qco": "Electrical Wires and Cable (Quality Control) Order 2023"
+    }
+  }
+}

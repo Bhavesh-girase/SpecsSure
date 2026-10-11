@@ -1,0 +1,42 @@
+{
+  "category_name": "High Density Polyethylene (HDPE) Pipes",
+  "bis_division": "Petroleum, Coal and Related Products Division",
+  "bis_section_committee": "PCD 12",
+  "primary_standard_is": "IS 4984:2016",
+  "keywords": "HDPE pipe, polyethylene pipe, PE 100, PE 80, water supply pipe, gas pipe, plastic pipe, SDR 11, SDR 17, pressure pipe",
+  "parameter_template": {
+    "material": [
+      "Base Resin Grade (PE 63, PE 80, PE 100)",
+      "Density at 27 deg C kg/m3 (940 to 960 kg/m3)",
+      "Melt Flow Rate MFR g/10 min (0.2 to 1.1 g/10 min)",
+      "Carbon Black Content % (2.0 to 2.5% by mass)",
+      "Carbon Black Dispersion rating"
+    ],
+    "dimensional": [
+      "Nominal Outside Diameter DN mm (20mm to 1000mm)",
+      "Wall Thickness e mm and tolerance",
+      "Standard Dimension Ratio SDR (SDR 6 to SDR 26)",
+      "Ovality / Out-of-roundness max %"
+    ],
+    "mechanical_and_pressure": [
+      "Hydrostatic Strength at 27 deg C for 100 hours (No failure)",
+      "Hydrostatic Strength at 80 deg C for 165 hours (No failure)",
+      "Hydrostatic Strength at 80 deg C for 1000 hours (No failure)",
+      "Oxidation Induction Time OIT minutes min (20 mins at 200 deg C)",
+      "Tensile Yield Strength MPa min (19 MPa for PE 80, 23 MPa for PE 100)"
+    ],
+    "test_methods": [
+      "IS 12235 (Parts 1 to 19) - Methods of Test for Unplasticized PVC and Polyethylene Pipes",
+      "IS 2530:1963 - Methods of test for polyethylene molding materials and polyethylene compounds"
+    ],
+    "safety": [],
+    "installation": [
+      "IS 7634 Part 2 - Code of practice for plastics pipe work: Selection and installation of polyethylene pipes"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "BIS ISI Mark (Compulsory under QCO)",
+      "qco": "Polyethylene Piping Systems (Quality Control) Order 2023"
+    }
+  }
+}

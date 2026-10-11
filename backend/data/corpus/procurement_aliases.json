@@ -1,0 +1,170 @@
+{
+ "_comment": "Trade / BOQ names buyers actually write, mapped to the Indian Standard usually intended. Team-curated from common public-procurement practice and GeM category titles; review before relying on it. Used as an extra retrieval field (weight 1.5); disabled when benchmarking (CORPUS_ALIASES=0) to keep benchmark numbers clean.",
+ "aliases": {
+  "IS 694": [
+   "house wiring cable",
+   "PVC insulated wire",
+   "flexible wire",
+   "FR wire",
+   "FRLS wire",
+   "wires",
+   "copper wire for wiring",
+   "copper wire",
+   "PVC insulated copper wire",
+   "single core copper wire"
+  ],
+  "IS 1554 (Part 1)": [
+   "PVC armoured power cable",
+   "PVC power cable 1.1 kV",
+   "armoured cable"
+  ],
+  "IS 7098 (Part 1)": [
+   "XLPE cable",
+   "XLPE armoured cable",
+   "power cables",
+   "aluminium power cable"
+  ],
+  "IS 9537 (Part 3)": [
+   "PVC conduit",
+   "rigid PVC conduit",
+   "conduit pipe"
+  ],
+  "IS 9537 (Part 2)": [
+   "MS conduit",
+   "steel conduit"
+  ],
+  "IS 1239 (Part 1)": [
+   "GI pipe",
+   "MS pipe",
+   "galvanized pipe",
+   "galvanised iron pipe",
+   "steel tube"
+  ],
+  "IS 3854": [
+   "switches",
+   "modular switches",
+   "piano switch",
+   "switch"
+  ],
+  "IS 1293": [
+   "socket",
+   "sockets",
+   "socket outlet",
+   "plug and socket"
+  ],
+  "IS/IEC 60898 (Part 1)": [
+   "MCB",
+   "miniature circuit breaker"
+  ],
+  "IS 12640 (Part 1)": [
+   "RCCB",
+   "ELCB",
+   "earth leakage circuit breaker"
+  ],
+  "IS 13032": [
+   "MCB distribution board",
+   "distribution board",
+   "DB"
+  ],
+  "IS 374": [
+   "ceiling fan",
+   "fan"
+  ],
+  "IS 1180 (Part 1)": [
+   "distribution transformer",
+   "oil immersed transformer"
+  ],
+  "IS 16102 (Part 1)": [
+   "LED bulb",
+   "LED lamp",
+   "bulb"
+  ],
+  "IS 10322 (Part 5/Sec 3)": [
+   "street light",
+   "LED street light",
+   "street light fitting"
+  ],
+  "IS 10322 (Part 5/Sec 1)": [
+   "LED batten",
+   "tube light fitting",
+   "LED panel light",
+   "light fitting"
+  ],
+  "IS 4984": [
+   "HDPE pipe",
+   "PE pipe for water"
+  ],
+  "IS 4985": [
+   "uPVC pipe",
+   "PVC pipe for water supply"
+  ],
+  "IS 12701": [
+   "water tank",
+   "plastic water storage tank",
+   "overhead tank"
+  ],
+  "IS 1786": [
+   "TMT bar",
+   "rebar",
+   "sariya",
+   "reinforcement steel",
+   "TMT"
+  ],
+  "IS 269": [
+   "OPC cement",
+   "cement",
+   "ordinary portland cement"
+  ],
+  "IS 1489 (Part 1)": [
+   "PPC cement",
+   "portland pozzolana cement"
+  ],
+  "IS 2062": [
+   "structural steel",
+   "MS angle",
+   "MS channel",
+   "MS plate",
+   "steel plate"
+  ],
+  "IS 3312": [
+   "steel almirah",
+   "almirah",
+   "steel cabinet"
+  ],
+  "IS 4151": [
+   "helmet",
+   "two wheeler helmet"
+  ],
+  "IS 15683": [
+   "fire extinguisher",
+   "ABC fire extinguisher",
+   "portable fire extinguisher"
+  ],
+  "IS 2082": [
+   "geyser",
+   "water heater"
+  ],
+  "IS 14286": [
+   "solar panel",
+   "solar module",
+   "SPV module"
+  ],
+  "IS 16242 (Part 1)": [
+   "UPS",
+   "online UPS"
+  ],
+  "IS 13779": [
+   "energy meter",
+   "electricity meter"
+  ],
+  "IS 3043": [
+   "earthing",
+   "earth pit"
+  ],
+  "IS 732": [
+   "electrical wiring",
+   "wiring",
+   "internal wiring"
+  ]
+ }
+}

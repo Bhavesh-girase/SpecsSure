@@ -1,0 +1,33 @@
+{
+  "_comment": "Procurement-policy layer of the Procurement Knowledge Graph (General Financial Rules 2017 and public-procurement orders). Each policy node carries its source and verification state. Clause templates are inserted by the Tender Synthesizer; 'advisory' policies are shown to the officer but not written into the tender. Monetary thresholds change — verify on doe.gov.in / dpiit.gov.in before use.",
+  "policies": [
+    {"key": "GFR-144", "title": "GFR 2017 Rule 144 — Fundamental principles of public buying", "authority": "Ministry of Finance (Department of Expenditure)",
+     "summary": "Specifications must meet the essential needs, be objective, functional, generic and measurable, and must not favour a brand; procurement must be efficient, economical and transparent.",
+     "source_url": "https://www.gfr.co.in/p/gfr-rule-book-procurement-of-goods.html", "verification_state": "secondary_source", "applies": "always",
+     "clause": {"section": "evaluation", "heading": "Brand Neutrality", "text": "No brand or make is specified; any product that meets these specifications and the cited Indian Standards is acceptable."}},
+    {"key": "GFR-149", "title": "GFR 2017 Rule 149 — Procurement through GeM", "authority": "Ministry of Finance (Department of Expenditure)",
+     "summary": "Common-use goods available on GeM are procured through GeM: up to Rs 50,000 directly; Rs 50,000–10 lakh from the lowest-priced of at least three OEMs/sellers; above Rs 10 lakh through GeM bidding / reverse auction.",
+     "source_url": "https://www.gfr.co.in/p/gfr-rule-book-procurement-of-goods.html", "verification_state": "secondary_source", "applies": "advisory"},
+    {"key": "GFR-161", "title": "GFR 2017 Rule 161 — Advertised tender enquiry", "authority": "Ministry of Finance (Department of Expenditure)",
+     "summary": "Advertised tender enquiry for estimated value of Rs 50 lakh and above; minimum three weeks for domestic bid submission (four weeks for global).",
+     "source_url": "https://www.gfr.co.in/p/gfr-rule-book-procurement-of-goods.html", "verification_state": "secondary_source", "applies": "always",
+     "min_bid_days": 21},
+    {"key": "GFR-170", "title": "GFR 2017 Rule 170 — Bid security", "authority": "Ministry of Finance (Department of Expenditure)",
+     "summary": "Bid security ordinarily 2–5% of the estimated value; may be replaced by a Bid Securing Declaration where permitted; MSEs registered with the notified bodies are exempt.",
+     "source_url": "https://constitutionofindia.in/rule-170-of-the-general-financial-rules-2017-bid-security/", "verification_state": "secondary_source", "applies": "always",
+     "rate": 0.02,
+     "clause": {"section": "general", "heading": "Bid Security (EMD)", "text": "Bid security of Rs. {emd} (2% of the estimated value) shall be furnished with the bid; Micro and Small Enterprises registered as per the Public Procurement Policy for MSEs are exempted on submission of a valid registration certificate."}},
+    {"key": "GFR-171", "title": "GFR 2017 Rule 171 — Performance security", "authority": "Ministry of Finance (Department of Expenditure)",
+     "summary": "Performance security of a percentage of the contract value (range as notified by the Department of Expenditure), valid for 60 days beyond completion of all contractual obligations including warranty.",
+     "source_url": "https://doe.gov.in/circulars/performance-security-terms-rule-171-gfrs-2017-guidelines-regarding", "verification_state": "secondary_source", "applies": "always",
+     "clause": {"section": "general", "heading": "Performance Security", "text": "The successful bidder shall furnish a performance security of 5% of the contract value within 14 days of the award, valid for 60 days beyond the completion of all contractual obligations including the warranty period."}},
+    {"key": "PPP-MII-2017", "title": "Public Procurement (Preference to Make in India) Order, 2017 (revised 16-09-2020)", "authority": "DPIIT",
+     "summary": "Class-I local suppliers (local content of at least 50%) get purchase preference; Class-II (at least 20%) may participate; the nodal ministry may notify higher local content.",
+     "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1656269", "verification_state": "secondary_source", "applies": "always",
+     "clause": {"section": "eligibility", "heading": "Make in India", "text": "Purchase preference shall be given to Class-I local suppliers as per the Public Procurement (Preference to Make in India) Order, 2017 as amended; bidders shall declare the percentage of local content and the location of value addition."}},
+    {"key": "MSE-PPP-2012", "title": "Public Procurement Policy for Micro and Small Enterprises (MSEs) Order, 2012 (amended)", "authority": "Ministry of MSME",
+     "summary": "MSEs get free tender documents, exemption from bid security and purchase preference; ministries have an annual MSE procurement target.",
+     "source_url": "https://msme.gov.in/", "verification_state": "curated_unverified", "applies": "always",
+     "clause": {"section": "eligibility", "heading": "Micro and Small Enterprises", "text": "Benefits to Micro and Small Enterprises shall be extended as per the Public Procurement Policy for MSEs Order, 2012 as amended, on submission of valid Udyam registration."}}
+  ]
+}

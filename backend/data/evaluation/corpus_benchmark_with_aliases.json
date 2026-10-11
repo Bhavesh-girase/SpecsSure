@@ -1,0 +1,2492 @@
+{
+ "benchmark": "BIS compulsory-certification product list → IS number",
+ "cases": 803,
+ "top1": 93.5,
+ "top3": 94.3,
+ "top5": 94.4,
+ "top10": 94.9,
+ "dense_index": true,
+ "parsed_texts": 19492,
+ "mean_ms": 532.6,
+ "aliases": "1",
+ "run": "2026-09-27 14:07",
+ "sample_misses": [
+  {
+   "query": "Electronic Games (Video)",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 19690",
+    "IS 9741 (Part 1)",
+    "IS 7783"
+   ]
+  },
+  {
+   "query": "Laptop/Notebook/Tablets",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 16577",
+    "IS/IEC 62623",
+    "IS 17227"
+   ]
+  },
+  {
+   "query": "Plasma/ LCD/LED Televisions of screen size 32″ & above",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 16103 (Part 1)",
+    "IS/IEC 62341 (Part 2/Sec 1)",
+    "IS/IEC 62341 (Part 1/Sec 2)"
+   ]
+  },
+  {
+   "query": "Optical Disc Players with built in amplifiers of input power 200W and above",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 7440 (Part 3/Sec 1)",
+    "IS 15596 (Part 3)",
+    "IS 9272 (Part 2)"
+   ]
+  },
+  {
+   "query": "Visual Display Units, Video Monitors of screen size 32″ & above",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 13896",
+    "IS 13384 (Part 1)",
+    "IS 11718 (Part 1)"
+   ]
+  },
+  {
+   "query": "Printers, Plotters",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 17993 (Part 1)",
+    "IS/ISO/IEC 10561",
+    "IS/ISO 9179 (Part 1)"
+   ]
+  },
+  {
+   "query": "Wireless Keyboards",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 14441",
+    "IS 802.15.4",
+    "IS 9306"
+   ]
+  },
+  {
+   "query": "Telephone Answering Machines",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 13109 (Part 2)",
+    "IS 13109 (Part 5)",
+    "IS 6539"
+   ]
+  },
+  {
+   "query": "Amplifiers with input power 2000W and above",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 15596 (Part 3)",
+    "IS 9551 (Part 2)",
+    "IS 6297 (Part 2)"
+   ]
+  },
+  {
+   "query": "Electronic Musical Systems with input power 200W and above",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 6297 (Part 2)",
+    "IS/IEC 62477 (Part 2)",
+    "IS 13925 (Part 1)"
+   ]
+  },
+  {
+   "query": "Set Top Box",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 16791",
+    "IS 15245",
+    "IS 15954"
+   ]
+  },
+  {
+   "query": "Automatic Data Processing Machine",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 1437",
+    "IS/ISO 13373 (Part 2)",
+    "IS/ISO/IEC 24668"
+   ]
+  },
+  {
+   "query": "Power Adaptors for IT Equipments",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 12476",
+    "IS 6297 (Part 2)",
+    "IS 4649"
+   ]
+  },
+  {
+   "query": "Power Adaptors for Audio, Video & Similar Electronic Apparatus",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 6297 (Part 2)",
+    "IS 6297 (Part 1)",
+    "IS/IEC 60884 (Part 2/Sec 5)"
+   ]
+  },
+  {
+   "query": "Sealed Secondary Cells/Batteries containing Alkaline or other non-acid Electrolytes for use in portable applications",
+   "expected": "IS 16046",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": 8,
+   "top3": [
+    "IS 16048 (Part 1)",
+    "IS 16048 (Part 2)",
+    "IS 16049"
+   ]
+  },
+  {
+   "query": "Mobile Phones",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 16333 (Part 1)",
+    "IS 16333 (Part 3)",
+    "IS/ISO/IEC/TR 30125"
+   ]
+  },
+  {
+   "query": "Cash Registers",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 1046",
+    "IS 3031",
+    "IS 12780"
+   ]
+  },
+  {
+   "query": "Point of Sale Terminals",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 5006",
+    "IS 4007 (Part 2/Sec 8)",
+    "IS 2026 (Part 4)"
+   ]
+  },
+  {
+   "query": "Copying Machines/Duplicators",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 17248",
+    "IS/ISO/IEC 24735",
+    "IS 6893 (Part 10)"
+   ]
+  },
+  {
+   "query": "Smart Card Readers",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 14202 (Part 1)",
+    "IS 6786",
+    "IS 16695 (Part 1)"
+   ]
+  },
+  {
+   "query": "Mail Processing Machines/Postage Machines/Franking Machines",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 3825",
+    "IS 13076",
+    "IS 15258"
+   ]
+  },
+  {
+   "query": "Passport Reader",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": 8,
+   "top3": [
+    "IS 17713",
+    "IS/ISO/IEC 18745 (Part 1)",
+    "IS 15446 (Part 3)"
+   ]
+  },
+  {
+   "query": "Power Banks for use in portable applications",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 13794",
+    "IS 13925 (Part 3)",
+    "IS 7137"
+   ]
+  },
+  {
+   "query": "LED Hand lamps",
+   "expected": "IS 10322 (Part 5/Sec 6)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": 6,
+   "top3": [
+    "IS 16102 (Part 1)",
+    "IS 1415",
+    "IS 16614 (Part 1)"
+   ]
+  },
+  {
+   "query": "Plasma/ LCD/LED Television of screen size up-to 32”",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 16103 (Part 1)",
+    "IS 16102 (Part 1)",
+    "IS/CISPR 32"
+   ]
+  },
+  {
+   "query": "Visual Display Units, Video Monitors of screen size up-to 32”",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 13896",
+    "IS 13384 (Part 1)",
+    "IS 12213"
+   ]
+  },
+  {
+   "query": "CCTV Cameras/CCTV Recorders",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 14571",
+    "IS 12429 (Part 1)",
+    "IS 11700"
+   ]
+  },
+  {
+   "query": "USB driven Barcode readers, barcode scanners, Iris scanners, Optical fingerprint scanners",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 5157",
+    "IS 8181",
+    "IS/ISO/IEC 10373 (Part 8)"
+   ]
+  },
+  {
+   "query": "Smart watches",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 13130 (Part 1)",
+    "IS 13130 (Part 2)",
+    "IS 9263 (Part 2)"
+   ]
+  },
+  {
+   "query": "Keyboard",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": 7,
+   "top3": [
+    "IS 14441",
+    "IS 16350",
+    "IS 9306"
+   ]
+  },
+  {
+   "query": "Automatic Teller Cash dispensing machines",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 302 (Part 2/Sec 75)",
+    "IS 3033",
+    "IS 18924"
+   ]
+  },
+  {
+   "query": "USB Type External Hard Disk Drive",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 14701",
+    "IS 15062",
+    "IS 14175"
+   ]
+  },
+  {
+   "query": "Wireless Headphone and Earphone",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 15596 (Part 7)",
+    "IS 15482",
+    "IS 10779"
+   ]
+  },
+  {
+   "query": "USB Type External Solid- State Storage Devices (above 256 GB capacity)",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 13314",
+    "IS 13666",
+    "IS 15934 (Part 1)"
+   ]
+  },
+  {
+   "query": "Electronic Musical System with input power below 200 Watts",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 6297 (Part 2)",
+    "IS 9281 (Part 3)",
+    "IS 9229"
+   ]
+  },
+  {
+   "query": "Standalone Switch Mode Power Supplies (SMPS)with output voltage 48 V (max)",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 14886",
+    "IS/QC 260300",
+    "IS 3854"
+   ]
+  },
+  {
+   "query": "Television other than Plasma/ LCD/LED TVs",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 16103 (Part 1)",
+    "IS 9819 (Part 2)",
+    "IS 4547"
+   ]
+  },
+  {
+   "query": "Wireless microphone",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 9551 (Part 6)",
+    "IS 15482",
+    "IS 15596 (Part 4)"
+   ]
+  },
+  {
+   "query": "Digital Camera",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 18775",
+    "IS/ISO 10940",
+    "IS 15049"
+   ]
+  },
+  {
+   "query": "Video Camera",
+   "expected": "IS/IEC 62368 (Part 1)",
+   "scheme": "Scheme-II (CRS registration)",
+   "rank": null,
+   "top3": [
+    "IS 16910 (Part 5)",
+    "IS 18775",
+    "IS/ISO 10940"
+   ]
+  }
+ ],
+ "procurement_language": {
+  "cases": 40,
+  "top1": 82.5,
+  "top3": 92.5,
+  "top5": 95.0,
+  "top10": 100.0,
+  "misses": [
+   {
+    "query": "heavy duty PVC insulated power cable 1100 V armoured",
+    "expected": [
+     "IS 1554 (Part 1)"
+    ],
+    "rank": 2,
+    "top3": [
+     "IS 7098 (Part 1)",
+     "IS 1554 (Part 1)",
+     "IS 1554 (Part 2)"
+    ]
+   },
+   {
+    "query": "GI pipes for water supply, medium class",
+    "expected": [
+     "IS 1239 (Part 1)",
+     "IS 1239"
+    ],
+    "rank": 6,
+    "top3": [
+     "IS 7181",
+     "IS 1537",
+     "IS 9523"
+    ]
+   },
+   {
+    "query": "MCB 32 A C curve for household distribution board",
+    "expected": [
+     "IS/IEC 60898 (Part 1)",
+     "IS 8828"
+    ],
+    "rank": 7,
+    "top3": [
+     "IS 13032",
+     "IS 302 (Part 2/Sec 32)",
+     "IS 12406"
+    ]
+   },
+   {
+    "query": "RCCB 30 mA earth leakage protection",
+    "expected": [
+     "IS 12640 (Part 1)",
+     "IS 12640"
+    ],
+    "rank": 2,
+    "top3": [
+     "IS 14614",
+     "IS 12640 (Part 1)",
+     "IS 12640 (Part 2)"
+    ]
+   },
+   {
+    "query": "aluminium pressure cooker",
+    "expected": [
+     "IS 2347"
+    ],
+    "rank": 3,
+    "top3": [
+     "IS 17870",
+     "IS 17869",
+     "IS 2347"
+    ]
+   },
+   {
+    "query": "UPS for computers",
+    "expected": [
+     "IS 16242 (Part 1)",
+     "IS 16242"
+    ],
+    "rank": 3,
+    "top3": [
+     "IS 16577",
+     "IS 14886",
+     "IS 16242 (Part 5/Sec 3)"
+    ]
+   },
+   {
+    "query": "reinforced concrete pipes for drainage",
+    "expected": [
+     "IS 458"
+    ],
+    "rank": 4,
+    "top3": [
+     "IS 4350",
+     "IS 7322",
+     "IS 7319"
+    ]
+   }
+  ]
+ },
+ "multilingual_heldout": {
+  "cases": 28,
+  "top1": 50.0,
+  "top3": 78.6,
+  "results": [
+   {
+    "lang": "hi",
+    "query": "स्टील की अलमारी",
+    "expected": [
+     "IS 3312",
+     "IS 3313",
+     "IS 6189"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "steel steel cupboard cabinet almirah",
+    "rank": 1,
+    "top3": [
+     "IS 6189",
+     "IS 9715",
+     "IS 8467"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "कार्यालय की लोहे की कुर्सी",
+    "expected": [
+     "IS 3499 (Part 1)",
+     "IS 3499 (Part 2)"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "office iron steel chair",
+    "rank": 3,
+    "top3": [
+     "IS 11525",
+     "IS 3663",
+     "IS 3499 (Part 2)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "प्रेशर कुकर",
+    "expected": [
+     "IS 2347"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "presser pressure cooker",
+    "rank": 2,
+    "top3": [
+     "IS 17870",
+     "IS 2347",
+     "IS 1297"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "एलपीजी गैस सिलेंडर",
+    "expected": [
+     "IS 3196 (Part 1)",
+     "IS 3196"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "LPG gas cylinder",
+    "rank": 1,
+    "top3": [
+     "IS 3196 (Part 1)",
+     "IS 13258",
+     "IS 15637"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "बिजली का मीटर",
+    "expected": [
+     "IS 13779",
+     "IS 16444 (Part 1)",
+     "IS 13010"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "label_note": "IS 13010 (a.c. watthour meters) added after review — it is an electricity-meter standard",
+    "searched_as": "electricity electrical watthour meter",
+    "rank": 1,
+    "top3": [
+     "IS 13010",
+     "IS 13779",
+     "IS 15959 (Part 2)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "सोलर पैनल",
+    "expected": [
+     "IS 14286",
+     "IS/IEC 61215 (Part 1)",
+     "IS 16077 (Part 1)"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "solar panel module",
+    "rank": 1,
+    "top3": [
+     "IS 14286",
+     "IS 12762 (Part 9)",
+     "IS 12762 (Part 3)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "कांटेदार तार",
+    "expected": [
+     "IS 278"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "barbed wire",
+    "rank": 1,
+    "top3": [
+     "IS 278",
+     "IS 18101",
+     "IS 9860 (Part 1)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "बिटुमेन सड़क के लिए",
+    "expected": [
+     "IS 73",
+     "IS 8887",
+     "IS 217"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "bitumen road",
+    "rank": 2,
+    "top3": [
+     "IS 3117",
+     "IS 8887",
+     "IS 73"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "पेवर ब्लॉक",
+    "expected": [
+     "IS 15658"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "pavar block",
+    "rank": null,
+    "top3": [
+     "IS 16777",
+     "IS 9527 (Part 6)",
+     "IS 4563"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "ऑफिस के लिए पेपर",
+    "expected": [
+     "IS 14490",
+     "IS 1848 (Part 1)"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "office pepper",
+    "rank": null,
+    "top3": [
+     "IS 2257",
+     "IS 16521",
+     "IS 5417"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "सैनिटरी नैपकिन",
+    "expected": [
+     "IS 5405"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "sanitary napkin",
+    "rank": 1,
+    "top3": [
+     "IS 5405",
+     "IS 17514",
+     "IS 17454"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "प्लाईवुड",
+    "expected": [
+     "IS 303",
+     "IS 710"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "plywood",
+    "rank": 3,
+    "top3": [
+     "IS 10701",
+     "IS 1328",
+     "IS 303"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "बैटरी इनवर्टर के लिए",
+    "expected": [
+     "IS 13369",
+     "IS 15549",
+     "IS 16270"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "battery inverter",
+    "rank": null,
+    "top3": [
+     "IS 13314",
+     "IS 16797",
+     "IS 16221 (Part 2)"
+    ]
+   },
+   {
+    "lang": "mr",
+    "query": "सिमेंट काँक्रीट पाईप",
+    "expected": [
+     "IS 458"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "cement concrete pipe",
+    "rank": 3,
+    "top3": [
+     "IS 7319",
+     "IS 1916",
+     "IS 458"
+    ]
+   },
+   {
+    "lang": "mr",
+    "query": "विद्युत केबल",
+    "expected": [
+     "IS 694",
+     "IS 1554 (Part 1)",
+     "IS 7098 (Part 1)"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "electrical cable",
+    "rank": null,
+    "top3": [
+     "IS/IEC 61196 (Part 1/Sec 105)",
+     "IS/IEC 61196 (Part 1/Sec 100)",
+     "IS/IEC 61196 (Part 1/Sec 103)"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "பிளாஸ்டிக் நாற்காலி",
+    "expected": [
+     "IS 13713"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "plastic chair",
+    "rank": 1,
+    "top3": [
+     "IS 13713",
+     "IS 424",
+     "IS 6979"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "மின் மீட்டர்",
+    "expected": [
+     "IS 13779",
+     "IS 16444 (Part 1)",
+     "IS 13010"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "label_note": "IS 13010 (a.c. watthour meters) added after review — it is an electricity-meter standard",
+    "searched_as": "electrical meter",
+    "rank": 4,
+    "top3": [
+     "IS 12346",
+     "IS 11426 (Part 1)",
+     "IS 15959 (Part 1)"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "இரும்பு கம்பி",
+    "expected": [
+     "IS 1786",
+     "IS 432 (Part 1)",
+     "IS 280"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "iron steel wire",
+    "rank": null,
+    "top3": [
+     "IS 4454 (Part 4)",
+     "IS 6528",
+     "IS 4454 (Part 2)"
+    ]
+   },
+   {
+    "lang": "te",
+    "query": "ఎల్పీజీ సిలిండర్",
+    "expected": [
+     "IS 3196 (Part 1)",
+     "IS 3196"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "LPG cylinder",
+    "rank": 1,
+    "top3": [
+     "IS 3196 (Part 1)",
+     "IS 13258",
+     "IS 16054"
+    ]
+   },
+   {
+    "lang": "te",
+    "query": "సోలార్ ప్యానెల్",
+    "expected": [
+     "IS 14286",
+     "IS/IEC 61215 (Part 1)",
+     "IS 16077 (Part 1)"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "solar panel",
+    "rank": 1,
+    "top3": [
+     "IS 14286",
+     "IS 12933 (Part 1)",
+     "IS 17908"
+    ]
+   },
+   {
+    "lang": "te",
+    "query": "ప్లాస్టిక్ కుర్చీ",
+    "expected": [
+     "IS 13713"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "plastic chair",
+    "rank": 1,
+    "top3": [
+     "IS 13713",
+     "IS 6992",
+     "IS 6979"
+    ]
+   },
+   {
+    "lang": "bn",
+    "query": "প্রেসার কুকার",
+    "expected": [
+     "IS 2347"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "pressure cooker",
+    "rank": 2,
+    "top3": [
+     "IS 17870",
+     "IS 2347",
+     "IS 17869"
+    ]
+   },
+   {
+    "lang": "bn",
+    "query": "বিদ্যুতের মিটার",
+    "expected": [
+     "IS 13779",
+     "IS 16444 (Part 1)",
+     "IS 13010"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "label_note": "IS 13010 (a.c. watthour meters) added after review — it is an electricity-meter standard",
+    "searched_as": "electricity meter meter",
+    "rank": 1,
+    "top3": [
+     "IS 13779",
+     "IS 11426 (Part 1)",
+     "IS 11448"
+    ]
+   },
+   {
+    "lang": "bn",
+    "query": "স্টিলের আলমারি",
+    "expected": [
+     "IS 3312",
+     "IS 3313",
+     "IS 6189"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "steel cupboard almirah",
+    "rank": 1,
+    "top3": [
+     "IS 6189",
+     "IS 6445",
+     "IS 4136"
+    ]
+   },
+   {
+    "lang": "kn",
+    "query": "ಎಲ್ಇಡಿ ಬಲ್ಬ್",
+    "expected": [
+     "IS 16102 (Part 1)",
+     "IS 16102 (Part 2)"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "LED bulb",
+    "rank": 1,
+    "top3": [
+     "IS 16102 (Part 1)",
+     "IS 16103 (Part 1)",
+     "IS 16614 (Part 1)"
+    ]
+   },
+   {
+    "lang": "kn",
+    "query": "ಪ್ರೆಶರ್ ಕುಕ್ಕರ್",
+    "expected": [
+     "IS 2347"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "pressure cooker",
+    "rank": 2,
+    "top3": [
+     "IS 17870",
+     "IS 2347",
+     "IS 17869"
+    ]
+   },
+   {
+    "lang": "kn",
+    "query": "ಹೆಲ್ಮೆಟ್",
+    "expected": [
+     "IS 4151",
+     "IS 2925"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "helmet",
+    "rank": 1,
+    "top3": [
+     "IS 4151",
+     "IS 11207",
+     "IS 9562"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "फर्स्ट एड बॉक्स",
+    "expected": [
+     "IS 13115"
+    ],
+    "set": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)",
+    "searched_as": "first aid aid box",
+    "rank": 2,
+    "top3": [
+     "IS 10066",
+     "IS 13115",
+     "IS 13228"
+    ]
+   }
+  ],
+  "note": "v3 — written 27 Sep 2026 BEFORE the transliteration matcher and lexicon expansion; labels = the product standard (team judgement, AI-assisted)"
+ },
+ "multilingual": {
+  "cases": 44,
+  "top1": 79.5,
+  "top3": 88.6,
+  "results": [
+   {
+    "lang": "hi",
+    "query": "दोपहिया वाहन चालकों के लिए हेलमेट",
+    "expected": [
+     "IS 4151"
+    ],
+    "detected": "hi",
+    "searched_as": "two wheeler motor vehicle riders helmet",
+    "rank": 1,
+    "top3": [
+     "IS 4151",
+     "IS 16192 (Part 2)",
+     "IS 15627"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "सरिया Fe 500D",
+    "expected": [
+     "IS 1786"
+    ],
+    "detected": "hi",
+    "searched_as": "steel reinforcement bar TMT Fe 500D",
+    "rank": 1,
+    "top3": [
+     "IS 1786",
+     "IS 9417",
+     "IS 16651"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "अग्निशामक यंत्र",
+    "expected": [
+     "IS 15683",
+     "IS 10204",
+     "IS 2171",
+     "IS 13849",
+     "IS 15397",
+     "IS 940"
+    ],
+    "detected": "hi",
+    "searched_as": "fire extinguisher apparatus equipment",
+    "rank": 1,
+    "top3": [
+     "IS 15683",
+     "IS 4862 (Part 1)",
+     "IS 2190"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "पीने के पानी के लिए एचडीपीई पाइप",
+    "expected": [
+     "IS 4984"
+    ],
+    "detected": "hi",
+    "searched_as": "potable drinking drinking water HDPE high density polyethylene pipe",
+    "rank": null,
+    "top3": [
+     "IS 8360 (Part 1)",
+     "IS 16627",
+     "IS 8008 (Part 6)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "छत का पंखा",
+    "expected": [
+     "IS 374"
+    ],
+    "detected": "hi",
+    "searched_as": "roof ceiling fan",
+    "rank": 1,
+    "top3": [
+     "IS 374",
+     "IS 3963",
+     "IS 2312"
+    ]
+   },
+   {
+    "lang": "te",
+    "query": "ఎల్ఈడి బల్బ్",
+    "expected": [
+     "IS 16102 (Part 1)",
+     "IS 16102"
+    ],
+    "detected": "te",
+    "searched_as": "LED lamp",
+    "rank": 1,
+    "top3": [
+     "IS 16102 (Part 1)",
+     "IS 16102 (Part 2)",
+     "IS 16103 (Part 1)"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "குடிநீர் குழாய்",
+    "expected": [
+     "IS 4984",
+     "IS 4985",
+     "IS 12818"
+    ],
+    "detected": "ta",
+    "searched_as": "potable drinking water pipe",
+    "rank": 1,
+    "top3": [
+     "IS 4985",
+     "IS 7634 (Part 3)",
+     "IS 3076"
+    ]
+   },
+   {
+    "lang": "bn",
+    "query": "পানীয় জলের পাইপ",
+    "expected": [
+     "IS 4984",
+     "IS 4985",
+     "IS 12818"
+    ],
+    "detected": "bn",
+    "searched_as": "potable drinking water pipe",
+    "rank": 1,
+    "top3": [
+     "IS 4985",
+     "IS 14402",
+     "IS 4984"
+    ]
+   },
+   {
+    "lang": "kn",
+    "query": "ಅಗ್ನಿಶಾಮಕ",
+    "expected": [
+     "IS 15683",
+     "IS 10204",
+     "IS 2171",
+     "IS 13849",
+     "IS 15397",
+     "IS 940"
+    ],
+    "detected": "kn",
+    "searched_as": "fire extinguisher",
+    "rank": 1,
+    "top3": [
+     "IS 15683",
+     "IS 933",
+     "IS 10204"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "சிமெண்ட்",
+    "expected": [
+     "IS 269",
+     "IS 12269",
+     "IS 8112",
+     "IS 1489 (Part 1)",
+     "IS 455"
+    ],
+    "detected": "ta",
+    "searched_as": "cement",
+    "rank": 1,
+    "top3": [
+     "IS 269",
+     "IS 3466",
+     "IS 5410"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "पोर्टेबल अग्निशामक",
+    "expected": [
+     "IS 15683"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "portable fire extinguisher",
+    "rank": 1,
+    "top3": [
+     "IS 15683",
+     "IS 940",
+     "IS 933"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "सड़क की एलईडी लाइट",
+    "expected": [
+     "IS 10322 (Part 5/Sec 3)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "road LED let",
+    "rank": 1,
+    "top3": [
+     "IS 10322 (Part 5/Sec 3)",
+     "IS 16107 (Part 2/Sec 2)",
+     "IS 16103 (Part 1)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "फोटोकॉपी कागज",
+    "expected": [
+     "IS 14490"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "paper",
+    "rank": 1,
+    "top3": [
+     "IS 14490",
+     "IS 5650",
+     "IS 12766"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "तिजोरी",
+    "expected": [
+     "IS 550"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "safes",
+    "rank": 1,
+    "top3": [
+     "IS 550 (Part 1)",
+     "IS 5244",
+     "IS 14204"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "पीवीसी तार",
+    "expected": [
+     "IS 694"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "PVC polyvinyl chloride wire",
+    "rank": 1,
+    "top3": [
+     "IS 694",
+     "IS 15328",
+     "IS 12818"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "स्प्लिट एयर कंडीशनर",
+    "expected": [
+     "IS 1391 (Part 2)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "split air conditioner",
+    "rank": 1,
+    "top3": [
+     "IS 1391 (Part 2)",
+     "IS 18728",
+     "IS 1391 (Part 1)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "सीलिंग पंखा",
+    "expected": [
+     "IS 374"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "sealing ceiling fan",
+    "rank": 1,
+    "top3": [
+     "IS 374",
+     "IS 15402",
+     "IS 16537"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "प्लास्टिक कुर्सी",
+    "expected": [
+     "IS 13713"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "plastic chair",
+    "rank": 1,
+    "top3": [
+     "IS 13713",
+     "IS 6992",
+     "IS 6979"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "पानी की टंकी",
+    "expected": [
+     "IS 12701"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "drinking water water storage tank",
+    "rank": 2,
+    "top3": [
+     "IS 17729",
+     "IS 12701",
+     "IS 16542"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "सर्जिकल दस्ताने",
+    "expected": [
+     "IS 13422"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "surgical gloves",
+    "rank": 1,
+    "top3": [
+     "IS 13422",
+     "IS 4149",
+     "IS 4148"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "एलईडी बल्ब",
+    "expected": [
+     "IS 16102 (Part 1)",
+     "IS 16102 (Part 2)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "LED lamp LED",
+    "rank": 1,
+    "top3": [
+     "IS 16102 (Part 1)",
+     "IS 16102 (Part 2)",
+     "IS 16103 (Part 1)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "लिफाफे",
+    "expected": [
+     "IS 13892"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "envelopes",
+    "rank": 1,
+    "top3": [
+     "IS 13892",
+     "IS 3338",
+     "IS 18308"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "बिजली के स्विच",
+    "expected": [
+     "IS 3854"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "electricity electrical switches",
+    "rank": 2,
+    "top3": [
+     "IS/IEC 61058 (Part 1)",
+     "IS 3854",
+     "IS/IEC 60669 (Part 2/Sec 2)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "पीतल का नल",
+    "expected": [
+     "IS 8931",
+     "IS 781"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "brass copper alloy tap water fittings",
+    "rank": 2,
+    "top3": [
+     "IS 9763",
+     "IS 8931",
+     "IS 781"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "தீயணைப்பான்",
+    "expected": [
+     "IS 15683"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "ta",
+    "searched_as": "fire extinguisher",
+    "rank": 1,
+    "top3": [
+     "IS 15683",
+     "IS 1924",
+     "IS 933"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "மின்விசிறி",
+    "expected": [
+     "IS 374"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "ta",
+    "searched_as": "ceiling fan",
+    "rank": 1,
+    "top3": [
+     "IS 374",
+     "IS 2312",
+     "IS 4327"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "தலைக்கவசம்",
+    "expected": [
+     "IS 4151"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "ta",
+    "searched_as": "helmet",
+    "rank": 1,
+    "top3": [
+     "IS 4151",
+     "IS 11207",
+     "IS 2925"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "எல்இடி விளக்கு",
+    "expected": [
+     "IS 16102 (Part 1)",
+     "IS 16102 (Part 2)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "ta",
+    "searched_as": "allied lamp",
+    "rank": 1,
+    "top3": [
+     "IS 16102 (Part 1)",
+     "IS 418",
+     "IS 15518 (Part 1)"
+    ]
+   },
+   {
+    "lang": "te",
+    "query": "సిమెంట్",
+    "expected": [
+     "IS 269",
+     "IS 12269",
+     "IS 8112",
+     "IS 1489 (Part 1)",
+     "IS 455"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "te",
+    "searched_as": "cement",
+    "rank": 1,
+    "top3": [
+     "IS 269",
+     "IS 3466",
+     "IS 5410"
+    ]
+   },
+   {
+    "lang": "te",
+    "query": "ఇనుప కడ్డీలు",
+    "expected": [
+     "IS 1786",
+     "IS 432 (Part 1)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "te",
+    "searched_as": "iron steel bars rods",
+    "rank": null,
+    "top3": [
+     "IS 963",
+     "IS 4171",
+     "IS 14652"
+    ]
+   },
+   {
+    "lang": "te",
+    "query": "నీటి పైపు",
+    "expected": [
+     "IS 4985",
+     "IS 4984",
+     "IS 12818"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "te",
+    "searched_as": "water pipe",
+    "rank": 1,
+    "top3": [
+     "IS 4984",
+     "IS 4985",
+     "SP 57"
+    ]
+   },
+   {
+    "lang": "bn",
+    "query": "সিলিং ফ্যান",
+    "expected": [
+     "IS 374"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "bn",
+    "searched_as": "ceiling fan",
+    "rank": 1,
+    "top3": [
+     "IS 374",
+     "IS 2312",
+     "IS 4894"
+    ]
+   },
+   {
+    "lang": "bn",
+    "query": "মোটরসাইকেল হেলমেট",
+    "expected": [
+     "IS 4151"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "bn",
+    "searched_as": "motorcycle helmet",
+    "rank": 1,
+    "top3": [
+     "IS 4151",
+     "IS 11207",
+     "IS 9973"
+    ]
+   },
+   {
+    "lang": "bn",
+    "query": "অগ্নি নির্বাপক যন্ত্র",
+    "expected": [
+     "IS 15683"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "bn",
+    "searched_as": "fire extinguisher inter",
+    "rank": 1,
+    "top3": [
+     "IS 15683",
+     "IS 10204",
+     "IS 933"
+    ]
+   },
+   {
+    "lang": "kn",
+    "query": "ಸೀಲಿಂಗ್ ಫ್ಯಾನ್",
+    "expected": [
+     "IS 374"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "kn",
+    "searched_as": "ceiling fan",
+    "rank": 1,
+    "top3": [
+     "IS 374",
+     "IS 2312",
+     "IS 4327"
+    ]
+   },
+   {
+    "lang": "kn",
+    "query": "ನೀರಿನ ಟ್ಯಾಂಕ್",
+    "expected": [
+     "IS 12701"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "kn",
+    "searched_as": "water tank",
+    "rank": 1,
+    "top3": [
+     "IS 12701",
+     "IS 17729",
+     "IS 16542"
+    ]
+   },
+   {
+    "lang": "mr",
+    "query": "पाण्याची टाकी",
+    "expected": [
+     "IS 12701"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "water storage tank",
+    "rank": 1,
+    "top3": [
+     "IS 12701",
+     "IS 17729",
+     "IS 16542"
+    ]
+   },
+   {
+    "lang": "mr",
+    "query": "छताचा पंखा",
+    "expected": [
+     "IS 374"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "ceiling ceiling fan",
+    "rank": 1,
+    "top3": [
+     "IS 374",
+     "IS 2312",
+     "IS 4327"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "यूपीएस बैटरी सहित",
+    "expected": [
+     "IS 16242 (Part 1)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "UPS battery sheet",
+    "rank": null,
+    "top3": [
+     "IS 16242 (Part 5/Sec 3)",
+     "IS 1652",
+     "IS 16242 (Part 3)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "वितरण ट्रांसफार्मर",
+    "expected": [
+     "IS 1180 (Part 1)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "distribution transformer",
+    "rank": 1,
+    "top3": [
+     "IS 1180 (Part 1)",
+     "IS 1180 (Part 3)",
+     "IS 1180 (Part 2)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "सुरक्षा जूते",
+    "expected": [
+     "IS 15298 (Part 2)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "safety standard footwear shoes",
+    "rank": null,
+    "top3": [
+     "IS 14544",
+     "IS 1989 (Part 1)",
+     "IS 15298 (Part 6)"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "गैल्वनाइज्ड लोहे का पाइप",
+    "expected": [
+     "IS 1239 (Part 1)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "galvanized iron steel pipe",
+    "rank": null,
+    "top3": [
+     "IS 278",
+     "IS 2265",
+     "IS 17876"
+    ]
+   },
+   {
+    "lang": "hi",
+    "query": "मिनिएचर सर्किट ब्रेकर",
+    "expected": [
+     "IS/IEC 60898 (Part 1)",
+     "IS 8828"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "hi",
+    "searched_as": "miniature circuit breaker",
+    "rank": 1,
+    "top3": [
+     "IS/IEC 60898 (Part 1)",
+     "IS 13032",
+     "IS/IEC 60947 (Part 2)"
+    ]
+   },
+   {
+    "lang": "ta",
+    "query": "குடிநீர் குளிர்விப்பான்",
+    "expected": [
+     "IS 1475 (Part 1)"
+    ],
+    "set": "v2 — written 27 Sep 2026 before any tuning; labels follow GeM category standards",
+    "detected": "ta",
+    "searched_as": "potable drinking water cooler",
+    "rank": 2,
+    "top3": [
+     "IS 1475",
+     "IS 1475 (Part 1)",
+     "IS 17803"
+    ]
+   }
+  ],
+  "note": "No LLM translator configured: Hindi/Tamil/Telugu/Bengali/Kannada handled by a procurement lexicon + multilingual embeddings."
+ },
+ "abstention": {
+  "cases": 35,
+  "no_recommendation": 91.4,
+  "abstained_fully": 42.9,
+  "by_kind": {
+   "vague": 86.7,
+   "out_of_scope": 95.0
+  },
+  "results": [
+   {
+    "query": "good quality material",
+    "kind": "vague",
+    "top": "IS 9975 (Part 2)",
+    "title": "Specification for 'O' Rings, Part 2: Material Selection and Quality Acceptance Criteria",
+    "confidence": "medium"
+   },
+   {
+    "query": "items as per specification",
+    "kind": "vague",
+    "top": "IS 10712",
+    "title": "Presentation of item references on technical drawings",
+    "confidence": "medium"
+   },
+   {
+    "query": "supply of goods as per sample",
+    "kind": "vague",
+    "top": "IS 1260 (Part 1)",
+    "title": "Pictorial marking for handling and labelling of goods, Part 1: Dangerous goods",
+    "confidence": "low"
+   },
+   {
+    "query": "miscellaneous items",
+    "kind": "vague",
+    "top": "IS 6701",
+    "title": "Tungsten filament miscellaneous electric lamps",
+    "confidence": "medium"
+   },
+   {
+    "query": "standard quality equipment",
+    "kind": "vague",
+    "top": "IS 16070",
+    "title": "Quality Management Systems - Particular Requirements for the Application of ISO 9001:2008 For Power Sector Equipment Manufacturing, Service and Utility Organization",
+    "confidence": "high"
+   },
+   {
+    "query": "high quality product",
+    "kind": "vague",
+    "top": "IS 16061",
+    "title": "Hydrogen Fuel Quality - Product Specification",
+    "confidence": "medium"
+   },
+   {
+    "query": "various electrical items",
+    "kind": "vague",
+    "top": "IS 1885 (Part 39)",
+    "title": "Electrotechnical Vocabulary, Part 39: Dependability of Electronic and Electrical Items",
+    "confidence": "medium"
+   },
+   {
+    "query": "materials required for office",
+    "kind": "vague",
+    "top": "IS 8126",
+    "title": "composite office tables",
+    "confidence": "high"
+   },
+   {
+    "query": "best available product",
+    "kind": "vague",
+    "top": "IS 17647 (Part 2)",
+    "title": "Biotechnology - Ancillary materials present during the production of cellular therapeutic products Part 2: Best practice guidance for ancillary material suppliers",
+    "confidence": "medium"
+   },
+   {
+    "query": "spare parts as per list",
+    "kind": "vague",
+    "top": "IS/IEC 62550",
+    "title": "Spare Parts Provisioning",
+    "confidence": "medium"
+   },
+   {
+    "query": "consumables",
+    "kind": "vague",
+    "top": "IS 18641",
+    "title": "Welding Consumables - Technical Delivery Conditions for Filler Materials and Fluxes - Type of Product, Dimensions, Tolerances and Markings",
+    "confidence": "medium"
+   },
+   {
+    "query": "general items for department",
+    "kind": "vague",
+    "top": "IS 10712",
+    "title": "Presentation of item references on technical drawings",
+    "confidence": "medium"
+   },
+   {
+    "query": "items of approved make",
+    "kind": "vague",
+    "top": "IS 15798 (Part 2)",
+    "title": "Textiles Requirements for Labelling and Marking Specification Part 2 Fabrics Apparels and Made-up Items Consumer Textiles First Revision",
+    "confidence": "low"
+   },
+   {
+    "query": "supply of stores",
+    "kind": "vague",
+    "top": "IS 1387",
+    "title": "General requirments for the supply of metallurgical materials",
+    "confidence": "medium"
+   },
+   {
+    "query": "equipment as per annexure",
+    "kind": "vague",
+    "top": "IS 13450 (Part 2/Sec 32)",
+    "title": "Medical Electrical Equipment, Part 2: Particular requirements for safety , Section 32 Associated equipment of X-Ray equipment",
+    "confidence": "low"
+   },
+   {
+    "query": "annual maintenance contract for lifts",
+    "kind": "out_of_scope",
+    "top": "IS 17900 (Part 6)",
+    "title": "Lifts for the Transport of Persons and Goods - Part 6 Guide for Maintenance of Lifts",
+    "confidence": "medium"
+   },
+   {
+    "query": "manpower outsourcing services",
+    "kind": "out_of_scope",
+    "top": "IS/ISO 37500",
+    "title": "Guidance on Outsourcing",
+    "confidence": "low"
+   },
+   {
+    "query": "Microsoft Office 365 licence",
+    "kind": "out_of_scope",
+    "top": "IS 8126",
+    "title": "composite office tables",
+    "confidence": "low"
+   },
+   {
+    "query": "cloud hosting services",
+    "kind": "out_of_scope",
+    "top": "IS/ISO/IEC 22624",
+    "title": "Information Technology-Cloud Computing-Taxonomy Based Data Handling for Cloud Services",
+    "confidence": "medium"
+   },
+   {
+    "query": "catering services for canteen",
+    "kind": "out_of_scope",
+    "top": "IS 14790",
+    "title": "Aircraft - Catering Vehicles for Large Capacity Aircraft - Functional Requirements",
+    "confidence": "low"
+   },
+   {
+    "query": "security guard services",
+    "kind": "out_of_scope",
+    "top": "IS 12373 (Part 2)",
+    "title": "Basic reference model of open systems interconnection for information processin g systems, Part 2: Security architecture",
+    "confidence": "medium"
+   },
+   {
+    "query": "legal consultancy services",
+    "kind": "out_of_scope",
+    "top": "IS 18299",
+    "title": "Structural Design And Proof Checking Consultancy Services For Structures - Requirements",
+    "confidence": "medium"
+   },
+   {
+    "query": "travel agency services",
+    "kind": "out_of_scope",
+    "top": "IS 19384",
+    "title": "Tourism and Related Services - Online Travel Agency (OTA) - Guidelines for Online Accommodation Booking Platform Services",
+    "confidence": "medium"
+   },
+   {
+    "query": "insurance for official vehicles",
+    "kind": "out_of_scope",
+    "top": "IS 10694 (Part 3)",
+    "title": "Automotive Vehicles - Rims - General Requirements, Part 3: Commercial Vehicle Rims",
+    "confidence": "low"
+   },
+   {
+    "query": "event management services",
+    "kind": "out_of_scope",
+    "top": "IS/ISO iec (Part 20000/Sec 1)",
+    "title": "Information technology - Service management, Part 1: Specification",
+    "confidence": "high"
+   },
+   {
+    "query": "Adobe Acrobat subscription",
+    "kind": "out_of_scope",
+    "top": "IS/ISO 12640 (Part 4)",
+    "title": "Graphic Technology-Prepress Digital Data Exchange - Part 4 Wide Gamut Display-Referred Standard Colour Image Data [Adobe RGB (1998)/SCID]",
+    "confidence": "low"
+   },
+   {
+    "query": "hiring of taxi on monthly basis",
+    "kind": "out_of_scope",
+    "top": "IS 2747",
+    "title": "Taximeters - Performance Requirements",
+    "confidence": "low"
+   },
+   {
+    "query": "training programme on leadership",
+    "kind": "out_of_scope",
+    "top": "IS/ISO 21503",
+    "title": "Project Programme And Portfolio Management Guidance On Programme Management",
+    "confidence": "low"
+   },
+   {
+    "query": "website development",
+    "kind": "out_of_scope",
+    "top": "IS 17041",
+    "title": "Software Quality Engineering — Development Process — Software Development Management System ( SDMS ) — Requirements",
+    "confidence": "medium"
+   },
+   {
+    "query": "printing of annual report",
+    "kind": "out_of_scope",
+    "top": "IS 1848 (Part 1)",
+    "title": "Writing and Printing Papers — Specification Part 1 Account Book, Azure Lead, Bond, Cream Laid and Cream Wove/Printing White/Printing Coloured/Printing Offset, Printing Maplitho, Printing White Super Calendered and Typewriting Types ( Fifth Revision )",
+    "confidence": "low"
+   },
+   {
+    "query": "housekeeping services",
+    "kind": "out_of_scope",
+    "top": "IS 13808 (Part 4)",
+    "title": "Quality management for hospital services(upto 30 bedded hospitals)Guidelines, Part 4: Hospital Support services",
+    "confidence": "medium"
+   },
+   {
+    "query": "architectural consultancy for new building",
+    "kind": "out_of_scope",
+    "top": "IS 18299",
+    "title": "Structural Design And Proof Checking Consultancy Services For Structures - Requirements",
+    "confidence": "low"
+   },
+   {
+    "query": "audit services by chartered accountant",
+    "kind": "out_of_scope",
+    "top": "IS 14489",
+    "title": "Occupational Health and Safety Audit — Code of Practice ( First Revision )",
+    "confidence": "low"
+   },
+   {
+    "query": "software for payroll management",
+    "kind": "out_of_scope",
+    "top": "IS 19446",
+    "title": "Audit Data Collection Extension - Government Regulated Financial Reports and Payroll",
+    "confidence": "low"
+   },
+   {
+    "query": "postal courier services",
+    "kind": "out_of_scope",
+    "top": "IS 5595",
+    "title": "Postal Bags",
+    "confidence": "low"
+   }
+  ],
+  "note": "Written 27 Sep 2026: vague requests and services/software where no Indian Standard applies. SpecSure should not return a ‘Recommended’ (high-confidence) standard."
+ },
+ "gem_categories": {
+  "cases": 203,
+  "top1": 82.3,
+  "top3": 88.7,
+  "top5": 89.7,
+  "top10": 92.1,
+  "recommended_share": 84.7,
+  "recommended_precision": 89.5,
+  "confident_but_wrong": 8.9,
+  "misses": [
+   {
+    "query": "Self Ballasted LED Lamps (LED Bulb)",
+    "expected": [
+     "IS 16102 (Part 2)"
+    ],
+    "bids": 54,
+    "rank": 2,
+    "top3": [
+     "IS 16102 (Part 1)",
+     "IS 16102 (Part 2)",
+     "IS 15111 (Part 1)"
+    ]
+   },
+   {
+    "query": "Residual Current Operated Circuit Breakers (RCBO) with Integral Overcurrent Protection",
+    "expected": [
+     "IS 12640 (Part 2)"
+    ],
+    "bids": 22,
+    "rank": null,
+    "top3": [
+     "IS 12640 (Part 4)",
+     "IS 12640 (Part 3)",
+     "IS 17119"
+    ]
+   },
+   {
+    "query": "PVC Insulated Cable For Submersible Pumps",
+    "expected": [
+     "IS 694"
+    ],
+    "bids": 17,
+    "rank": 3,
+    "top3": [
+     "IS 8783 (Part 4/Sec 1)",
+     "IS 15328",
+     "IS 694"
+    ]
+   },
+   {
+    "query": "Black Lead Pencils",
+    "expected": [
+     "IS 1375"
+    ],
+    "bids": 15,
+    "rank": 5,
+    "top3": [
+     "IS/ISO 9177 (Part 2)",
+     "IS/ISO 9180",
+     "IS/ISO 9177 (Part 3)"
+    ]
+   },
+   {
+    "query": "Diesel Exhaust Fluid",
+    "expected": [
+     "IS 17042"
+    ],
+    "bids": 13,
+    "rank": null,
+    "top3": [
+     "IS 1460",
+     "IS 16861",
+     "IS 15217"
+    ]
+   },
+   {
+    "query": "Electrical Sleeves",
+    "expected": [
+     "IS 11654 (Part 3/Sec 403)"
+    ],
+    "bids": 10,
+    "rank": null,
+    "top3": [
+     "IS 13773",
+     "IS 19578",
+     "IS 16932"
+    ]
+   },
+   {
+    "query": "Residual Current Operated Circuit Breakers (RCCB) without Integral Overcurrent Protection",
+    "expected": [
+     "IS 12640 (Part 1)"
+    ],
+    "bids": 8,
+    "rank": null,
+    "top3": [
+     "IS 12640 (Part 3)",
+     "IS 12640 (Part 4)",
+     "IS 17119"
+    ]
+   },
+   {
+    "query": "Steel Bookcases",
+    "expected": [
+     "IS 7761"
+    ],
+    "bids": 7,
+    "rank": 8,
+    "top3": [
+     "IS 1503",
+     "IS 432 (Part 1)",
+     "IS 6528"
+    ]
+   },
+   {
+    "query": "Low Voltage Surge Protective Devices Connected to Low Voltage Power Systems",
+    "expected": [
+     "IS 16463 (Part 11)"
+    ],
+    "bids": 7,
+    "rank": 2,
+    "top3": [
+     "IS 16463 (Part 12)",
+     "IS 16463 (Part 11)",
+     "IS 16463 (Part 22)"
+    ]
+   },
+   {
+    "query": "Twist Drill (Parallel Shank)",
+    "expected": [
+     "IS 5102"
+    ],
+    "bids": 6,
+    "rank": 2,
+    "top3": [
+     "IS 5101",
+     "IS 5102",
+     "IS 5100"
+    ]
+   },
+   {
+    "query": "Steel Filing Cabinets for General Office Purpose",
+    "expected": [
+     "IS 3313"
+    ],
+    "bids": 5,
+    "rank": 3,
+    "top3": [
+     "IS 14561",
+     "IS 8467",
+     "IS 3313"
+    ]
+   },
+   {
+    "query": "Weld Mesh Febric",
+    "expected": [
+     "IS 4948"
+    ],
+    "bids": 5,
+    "rank": null,
+    "top3": [
+     "IS 19363",
+     "IS 4260",
+     "IS 8856"
+    ]
+   },
+   {
+    "query": "M1613517030: 250NB MS ERW PIPE",
+    "expected": [
+     "IS 3589"
+    ],
+    "bids": 4,
+    "rank": null,
+    "top3": [
+     "IS 432 (Part 1)",
+     "IS 280",
+     "IS 3298"
+    ]
+   },
+   {
+    "query": "Shoes For Services",
+    "expected": [
+     "IS 17043 (Part 1)"
+    ],
+    "bids": 3,
+    "rank": 2,
+    "top3": [
+     "IS 17043",
+     "IS 17043 (Part 1)",
+     "IS 1989 (Part 1)"
+    ]
+   },
+   {
+    "query": "Running Nipples, Close Taper Nipples and Barrel Nipples",
+    "expected": [
+     "IS 1239 (Part 2)"
+    ],
+    "bids": 3,
+    "rank": null,
+    "top3": [
+     "IS 4009 (Part 1)",
+     "IS 4009 (Part 2)",
+     "IS 5548"
+    ]
+   },
+   {
+    "query": "Secondary Lithium Cells and Batteries For Portable Application",
+    "expected": [
+     "IS 16047 (Part 3)"
+    ],
+    "bids": 2,
+    "rank": 3,
+    "top3": [
+     "IS 16048 (Part 2)",
+     "IS 16048 (Part 1)",
+     "IS 16047 (Part 3)"
+    ]
+   },
+   {
+    "query": "Portable Pump Set for Fire Fighting",
+    "expected": [
+     "IS 942"
+    ],
+    "bids": 2,
+    "rank": 2,
+    "top3": [
+     "IS 12717",
+     "IS 942",
+     "IS 12469"
+    ]
+   },
+   {
+    "query": "Thinner for Synthetic Paint and Varnishes",
+    "expected": [
+     "IS 14314"
+    ],
+    "bids": 2,
+    "rank": 2,
+    "top3": [
+     "IS 1872",
+     "IS 14314",
+     "IS 2932"
+    ]
+   },
+   {
+    "query": "Forklifts",
+    "expected": [
+     "IS 6765"
+    ],
+    "bids": 2,
+    "rank": null,
+    "top3": [
+     "IS 7525",
+     "IS 5040",
+     "IS 10517"
+    ]
+   },
+   {
+    "query": "Household Refrigerators",
+    "expected": [
+     "IS 17550"
+    ],
+    "bids": 2,
+    "rank": 8,
+    "top3": [
+     "IS 302 (Part 2/Sec 24)",
+     "IS 1476 (Part 1)",
+     "IS 3621"
+    ]
+   },
+   {
+    "query": "Elbows, Tees and Crosses, Equal",
+    "expected": [
+     "IS 1239 (Part 2)"
+    ],
+    "bids": 2,
+    "rank": null,
+    "top3": [
+     "IS 9388 (Part 1)",
+     "IS 5607",
+     "IS 9388 (Part 2)"
+    ]
+   },
+   {
+    "query": "Plywood 4 feet x 8 Feet x 6 mm termite Resistant and BWR",
+    "expected": [
+     "IS 1328"
+    ],
+    "bids": 1,
+    "rank": 10,
+    "top3": [
+     "IS 5539",
+     "IS 4990",
+     "IS 10701"
+    ]
+   },
+   {
+    "query": "Urinal Bowls",
+    "expected": [
+     "IS 2556 (Part 6)"
+    ],
+    "bids": 1,
+    "rank": null,
+    "top3": [
+     "IS 5035",
+     "IS 3991",
+     "IS 5782"
+    ]
+   },
+   {
+    "query": "Deltamethrin Flowable",
+    "expected": [
+     "IS 14411"
+    ],
+    "bids": 1,
+    "rank": 7,
+    "top3": [
+     "IS 15157",
+     "IS 13457",
+     "IS 15227"
+    ]
+   },
+   {
+    "query": "Deltamethrin 1.25% (Ultra Low Volume)",
+    "expected": [
+     "IS 15227"
+    ],
+    "bids": 1,
+    "rank": 4,
+    "top3": [
+     "IS 13457",
+     "IS 12005",
+     "IS 11996"
+    ]
+   },
+   {
+    "query": "Handpump Sub-Assemblies (Deepwell Hand Pumps Components) Conforming",
+    "expected": [
+     "IS 15500 (Part 3)"
+    ],
+    "bids": 1,
+    "rank": null,
+    "top3": [
+     "IS 12732",
+     "IS 15500 (Part 1-8)",
+     "IS 15500 (Part 1 to 8)"
+    ]
+   },
+   {
+    "query": "Urea",
+    "expected": [
+     "IS 1781"
+    ],
+    "bids": 1,
+    "rank": 2,
+    "top3": [
+     "IS 5406",
+     "IS 1781",
+     "IS 10475"
+    ]
+   },
+   {
+    "query": "Fish Feed",
+    "expected": [
+     "IS 16150"
+    ],
+    "bids": 1,
+    "rank": 2,
+    "top3": [
+     "IS 4307",
+     "IS 16150 (Part 6)",
+     "IS 16150 (Part 5)"
+    ]
+   },
+   {
+    "query": "PLATE, CS",
+    "expected": [
+     "IS 2062"
+    ],
+    "bids": 1,
+    "rank": null,
+    "top3": [
+     "IS 6973",
+     "IS 3502",
+     "IS 10344"
+    ]
+   },
+   {
+    "query": "Solar Water Heating System",
+    "expected": [
+     "IS 12976"
+    ],
+    "bids": 1,
+    "rank": 2,
+    "top3": [
+     "IS 16544",
+     "IS 12976",
+     "IS 13129 (Part 2)"
+    ]
+   },
+   {
+    "query": "Steel Round",
+    "expected": [
+     "IS 2062"
+    ],
+    "bids": 1,
+    "rank": null,
+    "top3": [
+     "IS 1835",
+     "IS 6967",
+     "IS 12753"
+    ]
+   },
+   {
+    "query": "Zinc Sulphate Heptahydrate, Industrial Grade",
+    "expected": [
+     "IS 1880"
+    ],
+    "bids": 1,
+    "rank": 7,
+    "top3": [
+     "IS 8249",
+     "IS 15848",
+     "IS 12113"
+    ]
+   },
+   {
+    "query": "HIGH SPEED DIESEL OIL TO SPECIFICATION",
+    "expected": [
+     "IS 1460"
+    ],
+    "bids": 1,
+    "rank": 2,
+    "top3": [
+     "IS 16861",
+     "IS 1460",
+     "IS 15770"
+    ]
+   },
+   {
+    "query": "Socket Unions",
+    "expected": [
+     "IS 1239 (Part 2)"
+    ],
+    "bids": 1,
+    "rank": null,
+    "top3": [
+     "IS 7834 (Part 7)",
+     "IS 15787",
+     "IS 12195 (Part 1/Sec 1)"
+    ]
+   },
+   {
+    "query": "Elbows, Tees and Crosses, Male, Equal",
+    "expected": [
+     "IS 1239 (Part 2)"
+    ],
+    "bids": 1,
+    "rank": null,
+    "top3": [
+     "IS 9388 (Part 1)",
+     "IS 9412 (Part 1)",
+     "IS 9388 (Part 2)"
+    ]
+   },
+   {
+    "query": "Plug",
+    "expected": [
+     "IS 1239 (Part 2)"
+    ],
+    "bids": 1,
+    "rank": null,
+    "top3": [
+     "IS 3720",
+     "IS 13984 (Part 4/Sec 3)",
+     "IS 8143"
+    ]
+   }
+  ],
+  "excluding_bis_list_names": {
+   "cases": 187,
+   "top1": 81.3,
+   "top3": 87.7,
+   "top5": 88.8,
+   "top10": 91.4,
+   "recommended_share": 83.4,
+   "recommended_precision": 89.1,
+   "confident_but_wrong": 9.1
+  },
+  "note": "GeM category names from live bids (bidplus.gem.gov.in, 27 Sep 2026) with the IS stripped; label = the IS GeM names. Aliases on, but only GeM names of the train half are used; scored on the unseen test half."
+ }
+}

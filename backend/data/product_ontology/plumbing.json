@@ -1,0 +1,41 @@
+{
+  "category_name": "Sanitary Ware and Ceramic Appliances",
+  "bis_division": "Civil Engineering Division",
+  "bis_section_committee": "CED 3",
+  "primary_standard_is": "IS 2556 (Parts 1 to 17)",
+  "keywords": "sanitary ware, vitreous china, water closet, wash basin, urinal, porcelain fixture, plumbing fixture, ceramic toilet, bathroom fittings",
+  "parameter_template": {
+    "material_and_glaze": [
+      "Vitreous China body water absorption % max (0.50%)",
+      "Glaze crazing resistance (Autoclave test at 0.33 MPa)",
+      "Chemical resistance to staining agents and acids",
+      "Resistance to thermal shock (no cracks at 100 deg C cycle)"
+    ],
+    "dimensional_and_load": [
+      "Minimum thickness of ceramic walls mm",
+      "Static load bearing test (2.2 kN / 220 kg for 1 hour with no failure)",
+      "Dimensions and critical mounting hole tolerances mm"
+    ],
+    "flushing_and_hydraulic": [
+      "Flushing efficiency test (Sawdust, ball, and paper test)",
+      "Trap water seal depth mm min (50 mm)",
+      "Dual flush volume (6/3 litres or 4/2 litres)"
+    ],
+    "test_methods": [
+      "IS 2556 Part 1:1994 - Vitreous Sanitary Appliances: General Requirements",
+      "IS 2556 Part 2 - Specific requirements for wash-down water closets",
+      "IS 2556 Part 4 - Wash basins",
+      "IS 9140:1996 - Method of sampling of vitreous sanitary appliances"
+    ],
+    "safety": [],
+    "installation": [
+      "IS 2065:1983 - Code of practice for water supply in buildings",
+      "IS 1742:1983 - Code of practice for building drainage"
+    ],
+    "certification": {
+      "mandatory": true,
+      "scheme": "BIS ISI Mark (Compulsory QCO)",
+      "qco": "Ceramic Goods and Sanitary Ware (Quality Control) Order 2024"
+    }
+  }
+}

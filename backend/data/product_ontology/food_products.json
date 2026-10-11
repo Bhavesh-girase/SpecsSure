@@ -1,0 +1,47 @@
+{
+  "category_name": "Packaged Drinking Water",
+  "bis_division": "Food and Agriculture Division",
+  "bis_section_committee": "FAD 14",
+  "primary_standard_is": "IS 14543:2018",
+  "keywords": "drinking water, packaged water, mineral water, bottled water, potable water, RO water, hydration, food safety",
+  "parameter_template": {
+    "physical": [
+      "Colour Hazen units max (2 units)",
+      "Odour agreeable",
+      "Taste agreeable",
+      "Turbidity NTU max (2 NTU)",
+      "pH value range (6.5 to 8.5)",
+      "Total Dissolved Solids TDS mg/l max (500 mg/l)"
+    ],
+    "chemical": [
+      "Total Hardness as CaCO3 mg/l max (200 mg/l)",
+      "Iron as Fe mg/l max (0.1 mg/l)",
+      "Chlorides as Cl mg/l max (200 mg/l)",
+      "Sulphate as SO4 mg/l max (200 mg/l)",
+      "Nitrate as NO3 mg/l max (45 mg/l)",
+      "Fluoride as F mg/l max (1.0 mg/l)",
+      "Heavy metals (Lead, Arsenic, Cadmium, Mercury, Chromium) limits ppb"
+    ],
+    "biological": [
+      "Escherichia coli count / 250 ml (Absent)",
+      "Coliform bacteria / 250 ml (Absent)",
+      "Faecal streptococci / 250 ml (Absent)",
+      "Pseudomonas aeruginosa / 250 ml (Absent)",
+      "Yeast and Mould / 250 ml (Absent)",
+      "Total viable colony count at 37 deg C / ml max (20 CFU/ml)"
+    ],
+    "test_methods": [
+      "IS 3025 (Parts 1 to 65) - Methods of Sampling and Test (Physical and Chemical) for Water and Wastewater",
+      "IS 1622:1981 - Methods of Sampling and Microbiological Examination of Water"
+    ],
+    "safety": [
+      "Food Safety and Standards (Packaging and Labelling) Regulations"
+    ],
+    "installation": [],
+    "certification": {
+      "mandatory": true,
+      "scheme": "Mandatory BIS ISI Mark Certification",
+      "qco": "Mandatory Certification under Food Safety and Standards Act / BIS Act 2016"
+    }
+  }
+}

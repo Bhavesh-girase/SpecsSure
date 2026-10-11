@@ -1,0 +1,81 @@
+{
+  "_comment": "Trade names commonly seen in Indian public tenders. Used ONLY to detect brand-specific wording that GFR 2017 Rule 144(i)(b) discourages; presence in this list implies nothing about product quality.",
+  "brands": {
+    "cement": [
+      "UltraTech",
+      "Ambuja",
+      "ACC",
+      "Shree Cement",
+      "Dalmia",
+      "Ramco",
+      "JK Lakshmi",
+      "Birla A1",
+      "Birla Gold",
+      "Nuvoco",
+      "Wonder Cement",
+      "JSW Cement",
+      "Chettinad",
+      "Penna"
+    ],
+    "steel": [
+      "TATA Tiscon",
+      "Tiscon",
+      "JSW Neosteel",
+      "Neosteel",
+      "SAIL",
+      "Jindal Panther",
+      "Kamdhenu",
+      "Vizag Steel",
+      "Rathi",
+      "Shyam Steel",
+      "SRMB"
+    ],
+    "cables": [
+      "Polycab",
+      "Havells",
+      "Finolex",
+      "KEI",
+      "RR Kabel",
+      "V-Guard",
+      "Anchor",
+      "Lapp",
+      "Syska"
+    ],
+    "lighting": [
+      "Philips",
+      "Signify",
+      "Crompton",
+      "Bajaj",
+      "Wipro Lighting",
+      "Syska",
+      "Havells",
+      "Osram",
+      "Surya"
+    ],
+    "pipes": [
+      "Supreme",
+      "Finolex Pipes",
+      "Astral",
+      "Prince Pipes",
+      "Jain Irrigation",
+      "Ashirvad"
+    ],
+    "general": [
+      "Siemens",
+      "ABB",
+      "Schneider",
+      "L&T",
+      "Bosch",
+      "Honeywell",
+      "3M"
+    ]
+  },
+  "proprietary_patterns": [
+    "\\b(?:make|brand|makes?)\\s*[:\\-]\\s*[A-Z][A-Za-z0-9&]+",
+    "\\bapproved makes?\\b",
+    "\\b(?:[Mm]odel|[Mm]odel [Nn]o\\.?|[Pp]art [Nn]o\\.?)\\s*[:\\-]?\\s*(?=[A-Za-z0-9\\-/]*\\d)[A-Z0-9][A-Za-z0-9\\-/]{2,}",
+    "[®™]",
+    "\\bonly (?:from )?(?:the )?OEM\\b",
+    "\\bproprietary\\b"
+  ]
+}

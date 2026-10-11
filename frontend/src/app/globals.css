@@ -1,0 +1,155 @@
+/* ---- Inter from Google Fonts (an @import must come before every other rule, or browsers ignore it) ---- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------------------------------------
+   Government-portal light theme (GIGW-inspired): white surfaces, navy chrome, tricolour accent strip,
+   visible focus rings, scalable type and a high-contrast mode.
+   ------------------------------------------------------------------------------------------------ */
+@layer base {
+  :root {
+    --background: 216 33% 97%;
+    --foreground: 214 66% 17%;
+    --card: 0 0% 100%;
+    --card-foreground: 214 66% 17%;
+    --primary: 214 67% 35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 214 30% 94%;
+    --secondary-foreground: 214 66% 17%;
+    --accent: 214 30% 94%;
+    --accent-foreground: 214 66% 17%;
+    --border: 214 28% 87%;
+    --input: 214 28% 87%;
+    --ring: 214 67% 35%;
+    --radius: 0.5rem;
+    --fs: 16px;
+  }
+  html { font-size: var(--fs); scroll-behavior: smooth; }
+  html[data-fs="sm"] { --fs: 14.5px; }
+  html[data-fs="lg"] { --fs: 17.5px; }
+  html[data-fs="xl"] { --fs: 19px; }
+  :focus-visible { outline: 3px solid #ff9933; outline-offset: 2px; border-radius: 4px; }
+}
+
+body {
+  overflow-x: clip;
+  background-color: #f3f6fa;
+  color: #0f2748;
+  font-family: 'Inter', 'Noto Sans', 'Noto Sans Devanagari', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.55;
+  font-feature-settings: "rlig" 1, "calt" 1;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* high contrast (accessibility toolbar) */
+html[data-contrast="high"] body { background: #fff; color: #000; }
+html[data-contrast="high"] .glass-panel,
+html[data-contrast="high"] .glass-panel-glow { border-color: #000 !important; box-shadow: none; }
+html[data-contrast="high"] a { text-decoration: underline; }
+html[data-contrast="high"] [class*="text-slate-4"], html[data-contrast="high"] [class*="text-slate-5"] { color: #1f2937 !important; }
+
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 100; }
+.skip-link:focus { left: 1rem; top: .5rem; background: #0f2748; color: #fff; padding: .5rem .75rem; border-radius: .25rem; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #eef2f7; }
+::-webkit-scrollbar-thumb { background: #b8c4d4; border-radius: 6px; border: 2px solid #eef2f7; }
+::-webkit-scrollbar-thumb:hover { background: #8fa0b8; }
+
+/* React Flow */
+.react-flow__node { border-radius: 8px; font-family: inherit; }
+.react-flow__handle { background: #1d4f93; }
+.react-flow__controls { box-shadow: 0 1px 3px rgba(15,39,72,.15); }
+.react-flow__controls button { background-color: #fff !important; color: #0f2748 !important; border-bottom: 1px solid #d5deea !important; }
+.react-flow__controls button:hover { background-color: #eef4fb !important; }
+.react-flow__attribution { background: transparent !important; }
+
+/* Cards (legacy class names kept so every page picks up the new surface) */
+.glass-panel {
+  background: #ffffff;
+  border: 1px solid #d5deea;
+  box-shadow: 0 1px 2px rgba(15, 39, 72, 0.05), 0 1px 3px rgba(15, 39, 72, 0.06);
+}
+.glass-panel-glow {
+  background: #ffffff;
+  border: 1px solid #adc8ea;
+  border-top: 3px solid #1d4f93;
+  box-shadow: 0 6px 20px -10px rgba(29, 79, 147, 0.35);
+}
+
+/* Government chrome */
+.tricolour { background: linear-gradient(90deg, #ff9933 0 33.33%, #ffffff 33.33% 66.66%, #138808 66.66% 100%); }
+.gov-nav .navtop[aria-current="page"] { background: #ff9933; color: #0f2748; }
+.gov-nav .navmob[aria-current="page"] { background: rgba(255,153,51,.18); box-shadow: inset 3px 0 #ff9933; }
+.gov-hero {
+  background:
+    linear-gradient(115deg, rgba(10, 26, 49, 0.97) 0%, rgba(15, 39, 72, 0.93) 45%, rgba(29, 79, 147, 0.87) 100%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.03) 0 2px, transparent 2px 14px);
+  position: relative;
+  overflow: hidden;
+}
+.gov-hero::after {
+  content: '';
+  position: absolute;
+  top: -120px; right: -120px;
+  width: 480px; height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(37,99,235,0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+.gov-pattern {
+  background-image: radial-gradient(rgba(29, 79, 147, 0.08) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+.ticker { animation: ticker 38s linear infinite; }
+.ticker:hover { animation-play-state: paused; }
+@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ticker { animation: none; } }
+
+table.gov-table { width: 100%; border-collapse: collapse; font-size: .875rem; line-height: 1.45; }
+table.gov-table th { background: #0f2748; color: #fff; text-align: left; font-weight: 600; padding: .65rem .8rem; font-size: .8125rem; letter-spacing: .01em; position: sticky; top: 0; }
+table.gov-table td { padding: .65rem .8rem; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+table.gov-table tr:nth-child(even) td { background: #f8fafc; }
+table.gov-table tr:hover td { background: #eef4fb; }
+
+/* ---- Card reveal animation ---- */
+@keyframes card-up { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.card-reveal { animation: card-up 0.55s ease both; }
+.card-reveal-d1 { animation-delay: 0.08s; }
+.card-reveal-d2 { animation-delay: 0.16s; }
+.card-reveal-d3 { animation-delay: 0.24s; }
+
+/* ---- Role card glows ---- */
+.role-card-officer:hover  { border-color: #1d4f93 !important; box-shadow: 0 0 0 3px rgba(29,79,147,0.12), 0 8px 24px -8px rgba(15,39,72,0.2) !important; }
+.role-card-contractor:hover { border-color: #138808 !important; box-shadow: 0 0 0 3px rgba(19,136,8,0.12), 0 8px 24px -8px rgba(19,136,8,0.15) !important; }
+.role-card-citizen:hover  { border-color: #b7862b !important; box-shadow: 0 0 0 3px rgba(183,134,43,0.12), 0 8px 24px -8px rgba(183,134,43,0.15) !important; }
+
+/* ---- Smooth shadow lift (enhanced) ---- */
+.shadow-lift { box-shadow: 0 4px 16px -4px rgba(15,39,72,0.14), 0 2px 6px -2px rgba(15,39,72,0.08); }
+.shadow-card { box-shadow: 0 1px 2px rgba(15,39,72,0.05), 0 1px 3px rgba(15,39,72,0.06); }
+
+/* ---- Step connector line ---- */
+.step-line::after { content: ''; position: absolute; left: 50%; top: 32px; width: 2px; height: calc(100% - 32px); background: #e2e8f0; z-index: 0; }
+
+/* ---- Readability helpers ---- */
+h1, h2, h3, h4 { line-height: 1.25; text-wrap: balance; }
+p { text-wrap: pretty; }
+main a:not([class*="text-"]) { color: #1d4f93; }
+/* anchor targets land below the sticky navigation bar */
+[id] { scroll-margin-top: 72px; }
+/* monospace IDs (clause refs, hashes) read better slightly tighter */
+.font-mono { letter-spacing: -0.01em; }
+
+/* Dropdown navigation panels */
+.nav-panel { animation: nav-in .14s ease-out both; }
+@keyframes nav-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .nav-panel, .card-reveal { animation: none; } }
+
+@media print {
+  .no-print, header, footer, nav { display: none !important; }
+  body { background: #fff; }
+}

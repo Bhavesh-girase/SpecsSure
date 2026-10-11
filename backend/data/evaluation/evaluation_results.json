@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-09-25 12:59:36",
+  "total_test_cases": 8,
+  "top1_accuracy": 87.5,
+  "top3_accuracy": 100.0,
+  "details": [
+    {
+      "test_id": "TC01",
+      "category": "Civil",
+      "query": "Ordinary Portland Cement 43 grade with compressive strength 43 MPa for concrete structural work.",
+      "expected": "IS 269:2015",
+      "retrieved": [
+        "IS 269:2015",
+        "IS 4031 (Part 6):1988",
+        "IS 1489 (Part 1):2015",
+        "IS 456:2000",
+        "IS 1786:2008"
+      ],
+      "top1_match": true,
+      "top3_match": true,
+      "latency_seconds": 0.16
+    },
+    {
+      "test_id": "TC02",
+      "category": "Metallurgy",
+      "query": "High strength deformed steel bars Grade Fe 500D for reinforced cement concrete construction in seismic zone IV.",
+      "expected": "IS 1786:2008",
+      "retrieved": [
+        "IS 1786:2008",
+        "IS 13920:2016",
+        "IS 1489 (Part 1):2015",
+        "IS 2502:1963",
+        "IS 800:2007"
+      ],
+      "top1_match": true,
+      "top3_match": true,
+      "latency_seconds": 0.08
+    },
+    {
+      "test_id": "TC03",
+      "category": "Electrical",
+      "query": "Single core PVC insulated copper wire 1100V grade 2.5 sq mm flame retardant for internal building wiring.",
+      "expected": "IS 694:2010",
+      "retrieved": [
+        "IS 694:2010",
+        "IS 732:2019",
+        "IS 10810 (Part 43)",
+        "IS 3043:2018",
+        "IS 16106:2012"
+      ],
+      "top1_match": true,
+      "top3_match": true,
+      "latency_seconds": 0.07
+    },
+    {
+      "test_id": "TC04",
+      "category": "Public Health",
+      "query": "Drinking water supply testing for Total Dissolved Solids, pH, Chlorides, and microbial bacteria.",
+      "expected": "IS 10500:2012",
+      "retrieved": [
+        "IS 10500:2012",
+        "IS 14543:2018",
+        "IS 3025 (Part 16)",
+        "IS 4984:2016",
+        "IS 3025 (Part 21)"
+      ],
+      "top1_match": true,
+      "top3_match": true,
+      "latency_seconds": 0.07
+    },
+    {
+      "test_id": "TC05",
+      "category": "Electrotechnical",
+      "query": "LED street light luminaires 120W outdoor IP66 with surge protection and electronic controlgear.",
+      "expected": "IS 10322 (Part 5/Sec 1):2012",
+      "retrieved": [
+        "IS 10322 (Part 5/Sec 1):2012",
+        "IS 16106:2012",
+        "IS/IEC 60529:2001",
+        "IS 456:2000",
+        "IS 694:2010"
+      ],
+      "top1_match": true,
+      "top3_match": true,
+      "latency_seconds": 0.08
+    },
+    {
+      "test_id": "TC06",
+      "category": "Multilingual",
+      "query": "\u0906\u0930\u0938\u0940\u0938\u0940 \u0928\u093f\u0930\u094d\u092e\u093e\u0923 \u0915\u093e\u0930\u094d\u092f \u0915\u0947 \u0932\u093f\u090f 43 \u0917\u094d\u0930\u0947\u0921 \u092a\u094b\u0930\u094d\u091f\u0932\u0948\u0902\u0921 \u0938\u0940\u092e\u0947\u0902\u091f \u0914\u0930 500 \u090f\u092e\u092a\u0940\u090f \u0924\u0928\u094d\u092f\u0924\u093e \u0935\u093e\u0932\u0947 \u091f\u0940\u090f\u092e\u091f\u0940 \u0938\u094d\u091f\u0940\u0932 \u0938\u0930\u093f\u092f\u093e \u0915\u0940 \u0906\u092a\u0942\u0930\u094d\u0924\u093f\u0964",
+      "expected": "IS 269:2015",
+      "retrieved": [
+        "IS 269:2015",
+        "IS 1489 (Part 1):2015",
+        "IS 4031 (Part 1):1996",
+        "IS 10322 (Part 5/Sec 1):2012",
+        "IS 456:2000"
+      ],
+      "top1_match": true,
+      "top3_match": true,
+      "latency_seconds": 0.11
+    },
+    {
+      "test_id": "TC07",
+      "category": "Specification Intelligence",
+      "query": "Procurement of high quality durable steel sections of standard make as per standard with good finish.",
+      "expected": "IS 2062:2011",
+      "retrieved": [
+        "IS 1786:2008",
+        "IS 2062:2011",
+        "IS 800:2007",
+        "IS 456:2000",
+        "IS 13920:2016"
+      ],
+      "top1_match": null,
+      "top3_match": true,
+      "latency_seconds": 0.09
+    },
+    {
+      "test_id": "TC08",
+      "category": "Currency / Lifecycle",
+      "query": "Supply of domestic solar flat plate collectors conforming to IS 12933:2003 with copper absorber sheet.",
+      "expected": "IS 12933:2003",
+      "retrieved": [
+        "IS 12933:2003",
+        "IS 10322 (Part 5/Sec 1):2012",
+        "IS 694:2010",
+        "IS 456:2000",
+        "IS 4984:2016"
+      ],
+      "top1_match": true,
+      "top3_match": true,
+      "latency_seconds": 0.09
+    }
+  ]
+}
